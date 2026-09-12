@@ -84,6 +84,77 @@ def test_concurrent_work_is_rejected(client):
         api.busy.release()
 
 
+@pytest.mark.parametrize(
+    ("length", "status", "detail"),
+    [
+        ("invalid", 400, "Invalid content length."),
+        (str(api.MAX_UPLOAD + 1024 * 1024 + 1), 413, "Upload exceeds 12 MiB plus form overhead."),
+        (None, 411, "Content-Length required."),
+    ],
+)
+def test_content_length_rejected_before_creating_case(client, length, status, detail):
+    request = client.build_request("POST", "/api/cases", files={"photo": ("x.png", photo(), "image/png")})
+    if length is None:
+        del request.headers["content-length"]
+    else:
+        request.headers["content-length"] = length
+    response = client.send(request)
+    assert response.status_code == status
+    assert response.json() == {"detail": detail}
+    assert not list(api.store.root.iterdir())
+    assert not api.busy.locked()
+
+
+def test_untrusted_host_is_rejected(client):
+    response = client.get("/api/cases", headers={"host": "example.com"})
+    assert response.status_code == 400
+    assert response.text == "Invalid host header"
+
+
+@pytest.mark.parametrize("controller_ready", [True, False])
+@pytest.mark.parametrize(
+    "missing_asset", [None, "model.safetensors", "config.json", "preprocessor_config.json"]
+)
+def test_health_reports_controller_and_asset_availability(
+    client, monkeypatch, tmp_path, controller_ready, missing_asset
+):
+    model_dir = tmp_path / "model"
+    model_dir.mkdir()
+    for name in ("model.safetensors", "config.json", "preprocessor_config.json"):
+        if name != missing_asset:
+            (model_dir / name).touch()
+    monkeypatch.setattr(api, "MODEL_DIR", model_dir)
+
+    def verify(*args):
+        if not controller_ready:
+            raise ValueError("Controller identity mismatch.")
+
+    monkeypatch.setattr(api, "verify_controller", verify)
+    response = client.get("/api/health")
+    assert response.status_code == 200
+    health = response.json()
+    assert health["classifier_ready"] is (missing_asset is None)
+    assert health["ready"] is (controller_ready and missing_asset is None)
+    if not controller_ready:
+        assert health["detail"] == "Controller identity mismatch."
+
+
+def test_background_error_retains_evidence_and_releases_job(client, monkeypatch):
+    def fail_after_evidence(case, **kwargs):
+        case["events"].append({"id": 1, "kind": "test_evidence", "status": "ok"})
+        raise RuntimeError("Unexpected application failure")
+
+    monkeypatch.setattr(api.agent, "run", fail_after_evidence)
+    response = client.post("/api/cases", files={"photo": ("x.png", photo(), "image/png")})
+    assert response.status_code == 202
+    case = terminal(client, response.json()["id"])
+    assert case["status"] == "incomplete"
+    assert case["stop_reason"] == "Application error: RuntimeError. Earlier evidence retained."
+    assert case["events"] == [{"id": 1, "kind": "test_evidence", "status": "ok"}]
+    assert api.active_job["id"] is None
+    assert not api.busy.locked()
+
+
 def test_partial_followup_region_export_and_delete(client):
     from breedframe.policies import RulesController
 

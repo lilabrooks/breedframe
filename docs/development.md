@@ -16,6 +16,14 @@
 | `scripts/` | Explicit online setup, offline startup, demo, evaluation and probes |
 | `tests/` | Deterministic orchestration and HTTP-boundary tests |
 
+## Checks
+
+`make check` first synchronizes the project environment with `uv sync --locked`, then runs Ruff, pytest and the JavaScript syntax check. It fails if the manifest and lock disagree. Local checks and CI use this same command; `UV_PROJECT_ENVIRONMENT` can select a different project environment.
+
+The required classifier tests load the reviewed ViT processor configuration from `tests/fixtures/vit/preprocessor_config.json` and check image normalization. They also generate tiny, untrained ViT weights in a temporary directory and exercise the production worker on CPU, including repeated inference and rejection of an invalid class count. These tests require the real Transformers, torch and torchvision packages, run without downloaded model weights, and never skip when trained assets are absent. Orchestration and HTTP tests use fakes.
+
+Generated weights verify software compatibility. They provide no evidence about breed accuracy or compatibility with the trained checkpoint. After classifier or dependency changes, also run the installed classifier on the demo photograph with the synchronized environment; `make demo` covers the wider local integration when Ollama and the reviewed model assets are available. Keep those smoke checks separate from the closed model experiments and their saved measurements.
+
 ## Local state
 
 Browser cases are in `data/cases/`; CLI, scripted demo, offline verification and evaluation use separate case directories. Each case includes re-encoded images and `case.json`. Uploaded filenames and metadata are excluded from controller input. Model weights are under `models/`; downloaded runtimes and caches are under `.runtime/` and `.venv/`.
@@ -61,7 +69,7 @@ Do not use these five inputs to tune thresholds and then claim held-out accuracy
 - Unsupported request reasons are removed from the current schema and still rejected at execution. No rejected calls occurred in the v2 fixed evaluation.
 - Low leading scores are common. The stricter policy withheld all breed reports in the v2 sample. Thresholds are uncalibrated; zero coverage is a limitation.
 - The controller cannot detect a dog or propose a grounded crop. The optional region editor records user-provided coordinates. Breed-reference retrieval is omitted because it would not validate the depicted dog.
-- Pure Python and UI source checks do not replace a real model run. `make demo` and browser testing cover the local integration, while unit tests use fakes.
+- The required CPU classifier tests use real libraries and generated weights. `make demo` and browser testing cover integration with the trained local models and Ollama. CI does not verify MPS or the macOS launcher and network policy.
 - The current FastAPI/Starlette test client emits two dependency deprecation warnings. Tests pass with the locked versions.
 - Browser state updates arrive by polling, roughly once per second. Cancellation waits for the current bounded call to return, then retains completed observations. Retry preserves consumed attempts and cumulative per-photo inference time.
 

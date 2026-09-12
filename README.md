@@ -8,6 +8,28 @@ Built and exercised on an M4 MacBook Air with 16 GB memory. The screenshot below
 
 ![BreedFrame evidence and region comparison](docs/screenshots/comparison-v2.png)
 
+## AI/ML stack
+
+**BreedFrame runs two pretrained models locally:** a Vision Transformer (ViT) ranks dog-breed images, and Qwen3 chooses the next investigation action from the recorded numerical evidence. The application uses the models for inference; it doesn't train or fine-tune them.
+
+| Tool or model | What it does in BreedFrame |
+|---|---|
+| **PyTorch (`torch`)** | Runs the ViT, converts its outputs to softmax scores, and selects the top 5 classes. Uses Apple's Metal Performance Shaders (MPS) backend on supported Macs, with a CPU fallback. |
+| **Hugging Face Transformers (`transformers`)** | Loads the image processor and ViT through `AutoImageProcessor` and `AutoModelForImageClassification`. Prepares each image as a 224×224 input tensor for PyTorch. |
+| **Dog-breed ViT** | The pretrained `wesleyacheng/dog-breeds-multiclass-image-classification-with-vit` model supplies rankings across 120 classes for a whole photo or user-selected region. Its scores are uncalibrated visual matches. |
+| **Qwen3 4B Q4_K_M** | The default text-only language model chooses whether to inspect, classify, request another photo, or finish. It receives numerical observations and case state; it has no image input. |
+| **Ollama** | Runs Qwen3 locally and exposes the `/api/chat` endpoint used by the controller. Requests constrain the response to a JSON action schema. |
+| **Pillow (`PIL`)** | Decodes uploads, applies EXIF orientation, converts images to RGB, and re-encodes them without metadata. The classifier explicitly selects Transformers' Pillow preprocessing backend (`backend="pil"`). |
+| **NumPy (`numpy`)** | Calculates brightness and pixel-detail measurements for image-quality flags. These are fixed numerical heuristics. |
+| **Torchvision (`torchvision`)** | Provides vision support used by the installed Transformers package and is an explicit project dependency. The application's selected preprocessing backend is Pillow. |
+| **Hugging Face Hub (`huggingface_hub`) and Safetensors (`safetensors`)** | Setup downloads a pinned classifier revision with the Hub client. Transformers loads the local `model.safetensors` weights; classifier inference uses local files only. |
+
+A **tensor** here is a multidimensional array of numbers, such as the processed image pixels passed to PyTorch. TensorFlow isn't used in this repository.
+
+The surrounding workflow is custom Python: [the agent loop](breedframe/agent.py) executes actions, [Pydantic contracts](breedframe/contracts.py) validate arguments, and deterministic [evidence rules](breedframe/evidence.py) decide whether rankings qualify for a report. FastAPI exposes the local application, and HTTPX connects the controller to Ollama.
+
+See the [classifier implementation](breedframe/classifier.py), [controller implementation](breedframe/controller.py), and [image diagnostics](breedframe/images.py) for the inference paths. Dependency constraints are in [pyproject.toml](pyproject.toml), exact resolved Python versions are in [uv.lock](uv.lock), and [Accuracy, models and data](#accuracy-models-and-data) records model identities and limitations.
+
 ## Run it
 
 Requires Apple Silicon macOS, Python 3.11 and [uv](https://docs.astral.sh/uv/getting-started/installation/). Run these commands from the repository root:
@@ -25,7 +47,7 @@ Ctrl-C stops processes launched by the start script. Case state remains in `data
 
 ## Explore the recorded investigation
 
-1. Click **Clear photo** or upload a dog photograph. The status and assessment appear before the expandable execution record. Expect an inconclusive assessment under the measured configuration; inspect the raw rankings and blockers to understand it.
+1. Click **Clear photo** or upload a dog photograph. The Agent activity panel shows the choose → tool call → evidence loop and an always-visible action timeline, with the assessment below. Each event identifies its source, result and timing; expand it for the recorded input and output. Expect an inconclusive assessment under the measured configuration; inspect the raw rankings and blockers to understand it.
 2. Add another view to the same case, even after a completed assessment. Earlier reports remain in the JSON history. Each classified view keeps its own scores; disagreement blocks a breed report.
 3. Open **Select a dog region**, draw a box or enter its bounds, then click **Analyze selected region**. This explicitly requests a classifier call on your selected pixels. A crop shares its parent photo's evidence and consumes the remaining action budget.
 4. Explore case recovery: cancel a running investigation, retry remaining actions after interruption, download a readable assessment, or delete an inactive case. The request/resume control was demonstrated under v1 and the deterministic policy. If a request occurs, supply another photo or choose **I can’t provide another photo**; Qwen3 did not request one in the measured v2 policy runs.
@@ -108,7 +130,7 @@ make check
 PYTHONPATH=. .venv/bin/python scripts/evaluate_pairs.py --split development --mode policy --output data/my-paired-results.json
 ```
 
-`make check` runs tests, Ruff and JavaScript syntax checks. Tests cover comparison, region provenance, partial reports, cancellation, deadlines, retry budgets and HTTP boundaries using named fake models. Browser and CLI investigations use Qwen3. The evaluation's `rules` method is explicitly deterministic. Paired and crop runners refuse to overwrite existing outputs; use a new path to record another run. The older `make evaluate` command retains its single-photo protocol and overwrites its historical output, so preserve that file before using it.
+`make check` synchronizes the locked dependencies, then runs tests, Ruff, JavaScript syntax checks and agent-flow state tests. Required classifier tests use the real processor and production worker with tiny generated weights; they need no downloaded model assets. Other tests cover comparison, region provenance, partial reports, cancellation, deadlines, retry budgets and HTTP boundaries using named fake models. Browser and CLI investigations use Qwen3. The evaluation's `rules` method is explicitly deterministic. Paired and crop runners refuse to overwrite existing outputs; use a new path to record another run. The older `make evaluate` command retains its single-photo protocol and overwrites its historical output, so preserve that file before using it.
 
 [Development and reproducibility](docs/development.md) covers storage, offline checks and runtime limits. Historical experiments use the [measured-source archive](docs/evidence/frozen-sources/README.md); publication formatting is separate from their registered source bytes. The [Qwen3.5 controller comparison](docs/model-comparison-results.md) records the separate model trial and explicit local model-selection commands.
 

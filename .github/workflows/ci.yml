@@ -35,7 +35,5 @@ jobs:
         with:
           version: "0.12.13"
           enable-cache: false
-      - name: Install locked dependencies
-        run: uv sync --frozen
       - name: Check the repository
         run: make check
