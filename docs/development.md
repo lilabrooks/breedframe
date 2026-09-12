@@ -19,11 +19,34 @@
 
 ## Checks
 
-`make check` first synchronizes the project environment with `uv sync --locked`, then runs Ruff, pytest, JavaScript syntax checks and the Node agent-flow state tests. It fails if the manifest and lock disagree. Local checks and CI use this same command; `UV_PROJECT_ENVIRONMENT` can select a different project environment.
+`make check` first synchronizes the project environment with `uv sync --locked --python 3.11`, then runs Ruff, pytest, JavaScript syntax checks and the Node agent-flow state tests. It fails if the manifest and lock disagree. Setup, the Makefile and CI read the intended minor version from [`.python-version`](../.python-version). Each uv check command passes that selection explicitly, including when `UV_PYTHON` requests another version. Node.js 26 supplies the JavaScript checks in CI.
 
-The required classifier tests load the reviewed ViT processor configuration from `tests/fixtures/vit/preprocessor_config.json` and check image normalization. They also generate tiny, untrained ViT weights in a temporary directory and exercise the production worker on CPU, including repeated inference and rejection of an invalid class count. These tests require the real Transformers, torch and torchvision packages, run without downloaded model weights, and never skip when trained assets are absent. Orchestration and HTTP tests use fakes.
+Python 3.11 is the exercised setup, runtime and CI default. The package metadata permits `>=3.11,<3.14` for dependency resolution; this range does not claim full application validation on 3.12 or 3.13. CI exercises CPU software paths on Ubuntu; the full local setup and MPS integration are exercised on Apple Silicon macOS. Python patch releases may differ between installations.
+
+`UV_PROJECT_ENVIRONMENT` applies to `make check` only. For example:
+
+```sh
+UV_PROJECT_ENVIRONMENT=/tmp/breedframe-check-env make check
+/tmp/breedframe-check-env/bin/python -c 'import sys; print(sys.executable, sys.version)'
+```
+
+Setup rejects a custom path; startup, `make demo`, `make evaluate` and documented Python helpers explicitly use `.venv/`. Unset the override and run setup before launching. Passing checks in a custom environment establishes the packages in that environment only. Setup may download dependencies and models; subsequent application runtime keeps the existing offline boundary. A fresh `make check` may download Python packages, but its tests require no model downloads.
+
+The required classifier tests load the [reviewed ViT processor configuration](../tests/fixtures/vit/README.md) and check image normalization. They generate tiny, untrained ViT weights with a seed in a saved/restored CPU RNG context. A controlled output head ranks ordinary and truncated class IDs so the production worker's `unresolved_label` flags are deterministic. Repeated inference and invalid-class-count rejection remain covered. These tests require the real Transformers, torch and torchvision packages, run without downloaded model weights, and never skip when trained assets are absent. Orchestration and HTTP tests use fakes.
+
+After downloading the pinned classifier, setup runs `.venv/bin/python scripts/check_processor.py`. The comparison checks all JSON fields against the fixture, ignores formatting, and reports changed settings. Required tests deliberately change resize, rescale, normalization and processor settings to prove drift is rejected. The comparison is also available as a standalone command after setup.
 
 Generated weights verify software compatibility. They provide no evidence about breed accuracy or compatibility with the trained checkpoint. After classifier or dependency changes, also run the installed classifier on the demo photograph with the synchronized environment; `make demo` covers the wider local integration when Ollama and the reviewed model assets are available. Keep those smoke checks separate from the closed model experiments and their saved measurements.
+
+## Dependency updates
+
+The supported pair is **torch 2.14.0 / torchvision 0.29.0**. Torchvision 0.29.0's installed package metadata requires exactly torch 2.14.0, so both are pinned in `pyproject.toml`; `uv.lock` records the resolved graph. This identifies the exercised pair without implying that the previous broad torch range was tested.
+
+[Dependabot configuration](../.github/dependabot.yml) proposes weekly uv and GitHub Actions updates. Torch and torchvision share version-update and security-update groups. Review both package requirements together when changing the pair. The configuration has no major-version ignore rules or automatic merges. [GitHub's option reference](https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference) describes the grouping behavior.
+
+Security alerts and security updates should remain enabled in the repository's GitHub settings. Review actionable security fixes promptly, including required major upgrades. If constraints prevent a fix, update the compatible pair or affected dependency constraints explicitly and validate the result; do not dismiss the alert solely to retain existing pins. The weekly version-update schedule does not replace security triage. See the [security policy](../SECURITY.md).
+
+For a dependency PR, resolve the candidate lock, run `make check` in its synchronized environment, and inspect the actual installed versions. For ML-library changes, also compare the installed processor and run the trained ViT on the demo photo in that same environment. Keep that integration result separate from generated-weight CI and historical model measurements. The [Milestone-1 verification record](evidence/setup-checks-2026-09-12.md) records a Transformers patch update and the environment-selection checks.
 
 ## Model readiness
 

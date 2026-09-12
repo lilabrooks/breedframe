@@ -1,5 +1,10 @@
 # BreedFrame
 
+[![CI](https://github.com/lilabrooks/breedframe/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/lilabrooks/breedframe/actions/workflows/ci.yml?query=branch%3Amain)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](.python-version)
+[![macOS: Apple Silicon](https://img.shields.io/badge/macOS-Apple_Silicon-555555?logo=apple&logoColor=white)](docs/setup.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-3B7A57)](LICENSE)
+
 A local dog-photo investigation prototype. Meet **Scout**, the agent that chooses tools, collects their results, and decides what to do next. Qwen3 4B makes those choices from recorded numerical evidence; a separate Vision Transformer (ViT) reads the pixels and ranks visual breed matches.
 
 **Prototype complete; model experiments closed.** The interface presents the top visual match and its model score, with tentative wording where appropriate. These scores are uncalibrated, and the reporting gate still blocks every classifier result in the recorded v2 corpus. Useful breed reporting missed the owner's coverage target in the final candidate comparison. [Findings, strengths and limits](docs/findings.md).
@@ -53,7 +58,7 @@ See the [classifier implementation](breedframe/classifier.py), [controller imple
 
 ## Run it
 
-Requires Apple Silicon macOS, Python 3.11 and [uv](https://docs.astral.sh/uv/getting-started/installation/). Run these commands from the repository root:
+Requires Apple Silicon macOS, Python 3.11 and [uv](https://docs.astral.sh/uv/getting-started/installation/). Setup and checks explicitly select the Python minor version in [.python-version](.python-version). Run these commands from the repository root:
 
 ```sh
 sh scripts/setup.sh
@@ -142,7 +147,11 @@ make check
 PYTHONPATH=. .venv/bin/python scripts/evaluate_pairs.py --split development --mode policy --output data/my-paired-results.json
 ```
 
-`make check` synchronizes the locked dependencies, then runs tests, Ruff, JavaScript syntax checks and agent-flow state tests. Required classifier tests use the real processor and production worker with tiny generated weights; they need no downloaded model assets. Other tests cover comparison, region provenance, partial reports, cancellation, deadlines, retry budgets and HTTP boundaries using named fake models. Browser and CLI investigations use Qwen3. The evaluation's `rules` method is explicitly deterministic. Paired and crop runners refuse to overwrite existing outputs; use a new path to record another run. The older `make evaluate` command retains its single-photo protocol and overwrites its historical output, so preserve that file before using it.
+`make check` synchronizes the locked dependencies with Python 3.11, then runs tests, Ruff, JavaScript syntax checks and agent-flow state tests. `UV_PROJECT_ENVIRONMENT` can relocate this check environment; setup, startup, demo and evaluation use `.venv/`. Unset the override before setup. Passing checks in a custom environment does not synchronize the app's environment.
+
+Required classifier tests use the real processor and production worker with seeded, tiny generated weights; they need no downloaded model assets. Setup compares the downloaded processor against the [reviewed fixture](tests/fixtures/vit/README.md) and stops on drift. The supported dependency pair is **torch 2.14.0 / torchvision 0.29.0**, with weekly dependency-update proposals and separate security-update handling described in [Development and reproducibility](docs/development.md#dependency-updates).
+
+Other tests cover comparison, region provenance, partial reports, cancellation, deadlines, retry budgets and HTTP boundaries using named fake models. Browser and CLI investigations use Qwen3. The evaluation's `rules` method is explicitly deterministic. Paired and crop runners refuse to overwrite existing outputs; use a new path to record another run. The older `make evaluate` command retains its single-photo protocol and overwrites its historical output, so preserve that file before using it.
 
 [Development and reproducibility](docs/development.md) covers storage, offline checks and runtime limits. Historical experiments use the [measured-source archive](docs/evidence/frozen-sources/README.md); publication formatting is separate from their registered source bytes. The [Qwen3.5 controller comparison](docs/model-comparison-results.md) records the separate model trial and explicit local model-selection commands.
 

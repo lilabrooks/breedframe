@@ -2,6 +2,10 @@
 # Online bootstrap; application runtime performs no downloads.
 set -eu
 cd "$(dirname "$0")/.."
+case "${UV_PROJECT_ENVIRONMENT:-.venv}" in
+  .venv|.venv/|./.venv|./.venv/|"$PWD/.venv"|"$PWD/.venv/") ;;
+  *) echo 'Setup and launchers use .venv. Unset UV_PROJECT_ENVIRONMENT before setup; custom environments are supported by make check only.' >&2; exit 1 ;;
+esac
 if [ "$(uname -s)" != Darwin ] || [ "$(uname -m)" != arm64 ]; then
   echo 'The bundled Ollama setup targets Apple Silicon macOS.' >&2
   exit 1
@@ -9,13 +13,14 @@ fi
 command -v uv >/dev/null || { echo 'Install uv first: https://docs.astral.sh/uv/getting-started/installation/' >&2; exit 1; }
 mkdir -p .runtime/ollama models data
 export UV_CACHE_DIR="$PWD/.runtime/uv-cache"
-uv sync --frozen --python 3.11
+uv sync --locked --python "$(cat .python-version)"
 if [ ! -x .runtime/ollama/ollama ]; then
   curl -fL https://github.com/ollama/ollama/releases/download/v0.34.0/ollama-darwin.tgz -o .runtime/ollama-darwin.tgz
   echo 'dd12b00bcce2d6551178e67ada90d5af9f75bdb54a118b96655250fa3e8ef734  .runtime/ollama-darwin.tgz' | shasum -a 256 -c -
   tar xzf .runtime/ollama-darwin.tgz -C .runtime/ollama
 fi
 HF_HOME="$PWD/.runtime/huggingface" .venv/bin/python scripts/download_classifier.py
+.venv/bin/python scripts/check_processor.py
 .venv/bin/python scripts/prepare_images.py
 runtime_pid=''
 cleanup() { if [ -n "$runtime_pid" ]; then kill "$runtime_pid" 2>/dev/null || true; wait "$runtime_pid" 2>/dev/null || true; fi; }

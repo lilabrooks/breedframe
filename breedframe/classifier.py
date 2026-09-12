@@ -2,6 +2,7 @@
 
 import multiprocessing as mp
 import os
+from pathlib import Path
 import threading
 import time
 
@@ -94,6 +95,14 @@ class Classifier:
         with self.lock:
             if self.process is None or not self.process.is_alive():
                 self.close()
+                # Missing assets should fail before process startup or heavy ML imports.
+                try:
+                    for name in ("config.json", "preprocessor_config.json", "model.safetensors"):
+                        asset = Path(self.model_dir) / name
+                        if not asset.is_file() or asset.stat().st_size == 0:
+                            raise OSError(f"Missing or empty classifier file: {asset}. Run scripts/setup.sh.")
+                except OSError as exc:
+                    raise RuntimeError(f"OSError: {exc}") from exc
                 self.conn, child = mp.get_context("spawn").Pipe()
                 self.process = mp.get_context("spawn").Process(
                     target=_worker, args=(child, self.model_dir, self.device), daemon=True
