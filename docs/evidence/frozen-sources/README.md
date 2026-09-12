@@ -39,4 +39,4 @@ Run from a committed repository with the original local data, weights and pinned
 
 Three full third-party HTML captures were excluded from the public tree. Their previous paths and hashes are recorded in [excluded-page-captures.json](excluded-page-captures.json); the original bytes remain in ignored local storage. Photo metadata, source URLs and attribution remain in the experiment directory. None of these HTML captures is a registered source-hash input for the two experiments.
 
-The original local Git history contains these pages. Publication must use the separate `public-main` snapshot, which has no parents, rather than exporting that history. The snapshot includes this archive and the original experiment registrations and results.
+The original local Git history contains these pages. Initial publication used the separate parentless `public-main` snapshot (`38f6038`). It includes this archive and the original experiment registrations and results. Future maintenance branches must start from the current remote `main`; the private historical branch must remain outside that ancestry.
