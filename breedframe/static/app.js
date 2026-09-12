@@ -2,6 +2,11 @@
 const $ = id => document.getElementById(id);
 let current = null, selectedFile = null, polling = null, lastVersion = '', pending = false;
 const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text !== undefined) n.textContent = text; return n; };
+for (const link of document.querySelectorAll('.agent-jump')) link.addEventListener('click', event => {
+  event.preventDefault();
+  $('agent-workspace').scrollIntoView({ block: 'start' });
+  $('agent-workspace').focus({ preventScroll: true });
+});
 const labels = { inspect_image: 'Inspect image quality', classify_breed: 'Run the breed classifier', classify_region: 'Classify your selected region', request_another_photo: 'Request another photo', finish_assessment: 'Finish the assessment' };
 function error(message) { $('error').textContent = message; $('error').hidden = !message; }
 async function api(url, options = {}) {
@@ -11,7 +16,22 @@ async function api(url, options = {}) {
 }
 function active() { return pending || (current && (['ready','running'].includes(current.status) || current.baseline?.status === 'running')); }
 function resumable() { return current && ['awaiting_photo','incomplete','complete'].includes(current.status) && current.photos.length < 3; }
+function renderAgentState(caseData) {
+  const state = agentFlow(caseData);
+  $('agent-workspace').dataset.tone = state.tone;
+  for (const phase of ['choose', 'execute', 'review']) {
+    const step = $('flow-' + phase);
+    step.classList.toggle('is-active', state.phase === phase);
+    if (state.phase === phase) step.setAttribute('aria-current', 'step');
+    else step.removeAttribute('aria-current');
+  }
+  if (state.title) $('status-title').textContent = state.title;
+  if (state.detail) $('status-detail').textContent = state.detail;
+  $('status-dot').classList.toggle('working', state.tone === 'running');
+}
 function controls() {
+  $('case-management').hidden = !current;
+  renderAgentState(current);
   for (const id of ['demo-clear','demo-small','demo-resume','baseline-button','new-case','region-save','retry-case','finish-partial','delete-case']) $(id).disabled = !!active();
   $('photo-input').disabled = !!active();
   $('upload-button').disabled = !selectedFile || !!active();
@@ -27,7 +47,7 @@ function controls() {
     $('delete-case').hidden = false;
     $('report-export').hidden = false; $('report-export').href = `/api/cases/${current.id}/report`;
   }
-  $('upload-label').textContent = selectedFile ? selectedFile.name : resumable() ? 'Add another view of the same dog.' : 'Bring a photo. Start an investigation.';
+  $('upload-label').textContent = selectedFile ? selectedFile.name : resumable() ? 'Add another view of the same dog.' : 'Choose a photo to investigate';
 }
 async function startRequest(url, options = {}) {
   pending = true; controls(); error('');
@@ -84,6 +104,7 @@ function render(caseData) {
   if (regionCaseId !== caseData.id || regionPhotoId !== caseData.photos.at(-1).id) $('region-editor').open = false;
   const openDetails = new Set([...document.querySelectorAll('[data-event][open]')].map(x => x.dataset.event));
   const scroll = $('trace').scrollTop;
+  const followLatest = $('trace').scrollHeight - scroll - $('trace').clientHeight < 48;
   $('photo-count').textContent = `${caseData.photos.length} / 3 PHOTOS`;
   showPhoto(caseData, caseData.photos.at(-1));
   $('thumbnails').replaceChildren();
@@ -91,31 +112,31 @@ function render(caseData) {
     const b = el('button','thumb'); const im = el('img'); im.src = `/api/cases/${caseData.id}/photos/${p.id}`; im.alt = p.id;
     b.append(im, el('span','',`${p.width}×${p.height}`)); b.onclick = () => showPhoto(caseData,p); $('thumbnails').append(b);
   }
-  const states = {
-    ready:['QUEUED','Preparing a local investigation.','The case is waiting for its first action.'],
-    running:['INVESTIGATING','The agent is choosing its next action.','Completed tool results appear below. Each attempt uses the action budget.'],
-    awaiting_photo:['WAITING FOR YOU','The investigation is paused.','The agent requested more evidence. Add a new view to continue this case.'],
-    incomplete:['INCOMPLETE','The investigation stopped early.',caseData.stop_reason || 'Completed observations are preserved.'],
-    complete:['ASSESSMENT RECORDED',caseData.report?.outcome === 'inconclusive' ? 'The evidence is inconclusive.' : 'A visual comparison, with uncertainty.','Inspect the report and the tool results that support it.']
-  };
-  const state = states[caseData.status] || states.ready;
-  $('status').textContent = state[0]; $('status-title').textContent = state[1]; $('status-detail').textContent = state[2];
-  $('status-dot').classList.toggle('working', ['ready','running'].includes(caseData.status));
+  const statuses = { ready: 'QUEUED', running: 'INVESTIGATING', awaiting_photo: 'WAITING FOR YOU', incomplete: 'INCOMPLETE', complete: 'ASSESSMENT RECORDED' };
+  $('status').textContent = statuses[caseData.status] || 'READY';
+  renderAgentState(caseData);
+  $('activity-count').textContent = `${caseData.events.length} recorded ${caseData.events.length === 1 ? 'event' : 'events'}`;
+  const controllerName = caseData.controller || caseData.events.findLast(event => event.controller?.model)?.controller.model || 'Local controller';
+  $('controller-name').textContent = controllerName;
   $('trace').replaceChildren();
   for (const event of caseData.events) {
-    const block = el('div','event'+(event.status === 'error' ? ' error-event' : ''));
+    const block = el('div','event'+(event.status === 'error' ? ' error-event' : event.status === 'running' ? ' running-event' : ''));
     const head = el('div','event-header');
     head.append(el('h3','',`${String(event.id).padStart(2,'0')}  ${labels[event.tool] || (event.kind === 'user_region' ? 'Region selected by you' : event.kind === 'user_action' ? 'Your case action' : 'Controller response rejected')}`), el('span','event-time',event.status === 'running' ? 'RUNNING' : `${event.status === 'error' ? 'FAILED · ' : ''}${((event.controller_seconds || 0)+(event.seconds || 0)).toFixed(1)}s`));
-    block.append(el('span','event-dot'), head, el('p','event-summary',summarize(event)));
+    const origin = el('div', 'event-origin');
+    origin.append(el('span', 'actor', actionOrigin(event)));
+    if (event.photo_id) origin.append(el('span', '', event.photo_id.replaceAll('-', ' ')));
+    origin.append(el('span', '', event.status === 'running' ? 'In progress' : event.status === 'error' ? 'Failed' : 'Recorded'));
+    block.append(el('span','event-dot'), head, origin, el('p','event-summary',summarize(event)));
     const detail = el('details'); detail.dataset.event = String(event.id); detail.open = openDetails.has(String(event.id));
     detail.append(el('summary','','Inspect input & result'), el('pre','',JSON.stringify({input:event.input,output:event.output,controller:event.controller},null,2)));
     block.append(detail); $('trace').append(block);
   }
   if (!caseData.events.length) $('trace').append(el('p','subtle','Waiting for the local controller’s first decision…'));
-  $('trace').scrollTop = scroll;
+  $('trace').scrollTop = followLatest ? $('trace').scrollHeight : scroll;
   const photo = caseData.photos.at(-1);
-  $('budget').textContent = `${caseData.attempts[photo.id] || 0} / 6 actions · ${photo.id}`;
-  $('duration').textContent = caseData.runs.length ? `${caseData.runs.reduce((s,r)=>s+r.seconds,0).toFixed(1)}s recorded · ${caseData.controller || 'qwen3:4b'}` : `${caseData.controller || 'local controller'} + ViT`;
+  $('budget').textContent = `${caseData.attempts[photo.id] || 0} / 6 attempts · ${photo.id}`;
+  $('duration').textContent = caseData.runs.length ? `${caseData.runs.reduce((s,r)=>s+r.seconds,0).toFixed(1)}s recorded · ${controllerName}` : `${controllerName} + ViT`;
   $('request-panel').hidden = caseData.status !== 'awaiting_photo';
   if (caseData.request) { $('request-text').textContent = caseData.request.message; $('request-why').textContent = caseData.request.why; }
   $('demo-resume').hidden = !caseData.demo || !resumable() || caseData.photos[0].width !== 48 || caseData.photos.length > 1;
@@ -152,7 +173,6 @@ function render(caseData) {
     $('baseline-result').append(el('p','',text));
   }
   $('export').hidden = false; $('export').href = `/api/cases/${caseData.id}`; $('export').target = '_blank';
-  if (['ready','running'].includes(caseData.status)) $('execution-details').open = true;
   controls();
 }
 function poll() {
@@ -240,6 +260,7 @@ $('region-save').onclick=async()=>{
 async function initialize() {
   try {
     const health = await api('/api/health'); $('runtime').textContent = health.ready ? '● LOCAL MODELS READY' : '○ SETUP REQUIRED';
+    $('controller-name').textContent = health.controller || 'Local controller';
     if (!health.ready) error(`${health.detail} ${health.classifier_ready ? '' : 'Classifier files are missing. Run setup.'}`);
     const id = location.hash.slice(1);
     if (/^[a-f0-9]{32}$/.test(id)) { current = await api(`/api/cases/${id}`); render(current); if(active()) poll(); }

@@ -10,6 +10,12 @@ from .config import CLASSIFIER_TIMEOUT, MODEL_DIR
 TRUNCATED = {29, 57, 59, 85, 87, 90, 113}
 
 
+def _load_processor(model_dir):
+    from transformers import AutoImageProcessor
+
+    return AutoImageProcessor.from_pretrained(model_dir, local_files_only=True, backend="pil")
+
+
 def _worker(conn, model_dir, preference):
     os.environ["HF_HUB_OFFLINE"] = "1"
     os.environ["TRANSFORMERS_OFFLINE"] = "1"
@@ -17,11 +23,11 @@ def _worker(conn, model_dir, preference):
     try:
         import torch
         from PIL import Image
-        from transformers import AutoImageProcessor, AutoModelForImageClassification
+        from transformers import AutoModelForImageClassification
 
         torch.set_num_threads(4)
         device = "mps" if preference != "cpu" and torch.backends.mps.is_available() else "cpu"
-        processor = AutoImageProcessor.from_pretrained(model_dir, local_files_only=True, use_fast=False)
+        processor = _load_processor(model_dir)
         model = (
             AutoModelForImageClassification.from_pretrained(
                 model_dir, local_files_only=True, use_safetensors=True
@@ -29,7 +35,8 @@ def _worker(conn, model_dir, preference):
             .eval()
             .to(device)
         )
-        assert len(model.config.id2label) == 120
+        if len(model.config.id2label) != 120:
+            raise ValueError("Classifier requires a 120-class label mapping.")
         while True:
             path = conn.recv()
             if path is None:
