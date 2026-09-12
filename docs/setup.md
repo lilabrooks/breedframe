@@ -12,7 +12,9 @@ From the repository root, run:
 sh scripts/setup.sh
 ```
 
-Wait for **Setup complete** before continuing. Setup installs locked Python dependencies, the pinned Ollama 0.34.0 runtime, `qwen3:4b` (Q4_K_M, about 2.5 GB), the pinned ViT checkpoint (about 344 MB), and the attributed demo/evaluation photos. It verifies the controller's reviewed digest and classifier label configuration.
+Wait for **Setup complete** before continuing. Setup installs locked Python dependencies, the pinned Ollama 0.34.0 runtime, `qwen3:4b` (Q4_K_M, about 2.5 GB), the pinned ViT checkpoint (about 344 MB), and the attributed demo/evaluation photos. It verifies the controller's reviewed digest, classifier label configuration, and downloaded processor against the committed test fixture.
+
+Setup selects Python **3.11** from [`.python-version`](../.python-version) and installs into **`.venv/`**. Startup, demo, evaluation and Python helper commands use that environment explicitly. If you previously set `UV_PROJECT_ENVIRONMENT` for checks, run `unset UV_PROJECT_ENVIRONMENT` before setup; setup rejects a different environment path before downloading anything. A successful custom-environment test run does not install the app's dependencies into `.venv/`.
 
 | Local path | Contents |
 |---|---|
@@ -46,6 +48,7 @@ If the app is reachable but its models are unavailable, a setup panel identifies
 | Vision files missing, incomplete, or unreadable | Rerun `sh scripts/setup.sh` online and let it finish. The required files belong in `models/vit/`. Preserve the terminal error if setup still fails. |
 | Scout can’t reach the local app | Restart with `sh scripts/start.sh`, reopen the local page, then choose **Check again**. Cases remain on disk, but browsing them requires the app server. |
 | Setup download fails | Restore internet access and check available disk space, then rerun setup. Readiness checks never pull models themselves. |
+| Processor fixture drift | Keep the reported field names. Check that the pinned model revision and repository fixture belong to the same checkout; follow the [fixture review procedure](../tests/fixtures/vit/README.md) before changing either. |
 
 To explicitly repair the default controller download after the bundled runtime has been installed:
 

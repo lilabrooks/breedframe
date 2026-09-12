@@ -250,6 +250,9 @@ form { padding: 16px 18px 0; }
 #delete-case { color: #a14b3d; margin-left: auto; }
 footer { margin-top: 40px; border-top: 1px solid var(--line); padding: 24px 0 28px; display: flex; justify-content: space-between; gap: 20px; font-size: 11px; color: var(--muted); }
 .footer-divider { color: #b1bdd3; padding: 0 8px; }
+.footer-credits, .footer-credits nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; }
+.footer-credits { justify-content: flex-end; }
+.footer-credits a { color: inherit; text-underline-offset: 3px; }
 @keyframes pulse { 50% { opacity: .4; } }
 @keyframes orbit { to { transform: rotate(360deg); } }
 @keyframes breathe { 50% { transform: scale(.8); opacity: .7; } }
@@ -303,6 +306,7 @@ footer { margin-top: 40px; border-top: 1px solid var(--line); padding: 24px 0 28
   .tag { font-size: 8px; }
   .case-controls { flex-wrap: wrap; }
   footer { flex-direction: column; gap: 7px; margin-top: 30px; }
+  .footer-credits { justify-content: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
