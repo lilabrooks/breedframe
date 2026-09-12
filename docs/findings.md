@@ -4,6 +4,8 @@
 
 The experimentation produced a working prototype and documented the measured limits of its design. The current default is Qwen3 4B, the original ViT and the 0.5 score / 0.15 margin reporting gate. ResNet and two-photo agreement remain experimental policies. [Original purpose and contract](spec.md) · [Architecture and closure decision](adr/001-local-inference.md).
 
+The current [Scout interface](usage.md) presents the latest visual match and model score with tentative wording, alongside visible tool activity and saved-case controls. This presentation update leaves the model, gate, and recorded experiment outcomes unchanged. A visible tentative match can accompany a stored `inconclusive` outcome; it doesn't establish useful breed-report coverage.
+
 ## The reporting tradeoff
 
 The historical v1 evaluation emitted correct golden retriever and pug reports at scores 0.084443 and 0.476691. It also reported a checkerboard as a pug at 0.013304. Two other cases finished incomplete. These were five inputs, including three labeled dog inputs; the three emitted reports are a separate denominator. [Saved v1 rows and reports](evidence/evaluation-results.json).
@@ -18,7 +20,7 @@ Scores also overlap in ways that frustrate a simple floor. In those 20 saved obs
 |---|---|---|
 | Local inference and visible tool execution | Recorded local runs with pinned models and an offline execution check; implemented action budgets and persisted observations | Demonstrated on this Mac; this closeout performs no new runtime or software verification. [Offline record](evidence/offline-smoke.json) |
 | Request and resume | V1 requested another photo and resumed to a correct beagle report | Historical configuration. Qwen3 requested no follow-ups in the measured v2 policy runs. [V1 trace](evidence/browser-resumed.json) |
-| Region selection, case recovery and evidence display | Current controls have recorded browser demonstrations | Region selection does not establish crop accuracy or automatic dog detection. [V2 browser record](evidence/browser-comparison-v2.json) |
+| Region selection, case recovery and evidence display | Recorded browser demonstrations exercised these mechanisms in the v2 interface | Region selection does not establish crop accuracy or automatic dog detection. [V2 browser record](evidence/browser-comparison-v2.json) |
 | Raw breed ranking | ViT top-one correctness was 8/12 supported photos in the earlier corpus and 1/12 in the new collection | Convenience archives with different composition; no reliable “works well on clear photos” boundary is established. [New results](identity-comparison-results.md) |
 | Useful breed reports | Each experimental policy reported correctly on 3/6 exposed supported cases; each reported on 0/6 new supported cases | Policies were unadopted. Error among reports is undefined in the latter collection. [Matched comparison](paired-suitability-results.md) |
 | Non-dog rejection | ViT rejected three paired negative controls; ResNet rejected eight negative photos while also reporting some exposed dog cases | Small development samples show observed rejection, not reliable dog detection. Both policies later abstained on every cohort. [Control counts](evidence/paired-suitability/summary.json) |

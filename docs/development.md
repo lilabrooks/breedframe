@@ -6,31 +6,50 @@
 |---|---|
 | `breedframe/controller.py` | Frozen prompt, compact observation context, legal action schema and loopback Ollama call |
 | `breedframe/evidence.py` | Deterministic multi-photo comparison and report eligibility |
+| `breedframe/presentation.py` | Current-photo visual-match summary shared by the API and readable export |
 | `breedframe/policies.py` | Shared legal actions and deterministic evaluation controller |
 | `breedframe/agent.py` | Budget, validation, execution, terminal states, evidence-grounded report |
 | `breedframe/classifier.py` | Persistent, killable PyTorch worker; MPS and CPU paths |
 | `breedframe/images.py` | Safe decoding, metadata removal and pixel diagnostics |
 | `breedframe/store.py` | Generated IDs, private files, atomic JSON writes and restart recovery |
 | `breedframe/app.py` | Loopback FastAPI, one active operation, upload and case endpoints |
-| `breedframe/static/` | Browser UI with real trace, candidate history and photo resumption |
+| `breedframe/static/` | Scout workspace, live step display, recorded timeline, assessments and saved-case controls |
 | `scripts/` | Explicit online setup, offline startup, demo, evaluation and probes |
 | `tests/` | Deterministic orchestration and HTTP-boundary tests |
 
 ## Checks
 
-`make check` first synchronizes the project environment with `uv sync --locked`, then runs Ruff, pytest and the JavaScript syntax check. It fails if the manifest and lock disagree. Local checks and CI use this same command; `UV_PROJECT_ENVIRONMENT` can select a different project environment.
+`make check` first synchronizes the project environment with `uv sync --locked`, then runs Ruff, pytest, JavaScript syntax checks and the Node agent-flow state tests. It fails if the manifest and lock disagree. Local checks and CI use this same command; `UV_PROJECT_ENVIRONMENT` can select a different project environment.
 
 The required classifier tests load the reviewed ViT processor configuration from `tests/fixtures/vit/preprocessor_config.json` and check image normalization. They also generate tiny, untrained ViT weights in a temporary directory and exercise the production worker on CPU, including repeated inference and rejection of an invalid class count. These tests require the real Transformers, torch and torchvision packages, run without downloaded model weights, and never skip when trained assets are absent. Orchestration and HTTP tests use fakes.
 
 Generated weights verify software compatibility. They provide no evidence about breed accuracy or compatibility with the trained checkpoint. After classifier or dependency changes, also run the installed classifier on the demo photograph with the synchronized environment; `make demo` covers the wider local integration when Ollama and the reviewed model assets are available. Keep those smoke checks separate from the closed model experiments and their saved measurements.
 
+## Model readiness
+
+[Local setup and troubleshooting](setup.md) documents the two required models and startup commands. `/api/health` checks the pinned Ollama identity, nonempty required classifier assets, and basic JSON configuration. It does not warm the model or validate the entire weights file. The browser fails closed while checking or disconnected, rechecks every 10 seconds and on focus, and checks before submitting inference. The API independently rejects new inference with HTTP 503 before mutating case state when readiness fails. Reads, exports, cancellation, partial completion, and deletion do not require models.
+
+API tests cover unavailable controllers, missing or incomplete classifier files, recovery, and rejected inference leaving the store unchanged. Node tests cover readiness messaging and its distinction from actual investigation activity. Rendered recovery, disabled controls, and accessibility scenarios are tracked in the [UI hardening milestone](https://github.com/lilabrooks/breedframe/milestone/2).
+
 ## Local state
 
 Browser cases are in `data/cases/`; CLI, scripted demo, offline verification and evaluation use separate case directories. Each case includes re-encoded images and `case.json`. Uploaded filenames and metadata are excluded from controller input. Model weights are under `models/`; downloaded runtimes and caches are under `.runtime/` and `.venv/`.
 
-`BREEDFRAME_DATA` can set the browser store root before startup. It is intended for trusted local use. Do not point two app instances at one directory. Only one process should serve the app; multi-worker deployment is unsupported. The UI can permanently delete an inactive case and its local images. No external storage exists.
+`BREEDFRAME_DATA` can set the browser store root before startup. It is intended for trusted local use. Do not point two app instances at one directory. Only one process should serve each app instance; multi-worker deployment is unsupported. No external storage exists.
+
+The browser opens empty. **Clear all** and **Start a separate case** reset the workspace while retaining cases. **Saved cases** reopens local history. **Delete this case** removes one inactive case; **Clear saved cases** removes every case in that store, including cases outside the recent-list limit. Both deletion actions require confirmation. The server rejects clearing during active work and validates that all saved cases can be cleared before deleting any. Use a dedicated temporary `BREEDFRAME_DATA` directory for destructive browser checks, never a user's normal store.
 
 The server rejects cross-origin mutations and untrusted Host headers, limits uploads to 12 MiB and decoded images to 20 million pixels, and accepts single-frame JPEG, PNG and WebP. This does not make it a hardened multi-user service. Keep it on loopback.
+
+## Scout and assessment presentation
+
+[Using Scout](usage.md) describes the current browser controls. Scout is the agent's display name; the configured controller remains `qwen3:4b` by default. The language model chooses tools from numerical observations, the ViT reads pixels, and deterministic code assembles the assessment. The UI's **How this works** section explains these roles and shows the configured controller identity.
+
+`agent-flow.js` derives the visible step from case state and recorded events. The UI distinguishes choosing, running a tool, returned evidence, cancellation, direct classification, connection loss, and terminal states. It shows attempts and actual activity rather than a fabricated completion percentage. Earlier-photo events don't stand in for work on an unclassified follow-up.
+
+`presentation.py` derives the top visual match from the latest classification of the current photo, including region and event provenance. The browser and readable export share that summary. It formats raw scores as percentages with an explicit calibration caveat; it doesn't change `evidence.py` or the stored report outcome. Tentative matches can therefore appear while the underlying outcome remains `inconclusive`. Earlier photo and region rankings remain available for comparison, and report history stays in the saved case.
+
+The [UI hardening milestone](https://github.com/lilabrooks/breedframe/milestone/2) tracks rendered-browser coverage for the core flow, deletion safeguards, and responsive/accessibility checks. Those browser checks are planned work; the current Node state tests don't establish rendered behavior. New documentation screenshots belong alongside the [current capture notes](screenshots/README.md), with historical screenshots preserved separately in the index.
 
 ## Runtime limits
 

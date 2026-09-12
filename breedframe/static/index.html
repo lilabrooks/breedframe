@@ -10,67 +10,92 @@
   <script defer src="/static/app.js"></script>
 </head>
 <body>
-  <a class="skip-link agent-jump" href="#agent-workspace">Skip to agent activity</a>
+  <a class="skip-link agent-jump" href="#agent-workspace">Skip to Scout’s activity</a>
   <header class="topbar">
     <a class="brand" href="/" aria-label="BreedFrame home"><span class="brandmark" aria-hidden="true">b<span>f</span></span>BreedFrame <span class="version">LOCAL LAB</span></a>
     <div class="header-meta"><span class="local-pill"><span class="dot"></span> On-device inference</span><span id="runtime" role="status">Checking models…</span></div>
   </header>
   <main>
     <section class="intro">
-      <div><div class="eyebrow">THE AGENT WORKSPACE</div><h1>A closer look.<span> Every step in view.</span></h1><p>Add a photo and follow the local agent as it chooses tools, collects evidence, and decides how to finish.</p></div>
-      <a class="intro-link agent-jump" href="#agent-workspace">Follow the agent <span aria-hidden="true">↘</span></a>
+      <div><div class="eyebrow">THE AGENT WORKSPACE</div><h1>A closer look.<span> Every step in view.</span></h1><p>Meet Scout, BreedFrame’s local AI agent. Add a photo and follow its investigation, from choosing tools to reviewing visual breed matches.</p></div>
+      <a class="intro-link agent-jump" href="#agent-workspace">Follow Scout <span aria-hidden="true">↘</span></a>
     </section>
-    <div class="prototype-note"><span class="tag">RESEARCH PROTOTYPE</span><p>Recorded v2 runs were inconclusive. Explore the workflow and raw rankings; breed identity remains unverified.</p></div>
+    <div class="prototype-note"><span class="tag">RESEARCH PROTOTYPE</span><p>Explore visual breed matches and the evidence behind them. Results are suggestions, not verified breed identification.</p></div>
+    <section id="model-readiness" class="model-readiness" aria-labelledby="readiness-title">
+      <div class="readiness-heading"><span class="setup-icon" aria-hidden="true">S</span><div role="status" aria-live="polite" aria-atomic="true"><h2 id="readiness-title">Checking Scout’s local models…</h2><p id="readiness-detail">A quick availability check before you start an investigation.</p></div><button id="check-models" class="button small-button" type="button">Check again ↻</button></div>
+      <div class="readiness-models"><p><strong>Scout · language model</strong><span id="controller-status">Availability not yet confirmed</span></p><p><strong>Vision · breed classifier</strong><span id="classifier-status">Availability not yet confirmed</span></p></div>
+      <details class="setup-steps"><summary>How to set up the local models</summary><p>On an Apple Silicon Mac with Python 3.11 and uv installed, open a terminal in the BreedFrame repository and run:</p><pre><code>sh scripts/setup.sh
+sh scripts/start.sh</code></pre><p>First-time setup needs internet access and several GB of disk space. It downloads both models. Keep the startup terminal running while using Scout, then choose <strong>Check again</strong>.</p><p>Already set up? Run <code>sh scripts/start.sh</code>. If another Ollama server is using port 11434, stop it from its own terminal before retrying setup. The repository’s <code>docs/setup.md</code> has troubleshooting steps.</p></details>
+    </section>
     <div id="error" class="error" role="alert" hidden></div>
+    <aside id="live-progress" class="live-progress" aria-label="Investigation in progress" hidden>
+      <span class="live-orbit" aria-hidden="true"><span></span></span>
+      <div class="live-copy"><span id="live-badge" class="live-badge">SCOUT WORKING</span><strong id="live-title"></strong><span id="live-meta"></span></div>
+      <a class="agent-jump live-link" href="#agent-workspace">View activity <span aria-hidden="true">↗</span></a>
+      <div class="live-track" aria-hidden="true"><span></span></div>
+    </aside>
     <section class="workspace" aria-label="Photo investigation">
       <aside class="left-column">
         <div class="panel photo-panel">
-          <div class="panel-heading"><h2><span class="section-number">01</span> Photo evidence</h2><span class="tag" id="photo-count">NEW CASE</span></div>
-          <div id="photo-stage" class="photo-stage"><img src="/api/demo-image" alt="Beagle demo photograph by sannse"><span class="image-caption">DEMO PHOTO · SANNSE</span></div>
+          <div class="panel-heading"><h2><span class="section-number">01</span> Photo evidence</h2><span class="tag" id="photo-count">No photos added</span></div>
+          <div id="photo-stage" class="photo-stage"><div class="empty-photo"><span aria-hidden="true">↑</span><strong>No photo selected</strong><p>Choose your dog’s photo below to start a new case.</p></div></div>
           <div id="thumbnails" class="thumbnails" aria-label="Case photos"></div>
           <form id="upload-form">
-            <label id="drop-zone" class="drop-zone" for="photo-input"><span class="upload-icon" aria-hidden="true">↑</span><strong id="upload-label">Choose a photo to investigate</strong><span>Drop a JPEG, PNG or WebP · up to 12 MiB</span><input id="photo-input" type="file" accept="image/jpeg,image/png,image/webp"></label>
+            <label id="drop-zone" class="drop-zone" for="photo-input"><span class="upload-icon" aria-hidden="true">↑</span><strong id="upload-label">Choose a photo to investigate</strong><span>Drop a JPEG, PNG or WebP · up to 12 MiB</span><input id="photo-input" disabled type="file" accept="image/jpeg,image/png,image/webp" aria-describedby="photo-limit"></label>
+            <p id="photo-limit" class="small">Upload up to 3 photos of the same dog. Mixing different dogs or breeds in one case won’t give a reliable comparison. Start a separate case for each dog.</p>
             <button id="upload-button" class="button primary" type="submit" disabled>Choose a photo first <span aria-hidden="true">↗</span></button>
           </form>
-          <div class="demo-row"><span>Try a demo photo</span><div><button id="demo-clear" class="button small-button">Clear photo <span aria-hidden="true">↗</span></button><button id="demo-small" class="button small-button">Low-resolution photo</button></div></div>
-          <button id="demo-resume" class="button primary" hidden>Add the full-resolution demo photo ↗</button>
+          <div class="reset-row"><button id="clear-all" class="button small-button" type="button" aria-describedby="reset-note">↺ Clear all</button><p id="reset-note">Start over with an empty workspace. Previous results stay in Saved cases.</p></div>
+          <section class="demo-row" aria-labelledby="demo-title"><h3 id="demo-title">Try a demo photo</h3><div><button id="demo-clear" disabled class="button small-button">Full-resolution photo <span aria-hidden="true">↗</span></button><button id="demo-small" disabled class="button small-button">Low-resolution photo</button></div></section>
+          <button id="demo-resume" disabled class="button primary" hidden>Add the full-resolution demo photo ↗</button>
           <details class="photo-credits"><summary>Photo credit &amp; source</summary><p class="attribution">Demo: <a href="https://commons.wikimedia.org/wiki/File:Beagle_600.jpg" target="_blank" rel="noreferrer">Beagle, sannse</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noreferrer">CC BY-SA 3.0</a>. Low-resolution version resized to 48×32. Demo inputs are separate from evaluation.</p></details>
         </div>
         <details id="region-editor" class="panel region-editor" hidden>
           <summary>Select a dog region</summary><p>Draw a box around the dog, including its face and body. This is your selection; BreedFrame has no dog detector.</p>
           <canvas id="region-canvas" aria-label="Draw a dog region or enter its bounds below"></canvas>
           <div class="region-fields"><label>Left %<input id="region-left" type="number" min="0" max="100" value="0"></label><label>Top %<input id="region-top" type="number" min="0" max="100" value="0"></label><label>Right %<input id="region-right" type="number" min="0" max="100" value="100"></label><label>Bottom %<input id="region-bottom" type="number" min="0" max="100" value="100"></label></div>
-          <button id="region-save" class="button primary">Analyze selected region</button><p id="region-note" class="small">One region per photo. Uses the remaining action budget.</p>
+          <button id="region-save" disabled class="button primary">Analyze selected region</button><p id="region-note" class="small">One region per photo. Uses the remaining action budget.</p>
         </details>
         <div class="privacy-note"><span aria-hidden="true">◎</span><p><strong>Your photos stay on this Mac.</strong><br>120 known classes. Scores describe visual matches, not genetic ancestry.</p></div>
-        <details class="history"><summary>Recent local cases</summary><div id="case-list"></div></details>
+        <details id="saved-cases" class="history"><summary>Saved cases</summary><div class="history-actions"><button id="clear-cases" class="text-button" type="button" aria-describedby="clear-cases-note" disabled>Clear saved cases</button><p id="clear-cases-note" class="small">Permanently deletes all saved cases, including their photos and reports.</p></div><p id="clear-cases-status" class="small" role="status" hidden></p><div id="case-list"></div></details>
       </aside>
       <div class="right-column">
         <section id="agent-workspace" class="panel agent-panel" aria-labelledby="agent-title" tabindex="-1">
           <div class="agent-overview">
-            <div class="panel-heading"><h2 id="agent-title"><span class="section-number">02</span> Agent activity</h2><span id="status" class="tag">READY</span></div>
-            <div class="status-line" role="status" aria-live="polite" aria-atomic="true"><span id="status-dot" class="large-dot"></span><div><strong id="status-title">Start with a photo. Follow each decision.</strong><p id="status-detail">The timeline shows chosen actions and actual tool results as they arrive.</p></div></div>
+            <div class="panel-heading"><div><h2 id="agent-title"><span class="section-number">02</span> Scout’s activity</h2><p class="scout-subtitle">BreedFrame’s local AI agent</p></div><span id="status" class="tag">CHECKING MODELS</span></div>
+            <div class="status-line" role="status" aria-live="polite" aria-atomic="true"><span id="status-dot" class="large-dot" aria-hidden="true"></span><div><span id="current-step-label" class="current-step-label" hidden>CURRENT ACTIVITY</span><strong id="status-title">Checking Scout’s local models…</strong><p id="status-detail">Investigations become available when both local models are ready.</p></div></div>
             <ol class="agent-flow" aria-label="Agent loop, repeats after each tool result">
-              <li id="flow-choose"><span class="flow-index">1</span><div><strong>Choose</strong><small>Controller selects an action</small></div></li>
-              <li id="flow-execute"><span class="flow-index">2</span><div><strong>Call a tool</strong><small>App validates and executes</small></div></li>
-              <li id="flow-review"><span class="flow-index">3</span><div><strong>Return evidence</strong><small>Result informs the next choice</small></div></li>
+              <li id="flow-choose"><span class="flow-index">1</span><div><strong>Choose an action</strong><small>Scout decides what to do next</small><span id="flow-choose-state" class="flow-state" hidden></span></div></li>
+              <li id="flow-execute"><span class="flow-index">2</span><div><strong>Run the tool</strong><small>Inspect, classify, or prepare a result</small><span id="flow-execute-state" class="flow-state" hidden></span></div></li>
+              <li id="flow-review"><span class="flow-index">3</span><div><strong>Return evidence</strong><small>The tool’s result goes back to Scout</small><span id="flow-review-state" class="flow-state" hidden></span></div></li>
             </ol>
             <div class="loop-note"><span aria-hidden="true">↳</span> Repeat with new evidence, request a photo, or finish.</div>
+            <div id="latest-evidence" class="latest-evidence" hidden><span aria-hidden="true">✓</span><span id="latest-evidence-text"></span></div>
           </div>
-          <div class="model-roles"><div><span class="role-icon" aria-hidden="true">Q</span><p><strong id="controller-name">Qwen3 4B</strong><span>Chooses actions · text only</span></p></div><div><span class="role-icon vision" aria-hidden="true">V</span><p><strong>Vision Transformer</strong><span>Reads pixels · ranks breeds</span></p></div></div>
+          <details class="how-it-works"><summary>How this works</summary>
+            <p class="how-intro">Scout coordinates the investigation. Separate tools check image quality, analyze pixels, and assemble the assessment. All of this runs on this Mac.</p>
+            <div class="model-roles">
+              <div><span class="role-icon" aria-hidden="true">S</span><p><strong>Scout · chooses the next step</strong><span>A language model reads recorded measurements and rankings to choose an action. Scout does not see the photo itself.</span></p></div>
+              <div><span class="role-icon" aria-hidden="true">Q</span><p><strong>Image checks · measure quality</strong><span>Pixel calculations measure size, brightness, and detail. These checks don’t identify a dog or its breed.</span></p></div>
+              <div><span class="role-icon vision" aria-hidden="true">V</span><p><strong>Vision model · compares breeds</strong><span>A Vision Transformer reads the photo or your selected region and ranks visual matches across 120 breed classes.</span></p></div>
+              <div><span class="role-icon vision" aria-hidden="true">R</span><p><strong>Assessment · presents the evidence</strong><span>BreedFrame assembles recorded rankings and notes. Model scores describe visual matches; they aren’t calibrated probabilities of breed identity.</span></p></div>
+            </div>
+            <p class="model-detail">Controller model: <span id="controller-name">Checking local model…</span>. Each timeline entry’s “Inspect input &amp; result” shows its recorded inputs, outputs, and model metadata.</p>
+          </details>
           <div class="activity-heading"><h3>Action timeline</h3><span id="activity-count">No actions yet</span></div>
-          <div id="trace" class="trace" role="region" aria-label="Recorded agent actions" tabindex="0"><div class="empty-trace"><span class="empty-icon" aria-hidden="true">↗</span><div><strong>Your first action starts here.</strong><p>Choose a photo or try the beagle demo. Each recorded step will show who chose it, what ran, and what came back.</p></div></div></div>
+          <div id="trace" class="trace" role="region" aria-label="Recorded investigation actions" tabindex="0"><div class="empty-trace"><span class="empty-icon" aria-hidden="true">↗</span><div><strong>Follow Scout’s first investigation.</strong><p>Choose a photo or try the beagle demo. Each recorded step shows who chose it, which tool ran, and what came back.</p></div></div></div>
           <div class="trace-footer"><span id="budget">0 / 6 attempts · per photo</span><span id="duration">Up to 3 photos per case</span></div>
         </section>
-        <div id="request-panel" class="request-panel" hidden><span class="eyebrow">YOUR TURN</span><h2>Another view could help.</h2><p id="request-text"></p><p id="request-why"></p><button id="focus-upload" class="button small-button">Choose a follow-up photo ↥</button><span class="small">The case is paused. Prior observations stay with it.</span></div>
+        <div id="request-panel" class="request-panel" hidden><span class="eyebrow">YOUR TURN</span><h2>Another view could help.</h2><p id="request-text"></p><p id="request-why"></p><button id="focus-upload" disabled class="button small-button">Choose a follow-up photo ↥</button><span class="small">The case is paused. Prior observations stay with it.</span></div>
         <section class="panel results-panel" aria-labelledby="results-title">
           <div class="panel-heading"><h2 id="results-title"><span class="section-number">03</span> Assessment</h2><span class="tag" id="result-tag">AWAITING EVIDENCE</span></div>
-          <p id="report-intro" class="subtle">The assessment will connect the evidence to an outcome, including any reasons a breed report is blocked.</p>
-          <div id="candidates"></div><div id="comparison-views" class="comparison-views"></div><p id="change" class="change" hidden></p><div id="uncertainty" class="uncertainty" hidden></div>
+          <p id="report-intro" class="subtle">Your closest visual breed matches and model scores will appear here.</p>
+          <div id="match-summary" class="match-summary" hidden><h3 id="match-title"></h3><p id="match-score" class="match-score"></p><p id="match-context"></p><p id="match-source" class="small"></p><p id="score-note" class="small"></p></div>
+          <div id="candidates"></div><div id="comparison-views" class="comparison-views"></div><p id="change" class="change" hidden></p><details id="assessment-notes" class="assessment-notes" hidden><summary>Notes and assessment details</summary><div id="uncertainty" class="uncertainty" hidden></div></details>
           <details id="ranking-history" hidden><summary>Ranking history across photos</summary><div id="ranking-rows"></div></details>
-          <div id="baseline-area" hidden><button id="baseline-button" class="text-button">Compare with direct classification ↗</button><div id="baseline-result"></div></div>
+          <div id="baseline-area" hidden><button id="baseline-button" disabled class="text-button">Compare with direct classification ↗</button><div id="baseline-result"></div></div>
         </section>
-        <div class="panel management" id="case-management" hidden><button id="cancel-case" class="button small-button" hidden>Cancel investigation</button><button id="retry-case" class="button small-button" hidden>Retry remaining actions</button><button id="finish-partial" class="button small-button" hidden>I can’t provide another photo</button><a id="report-export" class="text-button" hidden>Download assessment ↓</a><button id="delete-case" class="text-button" hidden>Delete this case</button><p id="cancel-note" class="small" hidden>Cancellation waits for the current bounded call to return. Completed observations stay in the case.</p></div>
+        <div class="panel management" id="case-management" hidden><button id="cancel-case" class="button small-button" hidden>Cancel investigation</button><button id="retry-case" disabled class="button small-button" hidden>Retry remaining actions</button><button id="finish-partial" class="button small-button" hidden>I can’t provide another photo</button><a id="report-export" class="text-button" hidden>Download assessment ↓</a><button id="delete-case" class="text-button" hidden>Delete this case</button><p id="cancel-note" class="small" hidden>Cancellation waits for the current bounded call to return. Completed observations stay in the case.</p></div>
         <div class="case-controls"><button id="new-case" class="text-button">＋ Start a separate case</button><a id="export" class="text-button" hidden>Open execution record ↗</a></div>
       </div>
     </section>
