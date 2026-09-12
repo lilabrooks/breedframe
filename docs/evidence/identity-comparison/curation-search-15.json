@@ -1,0 +1,1025 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "29652538": {
+        "pageid": 29652538,
+        "ns": 6,
+        "title": "File:Blanco County, Johnson City, Texas Historical Marker (8700787860).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-11-16T01:52:21Z",
+            "size": 8553453,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg/1280px-Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg/3840px-Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg/1280px-Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg/3840px-Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Blanco_County%2C_Johnson_City%2C_Texas_Historical_Marker_%288700787860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blanco_County,_Johnson_City,_Texas_Historical_Marker_(8700787860).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29652538",
+            "sha1": "a69ee9f4d330e7c92b07d7076e57cbdde42372ac",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-11-16 01:52:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Blanco County, Johnson City, Texas Historical Marker (8700787860)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 550D|Johnson City, Texas|Flickr images reviewed by File Upload Bot (Magnus Manske)|Files with coordinates missing SDC location of creation|1936 Texas Centennial highway markers|Texas Historical Commission plaques in Blanco County, Texas",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "30.278007",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-98.411407",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Formed from Burnet, Hays, Gillespie and Comal counties. Created February 12, 1858, organized April 12, 1858. Named for the stream which traverses the region. County seat, Blanco City, 1858-1890; Johnson City, since.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-12-29 03:53",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/texasbackroads/8700787860/\">Blanco County, Johnson City, Texas Historical Marker</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/76792851@N07\">Nicolas Henderson</a> from Coppell, Texas",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1273339188,
+            "parentid": 1174531798
+          }
+        ]
+      },
+      "29652540": {
+        "pageid": 29652540,
+        "ns": 6,
+        "title": "File:Blanco County Courthouse, Johnson City, Texas (8699665467).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-11-16T01:52:21Z",
+            "size": 8828397,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg/1280px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg/3840px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg/1280px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg/3840px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288699665467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blanco_County_Courthouse,_Johnson_City,_Texas_(8699665467).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29652540",
+            "sha1": "aceeefe0614580069bc030d17e38bbda6b3c46f1",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-11-16 01:52:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Blanco County Courthouse, Johnson City, Texas (8699665467)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 550D|Flickr images reviewed by File Upload Bot (Magnus Manske)|Files with coordinates missing SDC location of creation|Blanco County Courthouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "30.277868",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-98.411375",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Date - 1916\nArchitect - Henry T. Phelps\nStyle - Classical Revival\nMaterial - Stone \n</p>\nThis is the current courthouse.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-12-29 03:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/texasbackroads/8699665467/\">Blanco County Courthouse, Johnson City, Texas</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/76792851@N07\">Nicolas Henderson</a> from Coppell, Texas",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1174531803,
+            "parentid": 893860887
+          }
+        ]
+      },
+      "121664631": {
+        "pageid": 121664631,
+        "ns": 6,
+        "title": "File:Blanco County Courthouse, Johnson City, Texas (8708671846).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-08-12T21:38:20Z",
+            "size": 5792544,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg/1280px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg/3840px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg/1280px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg/3840px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_%288708671846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blanco_County_Courthouse,_Johnson_City,_Texas_(8708671846).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=121664631",
+            "sha1": "ecdfc2a30e7382f14b4e2b7839d7f4d7593f802d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-08-12 21:38:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Blanco County Courthouse, Johnson City, Texas (8708671846)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Johnson City, Texas|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Files from Nicolas Henderson Flickr stream|Flickr images missing SDC published in",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "30.277859",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-98.410881",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Another view of the courthouse.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-12-29 04:02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/texasbackroads/8708671846/\">Blanco County Courthouse, Johnson City, Texas</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/76792851@N07\">Nicolas Henderson</a> from Coppell, Texas",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1127160609,
+            "parentid": 825308757
+          }
+        ]
+      },
+      "29652543": {
+        "pageid": 29652543,
+        "ns": 6,
+        "title": "File:Blanco County Courthouse, Johnson City, Texas Historical Marker (8699664351).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-11-16T01:52:33Z",
+            "size": 8723291,
+            "width": 3456,
+            "height": 5184,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg/1280px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1500,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg/1920px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg/1280px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1500,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg/1920px-Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Blanco_County_Courthouse%2C_Johnson_City%2C_Texas_Historical_Marker_%288699664351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blanco_County_Courthouse,_Johnson_City,_Texas_Historical_Marker_(8699664351).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29652543",
+            "sha1": "dc305638828b8c33fd1d29e1facfe99a172e7962",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-11-16 01:52:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Blanco County Courthouse, Johnson City, Texas Historical Marker (8699664351)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 550D|Flickr images reviewed by File Upload Bot (Magnus Manske)|PD US no notice 1989|United States photographs taken on 2012-12-29|Texas Historical Commission plaques in Blanco County, Texas|Recorded Texas Historic Landmarks plaques in Blanco County, Texas|Blanco County Courthouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "30.278081",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-98.411407",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Designed by San Antonio architect Henry T. Phelps, the 1916 Blanco County Courthouse was the first permanent courthouse built after the seat of government moved from Blanco to Johnson City in 1890. Serving as contractor for the project was stonemason James Waterston, who had come from Scotland to Texas in 1883 to aid in the construction of the state Capitol. The Classical Revival limestone structure features Doric columns and a domed cupola. Recorded Texas Historic Landmark - 1983",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a029 December 2012, 03:54",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/texasbackroads/8699664351/\">Blanco County Courthouse, Johnson City, Texas Historical Marker</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/76792851@N07\">Nicolas Henderson</a> from Coppell, Texas",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<i>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> because it was published in the United States between 1978 and February 1989, inclusive, without a <a href=\"https://en.wikipedia.org/wiki/Copyright_notice\" class=\"extiw\" title=\"w:Copyright notice\">copyright notice</a>, and its <b>copyright was not subsequently <a rel=\"nofollow\" class=\"external text\" href=\"https://www.copyright.gov/records/\">registered</a> with the U.S. Copyright Office within 5 years</b>. For further explanation, see <a href=\"//commons.wikimedia.org/wiki/Commons:Hirtle_chart\" title=\"Commons:Hirtle chart\">Commons:Hirtle chart</a> as well as a <a href=\"//commons.wikimedia.org/wiki/Commons:Public_art_and_copyrights_in_the_US#1978_to_March_1,_1989\" title=\"Commons:Public art and copyrights in the US\">detailed definition</a> of \"publication\" for public art after 1977. <div class=\"navigation-not-searchable\">Unless its author has been dead for several years, it is <b>copyrighted</b> in the countries or areas that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada (70 pma), Mainland China (50 pma, not Hong Kong or Macau), Germany (70 pma), Mexico (100 pma), Switzerland (70 pma), and other countries with individual treaties. See <a rel=\"nofollow\" class=\"external text\" href=\"https://copyright.cornell.edu/publicdomain\">this page</a> for further explanation.</div></i>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1273290354,
+            "parentid": 1237877670
+          }
+        ]
+      },
+      "71787933": {
+        "pageid": 71787933,
+        "ns": 6,
+        "title": "File:Blanco County Courthouse (2018), Johnson City, TX.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-08-20T02:08:48Z",
+            "size": 6529600,
+            "width": 4608,
+            "height": 3072,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg/1280px-Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg/3840px-Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg/1280px-Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg/3840px-Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Blanco_County_Courthouse_%282018%29%2C_Johnson_City%2C_TX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blanco_County_Courthouse_(2018),_Johnson_City,_TX.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71787933",
+            "sha1": "e15b4106c8db83ad188e6b1043dfb9e0d3bea97e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-08-20 02:08:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Blanco County Courthouse (2018), Johnson City, TX",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Blanco County Courthouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Blanco County Courthouse in Johnson City, Texas.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-08-06 10:38:02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:25or6to4\" title=\"User:25or6to4\">25or6to4</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1088145944,
+            "parentid": 825308764
+          }
+        ]
+      },
+      "1239705": {
+        "pageid": 1239705,
+        "ns": 6,
+        "title": "File:Blanco courthouse.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2006-10-03T02:40:54Z",
+            "size": 1469888,
+            "width": 2030,
+            "height": 1202,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Blanco_courthouse.jpg/1280px-Blanco_courthouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 592,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/a/af/Blanco_courthouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Blanco_courthouse.jpg/1280px-Blanco_courthouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 592,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/af/Blanco_courthouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Blanco_courthouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blanco_courthouse.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1239705",
+            "sha1": "984d82391cbc407be4b7587ae33ba7629cc8f505",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-10-03 02:40:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Blanco courthouse",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Kodak EasyShare Z740|Self-published work|October 2006 in Texas|United States photographs taken on 2006-10-01|Blanco County Courthouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "30.277800",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-98.411400",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The <a href=\"https://en.wikipedia.org/wiki/Blanco_County,_Texas\" class=\"extiw\" title=\"w:Blanco County, Texas\">Blanco County</a> Courthouse located in Johnson City, Texas, United States. The classical revival limestone structure was built in 1916. The courthouse was designated a Recorded Texas Historic Landmark in 1983.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a01 October 2006",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Nv8200p\" class=\"extiw\" title=\"en:User:Nv8200p\">Larry D. Moore</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "\u00a9 2006 Larry D. Moore. Licensed under <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.en\">CC BY 4.0</a>.<br><b>Attribution Specification:</b> Reuse without attribution is a violation of the license. The photographer's name and the link to the license are required. A link back to this source is requested. Example: <i>Larry D. Moore, <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/deed.en\">CC BY 4.0</a>, Wikimedia Commons</i>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Larry D. Moore",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1187510086,
+            "parentid": 1142047694
+          }
+        ]
+      },
+      "29652870": {
+        "pageid": 29652870,
+        "ns": 6,
+        "title": "File:Old Blanco County Jail, Johnson City, Texas (8708672176).jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-11-16T02:05:51Z",
+            "size": 8259252,
+            "width": 3456,
+            "height": 5184,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg/1280px-Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1500,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg/1920px-Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg/1280px-Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1500,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg/1920px-Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_%288708672176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Old_Blanco_County_Jail,_Johnson_City,_Texas_(8708672176).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29652870",
+            "sha1": "95165b1c2b5577f939590bc225f4df8629aafba7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-11-16 02:05:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Old Blanco County Jail, Johnson City, Texas (8708672176)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 550D|Johnson City, Texas|Jails in Texas|Flickr images reviewed by File Upload Bot (Magnus Manske)|December 2012 in Texas",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "30.277673",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-98.411042",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Old Blanco County Jail, Johnson City, Texas",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-12-29 04:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/texasbackroads/8708672176/\">Old Blanco County Jail, Johnson City, Texas</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/76792851@N07\">Nicolas Henderson</a> from Coppell, Texas",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1174533275,
+            "parentid": 861114674
+          }
+        ]
+      },
+      "29652879": {
+        "pageid": 29652879,
+        "ns": 6,
+        "title": "File:Old Blanco County Jail, Johnson City, Texas Historical Marker (8707549739).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-11-16T02:06:14Z",
+            "size": 7854170,
+            "width": 3456,
+            "height": 5184,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg/1280px-Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1500,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg/1920px-Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg/1280px-Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1500,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg/1920px-Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Old_Blanco_County_Jail%2C_Johnson_City%2C_Texas_Historical_Marker_%288707549739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Old_Blanco_County_Jail,_Johnson_City,_Texas_Historical_Marker_(8707549739).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29652879",
+            "sha1": "908f16dfeed0fea2a6bfcad0860d357806a7dbe8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-11-16 02:06:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Old Blanco County Jail, Johnson City, Texas Historical Marker (8707549739)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 550D|Jails in Texas|Flickr images reviewed by File Upload Bot (Magnus Manske)|Plaques about prisons and jails|Files with coordinates missing SDC location of creation|Texas Historical Commission plaques in Blanco County, Texas",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "30.277636",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-98.411031",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Noting the unhealthy dampness of the basement where prisoners were first kept after the Blanco County seat was moved to Johnson City, the commissioners court ordered the construction of this jail facility in 1893. Completed the following year, the jailhouse was built of limestone by J. E. L. (Kergie) Dildine (1853-1925), a rock mason who came to Blanco County from Kansas in the 1880s. Despite an 1897 jailbreak, the facility has continued in use, with interior modifications to meet state jail standards. Texas Sesquicentennial 1836-1986",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-12-29 04:01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/texasbackroads/8707549739/\">Old Blanco County Jail, Johnson City, Texas Historical Marker</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:AlbertHerring\" class=\"mw-redirect\" title=\"User:AlbertHerring\">AlbertHerring</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/76792851@N07\">Nicolas Henderson</a> from Coppell, Texas",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1233619217,
+            "parentid": 1174533304
+          }
+        ]
+      }
+    }
+  }
+}

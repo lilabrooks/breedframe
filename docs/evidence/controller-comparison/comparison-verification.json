@@ -1,0 +1,390 @@
+{
+  "runs": {
+    "development-policy.json": {
+      "cases": 6,
+      "source_hashes_unchanged": true,
+      "summary": {
+        "direct": {
+          "cases": 6,
+          "labeled_denominator": 2,
+          "correct_reports": 1,
+          "labeled_reports": 2,
+          "incorrect_labeled_reports": 1,
+          "abstentions": 0,
+          "incomplete": 0,
+          "mean_seconds": 0.117,
+          "requests": 0,
+          "supplied_followups": 0,
+          "initial_photos_classified": 6,
+          "followup_photos_classified": 0,
+          "cases_requesting_followup": 0,
+          "unavailable_requests": 0,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 2,
+          "unsupported_breed_reports": 1,
+          "multi_dog_reports_without_selection": 1,
+          "disagreements": 0,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        },
+        "rules": {
+          "cases": 6,
+          "labeled_denominator": 2,
+          "correct_reports": 0,
+          "labeled_reports": 0,
+          "incorrect_labeled_reports": 0,
+          "abstentions": 6,
+          "incomplete": 0,
+          "mean_seconds": 0.217,
+          "requests": 9,
+          "supplied_followups": 3,
+          "initial_photos_classified": 6,
+          "followup_photos_classified": 3,
+          "cases_requesting_followup": 6,
+          "unavailable_requests": 6,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 2,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        },
+        "agent": {
+          "cases": 6,
+          "labeled_denominator": 2,
+          "correct_reports": 0,
+          "labeled_reports": 0,
+          "incorrect_labeled_reports": 0,
+          "abstentions": 6,
+          "incomplete": 0,
+          "mean_seconds": 10.473,
+          "requests": 0,
+          "supplied_followups": 0,
+          "initial_photos_classified": 6,
+          "followup_photos_classified": 0,
+          "cases_requesting_followup": 0,
+          "unavailable_requests": 0,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 0,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        }
+      }
+    },
+    "development-forced.json": {
+      "cases": 3,
+      "source_hashes_unchanged": true,
+      "summary": {
+        "direct": {
+          "cases": 3,
+          "labeled_denominator": 2,
+          "correct_reports": 1,
+          "labeled_reports": 2,
+          "incorrect_labeled_reports": 1,
+          "abstentions": 0,
+          "incomplete": 0,
+          "mean_seconds": 0.341,
+          "requests": 0,
+          "supplied_followups": 3,
+          "initial_photos_classified": 3,
+          "followup_photos_classified": 3,
+          "cases_requesting_followup": 0,
+          "unavailable_requests": 0,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 1,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 0,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        },
+        "rules": {
+          "cases": 3,
+          "labeled_denominator": 2,
+          "correct_reports": 0,
+          "labeled_reports": 0,
+          "incorrect_labeled_reports": 0,
+          "abstentions": 3,
+          "incomplete": 0,
+          "mean_seconds": 0.344,
+          "requests": 6,
+          "supplied_followups": 3,
+          "initial_photos_classified": 3,
+          "followup_photos_classified": 3,
+          "cases_requesting_followup": 3,
+          "unavailable_requests": 3,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 2,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        },
+        "agent": {
+          "cases": 3,
+          "labeled_denominator": 2,
+          "correct_reports": 0,
+          "labeled_reports": 0,
+          "incorrect_labeled_reports": 0,
+          "abstentions": 3,
+          "incomplete": 0,
+          "mean_seconds": 23.307,
+          "requests": 3,
+          "supplied_followups": 3,
+          "initial_photos_classified": 3,
+          "followup_photos_classified": 0,
+          "cases_requesting_followup": 3,
+          "unavailable_requests": 3,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 0,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        }
+      }
+    },
+    "reserved-policy.json": {
+      "cases": 7,
+      "source_hashes_unchanged": true,
+      "summary": {
+        "direct": {
+          "cases": 7,
+          "labeled_denominator": 4,
+          "correct_reports": 3,
+          "labeled_reports": 4,
+          "incorrect_labeled_reports": 1,
+          "abstentions": 0,
+          "incomplete": 0,
+          "mean_seconds": 0.137,
+          "requests": 0,
+          "supplied_followups": 0,
+          "initial_photos_classified": 7,
+          "followup_photos_classified": 0,
+          "cases_requesting_followup": 0,
+          "unavailable_requests": 0,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 1,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 1,
+          "disagreements": 0,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        },
+        "rules": {
+          "cases": 7,
+          "labeled_denominator": 4,
+          "correct_reports": 0,
+          "labeled_reports": 0,
+          "incorrect_labeled_reports": 0,
+          "abstentions": 7,
+          "incomplete": 0,
+          "mean_seconds": 0.222,
+          "requests": 11,
+          "supplied_followups": 4,
+          "initial_photos_classified": 7,
+          "followup_photos_classified": 4,
+          "cases_requesting_followup": 7,
+          "unavailable_requests": 7,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 2,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        },
+        "agent": {
+          "cases": 7,
+          "labeled_denominator": 4,
+          "correct_reports": 0,
+          "labeled_reports": 0,
+          "incorrect_labeled_reports": 0,
+          "abstentions": 7,
+          "incomplete": 0,
+          "mean_seconds": 16.25,
+          "requests": 0,
+          "supplied_followups": 0,
+          "initial_photos_classified": 7,
+          "followup_photos_classified": 0,
+          "cases_requesting_followup": 0,
+          "unavailable_requests": 0,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 0,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        }
+      }
+    },
+    "reserved-forced.json": {
+      "cases": 4,
+      "source_hashes_unchanged": true,
+      "summary": {
+        "direct": {
+          "cases": 4,
+          "labeled_denominator": 4,
+          "correct_reports": 3,
+          "labeled_reports": 4,
+          "incorrect_labeled_reports": 1,
+          "abstentions": 0,
+          "incomplete": 0,
+          "mean_seconds": 0.223,
+          "requests": 0,
+          "supplied_followups": 4,
+          "initial_photos_classified": 4,
+          "followup_photos_classified": 4,
+          "cases_requesting_followup": 0,
+          "unavailable_requests": 0,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 0,
+          "labeled_first_to_final_improvements": 1,
+          "labeled_first_to_final_regressions": 1
+        },
+        "rules": {
+          "cases": 4,
+          "labeled_denominator": 4,
+          "correct_reports": 0,
+          "labeled_reports": 0,
+          "incorrect_labeled_reports": 0,
+          "abstentions": 4,
+          "incomplete": 0,
+          "mean_seconds": 0.489,
+          "requests": 8,
+          "supplied_followups": 4,
+          "initial_photos_classified": 4,
+          "followup_photos_classified": 4,
+          "cases_requesting_followup": 4,
+          "unavailable_requests": 4,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 2,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        },
+        "agent": {
+          "cases": 4,
+          "labeled_denominator": 4,
+          "correct_reports": 0,
+          "labeled_reports": 0,
+          "incorrect_labeled_reports": 0,
+          "abstentions": 4,
+          "incomplete": 0,
+          "mean_seconds": 31.331,
+          "requests": 2,
+          "supplied_followups": 4,
+          "initial_photos_classified": 4,
+          "followup_photos_classified": 0,
+          "cases_requesting_followup": 2,
+          "unavailable_requests": 2,
+          "tool_errors": 0,
+          "failed_operations": 0,
+          "controller_errors": 0,
+          "non_dog_reports": 0,
+          "unsupported_breed_reports": 0,
+          "multi_dog_reports_without_selection": 0,
+          "disagreements": 0,
+          "labeled_first_to_final_improvements": 0,
+          "labeled_first_to_final_regressions": 0
+        }
+      }
+    }
+  },
+  "controls": {
+    "development-policy.json": {
+      "direct": {
+        "exact_candidate_matches": 6,
+        "cases": 6
+      },
+      "rules": {
+        "exact_candidate_matches": 6,
+        "cases": 6
+      }
+    },
+    "development-forced.json": {
+      "direct": {
+        "exact_candidate_matches": 3,
+        "cases": 3
+      },
+      "rules": {
+        "exact_candidate_matches": 3,
+        "cases": 3
+      }
+    },
+    "reserved-policy.json": {
+      "direct": {
+        "exact_candidate_matches": 7,
+        "cases": 7
+      },
+      "rules": {
+        "exact_candidate_matches": 7,
+        "cases": 7
+      }
+    },
+    "reserved-forced.json": {
+      "direct": {
+        "exact_candidate_matches": 4,
+        "cases": 4
+      },
+      "rules": {
+        "exact_candidate_matches": 4,
+        "cases": 4
+      }
+    }
+  },
+  "identity": {
+    "development-policy.json": {
+      "events": 18,
+      "all_candidate_and_text_only": true
+    },
+    "development-forced.json": {
+      "events": 15,
+      "all_candidate_and_text_only": true
+    },
+    "reserved-policy.json": {
+      "events": 21,
+      "all_candidate_and_text_only": true
+    },
+    "reserved-forced.json": {
+      "events": 20,
+      "all_candidate_and_text_only": true
+    }
+  },
+  "decision": "Keep Qwen3 4B default; candidate did not improve evidence use or reporting.",
+  "source_drift": []
+}

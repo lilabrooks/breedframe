@@ -1,0 +1,110 @@
+{
+  "pageid": 59808571,
+  "ns": 6,
+  "title": "File:President and Mrs. Ford with Susan and Liberty - NARA - 186835 (cropped2).jpg",
+  "index": 6,
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2017-06-10T19:20:11Z",
+      "size": 6237996,
+      "width": 3519,
+      "height": 3255,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg/1280px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1000,
+      "thumbheight": 925,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg/1280px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 925,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_(cropped2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=59808571",
+      "sha1": "95cd75c711f1ae1c5e6615eed291af2a1d0e6b53",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-06-10 19:20:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\n<i>President and Mrs. Ford with Susan and Liberty</i></div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD US Government|Gerald Ford family|Susan Ford|Media contributed by the Gerald R. Ford Presidential Library and Museum|Liberty (dog)|Artworks without Wikidata item|Extracted images|People with dogs|United States photographs taken on 1976-08-07|CC-PD-Mark|1976 at Camp David|Photographs by David Hume Kennerly from 1976|Betty and Gerald Ford in 1976|Gerald Ford in August 1976|\"The White House Years\" media photo kit at the Gerald R. Ford Presidential Library|Gerald Ford at Camp David",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:David_Hume_Kennerly\" class=\"extiw\" title=\"w:en:David Hume Kennerly\"><span title=\"American photographer (born 1947)\">David Hume Kennerly</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "Photograph of President Gerald Ford and First Lady Betty Ford with Susan and Liberty at Camp David.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "7 August 1976<div style=\"display: none;\">date QS:P571,+1976-08-07T00:00:00Z/11</div>",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Gerald_R._Ford_Presidential_Library\" class=\"extiw\" title=\"en:Gerald R. Ford Presidential Library\">Gerald R. Ford Presidential Library</a></span>: <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.fordlibrarymuseum.gov/avproj/whitehouse-years-03.asp\" href=\"https://www.fordlibrarymuseum.gov/avproj/whitehouse-years-03.asp\">B0986-19</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 1254390043,
+      "parentid": 1253969089
+    }
+  ]
+}

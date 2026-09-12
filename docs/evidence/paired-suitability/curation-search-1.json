@@ -1,0 +1,113 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "154867679": {
+        "pageid": 154867679,
+        "ns": 6,
+        "title": "File:Barney and MissBeazley statues.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-11-04T14:25:13Z",
+            "size": 170346,
+            "width": 571,
+            "height": 500,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Barney_and_MissBeazley_statues.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 876,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Barney_and_MissBeazley_statues.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 876
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Barney_and_MissBeazley_statues.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barney_and_MissBeazley_statues.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154867679",
+            "sha1": "bf0048bf1d681afe780370d567cabb499b0acf5b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-04 14:25:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Barney and MissBeazley statues",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Miss Beazley (dog)|Barney (dog)|George W. Bush Presidential Center|Unknown date|CC-PD-Mark|Statues of dogs in the United States",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Barney and MissBeazley statues",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Unknown date",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.georgewbushlibrary.gov/explore/galleries/museum-building-photographs\">https://www.georgewbushlibrary.gov/explore/galleries/museum-building-photographs</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "National Archives and Records Administration",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1250364733,
+            "parentid": 1081085888
+          }
+        ]
+      }
+    }
+  }
+}

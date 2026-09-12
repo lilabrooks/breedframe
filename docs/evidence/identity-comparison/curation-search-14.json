@@ -1,0 +1,875 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "79918473": {
+        "pageid": 79918473,
+        "ns": 6,
+        "title": "File:First Lady Betty Ford, President Gerald R. Ford, and Susan Ford Playing with Their Dog Liberty's Puppies in the Rose Garden - NARA - 23869195.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-06-24T15:28:49Z",
+            "size": 3338884,
+            "width": 3642,
+            "height": 2400,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869195.jpg/1280px-First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869195.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 659,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/28/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869195.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869195.jpg/1280px-First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869195.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 659,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/28/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869195.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869195.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:First_Lady_Betty_Ford,_President_Gerald_R._Ford,_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869195.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79918473",
+            "sha1": "a0474dd0b7083086ee84d4146c700e1e80d8e34c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-24 15:28:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>First Lady Betty Ford, President Gerald R. Ford, and Susan Ford Playing with Their Dog Liberty's Puppies in the Rose Garden</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Susan Ford|Artworks without Wikidata item|Template Unknown (author)|CC-PD-Mark|US National Archives series: Gerald R. Ford White House Photographs|White House in November 1975|Gerald Ford at the White House in 1975|US National Archives location: other|Betty and Gerald Ford in 1975|Offspring of Liberty (dog)|Black and white photographs of people at the White House|Gerald Ford in November 1975",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "5 November 1975<div style=\"display: none;\">date QS:P571,+1975-11-05T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1257652364,
+            "parentid": 1253451354
+          }
+        ]
+      },
+      "79918477": {
+        "pageid": 79918477,
+        "ns": 6,
+        "title": "File:First Lady Betty Ford, President Gerald R. Ford, and Susan Ford Playing with Their Dog Liberty's Puppies in the Rose Garden - NARA - 23869197.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-06-24T15:28:55Z",
+            "size": 3637219,
+            "width": 3635,
+            "height": 2400,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869197.jpg/1280px-First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869197.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 660,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/4/4c/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869197.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869197.jpg/1280px-First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869197.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 660,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/4c/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869197.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/First_Lady_Betty_Ford%2C_President_Gerald_R._Ford%2C_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869197.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:First_Lady_Betty_Ford,_President_Gerald_R._Ford,_and_Susan_Ford_Playing_with_Their_Dog_Liberty%27s_Puppies_in_the_Rose_Garden_-_NARA_-_23869197.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79918477",
+            "sha1": "14d337a5a259d0cfb678c516612c05fe985b2068",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-24 15:28:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>First Lady Betty Ford, President Gerald R. Ford, and Susan Ford Playing with Their Dog Liberty's Puppies in the Rose Garden</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Susan Ford|Artworks without Wikidata item|Template Unknown (author)|CC-PD-Mark|US National Archives series: Gerald R. Ford White House Photographs|White House in November 1975|Gerald Ford at the White House in 1975|US National Archives location: other|Betty and Gerald Ford in 1975|Offspring of Liberty (dog)|Black and white photographs of people at the White House|Gerald Ford in November 1975",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "5 November 1975<div style=\"display: none;\">date QS:P571,+1975-11-05T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1257652372,
+            "parentid": 1253451379
+          }
+        ]
+      },
+      "79931786": {
+        "pageid": 79931786,
+        "ns": 6,
+        "title": "File:Photograph of President Gerald Ford, First Lady Betty Ford, and Their Dog Liberty on the South Lawn of the White House - NARA - 6923690.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-06-25T02:07:55Z",
+            "size": 2332927,
+            "width": 2016,
+            "height": 3150,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Photograph_of_President_Gerald_Ford%2C_First_Lady_Betty_Ford%2C_and_Their_Dog_Liberty_on_the_South_Lawn_of_the_White_House_-_NARA_-_6923690.jpg/1280px-Photograph_of_President_Gerald_Ford%2C_First_Lady_Betty_Ford%2C_and_Their_Dog_Liberty_on_the_South_Lawn_of_the_White_House_-_NARA_-_6923690.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1563,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/79/Photograph_of_President_Gerald_Ford%2C_First_Lady_Betty_Ford%2C_and_Their_Dog_Liberty_on_the_South_Lawn_of_the_White_House_-_NARA_-_6923690.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Photograph_of_President_Gerald_Ford%2C_First_Lady_Betty_Ford%2C_and_Their_Dog_Liberty_on_the_South_Lawn_of_the_White_House_-_NARA_-_6923690.jpg/1280px-Photograph_of_President_Gerald_Ford%2C_First_Lady_Betty_Ford%2C_and_Their_Dog_Liberty_on_the_South_Lawn_of_the_White_House_-_NARA_-_6923690.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1563,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/79/Photograph_of_President_Gerald_Ford%2C_First_Lady_Betty_Ford%2C_and_Their_Dog_Liberty_on_the_South_Lawn_of_the_White_House_-_NARA_-_6923690.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Photograph_of_President_Gerald_Ford%2C_First_Lady_Betty_Ford%2C_and_Their_Dog_Liberty_on_the_South_Lawn_of_the_White_House_-_NARA_-_6923690.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Photograph_of_President_Gerald_Ford,_First_Lady_Betty_Ford,_and_Their_Dog_Liberty_on_the_South_Lawn_of_the_White_House_-_NARA_-_6923690.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79931786",
+            "sha1": "5e84ec4a2272f8a5d1399044cd5085861e6c0e77",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-25 02:07:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Photograph of President Gerald Ford, First Lady Betty Ford, and Their Dog Liberty on the South Lawn of the White House</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Liberty (dog)|Artworks without Wikidata item|Template Unknown (author)|CC-PD-Mark|US National Archives series: Gerald R. Ford White House Photographs|White House in May 1975|Gerald Ford at the White House in 1975|US National Archives location: other|Betty and Gerald Ford in 1975|Gerald Ford in May 1975",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "9 May 1975<div style=\"display: none;\">date QS:P571,+1975-05-09T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1107227666,
+            "parentid": 990238234
+          }
+        ]
+      },
+      "79931709": {
+        "pageid": 79931709,
+        "ns": 6,
+        "title": "File:Photograph of President Gerald Ford and First Lady Betty Ford Walking with Their Daughter Susan and Their Dog, Liberty, at Camp David, Maryland - NARA - 186835.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-06-25T02:03:31Z",
+            "size": 5411614,
+            "width": 4459,
+            "height": 6692,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Photograph_of_President_Gerald_Ford_and_First_Lady_Betty_Ford_Walking_with_Their_Daughter_Susan_and_Their_Dog%2C_Liberty%2C_at_Camp_David%2C_Maryland_-_NARA_-_186835.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1501,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Photograph_of_President_Gerald_Ford_and_First_Lady_Betty_Ford_Walking_with_Their_Daughter_Susan_and_Their_Dog%2C_Liberty%2C_at_Camp_David%2C_Maryland_-_NARA_-_186835.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Photograph_of_President_Gerald_Ford_and_First_Lady_Betty_Ford_Walking_with_Their_Daughter_Susan_and_Their_Dog%2C_Liberty%2C_at_Camp_David%2C_Maryland_-_NARA_-_186835.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1501,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Photograph_of_President_Gerald_Ford_and_First_Lady_Betty_Ford_Walking_with_Their_Daughter_Susan_and_Their_Dog%2C_Liberty%2C_at_Camp_David%2C_Maryland_-_NARA_-_186835.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Photograph_of_President_Gerald_Ford_and_First_Lady_Betty_Ford_Walking_with_Their_Daughter_Susan_and_Their_Dog%2C_Liberty%2C_at_Camp_David%2C_Maryland_-_NARA_-_186835.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Photograph_of_President_Gerald_Ford_and_First_Lady_Betty_Ford_Walking_with_Their_Daughter_Susan_and_Their_Dog,_Liberty,_at_Camp_David,_Maryland_-_NARA_-_186835.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79931709",
+            "sha1": "e043240e2e2a10c67ea5286559feab2d9180fff9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-25 02:03:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Photograph of President Gerald Ford and First Lady Betty Ford Walking with Their Daughter Susan and Their Dog, Liberty, at Camp David, Maryland</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Susan Ford|Liberty (dog)|Artworks without Wikidata item|CC-PD-Mark|NARA-Author with ARC|US National Archives series: Gerald R. Ford White House Photographs|1976 at Camp David|US National Archives location: other|Photographs by David Hume Kennerly from 1976|Betty and Gerald Ford in 1976|Gerald Ford in August 1976|Gerald Ford at Camp David",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nKennerly, David Hume, 1947-  (<a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"//research.archives.gov/person/10580971\" href=\"https://research.archives.gov/person/10580971\">NARA record: 10580971</a>)</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<ul><li><b>Scope and content:</b>  This photograph depicts President and Mrs. Ford walking arm-in-arm, with Susan in the center, laughing. President Ford is holding the dog's leash.</li></ul></div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "7 August 1976<div style=\"display: none;\">date QS:P571,+1976-08-07T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1107026921,
+            "parentid": 990237101
+          }
+        ]
+      },
+      "79932201": {
+        "pageid": 79932201,
+        "ns": 6,
+        "title": "File:Photograph of Susan Ford, First Lady Betty Ford, and President Gerald R. Ford with their Dog Liberty and her Puppies - NARA - 7284038.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-06-25T02:40:01Z",
+            "size": 4654149,
+            "width": 6000,
+            "height": 4144,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg/1280px-Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 691,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg/3840px-Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg/1280px-Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 691,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg/3840px-Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Photograph_of_Susan_Ford%2C_First_Lady_Betty_Ford%2C_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Photograph_of_Susan_Ford,_First_Lady_Betty_Ford,_and_President_Gerald_R._Ford_with_their_Dog_Liberty_and_her_Puppies_-_NARA_-_7284038.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79932201",
+            "sha1": "8fd66260c8c8fbd4343f4370a9357f90992a0f3c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-06-25 02:40:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Photograph of Susan Ford, First Lady Betty Ford, and President Gerald R. Ford with their Dog Liberty and her Puppies</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Susan Ford|Artworks without Wikidata item|Template Unknown (author)|CC-PD-Mark|US National Archives series: Gerald R. Ford White House Photographs|White House in September 1975|Gerald Ford at the White House in 1975|US National Archives location: other|Betty and Gerald Ford in 1975|Gerald Ford in September 1975|Offspring of Liberty (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "16 September 1975<div style=\"display: none;\">date QS:P571,+1975-09-16T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1107027485,
+            "parentid": 981745989
+          }
+        ]
+      },
+      "20971042": {
+        "pageid": 20971042,
+        "ns": 6,
+        "title": "File:President Ford and his golden retriever Liberty - NARA - 6829597.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-03-25T01:23:23Z",
+            "size": 13839030,
+            "width": 3746,
+            "height": 5906,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/President_Ford_and_his_golden_retriever_Liberty_-_NARA_-_6829597.jpg/1280px-President_Ford_and_his_golden_retriever_Liberty_-_NARA_-_6829597.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1577,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b2/President_Ford_and_his_golden_retriever_Liberty_-_NARA_-_6829597.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/President_Ford_and_his_golden_retriever_Liberty_-_NARA_-_6829597.jpg/1280px-President_Ford_and_his_golden_retriever_Liberty_-_NARA_-_6829597.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1577,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b2/President_Ford_and_his_golden_retriever_Liberty_-_NARA_-_6829597.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/President_Ford_and_his_golden_retriever_Liberty_-_NARA_-_6829597.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_Ford_and_his_golden_retriever_Liberty_-_NARA_-_6829597.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=20971042",
+            "sha1": "c5a585b36aa3b41e396a83d1fbe9b8dc7997e8c0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-03-25 01:23:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>President Ford and his golden retriever Liberty</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Media contributed by the Gerald R. Ford Presidential Library and Museum|Liberty (dog)|Artworks without Wikidata item|Images with extracted images|CC-PD-Mark|Gerald Ford at the White House in 1974|Gerald Ford at the Wilson desk|Gerald Ford reading|Photographs by David Hume Kennerly from 1974|Pets in the Oval Office|\"The White House Years\" media photo kit at the Gerald R. Ford Presidential Library|Male people with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:David_Hume_Kennerly\" class=\"extiw\" title=\"w:en:David Hume Kennerly\"><span title=\"American photographer (born 1947)\">David Hume Kennerly</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Photograph of President Gerald R. Ford and his golden retriever, Liberty, in the Oval Office.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "7 November 1974<div style=\"display: none;\">date QS:P571,+1974-11-07T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Gerald_R._Ford_Presidential_Library\" class=\"extiw\" title=\"en:Gerald R. Ford Presidential Library\">Gerald R. Ford Presidential Library</a></span>: <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.fordlibrarymuseum.gov/avproj/whitehouse-years-01.asp\" href=\"https://www.fordlibrarymuseum.gov/avproj/whitehouse-years-01.asp\">A1813-05</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1039711254,
+            "parentid": 1010429986
+          }
+        ]
+      },
+      "20972329": {
+        "pageid": 20972329,
+        "ns": 6,
+        "title": "File:President and Mrs. Ford with Susan and Liberty - NARA - 186835.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-03-25T01:55:17Z",
+            "size": 12511973,
+            "width": 4104,
+            "height": 6000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg/1280px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1462,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg/3840px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg/1280px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1462,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg/3840px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=20972329",
+            "sha1": "43cebc04341c5d99bd342ceaec46c62f0095bf09",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-03-25 01:55:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>President and Mrs. Ford with Susan and Liberty</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Gerald Ford family|Susan Ford|Media contributed by the Gerald R. Ford Presidential Library and Museum|Liberty (dog)|Artworks without Wikidata item|Images with extracted images|People with dogs|United States photographs taken on 1976-08-07|CC-PD-Mark|NARA images of Maryland|1976 at Camp David|Photographs by David Hume Kennerly from 1976|Betty and Gerald Ford in 1976|Gerald Ford in August 1976|\"The White House Years\" media photo kit at the Gerald R. Ford Presidential Library|Gerald Ford at Camp David",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:David_Hume_Kennerly\" class=\"extiw\" title=\"w:en:David Hume Kennerly\"><span title=\"American photographer (born 1947)\">David Hume Kennerly</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Photograph of President Gerald Ford and First Lady Betty Ford with Susan and Liberty at Camp David.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "7 August 1976<div style=\"display: none;\">date QS:P571,+1976-08-07T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Gerald_R._Ford_Presidential_Library\" class=\"extiw\" title=\"en:Gerald R. Ford Presidential Library\">Gerald R. Ford Presidential Library</a></span>: <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.fordlibrarymuseum.gov/avproj/whitehouse-years-03.asp\" href=\"https://www.fordlibrarymuseum.gov/avproj/whitehouse-years-03.asp\">B0986-19</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 910515297,
+            "parentid": 896714980
+          }
+        ]
+      },
+      "59808571": {
+        "pageid": 59808571,
+        "ns": 6,
+        "title": "File:President and Mrs. Ford with Susan and Liberty - NARA - 186835 (cropped2).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-06-10T19:20:11Z",
+            "size": 6237996,
+            "width": 3519,
+            "height": 3255,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg/1280px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 925,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg/1280px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 925,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_(cropped2).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=59808571",
+            "sha1": "95cd75c711f1ae1c5e6615eed291af2a1d0e6b53",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-06-10 19:20:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>President and Mrs. Ford with Susan and Liberty</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Gerald Ford family|Susan Ford|Media contributed by the Gerald R. Ford Presidential Library and Museum|Liberty (dog)|Artworks without Wikidata item|Extracted images|People with dogs|United States photographs taken on 1976-08-07|CC-PD-Mark|1976 at Camp David|Photographs by David Hume Kennerly from 1976|Betty and Gerald Ford in 1976|Gerald Ford in August 1976|\"The White House Years\" media photo kit at the Gerald R. Ford Presidential Library|Gerald Ford at Camp David",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:David_Hume_Kennerly\" class=\"extiw\" title=\"w:en:David Hume Kennerly\"><span title=\"American photographer (born 1947)\">David Hume Kennerly</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Photograph of President Gerald Ford and First Lady Betty Ford with Susan and Liberty at Camp David.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "7 August 1976<div style=\"display: none;\">date QS:P571,+1976-08-07T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Gerald_R._Ford_Presidential_Library\" class=\"extiw\" title=\"en:Gerald R. Ford Presidential Library\">Gerald R. Ford Presidential Library</a></span>: <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.fordlibrarymuseum.gov/avproj/whitehouse-years-03.asp\" href=\"https://www.fordlibrarymuseum.gov/avproj/whitehouse-years-03.asp\">B0986-19</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254390043,
+            "parentid": 1253969089
+          }
+        ]
+      }
+    }
+  }
+}

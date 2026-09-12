@@ -1,0 +1,89 @@
+{
+  "candidate_complete": true,
+  "unique_images": 20,
+  "grid_cells": 117,
+  "passing_grid_cells": 0,
+  "defaults_unchanged": true,
+  "source_hashes_unchanged": true,
+  "runner_hash_matches": true,
+  "native_argmax_and_probability_sums_checked": true,
+  "changes": [
+    {
+      "image": "barney-01",
+      "before_correct": true,
+      "after_correct": false
+    },
+    {
+      "image": "buddy-01",
+      "before_correct": false,
+      "after_correct": true
+    },
+    {
+      "image": "millie-02",
+      "before_correct": false,
+      "after_correct": true
+    }
+  ],
+  "gate_at_original_numerical_cutoffs": {
+    "score": 0.5,
+    "margin": 0.15,
+    "cohorts": {
+      "supported_breed": {
+        "total": 12,
+        "reports": 9,
+        "correct": 9,
+        "wrong": 0,
+        "failures": 0
+      },
+      "unsupported_breed": {
+        "total": 2,
+        "reports": 0,
+        "correct": 0,
+        "wrong": 0,
+        "failures": 0
+      },
+      "multiple_dogs": {
+        "total": 2,
+        "reports": 2,
+        "correct": 0,
+        "wrong": 0,
+        "failures": 0
+      },
+      "non_dog": {
+        "total": 3,
+        "reports": 1,
+        "correct": 0,
+        "wrong": 0,
+        "failures": 0
+      },
+      "unknown_ancestry": {
+        "total": 1,
+        "reports": 1,
+        "correct": 0,
+        "wrong": 0,
+        "failures": 0
+      }
+    },
+    "meets_criteria": false
+  },
+  "tests_passed": 33,
+  "existing_deprecation_warnings": 2,
+  "ruff_passed": true,
+  "javascript_syntax_passed": true,
+  "broken_links": [],
+  "health": {
+    "ready": true,
+    "controller": "qwen3:4b",
+    "classifier_ready": true,
+    "detail": "Pinned local controller ready: qwen3:4b.",
+    "busy": false,
+    "limitations": [
+      "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+      "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+      "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+    ]
+  },
+  "fresh_photos_collected": 0,
+  "reserved_evaluation_calls": 0,
+  "decision": "stop at failed development gate; no model or threshold promoted"
+}

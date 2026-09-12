@@ -1,0 +1,14 @@
+{
+  "source_image": "barney-02",
+  "reused_numerical_probe": true,
+  "additional_inference_calls": 0,
+  "normalized_pixel_hash_matches": true,
+  "saved_report_matches_api": true,
+  "api_status": 200,
+  "export_status": 200,
+  "export_sha256": "4a7b9205dbfab8930ba7c8ba947c2c715ae242e258281a7400e78b9426b30e25",
+  "outcome": "inconclusive",
+  "blockers": [
+    "Current results have quality concerns, weak scores, or an unresolved published label."
+  ]
+}

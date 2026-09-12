@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "created_at": "2026-09-12T01:40:59.541773+00:00",
+  "selection": "Three development photos fixed before crop inference. Bounds chosen from visible source images. Whole-image results had already been observed in paired evaluation; this is an exploratory crop pilot, not a holdout.",
+  "policy": "Actual rules-controller whole-photo run, then explicit user-region selection and actual region inference; finish partial if another photo is requested. Do not adjust boxes after observing crop predictions.",
+  "cases": [
+    {
+      "image_id": "barney-01",
+      "path": "data/photo-set-v2/images/barney-01.jpg",
+      "sha256": "7703b8b6d90f30b4f5fe5aca4f39223f116025cd2181019136cad8ff1e0e42c6",
+      "bounds": [
+        0.24,
+        0.58,
+        0.56,
+        0.995
+      ],
+      "label": "scotch_terrier",
+      "note": "Small rear view; cropping cannot recover missing face detail."
+    },
+    {
+      "image_id": "buddy-01",
+      "path": "data/photo-set-v2/images/buddy-01.jpg",
+      "sha256": "847bebb13da42f4172c68a457a318b03cda6ebba242bec527197b2892a3fa3a2",
+      "bounds": [
+        0.03,
+        0.07,
+        0.95,
+        0.97
+      ],
+      "label": "labrador_retriever",
+      "note": "Dog occupies most of the frame; small framing change."
+    },
+    {
+      "image_id": "bo-01",
+      "path": "data/photo-set-v2/images/bo-01.jpg",
+      "sha256": "b670b11bdebc2cfeeb7aaecc4c8785b34c0237c10a2242a9c5c960e36b502ac9",
+      "bounds": [
+        0.485,
+        0.6,
+        0.56,
+        0.73
+      ],
+      "label": null,
+      "note": "Severe occlusion in a wide scene; breed outside classifier classes."
+    }
+  ]
+}

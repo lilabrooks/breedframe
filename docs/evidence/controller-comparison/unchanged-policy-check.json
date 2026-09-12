@@ -1,0 +1,8 @@
+{
+  "breedframe/policies.py": true,
+  "breedframe/evidence.py": true,
+  "breedframe/classifier.py": true,
+  "breedframe/images.py": true,
+  "breedframe/contracts.py": true,
+  "controller_system_prompt": true
+}

@@ -1,0 +1,2684 @@
+{
+  "barney": {
+    "case": {
+      "photos": [
+        {
+          "id": "photo-1"
+        },
+        {
+          "id": "photo-2"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "kind": "tool",
+          "tool": "inspect_image",
+          "input": {
+            "photo_id": "photo-1"
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "width": 304,
+            "height": 210,
+            "mean_luminance": 147.17,
+            "laplacian_variance": 2153.04,
+            "quality_flags": [],
+            "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+          },
+          "controller_seconds": 1.371,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 35,
+            "total_duration_ns": 1364669208
+          },
+          "seconds": 0.002
+        },
+        {
+          "id": 2,
+          "kind": "tool",
+          "tool": "classify_breed",
+          "input": {
+            "photo_id": "photo-1"
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "candidates": [
+              {
+                "class_id": 116,
+                "label": "scotch_terrier",
+                "score": 0.053181,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 98,
+                "label": "giant_schnauzer",
+                "score": 0.041718,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 5,
+                "label": "schipperke",
+                "score": 0.039636,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 64,
+                "label": "bouvier_des_flandres",
+                "score": 0.0238,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 47,
+                "label": "kerry_blue_terrier",
+                "score": 0.020629,
+                "unresolved_label": false
+              }
+            ],
+            "margin": 0.011463,
+            "device": "mps",
+            "inference_seconds": 0.1488,
+            "fallback": null,
+            "mps_allocated_bytes": 348282880,
+            "mps_driver_bytes": 382418944
+          },
+          "controller_seconds": 2.596,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 36,
+            "total_duration_ns": 2579665958
+          },
+          "seconds": 0.15
+        },
+        {
+          "id": 3,
+          "kind": "tool",
+          "tool": "finish_assessment",
+          "input": {
+            "outcome": "inconclusive",
+            "selected_result_id": null
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "version": 2,
+            "outcome": "inconclusive",
+            "selected_result_id": null,
+            "completed_by": "agent",
+            "evidence_ids": [
+              1,
+              2
+            ],
+            "candidates": [],
+            "comparison": {
+              "version": 2,
+              "relation": "single_photo",
+              "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+              "views": [
+                {
+                  "photo_id": "photo-1",
+                  "inspection_event_id": 1,
+                  "quality_flags": [],
+                  "rankings": [
+                    {
+                      "event_id": 2,
+                      "region_id": null,
+                      "candidates": [
+                        {
+                          "class_id": 116,
+                          "label": "scotch_terrier",
+                          "score": 0.053181,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 98,
+                          "label": "giant_schnauzer",
+                          "score": 0.041718,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 5,
+                          "label": "schipperke",
+                          "score": 0.039636,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 64,
+                          "label": "bouvier_des_flandres",
+                          "score": 0.0238,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 47,
+                          "label": "kerry_blue_terrier",
+                          "score": 0.020629,
+                          "unresolved_label": false
+                        }
+                      ],
+                      "weak_scores": true,
+                      "quality_flags": []
+                    }
+                  ],
+                  "leading_class_ids": [
+                    116
+                  ]
+                }
+              ],
+              "ranked_photo_count": 1,
+              "candidates": [
+                {
+                  "class_id": 116,
+                  "label": "scotch_terrier",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 1,
+                      "score": 0.053181
+                    }
+                  ],
+                  "supporting_photo_ids": [
+                    "photo-1"
+                  ],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 1
+                },
+                {
+                  "class_id": 98,
+                  "label": "giant_schnauzer",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 2,
+                      "score": 0.041718
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 2
+                },
+                {
+                  "class_id": 5,
+                  "label": "schipperke",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 3,
+                      "score": 0.039636
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 3
+                },
+                {
+                  "class_id": 64,
+                  "label": "bouvier_des_flandres",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 4,
+                      "score": 0.0238
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 4
+                },
+                {
+                  "class_id": 47,
+                  "label": "kerry_blue_terrier",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 5,
+                      "score": 0.020629
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 5
+                }
+              ],
+              "blockers": [
+                "Current results have quality concerns, weak scores, or an unresolved published label."
+              ],
+              "report_eligible_ids": [],
+              "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+              "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+            },
+            "change": "One photo has classifier evidence; agreement across photographs is untested.",
+            "limitations": [
+              "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+              "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+              "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+            ],
+            "quality_flags": [],
+            "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+          },
+          "controller_seconds": 6.199,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 46,
+            "total_duration_ns": 6179343750
+          },
+          "seconds": 0.0
+        },
+        {
+          "id": 4,
+          "kind": "tool",
+          "tool": "inspect_image",
+          "input": {
+            "photo_id": "photo-2"
+          },
+          "photo_id": "photo-2",
+          "status": "ok",
+          "output": {
+            "width": 2160,
+            "height": 1440,
+            "mean_luminance": 76.49,
+            "laplacian_variance": 646.41,
+            "quality_flags": [],
+            "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+          },
+          "controller_seconds": 5.999,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 37,
+            "total_duration_ns": 5982572000
+          },
+          "seconds": 0.056
+        }
+      ]
+    },
+    "original": {
+      "current_photo_id": "photo-2",
+      "photo_count": 2,
+      "actions_remaining": 5,
+      "allowed_tools": [
+        "classify_breed",
+        "finish_assessment",
+        "request_another_photo"
+      ],
+      "available_region_ids": [],
+      "request_reasons": [
+        "insufficient_evidence"
+      ],
+      "followup_unavailable": false,
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 116,
+                    "label": "scotch_terrier",
+                    "score": 0.053181,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 98,
+                    "label": "giant_schnauzer",
+                    "score": 0.041718,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 5,
+                    "label": "schipperke",
+                    "score": 0.039636,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 64,
+                    "label": "bouvier_des_flandres",
+                    "score": 0.0238,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 47,
+                    "label": "kerry_blue_terrier",
+                    "score": 0.020629,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": []
+              }
+            ],
+            "leading_class_ids": [
+              116
+            ]
+          },
+          {
+            "photo_id": "photo-2",
+            "inspection_event_id": 4,
+            "quality_flags": [],
+            "rankings": [],
+            "leading_class_ids": []
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 116,
+            "label": "scotch_terrier",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.053181
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 98,
+            "label": "giant_schnauzer",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.041718
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 5,
+            "label": "schipperke",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.039636
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 64,
+            "label": "bouvier_des_flandres",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.0238
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 47,
+            "label": "kerry_blue_terrier",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.020629
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "The current photo has no classifier result."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "recent_errors": []
+    },
+    "clearer": {
+      "current_photo_classified": false,
+      "blockers": [
+        "The current photo has no classifier result."
+      ],
+      "current_photo_id": "photo-2",
+      "photo_count": 2,
+      "actions_remaining": 5,
+      "allowed_tools": [
+        "classify_breed",
+        "finish_assessment",
+        "request_another_photo"
+      ],
+      "available_region_ids": [],
+      "request_reasons": [
+        "insufficient_evidence"
+      ],
+      "followup_unavailable": false,
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 116,
+                    "label": "scotch_terrier",
+                    "score": 0.053181,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 98,
+                    "label": "giant_schnauzer",
+                    "score": 0.041718,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 5,
+                    "label": "schipperke",
+                    "score": 0.039636,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 64,
+                    "label": "bouvier_des_flandres",
+                    "score": 0.0238,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 47,
+                    "label": "kerry_blue_terrier",
+                    "score": 0.020629,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": []
+              }
+            ],
+            "leading_class_ids": [
+              116
+            ]
+          },
+          {
+            "photo_id": "photo-2",
+            "inspection_event_id": 4,
+            "quality_flags": [],
+            "rankings": [],
+            "leading_class_ids": []
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 116,
+            "label": "scotch_terrier",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.053181
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 98,
+            "label": "giant_schnauzer",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.041718
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 5,
+            "label": "schipperke",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.039636
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 64,
+            "label": "bouvier_des_flandres",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.0238
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 47,
+            "label": "kerry_blue_terrier",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.020629
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "The current photo has no classifier result."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "recent_errors": []
+    },
+    "schema": {
+      "$defs": {
+        "ClassifyCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "classify_breed",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/PhotoArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "ClassifyCall",
+          "type": "object"
+        },
+        "FinishArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "outcome": {
+              "const": "inconclusive",
+              "type": "string"
+            },
+            "selected_result_id": {
+              "enum": [
+                null
+              ]
+            }
+          },
+          "required": [
+            "outcome",
+            "selected_result_id"
+          ],
+          "title": "FinishArgs",
+          "type": "object"
+        },
+        "FinishCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "finish_assessment",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/FinishArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "FinishCall",
+          "type": "object"
+        },
+        "InspectCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "inspect_image",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/PhotoArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "InspectCall",
+          "type": "object"
+        },
+        "PhotoArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "photo_id": {
+              "enum": [
+                "photo-2"
+              ]
+            }
+          },
+          "required": [
+            "photo_id"
+          ],
+          "title": "PhotoArgs",
+          "type": "object"
+        },
+        "RegionArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "photo_id": {
+              "enum": [
+                "photo-2"
+              ]
+            },
+            "region_id": {
+              "enum": [
+                "unavailable"
+              ]
+            }
+          },
+          "required": [
+            "photo_id",
+            "region_id"
+          ],
+          "title": "RegionArgs",
+          "type": "object"
+        },
+        "RegionCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "classify_region",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/RegionArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "RegionCall",
+          "type": "object"
+        },
+        "RequestArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "reason": {
+              "enum": [
+                "insufficient_evidence"
+              ]
+            },
+            "view": {
+              "enum": [
+                "well_lit_full_body",
+                "sharp_face_and_body",
+                "closer_full_body"
+              ],
+              "title": "View",
+              "type": "string"
+            }
+          },
+          "required": [
+            "reason",
+            "view"
+          ],
+          "title": "RequestArgs",
+          "type": "object"
+        },
+        "RequestCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "request_another_photo",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/RequestArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "RequestCall",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "call": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ClassifyCall"
+            },
+            {
+              "$ref": "#/$defs/RequestCall"
+            },
+            {
+              "$ref": "#/$defs/FinishCall"
+            }
+          ],
+          "title": "Call"
+        }
+      },
+      "required": [
+        "call"
+      ],
+      "title": "Decision",
+      "type": "object"
+    },
+    "historical_next_action": "finish_assessment"
+  },
+  "buddy": {
+    "case": {
+      "photos": [
+        {
+          "id": "photo-1"
+        },
+        {
+          "id": "photo-2"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "kind": "tool",
+          "tool": "inspect_image",
+          "input": {
+            "photo_id": "photo-1"
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "width": 960,
+            "height": 785,
+            "mean_luminance": 106.1,
+            "laplacian_variance": 265.23,
+            "quality_flags": [],
+            "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+          },
+          "controller_seconds": 3.444,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 35,
+            "total_duration_ns": 3321217625
+          },
+          "seconds": 0.021
+        },
+        {
+          "id": 2,
+          "kind": "tool",
+          "tool": "classify_breed",
+          "input": {
+            "photo_id": "photo-1"
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "candidates": [
+              {
+                "class_id": 48,
+                "label": "weimaraner",
+                "score": 0.065821,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 80,
+                "label": "labrador_retriever",
+                "score": 0.042381,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 115,
+                "label": "chesapeake_bay_retriever",
+                "score": 0.038894,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 113,
+                "label": "german_short",
+                "score": 0.031984,
+                "unresolved_label": true
+              },
+              {
+                "class_id": 9,
+                "label": "vizsla",
+                "score": 0.031251,
+                "unresolved_label": false
+              }
+            ],
+            "margin": 0.02344,
+            "device": "mps",
+            "inference_seconds": 0.1226,
+            "fallback": null,
+            "mps_allocated_bytes": 348282880,
+            "mps_driver_bytes": 382418944
+          },
+          "controller_seconds": 2.807,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 36,
+            "total_duration_ns": 2799937083
+          },
+          "seconds": 0.123
+        },
+        {
+          "id": 3,
+          "kind": "tool",
+          "tool": "finish_assessment",
+          "input": {
+            "outcome": "inconclusive",
+            "selected_result_id": null
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "version": 2,
+            "outcome": "inconclusive",
+            "selected_result_id": null,
+            "completed_by": "agent",
+            "evidence_ids": [
+              1,
+              2
+            ],
+            "candidates": [],
+            "comparison": {
+              "version": 2,
+              "relation": "single_photo",
+              "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+              "views": [
+                {
+                  "photo_id": "photo-1",
+                  "inspection_event_id": 1,
+                  "quality_flags": [],
+                  "rankings": [
+                    {
+                      "event_id": 2,
+                      "region_id": null,
+                      "candidates": [
+                        {
+                          "class_id": 48,
+                          "label": "weimaraner",
+                          "score": 0.065821,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 80,
+                          "label": "labrador_retriever",
+                          "score": 0.042381,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 115,
+                          "label": "chesapeake_bay_retriever",
+                          "score": 0.038894,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 113,
+                          "label": "german_short",
+                          "score": 0.031984,
+                          "unresolved_label": true
+                        },
+                        {
+                          "class_id": 9,
+                          "label": "vizsla",
+                          "score": 0.031251,
+                          "unresolved_label": false
+                        }
+                      ],
+                      "weak_scores": true,
+                      "quality_flags": []
+                    }
+                  ],
+                  "leading_class_ids": [
+                    48
+                  ]
+                }
+              ],
+              "ranked_photo_count": 1,
+              "candidates": [
+                {
+                  "class_id": 48,
+                  "label": "weimaraner",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 1,
+                      "score": 0.065821
+                    }
+                  ],
+                  "supporting_photo_ids": [
+                    "photo-1"
+                  ],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 1
+                },
+                {
+                  "class_id": 80,
+                  "label": "labrador_retriever",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 2,
+                      "score": 0.042381
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 2
+                },
+                {
+                  "class_id": 115,
+                  "label": "chesapeake_bay_retriever",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 3,
+                      "score": 0.038894
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 3
+                },
+                {
+                  "class_id": 113,
+                  "label": "german_short",
+                  "unresolved_label": true,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 4,
+                      "score": 0.031984
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 4
+                },
+                {
+                  "class_id": 9,
+                  "label": "vizsla",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 5,
+                      "score": 0.031251
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 5
+                }
+              ],
+              "blockers": [
+                "Current results have quality concerns, weak scores, or an unresolved published label."
+              ],
+              "report_eligible_ids": [],
+              "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+              "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+            },
+            "change": "One photo has classifier evidence; agreement across photographs is untested.",
+            "limitations": [
+              "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+              "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+              "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+            ],
+            "quality_flags": [],
+            "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+          },
+          "controller_seconds": 6.926,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 46,
+            "total_duration_ns": 6919911084
+          },
+          "seconds": 0.0
+        },
+        {
+          "id": 4,
+          "kind": "tool",
+          "tool": "inspect_image",
+          "input": {
+            "photo_id": "photo-2"
+          },
+          "photo_id": "photo-2",
+          "status": "ok",
+          "output": {
+            "width": 960,
+            "height": 724,
+            "mean_luminance": 114.54,
+            "laplacian_variance": 1162.15,
+            "quality_flags": [],
+            "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+          },
+          "controller_seconds": 5.969,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 37,
+            "total_duration_ns": 5963906500
+          },
+          "seconds": 0.019
+        }
+      ]
+    },
+    "original": {
+      "current_photo_id": "photo-2",
+      "photo_count": 2,
+      "actions_remaining": 5,
+      "allowed_tools": [
+        "classify_breed",
+        "finish_assessment",
+        "request_another_photo"
+      ],
+      "available_region_ids": [],
+      "request_reasons": [
+        "insufficient_evidence"
+      ],
+      "followup_unavailable": false,
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 48,
+                    "label": "weimaraner",
+                    "score": 0.065821,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 80,
+                    "label": "labrador_retriever",
+                    "score": 0.042381,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 115,
+                    "label": "chesapeake_bay_retriever",
+                    "score": 0.038894,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 113,
+                    "label": "german_short",
+                    "score": 0.031984,
+                    "unresolved_label": true
+                  },
+                  {
+                    "class_id": 9,
+                    "label": "vizsla",
+                    "score": 0.031251,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": []
+              }
+            ],
+            "leading_class_ids": [
+              48
+            ]
+          },
+          {
+            "photo_id": "photo-2",
+            "inspection_event_id": 4,
+            "quality_flags": [],
+            "rankings": [],
+            "leading_class_ids": []
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 48,
+            "label": "weimaraner",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.065821
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 80,
+            "label": "labrador_retriever",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.042381
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 115,
+            "label": "chesapeake_bay_retriever",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.038894
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 113,
+            "label": "german_short",
+            "unresolved_label": true,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.031984
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 9,
+            "label": "vizsla",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.031251
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "The current photo has no classifier result."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "recent_errors": []
+    },
+    "clearer": {
+      "current_photo_classified": false,
+      "blockers": [
+        "The current photo has no classifier result."
+      ],
+      "current_photo_id": "photo-2",
+      "photo_count": 2,
+      "actions_remaining": 5,
+      "allowed_tools": [
+        "classify_breed",
+        "finish_assessment",
+        "request_another_photo"
+      ],
+      "available_region_ids": [],
+      "request_reasons": [
+        "insufficient_evidence"
+      ],
+      "followup_unavailable": false,
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 48,
+                    "label": "weimaraner",
+                    "score": 0.065821,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 80,
+                    "label": "labrador_retriever",
+                    "score": 0.042381,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 115,
+                    "label": "chesapeake_bay_retriever",
+                    "score": 0.038894,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 113,
+                    "label": "german_short",
+                    "score": 0.031984,
+                    "unresolved_label": true
+                  },
+                  {
+                    "class_id": 9,
+                    "label": "vizsla",
+                    "score": 0.031251,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": []
+              }
+            ],
+            "leading_class_ids": [
+              48
+            ]
+          },
+          {
+            "photo_id": "photo-2",
+            "inspection_event_id": 4,
+            "quality_flags": [],
+            "rankings": [],
+            "leading_class_ids": []
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 48,
+            "label": "weimaraner",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.065821
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 80,
+            "label": "labrador_retriever",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.042381
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 115,
+            "label": "chesapeake_bay_retriever",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.038894
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 113,
+            "label": "german_short",
+            "unresolved_label": true,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.031984
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 9,
+            "label": "vizsla",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.031251
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "The current photo has no classifier result."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "recent_errors": []
+    },
+    "schema": {
+      "$defs": {
+        "ClassifyCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "classify_breed",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/PhotoArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "ClassifyCall",
+          "type": "object"
+        },
+        "FinishArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "outcome": {
+              "const": "inconclusive",
+              "type": "string"
+            },
+            "selected_result_id": {
+              "enum": [
+                null
+              ]
+            }
+          },
+          "required": [
+            "outcome",
+            "selected_result_id"
+          ],
+          "title": "FinishArgs",
+          "type": "object"
+        },
+        "FinishCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "finish_assessment",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/FinishArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "FinishCall",
+          "type": "object"
+        },
+        "InspectCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "inspect_image",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/PhotoArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "InspectCall",
+          "type": "object"
+        },
+        "PhotoArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "photo_id": {
+              "enum": [
+                "photo-2"
+              ]
+            }
+          },
+          "required": [
+            "photo_id"
+          ],
+          "title": "PhotoArgs",
+          "type": "object"
+        },
+        "RegionArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "photo_id": {
+              "enum": [
+                "photo-2"
+              ]
+            },
+            "region_id": {
+              "enum": [
+                "unavailable"
+              ]
+            }
+          },
+          "required": [
+            "photo_id",
+            "region_id"
+          ],
+          "title": "RegionArgs",
+          "type": "object"
+        },
+        "RegionCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "classify_region",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/RegionArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "RegionCall",
+          "type": "object"
+        },
+        "RequestArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "reason": {
+              "enum": [
+                "insufficient_evidence"
+              ]
+            },
+            "view": {
+              "enum": [
+                "well_lit_full_body",
+                "sharp_face_and_body",
+                "closer_full_body"
+              ],
+              "title": "View",
+              "type": "string"
+            }
+          },
+          "required": [
+            "reason",
+            "view"
+          ],
+          "title": "RequestArgs",
+          "type": "object"
+        },
+        "RequestCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "request_another_photo",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/RequestArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "RequestCall",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "call": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ClassifyCall"
+            },
+            {
+              "$ref": "#/$defs/RequestCall"
+            },
+            {
+              "$ref": "#/$defs/FinishCall"
+            }
+          ],
+          "title": "Call"
+        }
+      },
+      "required": [
+        "call"
+      ],
+      "title": "Decision",
+      "type": "object"
+    },
+    "historical_next_action": "finish_assessment"
+  },
+  "bo": {
+    "case": {
+      "photos": [
+        {
+          "id": "photo-1"
+        },
+        {
+          "id": "photo-2"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "kind": "tool",
+          "tool": "inspect_image",
+          "input": {
+            "photo_id": "photo-1"
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "width": 1280,
+            "height": 853,
+            "mean_luminance": 141.48,
+            "laplacian_variance": 591.98,
+            "quality_flags": [],
+            "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+          },
+          "controller_seconds": 3.258,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 35,
+            "total_duration_ns": 3251306667
+          },
+          "seconds": 0.022
+        },
+        {
+          "id": 2,
+          "kind": "tool",
+          "tool": "classify_breed",
+          "input": {
+            "photo_id": "photo-1"
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "candidates": [
+              {
+                "class_id": 15,
+                "label": "pug",
+                "score": 0.015448,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 48,
+                "label": "weimaraner",
+                "score": 0.013797,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 16,
+                "label": "kelpie",
+                "score": 0.012425,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 58,
+                "label": "french_bulldog",
+                "score": 0.012297,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 82,
+                "label": "groenendael",
+                "score": 0.011809,
+                "unresolved_label": false
+              }
+            ],
+            "margin": 0.001651,
+            "device": "mps",
+            "inference_seconds": 0.0793,
+            "fallback": null,
+            "mps_allocated_bytes": 348282880,
+            "mps_driver_bytes": 382418944
+          },
+          "controller_seconds": 3.107,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 36,
+            "total_duration_ns": 3100268042
+          },
+          "seconds": 0.08
+        },
+        {
+          "id": 3,
+          "kind": "tool",
+          "tool": "finish_assessment",
+          "input": {
+            "outcome": "inconclusive",
+            "selected_result_id": null
+          },
+          "photo_id": "photo-1",
+          "status": "ok",
+          "output": {
+            "version": 2,
+            "outcome": "inconclusive",
+            "selected_result_id": null,
+            "completed_by": "agent",
+            "evidence_ids": [
+              1,
+              2
+            ],
+            "candidates": [],
+            "comparison": {
+              "version": 2,
+              "relation": "single_photo",
+              "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+              "views": [
+                {
+                  "photo_id": "photo-1",
+                  "inspection_event_id": 1,
+                  "quality_flags": [],
+                  "rankings": [
+                    {
+                      "event_id": 2,
+                      "region_id": null,
+                      "candidates": [
+                        {
+                          "class_id": 15,
+                          "label": "pug",
+                          "score": 0.015448,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 48,
+                          "label": "weimaraner",
+                          "score": 0.013797,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 16,
+                          "label": "kelpie",
+                          "score": 0.012425,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 58,
+                          "label": "french_bulldog",
+                          "score": 0.012297,
+                          "unresolved_label": false
+                        },
+                        {
+                          "class_id": 82,
+                          "label": "groenendael",
+                          "score": 0.011809,
+                          "unresolved_label": false
+                        }
+                      ],
+                      "weak_scores": true,
+                      "quality_flags": []
+                    }
+                  ],
+                  "leading_class_ids": [
+                    15
+                  ]
+                }
+              ],
+              "ranked_photo_count": 1,
+              "candidates": [
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 1,
+                      "score": 0.015448
+                    }
+                  ],
+                  "supporting_photo_ids": [
+                    "photo-1"
+                  ],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 1
+                },
+                {
+                  "class_id": 48,
+                  "label": "weimaraner",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 2,
+                      "score": 0.013797
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 2
+                },
+                {
+                  "class_id": 16,
+                  "label": "kelpie",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 3,
+                      "score": 0.012425
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 3
+                },
+                {
+                  "class_id": 58,
+                  "label": "french_bulldog",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 4,
+                      "score": 0.012297
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 4
+                },
+                {
+                  "class_id": 82,
+                  "label": "groenendael",
+                  "unresolved_label": false,
+                  "observations": [
+                    {
+                      "photo_id": "photo-1",
+                      "event_id": 2,
+                      "region_id": null,
+                      "rank": 5,
+                      "score": 0.011809
+                    }
+                  ],
+                  "supporting_photo_ids": [],
+                  "top5_photo_ids": [
+                    "photo-1"
+                  ],
+                  "rank_sum": 5
+                }
+              ],
+              "blockers": [
+                "Current results have quality concerns, weak scores, or an unresolved published label."
+              ],
+              "report_eligible_ids": [],
+              "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+              "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+            },
+            "change": "One photo has classifier evidence; agreement across photographs is untested.",
+            "limitations": [
+              "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+              "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+              "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+            ],
+            "quality_flags": [],
+            "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+          },
+          "controller_seconds": 7.465,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 46,
+            "total_duration_ns": 7459237333
+          },
+          "seconds": 0.0
+        },
+        {
+          "id": 4,
+          "kind": "tool",
+          "tool": "inspect_image",
+          "input": {
+            "photo_id": "photo-2"
+          },
+          "photo_id": "photo-2",
+          "status": "ok",
+          "output": {
+            "width": 1280,
+            "height": 1920,
+            "mean_luminance": 93.48,
+            "laplacian_variance": 1453.13,
+            "quality_flags": [],
+            "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+          },
+          "controller_seconds": 6.84,
+          "controller": {
+            "model": "qwen3:4b",
+            "eval_count": 35,
+            "total_duration_ns": 6833245666
+          },
+          "seconds": 0.047
+        }
+      ]
+    },
+    "original": {
+      "current_photo_id": "photo-2",
+      "photo_count": 2,
+      "actions_remaining": 5,
+      "allowed_tools": [
+        "classify_breed",
+        "finish_assessment",
+        "request_another_photo"
+      ],
+      "available_region_ids": [],
+      "request_reasons": [
+        "insufficient_evidence"
+      ],
+      "followup_unavailable": false,
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 15,
+                    "label": "pug",
+                    "score": 0.015448,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 48,
+                    "label": "weimaraner",
+                    "score": 0.013797,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 16,
+                    "label": "kelpie",
+                    "score": 0.012425,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 58,
+                    "label": "french_bulldog",
+                    "score": 0.012297,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 82,
+                    "label": "groenendael",
+                    "score": 0.011809,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": []
+              }
+            ],
+            "leading_class_ids": [
+              15
+            ]
+          },
+          {
+            "photo_id": "photo-2",
+            "inspection_event_id": 4,
+            "quality_flags": [],
+            "rankings": [],
+            "leading_class_ids": []
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 15,
+            "label": "pug",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.015448
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 48,
+            "label": "weimaraner",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.013797
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 16,
+            "label": "kelpie",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.012425
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 58,
+            "label": "french_bulldog",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.012297
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 82,
+            "label": "groenendael",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.011809
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "The current photo has no classifier result."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "recent_errors": []
+    },
+    "clearer": {
+      "current_photo_classified": false,
+      "blockers": [
+        "The current photo has no classifier result."
+      ],
+      "current_photo_id": "photo-2",
+      "photo_count": 2,
+      "actions_remaining": 5,
+      "allowed_tools": [
+        "classify_breed",
+        "finish_assessment",
+        "request_another_photo"
+      ],
+      "available_region_ids": [],
+      "request_reasons": [
+        "insufficient_evidence"
+      ],
+      "followup_unavailable": false,
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 15,
+                    "label": "pug",
+                    "score": 0.015448,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 48,
+                    "label": "weimaraner",
+                    "score": 0.013797,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 16,
+                    "label": "kelpie",
+                    "score": 0.012425,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 58,
+                    "label": "french_bulldog",
+                    "score": 0.012297,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 82,
+                    "label": "groenendael",
+                    "score": 0.011809,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": []
+              }
+            ],
+            "leading_class_ids": [
+              15
+            ]
+          },
+          {
+            "photo_id": "photo-2",
+            "inspection_event_id": 4,
+            "quality_flags": [],
+            "rankings": [],
+            "leading_class_ids": []
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 15,
+            "label": "pug",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.015448
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 48,
+            "label": "weimaraner",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.013797
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 16,
+            "label": "kelpie",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.012425
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 58,
+            "label": "french_bulldog",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.012297
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 82,
+            "label": "groenendael",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.011809
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "The current photo has no classifier result."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "recent_errors": []
+    },
+    "schema": {
+      "$defs": {
+        "ClassifyCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "classify_breed",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/PhotoArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "ClassifyCall",
+          "type": "object"
+        },
+        "FinishArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "outcome": {
+              "const": "inconclusive",
+              "type": "string"
+            },
+            "selected_result_id": {
+              "enum": [
+                null
+              ]
+            }
+          },
+          "required": [
+            "outcome",
+            "selected_result_id"
+          ],
+          "title": "FinishArgs",
+          "type": "object"
+        },
+        "FinishCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "finish_assessment",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/FinishArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "FinishCall",
+          "type": "object"
+        },
+        "InspectCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "inspect_image",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/PhotoArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "InspectCall",
+          "type": "object"
+        },
+        "PhotoArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "photo_id": {
+              "enum": [
+                "photo-2"
+              ]
+            }
+          },
+          "required": [
+            "photo_id"
+          ],
+          "title": "PhotoArgs",
+          "type": "object"
+        },
+        "RegionArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "photo_id": {
+              "enum": [
+                "photo-2"
+              ]
+            },
+            "region_id": {
+              "enum": [
+                "unavailable"
+              ]
+            }
+          },
+          "required": [
+            "photo_id",
+            "region_id"
+          ],
+          "title": "RegionArgs",
+          "type": "object"
+        },
+        "RegionCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "classify_region",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/RegionArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "RegionCall",
+          "type": "object"
+        },
+        "RequestArgs": {
+          "additionalProperties": false,
+          "properties": {
+            "reason": {
+              "enum": [
+                "insufficient_evidence"
+              ]
+            },
+            "view": {
+              "enum": [
+                "well_lit_full_body",
+                "sharp_face_and_body",
+                "closer_full_body"
+              ],
+              "title": "View",
+              "type": "string"
+            }
+          },
+          "required": [
+            "reason",
+            "view"
+          ],
+          "title": "RequestArgs",
+          "type": "object"
+        },
+        "RequestCall": {
+          "additionalProperties": false,
+          "properties": {
+            "tool": {
+              "const": "request_another_photo",
+              "title": "Tool",
+              "type": "string"
+            },
+            "arguments": {
+              "$ref": "#/$defs/RequestArgs"
+            }
+          },
+          "required": [
+            "tool",
+            "arguments"
+          ],
+          "title": "RequestCall",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "call": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ClassifyCall"
+            },
+            {
+              "$ref": "#/$defs/RequestCall"
+            },
+            {
+              "$ref": "#/$defs/FinishCall"
+            }
+          ],
+          "title": "Call"
+        }
+      },
+      "required": [
+        "call"
+      ],
+      "title": "Decision",
+      "type": "object"
+    },
+    "historical_next_action": "finish_assessment"
+  }
+}

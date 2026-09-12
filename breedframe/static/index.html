@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BreedFrame · A closer look</title>
+  <link rel="stylesheet" href="/static/style.css"><script defer src="/static/app.js"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/"><span class="brandmark">b.</span>BreedFrame<span class="version">FIELD NOTES / 02</span></a><span class="local-pill"><span class="dot"></span> Local by design</span></header>
+  <main>
+    <section class="intro"><div><div class="eyebrow">A LOCAL DOG-PHOTO INVESTIGATION</div><h1>Local inference.<br><em>Visible uncertainty.</em></h1><p>Inspect the agent’s tool calls, raw breed rankings, and reporting blockers. This prototype produced inconclusive assessments in its recorded v2 runs.</p></div><div class="intro-note"><span class="note-number">120</span><span>known classes.<br>Room for uncertainty.</span><div class="tiny-rule"></div><span class="small">Photos stay on this Mac.<br>No cloud inference.</span></div></section>
+    <div class="workspace-label"><span>THE WORKSPACE</span><span id="runtime">Checking local models…</span></div>
+    <div id="error" class="error" role="alert" hidden></div>
+    <section class="workspace">
+      <aside class="left-column">
+        <div class="panel photo-panel"><div class="panel-heading"><h2>The evidence</h2><span class="tag" id="photo-count">NEW CASE</span></div>
+          <div id="photo-stage" class="photo-stage"><img src="/api/demo-image" alt="Beagle demo photograph by sannse"><span class="image-caption">DEMO PHOTOGRAPH · SANNSE</span></div>
+          <div id="thumbnails" class="thumbnails"></div>
+          <form id="upload-form"><label id="drop-zone" class="drop-zone" for="photo-input"><span class="upload-icon">↥</span><strong id="upload-label">Bring a photo. Start an investigation.</strong><span>Choose or drop a JPEG, PNG or WebP · up to 12 MiB</span><input id="photo-input" type="file" accept="image/jpeg,image/png,image/webp"></label><button id="upload-button" class="button primary" type="submit" disabled>Choose a photo first <span>↗</span></button></form>
+          <div class="demo-row"><span>Or try a real local run</span><div><button id="demo-clear" class="button small-button">Clear photo</button><button id="demo-small" class="button small-button">Low-resolution photo</button></div></div>
+          <button id="demo-resume" class="button primary" hidden>Add the full-resolution demo photo ↗</button><p class="attribution">Demo: <a href="https://commons.wikimedia.org/wiki/File:Beagle_600.jpg" target="_blank" rel="noreferrer">Beagle, sannse</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noreferrer">CC BY-SA 3.0</a>. Low-resolution version resized to 48×32. Demo inputs are separate from evaluation.</p>
+        </div>
+        <details id="region-editor" class="panel region-editor" hidden><summary>Select a dog region</summary><p>Draw a box around the dog, including its face and body. This is your selection; BreedFrame has no dog detector.</p><canvas id="region-canvas" aria-label="Draw a dog region or enter its bounds below"></canvas><div class="region-fields"><label>Left %<input id="region-left" type="number" min="0" max="100" value="0"></label><label>Top %<input id="region-top" type="number" min="0" max="100" value="0"></label><label>Right %<input id="region-right" type="number" min="0" max="100" value="100"></label><label>Bottom %<input id="region-bottom" type="number" min="0" max="100" value="100"></label></div><button id="region-save" class="button primary">Analyze selected region</button><p id="region-note" class="small">One region per photo. Uses the remaining action budget.</p></details><div class="privacy-note"><span>◎</span><p><strong>Visual matches, with limits.</strong><br>Scores are model outputs, not ancestry percentages. A photo cannot establish a dog’s genetic breed.</p></div>
+        <details class="history"><summary>Recent local cases</summary><div id="case-list"></div></details>
+      </aside>
+      <div class="right-column">
+<div class="panel investigation"><div class="panel-heading"><h2>The investigation</h2><span id="status" class="tag">READY WHEN YOU ARE</span></div>
+          <div class="status-line"><span id="status-dot" class="large-dot"></span><div><strong id="status-title">Every action leaves a record.</strong><p id="status-detail">The agent chooses what to do. You can inspect what actually happened.</p></div></div>
+          </div>
+        <div id="request-panel" class="request-panel" hidden><span class="eyebrow">WAITING FOR YOUR INPUT</span><h2>Another view could help.</h2><p id="request-text"></p><p id="request-why"></p><button id="focus-upload" class="button small-button">Choose a follow-up photo ↥</button><span class="small">The case is paused. Prior observations stay with it.</span></div>
+        <div class="panel results-panel"><div class="panel-heading"><h2 id="results-title">Assessment across views</h2><span class="tag" id="result-tag">AWAITING EVIDENCE</span></div><p id="report-intro" class="subtle">A ranked comparison will appear after a real classifier call.</p><div id="candidates"></div><div id="comparison-views" class="comparison-views"></div><p id="change" class="change" hidden></p><div id="uncertainty" class="uncertainty" hidden></div><details id="ranking-history" hidden><summary>Ranking history across photos</summary><div id="ranking-rows"></div></details><div id="baseline-area" hidden><button id="baseline-button" class="text-button">Compare with direct classification ↗</button><div id="baseline-result"></div></div></div>
+<details id="execution-details" class="execution-details"><summary>Execution record · inspect the agent’s actions</summary>        <div class="panel investigation"><div class="panel-heading"><h2>Action trace</h2></div><div class="flow"><span>OBSERVE</span><b>→</b><span>CHOOSE</span><b>→</b><span>CALL A TOOL</span><b>→</b><span>REASSESS</span></div>
+          <div id="trace" class="trace"><div class="empty-trace"><span>01</span><div><strong>Your investigation begins with a photo.</strong><p>Tool results will appear here as the local agent works. No prerecorded activity.</p></div></div></div>
+          <div class="trace-footer"><span id="budget">Up to 6 actions per photo</span><span id="duration">Qwen3 4B + ViT</span></div>
+        </div>
+</details>
+        <div class="panel management"><button id="cancel-case" class="button small-button" hidden>Cancel investigation</button><button id="retry-case" class="button small-button" hidden>Retry remaining actions</button><button id="finish-partial" class="button small-button" hidden>I can’t provide another photo</button><a id="report-export" class="text-button" hidden>Download assessment ↓</a><button id="delete-case" class="text-button" hidden>Delete this case</button><p id="cancel-note" class="small" hidden>Cancellation waits for the current bounded call to return. Completed observations stay in the case.</p></div><div class="case-controls"><button id="new-case" class="text-button">＋ Start a separate case</button><a id="export" class="text-button" hidden>Open execution record ↗</a></div>
+      </div>
+    </section>
+    <footer><span>BreedFrame / An experiment in evidence-led AI</span><span>Local inference. Bounded actions. Honest uncertainty.</span></footer>
+  </main>
+</body>
+</html>

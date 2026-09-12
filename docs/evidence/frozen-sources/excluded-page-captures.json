@@ -1,0 +1,19 @@
+{
+  "excluded_from_public_tree": [
+    {
+      "previous_path": "docs/evidence/identity-comparison/blanco-01-source.html",
+      "sha256": "5d48ec3ace33a9e40d7e34d053309738182978c1f372e4f1ee69a844d75ed190",
+      "reason": "Full third-party page capture excluded from publication; source URLs and factual metadata remain."
+    },
+    {
+      "previous_path": "docs/evidence/identity-comparison/blanco-02-source.html",
+      "sha256": "ace83c28bc5be043c10d09e2a2e6f8d7cb8e16ffc18c7467e0c92ad24654e9ba",
+      "reason": "Full third-party page capture excluded from publication; source URLs and factual metadata remain."
+    },
+    {
+      "previous_path": "docs/evidence/identity-comparison/collies-owner-page.html",
+      "sha256": "a31d07c0cd3c241e35fab55ca8ed00fd117029591ad6b1592011ccfff9b878e8",
+      "reason": "Full third-party page capture excluded from publication; source URLs and factual metadata remain."
+    }
+  ]
+}

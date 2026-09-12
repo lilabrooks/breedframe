@@ -1,0 +1,580 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 5,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "69438976": {
+        "pageid": 69438976,
+        "ns": 6,
+        "title": "File:Alonlevavi.JPG",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-05-25T10:40:36Z",
+            "size": 21085,
+            "width": 163,
+            "height": 445,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Alonlevavi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 2730,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Alonlevavi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 2730
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Alonlevavi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alonlevavi.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69438976",
+            "sha1": "42c2822bda7818dc74b049634f1b5de2d8292642",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-05-25 10:40:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Alonlevavi",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files from external sources with reviewed licenses|Alon Levavi|Items with VRTS permission confirmed|Media from the Israeli Police|Israeli Police media with link|Israeli Police media with source",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%95%D7%9F_%D7%9C%D7%91%D7%91%D7%99\" class=\"extiw\" title=\"he:\u05d0\u05dc\u05d5\u05df \u05dc\u05d1\u05d1\u05d9\">\u05d0\u05dc\u05d5\u05df \u05dc\u05d1\u05d1\u05d9</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-06-29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This is available from the <a href=\"https://en.wikipedia.org/wiki/en:Israel_Police\" class=\"extiw\" title=\"w:en:Israel Police\"><span title=\"civilian police force of Israel\">Israel Police</span></a> in the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.facebook.com/israelpolice/photos/a.113262575362520.12450.113257552029689/822812457740858/?type=3&amp;theater\">Facebook account (Israel Police)</a>.<br><small>This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See <a href=\"//commons.wikimedia.org/wiki/Commons:Licensing\" title=\"Commons:Licensing\">Commons:Licensing</a> for more information.</small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Shay Koren / <a href=\"https://en.wikipedia.org/wiki/en:Israel_Police\" class=\"extiw\" title=\"w:en:Israel Police\"><span title=\"civilian police force of Israel\">Israel Police</span></a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/en:Israel_Police\" class=\"extiw\" title=\"w:en:Israel Police\"><span title=\"civilian police force of Israel\">Israel Police</span></a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 789582261,
+            "parentid": 475168790
+          }
+        ]
+      },
+      "67283850": {
+        "pageid": 67283850,
+        "ns": 6,
+        "title": "File:Crew with Walville Lumber Company's two-truck Shay locomotive no 10 and log train, ca 1919 (KINSEY 735).jpeg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-12T20:12:51Z",
+            "size": 81661,
+            "width": 768,
+            "height": 596,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Crew_with_Walville_Lumber_Company%27s_two-truck_Shay_locomotive_no_10_and_log_train%2C_ca_1919_%28KINSEY_735%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 776,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Crew_with_Walville_Lumber_Company%27s_two-truck_Shay_locomotive_no_10_and_log_train%2C_ca_1919_%28KINSEY_735%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 776
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Crew_with_Walville_Lumber_Company%27s_two-truck_Shay_locomotive_no_10_and_log_train%2C_ca_1919_%28KINSEY_735%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Crew_with_Walville_Lumber_Company%27s_two-truck_Shay_locomotive_no_10_and_log_train,_ca_1919_(KINSEY_735).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67283850",
+            "sha1": "3e5c1448dfb3b81afe7b8dfd80f0ef72bd0db418",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-03-12 20:12:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Crew with Walville Lumber Company's two-truck Shay locomotive no. 10 and log train, ca. 1919",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Shay locomotives|Logging in Washington (state)|PD-old-60-expired|Logging locomotives of the United States|1919 in rail transport in the United States|Media needing category review as of 12 March 2018|Logging in Lewis County, Washington|PD-old missing SDC copyright status|Media needing category review with 4 suggested categories|Images from the Kinsey Brothers Photographs Collection|Images from the Kinsey Brothers Photographs Collection to check|Railway logging in Washington (state)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Clark_Kinsey\" class=\"extiw\" title=\"w:en:Clark Kinsey\"><span title=\"American photographer\">Clark Kinsey</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Caption on image:  Walville Lmbr Co.  C. Kinsey Photo, Seattle.  No. 02  PH Coll 516.4551<br>The town of Walville is located in Lewis County, 4 miles southwest of Pe Ell on the Pacific County border.  It was originally called Rock Creek and was the site of the Rock Creek Lumber Company.  Later it took its name from its founders, Michigan lumbermen Walworth and Neville Wallville.  The town began in 1898 and folded in 1930.  The company town probably supported about 200 persons and attained some fame for the large hex symbol of an arched black cat that adorned the mill gate.  Utilizing Japanese millhands on the nightshift, the Wallville mill counted 74 Japanese workers in 1909.  The sawmill was located at the base of a ravine along the railroad tracks.  The town of shacks, bunkhouses, and mill office-store was sited across the tracks within the Y formed by Rock and Salmon creeks.  The school and several houses once stood about 200 yards west along the south side of the present highway. [Source:  Erickson, Kenneth A.  Lumber Ghosts: A Travel Guide to the Historic Lumber Towns of the Pacific Northwest.  Boulder, Colorado: Pruett Publishing Co., 1994  This particular locomotive (s/n 718) was built in August 1902.  She was a B-class locomotive and was acquired by the Walville Lumber Company in 1918.  In 1921, she was sold to the Diamond Match Company of Idaho and was scrapped in 1942. \n<ul><li>Subjects (LCTGM): Logs; Loggers; Railroad locomotives--Washington (State); Railroad cars--Washington (State); Lumber industry--Washington (State); Walville Lumber Company--Equipment &amp; supplies--Washington (State); Walville Lumber Company--People--Washington (State); Lewis County</li>\n<li>Subjects (LCSH): Shay locomotives; Logging railroads--Washington (State)--Lewis County</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "circa 1919<div style=\"display: none;\">date QS:P571,+1919-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://content.lib.washington.edu/clarkkinseyweb/index.html\">Kinsey Brothers Photographs of the Lumber Industry and the Pacific Northwest</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1956, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 60 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1227953616,
+            "parentid": 1171692538
+          }
+        ]
+      },
+      "43891000": {
+        "pageid": 43891000,
+        "ns": 6,
+        "title": "File:The Americana; a universal reference library, comprising the arts and sciences, literature, history, biography, geography, commerce, etc., of the world (1908) (14762203051).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-10-01T12:28:32Z",
+            "size": 813003,
+            "width": 1642,
+            "height": 2308,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/The_Americana%3B_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc.%2C_of_the_world_%281908%29_%2814762203051%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1406,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/cd/The_Americana%3B_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc.%2C_of_the_world_%281908%29_%2814762203051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/The_Americana%3B_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc.%2C_of_the_world_%281908%29_%2814762203051%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1406,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cd/The_Americana%3B_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc.%2C_of_the_world_%281908%29_%2814762203051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/The_Americana%3B_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc.%2C_of_the_world_%281908%29_%2814762203051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Americana;_a_universal_reference_library,_comprising_the_arts_and_sciences,_literature,_history,_biography,_geography,_commerce,_etc.,_of_the_world_(1908)_(14762203051).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43891000",
+            "sha1": "1c0b1bb6f04b7408574f65abc4f405748df42f2c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-10-01 12:28:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Americana; a universal reference library, comprising the arts and sciences, literature, history, biography, geography, commerce, etc., of the world (1908) (14762203051)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Oliver Wendell Holmes, Jr.|Photos uploaded from Flickr by F\u00e6 using a script|Flickr images reviewed by FlickreviewR|Files from Internet Archive Book Images Flickr stream|Files from Flickr's 'The Commons'|The Americana - a universal reference library (1908)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<br>\n<p><b>Identifier</b>: americanaunivers08newy (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Famericanaunivers08newy%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidamericanaunivers08newy\">The Americana; a universal reference library, comprising the arts and sciences, literature, history, biography, geography, commerce, etc., of the world</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1908\">1908</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1900\">1900s</a>)<br>\n<b>Authors</b>: <br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectEncyclopedias_and_dictionaries\">Encyclopedias and dictionaries</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherNew_York___Scientific_American_Compiling_Dept_\">New York\u00a0: Scientific American Compiling Dept.</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorUniversity_of_California_Libraries\">University of California Libraries</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorInternet_Archive\">Internet Archive</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/americanaunivers08newy/americanaunivers08newy#page/n536/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/americanaunivers08newy\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidamericanaunivers08newy\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/americanaunivers08newy/americanaunivers08newy#page/n536/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>OLIVER WEXDELI, HOLMES.</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>OLIVER WENDELL HOLMES, ASSOCIATE JUSTICE OF THE UNITED STATES. Photographed by Notman. HOLMES however, as: The Chambered Nautikis^\u00a0: TheVoiceless\u00a0; &lt;The Last Leaf\u00a0; The Iron Gate ;and one or two hymns, he takes high rankamong the poets of his time, while such poemsas The One Hoss Shay\u00a0; Evening, By aTailor, and Parson Turclls Legacy. to nameno others, are inimitable examples of humorousverse. His later collections of poems comprise:Songs in Manv Kevs (1861)\u00a0: Songs of ManySeasons (1875)\u00a0: the Iron Gate (1880)\u00a0; andBefore the Curfew (1887). As a physicianand medical lecturer he was very successful, andamong his purely professional works may benamed: Lectures on Homeopathy and ItsKindred Delusions (1842)\u00a0; Currents andCounter Currents in Medical Science (1861);Border Lines in some Provinces of MedicalScience (1862)\u00a0; )\\Iedical Essays, a reissue ofsome of his earlier work (1883). Still othervolumes by Dr. Holmes are\u00a0: Soundings from theAtlantic (1864), a series of essays originallycon</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1908",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/internetarchivebookimages/14762203051/\">https://www.flickr.com/photos/internetarchivebookimages/14762203051/</a>\n</p>\n<ul><li>Source book page: <a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/stream/americanaunivers08newy/americanaunivers08newy#page/n536/mode/1up\">https://archive.org/stream/americanaunivers08newy/americanaunivers08newy#page/n536/mode/1up</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126377022@N07\">Internet Archive Book Images</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "At the time of upload, the image license was automatically confirmed using the Flickr <a href=\"https://en.wikipedia.org/wiki/API\" class=\"extiw\" title=\"en:API\">API</a>. For more information see <a href=\"//commons.wikimedia.org/wiki/User:F%C3%A6/Flickr_API_detail\" title=\"User:F\u00e6/Flickr API detail\">Flickr API detail</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "No known copyright restrictions",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://www.flickr.com/commons/usage/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1271704788,
+            "parentid": 895443286
+          }
+        ]
+      },
+      "43882935": {
+        "pageid": 43882935,
+        "ns": 6,
+        "title": "File:The Americana - a universal reference library, comprising the arts and sciences, literature, history, biography, geography, commerce, etc. of the world (1903) (14761532196).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-10-01T04:03:36Z",
+            "size": 690132,
+            "width": 1632,
+            "height": 2322,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/The_Americana_-_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc._of_the_world_%281903%29_%2814761532196%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1423,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/38/The_Americana_-_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc._of_the_world_%281903%29_%2814761532196%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/The_Americana_-_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc._of_the_world_%281903%29_%2814761532196%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1423,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/38/The_Americana_-_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc._of_the_world_%281903%29_%2814761532196%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/The_Americana_-_a_universal_reference_library%2C_comprising_the_arts_and_sciences%2C_literature%2C_history%2C_biography%2C_geography%2C_commerce%2C_etc._of_the_world_%281903%29_%2814761532196%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Americana_-_a_universal_reference_library,_comprising_the_arts_and_sciences,_literature,_history,_biography,_geography,_commerce,_etc._of_the_world_(1903)_(14761532196).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43882935",
+            "sha1": "98ce64363a50e7f8ec59eae780c079bac624b74d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-10-01 04:03:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Americana - a universal reference library, comprising the arts and sciences, literature, history, biography, geography, commerce, etc. of the world (1903) (14761532196)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Oliver Wendell Holmes, Jr.|Photos uploaded from Flickr by F\u00e6 using a script|Flickr images reviewed by FlickreviewR|Files from Internet Archive Book Images Flickr stream|Files from Flickr's 'The Commons'|The Americana - a universal reference library (1903)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<br>\n<p><b>Identifier</b>: americanauniver08beac (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Famericanauniver08beac%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidamericanauniver08beac\">The Americana\u00a0: a universal reference library, comprising the arts and sciences, literature, history, biography, geography, commerce, etc. of the world</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1903\">1903</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1900\">1900s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorBeach__Frederick_Converse__1848_1918\">Beach, Frederick Converse, 1848-1918</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorRines__George_Edwin__1860_\">Rines, George Edwin, 1860-</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectEncyclopedias_and_dictionaries\">Encyclopedias and dictionaries</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherNew_York___Scientific_American_Compiling_Dept_\">New York\u00a0: Scientific American Compiling Dept.</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorRobarts___University_of_Toronto\">Robarts - University of Toronto</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorUniversity_of_Toronto\">University of Toronto</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/americanauniver08beac/americanauniver08beac#page/n310/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/americanauniver08beac\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidamericanauniver08beac\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/americanauniver08beac/americanauniver08beac#page/n310/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>me and abroad, by which he will belongest remembered. These brilliant, conversa-tional papers were followed in 1859 by a similarseries, The Professor at the Breakfast Table.and these in 1872, by The Poet at the BreakfastTable. Many of his best poems were scatteredthrough these volumes. In 1861 appeared hisnovel Elsie Venner: a Romance of Destiny,and in 1868 The Guardian Angel, a less strik-ing fiction than its predecessor, but like that ex-hibiting a remarkable series of studies of char-acter. &lt;A Mortal Antipathy (1885) was hisonly other essay in fiction. His volumes ofverse Urania (1846), and  (1850),had made him well known as a poet ere he ap-peared before the public as the kindly breakfasttable autocrat, and he continued to write poetryat frequent intervals for the rest of his life. _ Hewas especially happy as the poet of occasions,but much of his verse, witty and sparkling as itis, is ephemeral from its very nature and notdestined to endure. In such serious poems,</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>OLIVER WENDELL HOLMES, ASSOCIATE JUSTICE OF THE UNITED STATES. HOLMES however, as: The Chambered Nautilus; TheVoiceless; The Last Leaf; The Iron Gate;and one or two hymns, he takes high rankamong the poets of his time, while such poemsas The One Hoss Shay\u00a0; Evening, By aTailor, and Parson Turells Legacy, to nameno others, are inimitable examples of humorousverse. His later collections of poems comprise:Songs in Many Keys (1861)\u00a0; Songs of ManySeasons (1875)\u00a0; The Iron Gate (1880)\u00a0; andBefore the Curfew (1887). As a physicianand medical lecturer he was very successful, andamong his purely professional works may benamed: Lectures on Homeopathy and ItsKindred Delusions (1842)\u00a0; Currents andCounter Currents in Medical Science (1861) ;Border Lines in some Provinces of MedicalScience (1862)\u00a0; Medical Essays, a reissue ofsome of his earlier work (1883). Still othervolumes by Dr. Holmes are\u00a0: Soundings from theAtlantic (1864), a series of essays originallycontributed to the Atlantic Monthy, w</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1903",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/internetarchivebookimages/14761532196/\">https://www.flickr.com/photos/internetarchivebookimages/14761532196/</a>\n</p>\n<ul><li>Source book page: <a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/stream/americanauniver08beac/americanauniver08beac#page/n310/mode/1up\">https://archive.org/stream/americanauniver08beac/americanauniver08beac#page/n310/mode/1up</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126377022@N07\">Internet Archive Book Images</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "At the time of upload, the image license was automatically confirmed using the Flickr <a href=\"https://en.wikipedia.org/wiki/API\" class=\"extiw\" title=\"en:API\">API</a>. For more information see <a href=\"//commons.wikimedia.org/wiki/User:F%C3%A6/Flickr_API_detail\" title=\"User:F\u00e6/Flickr API detail\">Flickr API detail</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "No known copyright restrictions",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://www.flickr.com/commons/usage/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 919611507,
+            "parentid": 729616067
+          }
+        ]
+      },
+      "69518095": {
+        "pageid": 69518095,
+        "ns": 6,
+        "title": "File:YORANHALEVI.JPG",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-05-28T20:56:57Z",
+            "size": 32312,
+            "width": 358,
+            "height": 482,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/35/YORANHALEVI.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1346,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/YORANHALEVI.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1346
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/YORANHALEVI.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:YORANHALEVI.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69518095",
+            "sha1": "262717d95e438fc909f9b72ad3b53c174ab92dc9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-05-28 20:56:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "YORANHALEVI",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files from external sources with reviewed licenses|Yoram Halevi|Items with VRTS permission confirmed|Media from the Israeli Police|Senior staff of Israel Police|Israeli Police media with link|Israeli Police media with source",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A8%D7%9D_%D7%94%D7%9C%D7%95%D7%99\" class=\"extiw\" title=\"he:\u05d9\u05d5\u05e8\u05dd \u05d4\u05dc\u05d5\u05d9\">\u05d9\u05d5\u05e8\u05dd \u05d4\u05dc\u05d5\u05d9</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-04-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This is available from the <a href=\"https://en.wikipedia.org/wiki/en:Israel_Police\" class=\"extiw\" title=\"w:en:Israel Police\"><span title=\"civilian police force of Israel\">Israel Police</span></a> in the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.facebook.com/israelpolice/photos/a.115660355122742.12925.113257552029689/115663581789086/?type=3&amp;theater\">Facebook account (Israel Police)</a>.<br><small>This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See <a href=\"//commons.wikimedia.org/wiki/Commons:Licensing\" title=\"Commons:Licensing\">Commons:Licensing</a> for more information.</small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Shay Koren / <a href=\"https://en.wikipedia.org/wiki/en:Israel_Police\" class=\"extiw\" title=\"w:en:Israel Police\"><span title=\"civilian police force of Israel\">Israel Police</span></a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/en:Israel_Police\" class=\"extiw\" title=\"w:en:Israel Police\"><span title=\"civilian police force of Israel\">Israel Police</span></a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1198072436,
+            "parentid": 1151673952
+          }
+        ]
+      }
+    }
+  }
+}

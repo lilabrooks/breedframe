@@ -1,0 +1,153 @@
+{
+  "registered_at_utc": "2026-09-12T03:37:11.239419+00:00",
+  "manifest_sha256": "386a23126837a00a45b481e0a100ec26327a536951d1770018c33e82098b7158",
+  "source_hashes": {
+    "scripts/evaluate_suitability.py": "992084e1f65b8752e3be0d6a034686af36ff58c12c7dcc8f186dc8e6e6d39641",
+    "docs/evidence/photo-set-v2/manifest.json": "9e71d544417fdfacf59a2a3fbe6d83efa55faf54c0769c5d4c94d8180d1e50b3",
+    "docs/evidence/classifier-audit/threshold-replay.json": "7016cdc8c3ec7ba0d61d5cbe0a25fcb5a131471370baf07f80999789c07bff58",
+    "docs/evidence/classifier-screen/development-results.json": "15c277218c112359ee3579ea5b67f2a26e90a91b5565c93b414258713075800c",
+    "uv.lock": "90ced749a10684eda0487cf8c1529fc2e33f35742fe4cfb26034082c3960b6ba",
+    "docs/paired-suitability-protocol.md": "e87b8c727d5a2c58461aebeb6c0555b2dd22024838e790a89268a8c29110e1a5",
+    "scripts/offline.sb": "cf35cca89f2e1b677995e788c0fe365bf627c641f260a3e4ea80cbde31a0c60e",
+    "breedframe/__init__.py": "83a2148f12df414fbbbcf72f1e137a235ade1d5aae3851abbe71a8ec42ea0cd6",
+    "breedframe/agent.py": "1d28c9630c86a505fec2614d6837b8988388d974b3e0bba43fed98589742f28b",
+    "breedframe/app.py": "b4ca0e35b3ff7fd0afc747542ae5191c092c019d5f2ed8d2d4a4b5d6f1ed22ac",
+    "breedframe/classifier.py": "634bc03a9ed67f649d35bc6b3c03634ef2f83f8036863f95b6094e039a9480c1",
+    "breedframe/config.py": "ed2033b4e4e20f6e02d52faada00387cb049b07465b89ff123c93d3846bbf7de",
+    "breedframe/contracts.py": "822a6a17957e609b0468a157bdae9745537ef712456f1d6615a34344d9bff5db",
+    "breedframe/controller.py": "9d493a0b93128466526cb519d84a3890185fd0654146e9d5d0bd2140923b98fe",
+    "breedframe/evidence.py": "9fc7f5b55d09cd584fb1e30d304f1aa3a38bf7027a6a03559383d983131f8ce9",
+    "breedframe/footprint.py": "d366f13553a79b03a62542a11f21cccd90aaaa0321db32b55379dc18c10b880b",
+    "breedframe/images.py": "55abc592ba100fbe47d63720839a5f92fa87888f8af008efcf446bdd07907a6c",
+    "breedframe/metrics.py": "b51ce861a8b734a512da3218f7f31c7c8f8cd2062e7f4eb9db2d89f83c9a10f7",
+    "breedframe/model_identity.py": "3fe6f4ba9f268c767e09c15ea9abaf50b41e182d3aa9039dd38e44dfa455d071",
+    "breedframe/policies.py": "63732245e8bb96fe704c926550ff7a95611a4725326c6dbded359523ce543212",
+    "breedframe/store.py": "adc2231751e1dd9f713d4e2ed443480123d14ca99ed932f8b5c4117eb9345874",
+    "breedframe/static/app.js": "05dc64b7061123ea0d60925dd8a57d32150d010da28b2cddc0a9a97ed077a047",
+    "breedframe/static/index.html": "4d404c69ba55b1ba39593131e8179554128d342f614c4f84c1fb6ea6b96994e4",
+    "breedframe/static/style.css": "808eb2b720f1f8e268631a44189c2cc605c94d4bb7fe9bf986f212d5ad9a6882",
+    "docs/evidence/paired-suitability/socks-02-source.json": "7cd33ed3215e65f917d25825197c4a7e8cc69a5fe6851caf4346347328ee633d",
+    "docs/evidence/paired-suitability/valegro-01-source.json": "d45dad8151b64a0bc1266b4f89c5b94a3ccc18abc92de25da6aa8289519afc2f",
+    "docs/evidence/paired-suitability/valegro-02-source.json": "fcbf3884fbf161858f209ef0a14b7366d779a283e0272f41e75f9e204dc462e7",
+    "docs/evidence/paired-suitability/bobby-statue-01-source.json": "7bca43738174f6ffb2a8bd1e3e90a68d5819078d20813ff40b0af80e7836d2a2",
+    "docs/evidence/paired-suitability/bobby-statue-02-source.json": "54edb88983f9c73df01ec45f069247c5f49a5d13a517c50c0e2c79a4594f3992",
+    "models/vit/config.json": "58d5da63978fa75fc04bf940df3ff1c3c2c51e667646104a227011283fa0a179",
+    "models/vit/preprocessor_config.json": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d",
+    "models/vit/model.safetensors": "4e48fcd3783e463b751846ccbe0e8277aff44b5727e907d1c4809437d8caf2a6",
+    "models/resnet50-candidate/config.json": "a1be0f56d516d0b55f9844ce0fbfe5fb359195cba6c6c102d41ae6c202c84d5e",
+    "models/resnet50-candidate/preprocessor_config.json": "fd575b890da5a949493e1d1e7a70bfcb9e4b99fe444004d2dbfa253add254741",
+    "models/resnet50-candidate/model.safetensors": "9c6061af1f450bb0847e529fd742aa5066017be379c71bbf5546b198e5b13a1e"
+  },
+  "packages": {
+    "torch": "2.14.0",
+    "transformers": "4.57.6",
+    "pillow": "12.3.0",
+    "httpx": "0.28.1"
+  },
+  "new_classifier_ids": [
+    "socks-02",
+    "valegro-01",
+    "valegro-02",
+    "bobby-statue-01",
+    "bobby-statue-02"
+  ],
+  "vision_schedule": [
+    "mixed-01",
+    "conan-02",
+    "champ-01",
+    "socks-02",
+    "multi-02",
+    "buddy-01",
+    "bobby-statue-02",
+    "champ-02",
+    "millie-02",
+    "sully-01",
+    "conan-01",
+    "multi-01",
+    "barney-02",
+    "millie-01",
+    "sully-02",
+    "horse-01",
+    "bo-01",
+    "valegro-01",
+    "bobby-statue-01",
+    "valegro-02",
+    "buddy-02",
+    "cat-01",
+    "barney-01",
+    "bo-02",
+    "statue-01",
+    "no-image-control"
+  ],
+  "vision_prompt": "Examine the supplied image for visible real dogs. Return only the JSON object.\nUse subject_type real_dog when at least one real dog is visible. Otherwise use dog_depiction\nfor a dog shown only as a sculpture, toy, drawing, painting or other depiction; other_animal\nfor a visible animal that is not a dog; no_animal when neither an animal nor a dog depiction\nis visible; or uncertain when the image does not support a decision or no image is available.\ndog_count counts visible real dogs, excluding depictions: zero, one, multiple, or uncertain.\nDo not infer breed, ancestry, identity, or whether different dogs share a breed.\nBase your answer on the supplied image, not familiarity with a named subject. /no_think\nSchema: {\"additionalProperties\": false, \"properties\": {\"dog_count\": {\"enum\": [\"zero\", \"one\", \"multiple\", \"uncertain\"], \"type\": \"string\"}, \"subject_type\": {\"enum\": [\"real_dog\", \"dog_depiction\", \"other_animal\", \"no_animal\", \"uncertain\"], \"type\": \"string\"}}, \"required\": [\"subject_type\", \"dog_count\"], \"type\": \"object\"}",
+  "vision_schema": {
+    "type": "object",
+    "properties": {
+      "subject_type": {
+        "type": "string",
+        "enum": [
+          "real_dog",
+          "dog_depiction",
+          "other_animal",
+          "no_animal",
+          "uncertain"
+        ]
+      },
+      "dog_count": {
+        "type": "string",
+        "enum": [
+          "zero",
+          "one",
+          "multiple",
+          "uncertain"
+        ]
+      }
+    },
+    "required": [
+      "subject_type",
+      "dog_count"
+    ],
+    "additionalProperties": false
+  },
+  "vision_options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 300,
+    "presence_penalty": 0,
+    "repeat_penalty": 1,
+    "top_k": 20,
+    "top_p": 0.95
+  },
+  "vision_timeout_seconds": 60,
+  "ollama_version": "0.34.0",
+  "model": "qwen3.5:4b",
+  "model_digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+  "vit_rule": {
+    "min_score": 0,
+    "min_margin": 0,
+    "minimum_ranked_photos": 2,
+    "retain_quality_unresolved_disagreement_and_current_photo_checks": true
+  },
+  "resnet_rule": {
+    "min_score": 0.8,
+    "min_margin": 0,
+    "native_dog_ids_inclusive": [
+      151,
+      268
+    ]
+  },
+  "vision_trigger": "All stage-A calls complete, and at least one ViT non-dog pair reports OR ResNet admits a non-dog photo among all 25.",
+  "vision_advance": {
+    "max_non_dog_accepts": 0,
+    "min_live_dog_accepts": 16,
+    "min_supported_reports": 6,
+    "max_error_fraction": 0.1,
+    "max_multi_dog_individual_scopes": 0,
+    "require_all_valid": true,
+    "require_no_image_abstention": true
+  },
+  "inference_limit": "Five new ViT calls, five new ResNet calls, then only if triggered: 25 image calls and one no-image call. No retries or sample extension.",
+  "app_defaults_changed": false,
+  "controller_calls": 0
+}

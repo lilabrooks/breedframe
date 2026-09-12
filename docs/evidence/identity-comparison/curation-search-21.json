@@ -1,0 +1,603 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 5,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "97297713": {
+        "pageid": 97297713,
+        "ns": 6,
+        "title": "File:Clay tobacco pipe c1680-1720 drawing by David Higgins (FindID 969558-1072645).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-12-06T03:08:32Z",
+            "size": 469438,
+            "width": 2548,
+            "height": 2520,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Clay_tobacco_pipe_c1680-1720_drawing_by_David_Higgins_%28FindID_969558-1072645%29.jpg/1280px-Clay_tobacco_pipe_c1680-1720_drawing_by_David_Higgins_%28FindID_969558-1072645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 989,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/74/Clay_tobacco_pipe_c1680-1720_drawing_by_David_Higgins_%28FindID_969558-1072645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Clay_tobacco_pipe_c1680-1720_drawing_by_David_Higgins_%28FindID_969558-1072645%29.jpg/1280px-Clay_tobacco_pipe_c1680-1720_drawing_by_David_Higgins_%28FindID_969558-1072645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 989,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/74/Clay_tobacco_pipe_c1680-1720_drawing_by_David_Higgins_%28FindID_969558-1072645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Clay_tobacco_pipe_c1680-1720_drawing_by_David_Higgins_%28FindID_969558-1072645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Clay_tobacco_pipe_c1680-1720_drawing_by_David_Higgins_(FindID_969558-1072645).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97297713",
+            "sha1": "dd8913847231f7ba00b811ed5391be54aa6564bc",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-12-06 03:08:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nClay tobacco pipe c1680-1720 drawing by David Higgins</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Portable Antiquities Scheme|Susie White|Images uploaded by F\u00e6|Portable Antiquities Scheme, WREX",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nNational Museum Wales , Susie White, 2019-09-13 20:59:40</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Fragment of a clay tobacco pipe bowl dating c1680-1720, with a round The bowl is badly chipped and abraded from having been in the plough soil but shows traces of having been burnished originally. It is made of a coarse fabric with gritty inclusions, which is typical of white firing clay found in Coal Measures deposits. The bowl has a stem bore of 7/64\" and the heel has been stamped with a circular maker's mark, which was poorly impressed at an odd angle and is now very abraded, making it hard to read. The surname initial appears to be a 'B' or 'R' but the Christian initial is unclear. There is no border around the initials, nor does there appear to be anything between them. This mark cannot presently be paralleled in north Wales but should be recognisable when a better example turns up. Although unidentified at present, this example adds to a growing number of different seventeenth century marks recorded from north Wales and provides a useful addition to the distribution map.<p class=\"mw-empty-elt\"></p>\n<p>Height: 28.2mm; width: 17.4mm; length: 48.0mm; weight: 7.60g</p>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1680 and 1720<div style=\"display: none;\">date QS:P571,+1500-00-00T00:00:00Z/6,P1319,+1680-00-00T00:00:00Z/9,P1326,+1720-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finds.org.uk/database/ajax/download/id/1072645\">https://finds.org.uk/database/ajax/download/id/1072645</a><br>Catalog: <a rel=\"nofollow\" class=\"external free\" href=\"https://finds.org.uk/database/images/image/id/1072645/recordtype/artefacts\">https://finds.org.uk/database/images/image/id/1072645/recordtype/artefacts</a> <bdi lang=\"en\" dir=\"ltr\" title=\"archived on 6 December 2020 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20201206030806/https%3A//finds.org.uk/database/images/image/id/1072645/recordtype/artefacts\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi><br>Artefact: <a rel=\"nofollow\" class=\"external free\" href=\"https://finds.org.uk/database/artefacts/record/id/969558\">https://finds.org.uk/database/artefacts/record/id/969558</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Attribution License",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "National Museum Wales",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1093361565,
+            "parentid": 861888885
+          }
+        ]
+      },
+      "75005959": {
+        "pageid": 75005959,
+        "ns": 6,
+        "title": "File:Detail of possible cast lead alloy weight with relief lettering picked out in red (FindID 863040).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-12-12T03:45:08Z",
+            "size": 7435473,
+            "width": 4116,
+            "height": 4404,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg/1280px-Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1070,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg/3840px-Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg/1280px-Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1070,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg/3840px-Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_%28FindID_863040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Detail_of_possible_cast_lead_alloy_weight_with_relief_lettering_picked_out_in_red_(FindID_863040).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75005959",
+            "sha1": "c94119d6922bb211f026c115adf1c74cfae50432",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-12-12 03:45:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nDetail of possible cast lead alloy weight with relief lettering picked out in red</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Portable Antiquities Scheme|Susie White|Images uploaded by F\u00e6|Portable Antiquities Scheme, WREX",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nNational Museum Wales , Susie White, 2017-09-01 12:03:15</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Circular cast, lead alloy, post-medieval weight.  The obverse has a relief border containing a band of lettering in relief reading ELISABE..AN 1634 (the number 4 is reversed) all within two relief lines (one above and one below the lettering).  At the centre, within a further circle in relief, is a stylised Tudor rose.  The reverse has a crude spiral scratched into the surface.<p class=\"mw-empty-elt\"></p>\n<p>The object is circular in shape but has been slightly damaged in the plough soil.  It has a powdery white patina.</p>\n<p>Diameter: 34.3mm; weight: 15.5g</p>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1634<div style=\"display: none;\">date QS:P571,+1634-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finds.org.uk/database/ajax/download/id/628290\">https://finds.org.uk/database/ajax/download/id/628290</a><br>Catalog: <a rel=\"nofollow\" class=\"external free\" href=\"https://finds.org.uk/database/images/image/id/628290/recordtype/artefacts\">https://finds.org.uk/database/images/image/id/628290/recordtype/artefacts</a> <bdi lang=\"en\" dir=\"ltr\" title=\"archived on 12 December 2018 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181212034733/https%3A//finds.org.uk/database/images/image/id/628290/recordtype/artefacts\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi><br>Artefact: <a rel=\"nofollow\" class=\"external free\" href=\"https://finds.org.uk/database/artefacts/record/id/863040\">https://finds.org.uk/database/artefacts/record/id/863040</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Attribution-ShareAlike License version 4.0 (verified 16 November 2020)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "National Museum Wales",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1033849405,
+            "parentid": 809265313
+          }
+        ]
+      },
+      "75216030": {
+        "pageid": 75216030,
+        "ns": 6,
+        "title": "File:JETTON (FindID 801709).jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-12-20T18:44:52Z",
+            "size": 1299970,
+            "width": 1946,
+            "height": 1374,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/JETTON_%28FindID_801709%29.jpg/1280px-JETTON_%28FindID_801709%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 706,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b4/JETTON_%28FindID_801709%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/JETTON_%28FindID_801709%29.jpg/1280px-JETTON_%28FindID_801709%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 706,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b4/JETTON_%28FindID_801709%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/JETTON_%28FindID_801709%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:JETTON_(FindID_801709).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75216030",
+            "sha1": "b37c5cb758bf2c4d7ee067a67dfa826fcc64b719",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-12-20 18:44:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nJETTON</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Portable Antiquities Scheme|Images uploaded by F\u00e6|Portable Antiquities Scheme, LANCUM",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nThe Portable Antiquities Scheme, Susie White, 2016-10-24 09:50:26</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div>\n<p>A medieval copper-alloy English jetton. Mid-to-late 14th-century lion type depicting a lion rampant within elaborate border, Mernick reference 5a.4 (reverse 22), dating to the later reign of Edward III or Richard II, possibly c. 1350-1380. Mint uncertain.</p>\nThis jetton is not readily apparent in the main literature though this late English lion type has recently been web published by Mernick. However this particular reverse type (22 within the series) was not yet known with this obverse.</div>\n<p><span>Ref: Mernick 5a.4 (reverse 22).</span></p>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1350 and 1380<div style=\"display: none;\">date QS:P571,+1350-00-00T00:00:00Z/7,P1319,+1350-00-00T00:00:00Z/9,P1326,+1380-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://finds.org.uk/database/ajax/download/id/587422\">https://finds.org.uk/database/ajax/download/id/587422</a><br>Catalog: <a rel=\"nofollow\" class=\"external free\" href=\"https://finds.org.uk/database/images/image/id/587422/recordtype/artefacts\">https://finds.org.uk/database/images/image/id/587422/recordtype/artefacts</a> <bdi lang=\"en\" dir=\"ltr\" title=\"archived on 26 January 2019 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190126232914/https%3A//finds.org.uk/database/images/image/id/587422/recordtype/artefacts\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Attribution License version 2.0 (verified 14 November 2020)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "The Portable Antiquities Scheme",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1049183456,
+            "parentid": 969120757
+          }
+        ]
+      },
+      "161462740": {
+        "pageid": 161462740,
+        "ns": 6,
+        "title": "File:Susie Lee Border Plan 2024.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-03-08T11:50:30Z",
+            "size": 129865,
+            "width": 931,
+            "height": 684,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Susie_Lee_Border_Plan_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 735,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/Susie_Lee_Border_Plan_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 735
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Susie_Lee_Border_Plan_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Susie_Lee_Border_Plan_2024.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161462740",
+            "sha1": "09f92bfcf00edce4aa5f37d9fde1a119fdfa65db",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-03-08 11:50:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Susie Lee Border Plan 2024",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Susie Lee|PD US Congress",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Susie Lee posts \"I was proud to join my New Democrat Coalition colleagues to unveil our framework to protect our border, create a path to citizenship, and boost our economy. Nevada families and businesses need this. I hope my Republican colleagues will work with us on a bipartisan solution.\u201d",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-02-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.facebook.com/photo.php?fbid=793774279241266&amp;set=pb.100058261021522.-2207520000&amp;type=3\">https://www.facebook.com/photo.php?fbid=793774279241266&amp;set=pb.100058261021522.-2207520000&amp;type=3</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Susie Lee's Congressional Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1026773602,
+            "parentid": 1007350837
+          }
+        ]
+      },
+      "43763092": {
+        "pageid": 43763092,
+        "ns": 6,
+        "title": "File:With the Tibetans in tent and temple; narrative of four years' residence on the Tibetan border, and of a journey into the far interior (1901) (14767952705).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-10-28T20:02:15Z",
+            "size": 1285700,
+            "width": 2400,
+            "height": 1568,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/With_the_Tibetans_in_tent_and_temple%3B_narrative_of_four_years%27_residence_on_the_Tibetan_border%2C_and_of_a_journey_into_the_far_interior_%281901%29_%2814767952705%29.jpg/1280px-With_the_Tibetans_in_tent_and_temple%3B_narrative_of_four_years%27_residence_on_the_Tibetan_border%2C_and_of_a_journey_into_the_far_interior_%281901%29_%2814767952705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 653,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/76/With_the_Tibetans_in_tent_and_temple%3B_narrative_of_four_years%27_residence_on_the_Tibetan_border%2C_and_of_a_journey_into_the_far_interior_%281901%29_%2814767952705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/With_the_Tibetans_in_tent_and_temple%3B_narrative_of_four_years%27_residence_on_the_Tibetan_border%2C_and_of_a_journey_into_the_far_interior_%281901%29_%2814767952705%29.jpg/1280px-With_the_Tibetans_in_tent_and_temple%3B_narrative_of_four_years%27_residence_on_the_Tibetan_border%2C_and_of_a_journey_into_the_far_interior_%281901%29_%2814767952705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 653,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/76/With_the_Tibetans_in_tent_and_temple%3B_narrative_of_four_years%27_residence_on_the_Tibetan_border%2C_and_of_a_journey_into_the_far_interior_%281901%29_%2814767952705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/With_the_Tibetans_in_tent_and_temple%3B_narrative_of_four_years%27_residence_on_the_Tibetan_border%2C_and_of_a_journey_into_the_far_interior_%281901%29_%2814767952705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:With_the_Tibetans_in_tent_and_temple;_narrative_of_four_years%27_residence_on_the_Tibetan_border,_and_of_a_journey_into_the_far_interior_(1901)_(14767952705).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43763092",
+            "sha1": "9fda5ca9d214abafe072a8468c42b8095f9add75",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-10-28 20:02:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "With the Tibetans in tent and temple; narrative of four years' residence on the Tibetan border, and of a journey into the far interior (1901) (14767952705)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Bales|Photos uploaded from Flickr by F\u00e6 using a script|Tea of Tibet|Flickr images reviewed by FlickreviewR|Files from Internet Archive Book Images Flickr stream|Files from Flickr's 'The Commons'|With the Tibetans in tent and temple; narrative of four years' residence on the Tibetan border, and of a journey into the far interior (1901)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<br>\n<p><b>Identifier</b>: withtibetansinte01rijn (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Fwithtibetansinte01rijn%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidwithtibetansinte01rijn\">With the Tibetans in tent and temple; narrative of four years' residence on the Tibetan border, and of a journey into the far interior</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1901\">1901</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1900\">1900s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorRijnhart__Mrs__Susie_Carson\">Rijnhart, Mrs. Susie Carson</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectMissions\">Missions</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherChicago__New_York__etc___F__H__Revell_company\">Chicago, New York (etc.) F. H. Revell company</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorThe_Library_of_Congress\">The Library of Congress</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorThe_Library_of_Congress\">The Library of Congress</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/withtibetansinte01rijn/withtibetansinte01rijn#page/n401/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/withtibetansinte01rijn\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidwithtibetansinte01rijn\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/withtibetansinte01rijn/withtibetansinte01rijn#page/n401/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>ent me quickly along theriver with a small boy and girl, saying that not faraway there were some farm houses where I could findshelter. The moon was shining just the same as sheformerly shone at Tankar, and the remembrance of thetender thought and care exercised over me in thosedays made the refusal of refuge at dark all the morepainful. As we journeyed on the girl told me thatthere were no houses until we had passed the moun-tain that looked to be miles away, so I risked all andreturned to the village where I had received the ula,the children guiding me to the house where was theman who had helped me on from Kansa. Evidentlythere was some unusual antipathy to Europeans there,for he quietly told me not to say a word, but inter-ceded with the natives to give me shelter in the strawroom, to which they brought for my use a little firein a shallow earthenware dish and some tea, while anold white-haired man brought a felt rug and lay downnear me for the night. The following day it was many</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>^% MOEE ROBBEES 363 hours before I reached a house, the road was partlydestroyed and so dangerous as to necessitate walkingall the way, and I realized the depth to which thevillagers had meant to harm me in sending me afterdark along that mountain, for nearly the whole nightwould have been spent before reaching the other sidein safety, if I could have accomplished it at all. Thefirst house we sighted was the home of the ferryman,and was built on a perpendicular bluff in a shelteredcorner where the Drushi Chu winds on its way to theDre Chu. We had come into the region of boats andbridges which to u.s were welcome heralds of greaterfacilities of transit than are found in the interior.The ferry consisted of a coracle shaped like a tub,about five feet in diameter, composed of a flimsy frame-work over which were drawn yak hides, and manip-ulated by a Tibetan with a broad, straight paddle. Alarge pile of tea, done up in raw hides, was waitingfor yak to come and carry it to Kansa, while some</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1901",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/internetarchivebookimages/14767952705/\">https://www.flickr.com/photos/internetarchivebookimages/14767952705/</a>\n</p>\n<ul><li>Source book page: <a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/stream/withtibetansinte01rijn/withtibetansinte01rijn#page/n401/mode/1up\">https://archive.org/stream/withtibetansinte01rijn/withtibetansinte01rijn#page/n401/mode/1up</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126377022@N07\">Internet Archive Book Images</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "At the time of upload, the image license was automatically confirmed using the Flickr <a href=\"https://en.wikipedia.org/wiki/API\" class=\"extiw\" title=\"en:API\">API</a>. For more information see <a href=\"//commons.wikimedia.org/wiki/User:F%C3%A6/Flickr_API_detail\" title=\"User:F\u00e6/Flickr API detail\">Flickr API detail</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "No known copyright restrictions",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://www.flickr.com/commons/usage/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 922482324,
+            "parentid": 742938728
+          }
+        ]
+      }
+    }
+  }
+}

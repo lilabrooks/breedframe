@@ -1,0 +1,865 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "41169163": {
+        "pageid": 41169163,
+        "ns": 6,
+        "title": "File:Heidi the Weimaraner.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-06-24T15:05:46Z",
+            "size": 66543,
+            "width": 288,
+            "height": 230,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Heidi_the_Weimaraner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 799,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Heidi_the_Weimaraner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 799
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Heidi_the_Weimaraner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Heidi_the_Weimaraner.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41169163",
+            "sha1": "8ced97300b573395fc7225153b2aa9d1b2ee95e8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-24 15:05:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Heidi the Weimaraner",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|CC-PD-Mark|Dwight Eisenhower in 1959|Files with coordinates missing SDC location of creation|1950s photographs of dogs|Pet dogs of the Dwight Eisenhower White House",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "38.897594",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-77.036572",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Eisenhower with his dog Heidi after a press conference a the White House",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1959-03-11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.eisenhower.archives.gov/all_about_ike/pets.html\">https://www.eisenhower.archives.gov/all_about_ike/pets.html</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "National Park Service",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254435475,
+            "parentid": 1254394501
+          }
+        ]
+      },
+      "6074223": {
+        "pageid": 6074223,
+        "ns": 6,
+        "title": "File:Lightning over John C. Stennis.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2009-03-02T08:09:29Z",
+            "size": 805880,
+            "width": 3000,
+            "height": 2000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lightning_over_John_C._Stennis.jpg/1280px-Lightning_over_John_C._Stennis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lightning_over_John_C._Stennis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lightning_over_John_C._Stennis.jpg/1280px-Lightning_over_John_C._Stennis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lightning_over_John_C._Stennis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lightning_over_John_C._Stennis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lightning_over_John_C._Stennis.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6074223",
+            "sha1": "7da781edc39f07649d5725c7f6f662557c73d149",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2009-03-02 08:09:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Lightning over John C. Stennis",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 5D|PD US Military|USS John C. Stennis (CVN-74)|Cloud-to-cloud lightning|Aboard USS John C. Stennis (CVN-74)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://jccc.afis.osd.mil/LBOX/full/070328-N-6364G-067.jpg\">[1]</a>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "US gov",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "DoD photo by Mass Communication Specialist 2nd Class Heidi J. Giacalone, U.S. Navy. (Released)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1132470065,
+            "parentid": 1072864772
+          }
+        ]
+      },
+      "91641517": {
+        "pageid": 91641517,
+        "ns": 6,
+        "title": "File:Navy & Marine Corps Medical News September 2013 (IA MEDNEWSSept2013).pdf",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-06-27T22:33:36Z",
+            "size": 2403436,
+            "width": 1275,
+            "height": 1650,
+            "pagecount": 11,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Navy_%26_Marine_Corps_Medical_News_September_2013_%28IA_MEDNEWSSept2013%29.pdf/page1-960px-Navy_%26_Marine_Corps_Medical_News_September_2013_%28IA_MEDNEWSSept2013%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1294,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Navy_%26_Marine_Corps_Medical_News_September_2013_%28IA_MEDNEWSSept2013%29.pdf/page1-960px-Navy_%26_Marine_Corps_Medical_News_September_2013_%28IA_MEDNEWSSept2013%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1294
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Navy_%26_Marine_Corps_Medical_News_September_2013_%28IA_MEDNEWSSept2013%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Navy_%26_Marine_Corps_Medical_News_September_2013_(IA_MEDNEWSSept2013).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91641517",
+            "sha1": "71201f8e818a43caa8b07f116ff799f8a60a1ad2",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-27 22:33:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nNavy &amp; Marine Corps Medical News September 2013</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Navy & Marine Corps Medical News",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nU.S. Navy. Bureau of Medicine and Surgery</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<div><div>Navy &amp; Marine Corps Medical News September 2013<br></div><div><br></div><div>- Medical headquarters joins healthy base initiative</div><div>- Surgeon General's Corner: Thrive in your community: Suicide prevention month</div><div>- Suicide prevention emphasized at Naval Hospital Bremerton</div><div>- Yokosuka's interns serve fleet, strengthen host nation relations</div><div>- Ike rolls out new alcohol detection measures</div><div>- NMTSC CPOs, selectees beautify San Antonio</div><div>- Living a smoke-free lifestyle</div><div>- Lincoln seeks its \"Biggest Loser\"</div><div>- U.S. Navy and Bangladesh Navy commence 3rd CARAT Singapore</div><div>- Deployment health clinical center names new director</div><div>- Marine Centered Medical Home opens new doors for patient care</div><div>- New NHRC consortium focuses on service women</div><div>- Suicide Prevention Month</div></div><div><br></div><div>Editor's note: This will be our last edition of MEDNEWS. We are going to an\u00a0online Navy Medicine news presence in the coming weeks. Thank you all for your continued support to MEDNEWS over the years. It has been greatly appreciated.</div><div><br></div>\n<br>Subjects: MEDNEWS; suicide; NH Bremerton; NH Yokosuka; USS Dwight D. Eisenhower (CVN 69); USS Abraham Lincoln (CVN 72); smoking; tobacco; Bangladesh; Cooperation Afloat Readiness and Training (CARAT); Deployment Health Clinical Center (DHCC); Anthony Arita; French Creek Medical Clinic; women's health</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/MEDNEWSSept2013\" class=\"extiw\" title=\"iarchive:MEDNEWSSept2013\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: MEDNEWSSept2013</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/MEDNEWSSept2013/MEDNEWS%20Sept%202013.pdf\">https://archive.org/download/MEDNEWSSept2013/MEDNEWS%20Sept%202013.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1091171584,
+            "parentid": 911953360
+          }
+        ]
+      },
+      "104823717": {
+        "pageid": 104823717,
+        "ns": 6,
+        "title": "File:President Dwight Eisenhower walks by Heidi, his Weimaraner (6314617558).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-01-08T03:29:43Z",
+            "size": 143132,
+            "width": 540,
+            "height": 429,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/51/President_Dwight_Eisenhower_walks_by_Heidi%2C_his_Weimaraner_%286314617558%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 794,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/President_Dwight_Eisenhower_walks_by_Heidi%2C_his_Weimaraner_%286314617558%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 794
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/President_Dwight_Eisenhower_walks_by_Heidi%2C_his_Weimaraner_%286314617558%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_Dwight_Eisenhower_walks_by_Heidi,_his_Weimaraner_(6314617558).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=104823717",
+            "sha1": "a6776a0adf18d4daf8964a3154e317d4242a0210",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-01-08 03:29:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "President Dwight Eisenhower walks by Heidi, his Weimaraner (6314617558)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US DOS|White House in 1959|Dwight Eisenhower in 1959|Flickr images reviewed by FlickreviewR 2|Files uploaded by Orizan|1950s photographs of dogs|People at the White House|Files from the United States Embassy in Jakarta Flickr stream|Pet dogs of the Dwight Eisenhower White House",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Dwight Eisenhower walks by Heidi, his Weimaraner, as he returns to the White House following a press conference on March 11, 1959 at the Executive Office Building, which today is named the Eisenhower Executive Office Building in memory of the 34th president, January 19, 2009.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1959-03-11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/usembassyjakarta/6314617558/\">President Dwight Eisenhower walks by Heidi, his Weimaraner</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/39809323@N03\">U.S. Embassy, Jakarta</a> from Jakarta, Indonesia",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1253874384,
+            "parentid": 1043116451
+          }
+        ]
+      },
+      "153115146": {
+        "pageid": 153115146,
+        "ns": 6,
+        "title": "File:Public Works digest - USACE-p16021coll8-4180.pdf",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-09-25T02:53:54Z",
+            "size": 61679660,
+            "width": 1262,
+            "height": 1635,
+            "pagecount": 44,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Public_Works_digest_-_USACE-p16021coll8-4180.pdf/page1-960px-Public_Works_digest_-_USACE-p16021coll8-4180.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1296,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Public_Works_digest_-_USACE-p16021coll8-4180.pdf/page1-960px-Public_Works_digest_-_USACE-p16021coll8-4180.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1296
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Public_Works_digest_-_USACE-p16021coll8-4180.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Public_Works_digest_-_USACE-p16021coll8-4180.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153115146",
+            "sha1": "012cb034d7e3453c485da16fea2536e3b61e547a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-25 02:53:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Public Works digest \u2013 2003 May/June",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Uploaded with OpenRefine|PD US Army USACE|Books without Wikidata item|Images from USACE to check|Images from USACE, Magazines & Newsletters collection",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "US Army Center for Public Works; United States. Army. Corps of Engineers. Installation Support Center; United States. Army. Corps of Engineers. Installation Support Division; United States. Army Installation Management Agency",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://usace.contentdm.oclc.org/digital/collection/p16021coll8/id/4180\">https://usace.contentdm.oclc.org/digital/collection/p16021coll8/id/4180</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1015606504,
+            "parentid": 956519331
+          }
+        ]
+      },
+      "95605874": {
+        "pageid": 95605874,
+        "ns": 6,
+        "title": "File:The Oak (serial) (IA oakserial1987loui).pdf",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-10-29T15:50:53Z",
+            "size": 13540607,
+            "width": 1185,
+            "height": 1587,
+            "pagecount": 232,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/The_Oak_%28serial%29_%28IA_oakserial1987loui%29.pdf/page1-960px-The_Oak_%28serial%29_%28IA_oakserial1987loui%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1339,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/The_Oak_%28serial%29_%28IA_oakserial1987loui%29.pdf/page1-960px-The_Oak_%28serial%29_%28IA_oakserial1987loui%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1339
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/The_Oak_%28serial%29_%28IA_oakserial1987loui%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Oak_(serial)_(IA_oakserial1987loui).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95605874",
+            "sha1": "6aa941d5e64e50030ac36c57f071b0c1fdc97a45",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-29 15:50:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nThe Oak [serial]</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Louisburg College|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Scans from the University of North Carolina at Chapel Hill",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nLouisburg College</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>Issues not published in 1931-32, 1934-37. Last issue published in 1997.\n</p>\n<br>Subjects: Louisburg College; Universities and colleges</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/oakserial1987loui\" class=\"extiw\" title=\"iarchive:oakserial1987loui\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: oakserial1987loui</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/oakserial1987loui/oakserial1987loui.pdf\">https://archive.org/download/oakserial1987loui/oakserial1987loui.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 700104187,
+            "parentid": 621397366
+          }
+        ]
+      },
+      "8202252": {
+        "pageid": 8202252,
+        "ns": 6,
+        "title": "File:US Navy 070328-N-6364G-067 Lightning storms rage over the flight deck of Nimitz-class aircraft carrier USS John C. Stennis (CVN 74) as the ship transits the Persian Gulf.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2009-10-23T00:08:30Z",
+            "size": 780653,
+            "width": 3000,
+            "height": 2000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/US_Navy_070328-N-6364G-067_Lightning_storms_rage_over_the_flight_deck_of_Nimitz-class_aircraft_carrier_USS_John_C._Stennis_%28CVN_74%29_as_the_ship_transits_the_Persian_Gulf.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/94/US_Navy_070328-N-6364G-067_Lightning_storms_rage_over_the_flight_deck_of_Nimitz-class_aircraft_carrier_USS_John_C._Stennis_%28CVN_74%29_as_the_ship_transits_the_Persian_Gulf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/US_Navy_070328-N-6364G-067_Lightning_storms_rage_over_the_flight_deck_of_Nimitz-class_aircraft_carrier_USS_John_C._Stennis_%28CVN_74%29_as_the_ship_transits_the_Persian_Gulf.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/94/US_Navy_070328-N-6364G-067_Lightning_storms_rage_over_the_flight_deck_of_Nimitz-class_aircraft_carrier_USS_John_C._Stennis_%28CVN_74%29_as_the_ship_transits_the_Persian_Gulf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/US_Navy_070328-N-6364G-067_Lightning_storms_rage_over_the_flight_deck_of_Nimitz-class_aircraft_carrier_USS_John_C._Stennis_%28CVN_74%29_as_the_ship_transits_the_Persian_Gulf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:US_Navy_070328-N-6364G-067_Lightning_storms_rage_over_the_flight_deck_of_Nimitz-class_aircraft_carrier_USS_John_C._Stennis_(CVN_74)_as_the_ship_transits_the_Persian_Gulf.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=8202252",
+            "sha1": "098f8cc3b2256c4027728e632d5939f714a3e182",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2009-10-23 00:08:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "US Navy 070328-N-6364G-067 Lightning storms rage over the flight deck of Nimitz-class aircraft carrier USS John C. Stennis (CVN 74) as the ship transits the Persian Gulf",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 5D|PD US Navy|Files created by the United States Navy with known IDs|Aboard USS John C. Stennis (CVN-74)|CC-PD-Mark|Photographs taken on 2007-03-28",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "PERSIAN GULF (March 28, 2007) - Lightning storms rage over the flight deck of Nimitz-class aircraft carrier USS John C. Stennis (CVN 74) as the ship transits the Persian Gulf. John C. Stennis Carrier Strike Group and Carrier Air Wing (CVW) 9 are conducting a dual-carrier exercise with Eisenhower Carrier Strike Group and Carrier Air Wing (CVW) 7. This marks the first time the Stennis and Eisenhower strike groups have operated together in a joint exercise while deployed to 5th Fleet. U.S. Navy photo by Mass Communication Specialist 2nd Class Heidi J. Giacalone (RELEASED)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a028 March 2007",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<table class=\"layouttemplate sourcetemplate\" style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; box-sizing: border-box; padding: 0; border-spacing: 8px; background-color: var(--background-color-neutral-subtle, #f6f7f5); color: var(--color-base, #202122); border: var(--border-subtle, 1px solid #555555);\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Seal_of_the_United_States_Department_of_the_Navy.svg/120px-Seal_of_the_United_States_Department_of_the_Navy.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"80\" height=\"80\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Seal_of_the_United_States_Department_of_the_Navy.svg/250px-Seal_of_the_United_States_Department_of_the_Navy.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"889\" data-file-height=\"889\"></span></span>\n</td>\n<td align=\"center\">\n<p><span class=\"layouttemplateargs\" style=\"display:none;speak:none;\" title=\"template=ID-USMil 1%3D070328-N-6364G-067 2%3DNavy url%3Dhttp%3A%2F%2Fwww.navy.mil%2Fview_image.asp%3Fid%3D44513\">\u00a0</span>\nThis image was released by the United States Navy with the <a href=\"//commons.wikimedia.org/wiki/Commons:VIRIN\" title=\"Commons:VIRIN\">ID</a> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.navy.mil/view_image.asp?id=44513\">070328-N-6364G-067</a> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/w/index.php?title=Category:Files_created_by_the_United_States_Navy_with_known_IDs&amp;filefrom=070328-N-6364G-067#mw-category-media\" href=\"https://commons.wikimedia.org/w/index.php?title=Category:Files_created_by_the_United_States_Navy_with_known_IDs&amp;filefrom=070328-N-6364G-067#mw-category-media\"><small>(next)</small></a>.<br>\n<small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>\n</p>\n<hr>\n<p><span style=\"font-size:small;line-height:1.4\" class=\"plainlinks noprint\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ar\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ar\"><bdi class=\"language lang-ar\" lang=\"ar\">\u0627\u0644\u0639\u0631\u0628\u064a\u0629</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/bn\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/bn\"><bdi class=\"language lang-bn\" lang=\"bn\">\u09ac\u09be\u0982\u09b2\u09be</bdi></a>\u00a0<b>\u2219</b> \n<a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/id\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/id\"><bdi class=\"language lang-id\" lang=\"id\">Bahasa Indonesia</bdi></a>\u00a0<b>\u2219</b> \n<a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/jax\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/jax\"><bdi class=\"language lang-jax\" lang=\"jax\">Bahaso Jambi</bdi></a>\u00a0<b>\u2219</b> \n<a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/de\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/de\"><bdi class=\"language lang-de\" lang=\"de\">Deutsch</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/de-formal\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/de-formal\"><bdi class=\"language lang-de-formal\" lang=\"de-formal\">Deutsch (Sie-Form)</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/en\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/en\"><bdi class=\"language lang-en\" lang=\"en\">English</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/es\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/es\"><bdi class=\"language lang-es\" lang=\"es\">espa\u00f1ol</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/eu\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/eu\"><bdi class=\"language lang-eu\" lang=\"eu\">euskara</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/fa\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/fa\"><bdi class=\"language lang-fa\" lang=\"fa\">\u0641\u0627\u0631\u0633\u06cc</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/fr\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/fr\"><bdi class=\"language lang-fr\" lang=\"fr\">fran\u00e7ais</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/it\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/it\"><bdi class=\"language lang-it\" lang=\"it\">italiano</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ja\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ja\"><bdi class=\"language lang-ja\" lang=\"ja\">\u65e5\u672c\u8a9e</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ko\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ko\"><bdi class=\"language lang-ko\" lang=\"ko\">\ud55c\uad6d\uc5b4</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/mk\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/mk\"><bdi class=\"language lang-mk\" lang=\"mk\">\u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ml\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ml\"><bdi class=\"language lang-ml\" lang=\"ml\">\u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/nds\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/nds\"><bdi class=\"language lang-nds\" lang=\"nds\">Plattd\u00fc\u00fctsch</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/nl\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/nl\"><bdi class=\"language lang-nl\" lang=\"nl\">Nederlands</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/pl\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/pl\"><bdi class=\"language lang-pl\" lang=\"pl\">polski</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ps\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ps\"><bdi class=\"language lang-ps\" lang=\"ps\">\u067e\u069a\u062a\u0648</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/pt\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/pt\"><bdi class=\"language lang-pt\" lang=\"pt\">portugu\u00eas</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/ru\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/ru\"><bdi class=\"language lang-ru\" lang=\"ru\">\u0440\u0443\u0441\u0441\u043a\u0438\u0439</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/sl\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/sl\"><bdi class=\"language lang-sl\" lang=\"sl\">sloven\u0161\u010dina</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/sv\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/sv\"><bdi class=\"language lang-sv\" lang=\"sv\">svenska</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/tr\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/tr\"><bdi class=\"language lang-tr\" lang=\"tr\">T\u00fcrk\u00e7e</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/uk\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/uk\"><bdi class=\"language lang-uk\" lang=\"uk\">\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/zh-hans\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/zh-hans\"><bdi class=\"language lang-zh-hans\" lang=\"zh-hans\">\u7b80\u4f53\u4e2d\u6587</bdi></a>\u00a0<b>\u2219</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:ID-USMil/zh-hant\" href=\"https://commons.wikimedia.org/wiki/Template:ID-USMil/zh-hant\"><bdi class=\"language lang-zh-hant\" lang=\"zh-hant\">\u7e41\u9ad4\u4e2d\u6587</bdi></a>\u00a0<b>\u2219</b> <small class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/w/index.php?title=Template:ID-USMil/lang&amp;action=edit\" href=\"https://commons.wikimedia.org/w/index.php?title=Template:ID-USMil/lang&amp;action=edit\">+/\u2212</a></small></span>\n</p>\n</td>\n<td><span class=\"mw-image-border\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/120px-Flag_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"47\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/250px-Flag_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1235\" data-file-height=\"650\"></span></span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "U.S. Navy photo by Mass Communication Specialist 2nd Class Heidi J. Giacalone",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1084888598,
+            "parentid": 974418996
+          }
+        ]
+      },
+      "192423266": {
+        "pageid": 192423266,
+        "ns": 6,
+        "title": "File:WHSF- Returned, 62-23 - DPLA - cb6a32d391649e57e04382d94ba1d7d0.pdf",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-05-19T19:32:53Z",
+            "size": 1609589,
+            "width": 1275,
+            "height": 1650,
+            "pagecount": 40,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/WHSF-_Returned%2C_62-23_-_DPLA_-_cb6a32d391649e57e04382d94ba1d7d0.pdf/page1-960px-WHSF-_Returned%2C_62-23_-_DPLA_-_cb6a32d391649e57e04382d94ba1d7d0.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1294,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/WHSF-_Returned%2C_62-23_-_DPLA_-_cb6a32d391649e57e04382d94ba1d7d0.pdf/page1-960px-WHSF-_Returned%2C_62-23_-_DPLA_-_cb6a32d391649e57e04382d94ba1d7d0.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1294
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/WHSF-_Returned%2C_62-23_-_DPLA_-_cb6a32d391649e57e04382d94ba1d7d0.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:WHSF-_Returned,_62-23_-_DPLA_-_cb6a32d391649e57e04382d94ba1d7d0.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192423266",
+            "sha1": "260e9aa6df3a76dbe3c34b50ba9d510631972a9d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-05-19 19:32:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "WHSF- Returned, 62-23 - DPLA - cb6a32d391649e57e04382d94ba1d7d0",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|Media contributed by the National Archives and Records Administration|Media contributed by the Digital Public Library of America|Media contributed by Richard Nixon Presidential Library and Museum",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "Richard Nixon Library &amp; Birthplace (1990 - 7/11/2007)",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "This file contains: Memo from RN to Bob Haldeman about publicity. 1 pg. Duplicate not scanned. [Memo], 5/10/1962 Memo from Rn to Bob Haldeman about Virgil Pinkley. 1 pg. [Memo], 4/26/1962 Memo from Bob Haldeman to RN about Harrison McCall. 1 pg. [Memo], 5/10/1962 Memo to Al Moscow from Bob Haldeman. 1 pg. [Memo], 5/10/1962 Memo from Bob Haldeman to Joseph Martin Jr. about Cummings' article. 1 pg. [Memo], 5/10/1962 Memo from Bob Haldeman to RN about Mailing list. 1 pg. [Memo], 5/11/1962 Memo from RN to Bob Haldeman. 1 pg. [Memo], 5/8/1962 Memo from RN to Haldeman about attached articles by Ray Vicker. 1 pg. Newspaper clippings not scanned. [Memo], 4/24/1962 Memo from Bob Haldeman to RN about attached correspondence from Ken McCormick. 1 pg. [Memo], 5/10/1962 Memo from Rose Mary Woods to Bob Haldeman about attached letter ffrom Ken McCormick. 1 pg. Duplicate not scanned. Attached to previous. [Memo], 5/7/1962 Memo from RN to Bob Haldeman about mail. 1 pg. [Memo], 4/24/1962 Memo from RN to Bob Haldeman about information to our key people. 1 pg. [Memo], 4/24/1962 Memo from Bob Haldeman to RN about your memo of May 4th. 1 pg. [Memo], 5/7/1962 Memo from RN to Bob Haldeman. 1 pg. Attached to previous. [Memo], 5/4/1962 Memo from Bob Haldeman to RN. 1 pg. [Memo], 5/7/1962 Memo from RN to Bob Haldeman. 1 pg. [Memo], 5/4/1962 Memo from Bob Haldeman to RN. 1 pg. [Memo], 5/2/1962 Memo from Bob Haldeman to Charles Farrington Jr. 1 pg. [Memo], 5/2/1962 Memo from Bob Haldeman to Al Moscow. 1 pg. [Memo], 5/7/1962 Memo from RN to Bob Haldeman. 1 pg. Attached to previous. [Memo], 5/4/1962 Memo from Bob Haldeman to RN. 1 pg. [Memo], 5/8/1962 Memo from Bob Haldeman to RN about Paul Keyes. 1 pg. [Memo], 5/2/1962 Memo from Bob Haldeman to RN about Jack Drown's weekly call to Bill Knowland. 1 pg. [Memo], 5/4/1962 Memo from Bob Haldeman to RN about Law Enforcement Task Force. 1 pg. [Memo], 4/23/1962 Memo from Bob Haldeman to RN about Eisenhower Administration people in CA. 1 pg. [Memo], 4/13/1962 Memo from Bob Haldeman to RN about Legionnaires. 1 pg. [Memo], 4/13/1962 Memo from RN to Bob Haldeman about Legionnaires. 1 pg. Attached to previous. [Memo], 3/26/1962 Memo from Bob Haldeman to RN about Dave Henley- Palm Springs trip. 1 pg. [Memo], 3/29/1962 Memo from RN to Bob Haldeman. 1 pg. Attached to previous. [Memo], 3/27/1962 Memo from RN to Bob Haldeman. 1 pg. [Memo], 3/27/1962 Memo from Bob Haldeman to R.H. Finch. 1 pg. [Memo], 2/27/1962 Memo from Bob Haldeman to RN about Democrats for Nixon committee. 1 pg. [Memo], 3/29/1962 Memo from RN to Bob Haldeman about Democrats for Nixon committee. 1 pg. [Memo], 3/26/1962 Memo from Bob Haldeman to RN aboout Joe Holt. 1 pg. [Memo], 4/2/1962",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span style=\"display:inline-block; padding: 4px 16px; vertical-align: middle;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Codex_icon_download_color-progressive.svg/40px-Codex_icon_download_color-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Codex_icon_download_color-progressive.svg/60px-Codex_icon_download_color-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"20\" data-file-height=\"20\"></span></span>\u00a0<a rel=\"nofollow\" class=\"external text\" href=\"https://nara-media.s3.amazonaws.com/presidential-libraries/nixon/RN-RET/3599958/WHSF_Box_62/WHSF62-23.pdf\">File URL</a></span><span style=\"display:inline-block; padding: 4px 16px; vertical-align: middle; border-left: 2px solid #a2a9b1;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breezeicons-actions-22-database-index.svg/40px-Breezeicons-actions-22-database-index.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breezeicons-actions-22-database-index.svg/60px-Breezeicons-actions-22-database-index.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\u00a0<a href=\"https://catalog.archives.gov/id/26128033\" class=\"extiw\" title=\"nara:26128033\">Catalog record</a></span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image might not be in the public domain outside of the United States; this especially applies in the countries and areas that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada, Mainland China (not Hong Kong or Macao), Germany, Mexico, and Switzerland. The creator and year of publication are essential information and must be provided. See <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Public_domain\" class=\"extiw\" title=\"w:Wikipedia:Public domain\">Wikipedia:Public domain</a> and <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Copyrights\" class=\"extiw\" title=\"w:Wikipedia:Copyrights\">Wikipedia:Copyrights</a> for more details.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1233667548,
+            "parentid": 1233667179
+          }
+        ]
+      }
+    }
+  }
+}

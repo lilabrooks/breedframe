@@ -1,0 +1,1242 @@
+{
+  "manifest_sha256": "1224803970e085b3894e77e7d36e2847fb7ae02f669b6f25e03224b92c944791",
+  "controller_source_sha256": "9e8daff63da89c36c67f5a34d7818ce54379b3602d3e417380d9af4298e0c4fd",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "run_at": "2026-09-11T20:39:01-0400",
+  "memory": {
+    "peak_combined_rss_bytes": 970784768,
+    "samples": 186,
+    "ollama_reported_resident_bytes": 3800291082,
+    "errors": [],
+    "method": "200ms RSS sampling: evaluation process, classifier child, project-local Ollama and its children, deduplicated by PID. RSS includes shared pages; not a unique physical-memory measurement. Ollama residency and MPS allocation reported separately, never added to RSS."
+  },
+  "summary": {
+    "baseline": {
+      "total_cases": 5,
+      "labeled_denominator": 3,
+      "top1_correct": 3,
+      "top5_correct": 3,
+      "mean_seconds": 0.804,
+      "incomplete_cases": 0,
+      "abstentions": 0,
+      "non_dog_breed_reports": 2
+    },
+    "agent": {
+      "total_cases": 5,
+      "labeled_denominator": 3,
+      "top1_correct": 2,
+      "top5_correct": 2,
+      "mean_seconds": 7.603,
+      "incomplete_cases": 2,
+      "abstentions": 2,
+      "non_dog_breed_reports": 1,
+      "requests": 2,
+      "mean_tool_calls": 3.2,
+      "errors": 3,
+      "unfinished_failures": 0
+    }
+  },
+  "rows": [
+    {
+      "id": "golden",
+      "label": "golden_retriever",
+      "group": "golden",
+      "non_dog": false,
+      "input_sha256": "1cda8a722958d54d9d6659be538a0e98877c8e80c20b9ed9dd7a5ef3a7ff8fd1",
+      "order": [
+        "baseline",
+        "agent"
+      ],
+      "baseline": {
+        "result": {
+          "candidates": [
+            {
+              "class_id": 8,
+              "label": "golden_retriever",
+              "score": 0.084443,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 65,
+              "label": "saluki",
+              "score": 0.025553,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 76,
+              "label": "borzoi",
+              "score": 0.023272,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 49,
+              "label": "english_setter",
+              "score": 0.022918,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 92,
+              "label": "great_pyrenees",
+              "score": 0.021122,
+              "unresolved_label": false
+            }
+          ],
+          "margin": 0.05889,
+          "device": "mps",
+          "inference_seconds": 0.4464,
+          "fallback": null,
+          "mps_allocated_bytes": 348282880,
+          "mps_driver_bytes": 382435328
+        },
+        "status": "complete",
+        "seconds": 3.805
+      },
+      "agent": {
+        "status": "complete",
+        "report": {
+          "outcome": "visual_matches",
+          "selected_result_id": 2,
+          "evidence_ids": [
+            1,
+            2
+          ],
+          "candidates": [
+            {
+              "class_id": 8,
+              "label": "golden_retriever",
+              "score": 0.084443,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 65,
+              "label": "saluki",
+              "score": 0.025553,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 76,
+              "label": "borzoi",
+              "score": 0.023272,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 49,
+              "label": "english_setter",
+              "score": 0.022918,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 92,
+              "label": "great_pyrenees",
+              "score": 0.021122,
+              "unresolved_label": false
+            }
+          ],
+          "change": "One photo so far; no comparison across photos.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity remains unverified by independent evidence."
+        },
+        "request": null,
+        "attempts": 4,
+        "tool_calls": 4,
+        "tool_errors": 1,
+        "last_candidates": [
+          {
+            "class_id": 8,
+            "label": "golden_retriever",
+            "score": 0.084443,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 65,
+            "label": "saluki",
+            "score": 0.025553,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 76,
+            "label": "borzoi",
+            "score": 0.023272,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 49,
+            "label": "english_setter",
+            "score": 0.022918,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 92,
+            "label": "great_pyrenees",
+            "score": 0.021122,
+            "unresolved_label": false
+          }
+        ],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 1500,
+              "height": 1000,
+              "mean_luminance": 129.83,
+              "laplacian_variance": 4243.6,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 1.042,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 25,
+              "total_duration_ns": 1007258416
+            },
+            "seconds": 0.073
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 8,
+                  "label": "golden_retriever",
+                  "score": 0.084443,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 65,
+                  "label": "saluki",
+                  "score": 0.025553,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 76,
+                  "label": "borzoi",
+                  "score": 0.023272,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.022918,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 92,
+                  "label": "great_pyrenees",
+                  "score": 0.021122,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.05889,
+              "device": "mps",
+              "inference_seconds": 0.154,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 1.678,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 37,
+              "total_duration_ns": 1666548084
+            },
+            "seconds": 0.155
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "low_resolution",
+              "view": "closer_full_body"
+            },
+            "photo_id": "photo-1",
+            "status": "error",
+            "output": {
+              "error": "ValueError: That quality concern is not present in the cited diagnostics."
+            },
+            "controller_seconds": 2.906,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 48,
+              "total_duration_ns": 2899375125
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "visual_matches",
+              "selected_result_id": 2
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "outcome": "visual_matches",
+              "selected_result_id": 2,
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "candidates": [
+                {
+                  "class_id": 8,
+                  "label": "golden_retriever",
+                  "score": 0.084443,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 65,
+                  "label": "saluki",
+                  "score": 0.025553,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 76,
+                  "label": "borzoi",
+                  "score": 0.023272,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.022918,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 92,
+                  "label": "great_pyrenees",
+                  "score": 0.021122,
+                  "unresolved_label": false
+                }
+              ],
+              "change": "One photo so far; no comparison across photos.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity remains unverified by independent evidence."
+            },
+            "controller_seconds": 2.987,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 44,
+              "total_duration_ns": 2980995416
+            },
+            "seconds": 0.0
+          }
+        ],
+        "seconds": 8.87
+      }
+    },
+    {
+      "id": "pug",
+      "label": "pug",
+      "group": "pug",
+      "non_dog": false,
+      "input_sha256": "ec6ed5091e305e09db7bd44bf419430f16ae07192f17a81f33d18d4dd852b8ec",
+      "order": [
+        "agent",
+        "baseline"
+      ],
+      "agent": {
+        "status": "complete",
+        "report": {
+          "outcome": "visual_matches",
+          "selected_result_id": 2,
+          "evidence_ids": [
+            1,
+            2
+          ],
+          "candidates": [
+            {
+              "class_id": 15,
+              "label": "pug",
+              "score": 0.476691,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 70,
+              "label": "norwegian_elkhound",
+              "score": 0.010551,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 51,
+              "label": "boston_bull",
+              "score": 0.009853,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 106,
+              "label": "bull_mastiff",
+              "score": 0.009279,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 58,
+              "label": "french_bulldog",
+              "score": 0.008215,
+              "unresolved_label": false
+            }
+          ],
+          "change": "One photo so far; no comparison across photos.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity remains unverified by independent evidence."
+        },
+        "request": null,
+        "attempts": 3,
+        "tool_calls": 3,
+        "tool_errors": 0,
+        "last_candidates": [
+          {
+            "class_id": 15,
+            "label": "pug",
+            "score": 0.476691,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 70,
+            "label": "norwegian_elkhound",
+            "score": 0.010551,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 51,
+            "label": "boston_bull",
+            "score": 0.009853,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 106,
+            "label": "bull_mastiff",
+            "score": 0.009279,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 58,
+            "label": "french_bulldog",
+            "score": 0.008215,
+            "unresolved_label": false
+          }
+        ],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 600,
+              "height": 467,
+              "mean_luminance": 155.15,
+              "laplacian_variance": 2960.08,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 1.202,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 25,
+              "total_duration_ns": 1193018958
+            },
+            "seconds": 0.009
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "score": 0.476691,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.010551,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 51,
+                  "label": "boston_bull",
+                  "score": 0.009853,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 106,
+                  "label": "bull_mastiff",
+                  "score": 0.009279,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 58,
+                  "label": "french_bulldog",
+                  "score": 0.008215,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.46614,
+              "device": "mps",
+              "inference_seconds": 0.0995,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 2.014,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 37,
+              "total_duration_ns": 2007665459
+            },
+            "seconds": 0.1
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "visual_matches",
+              "selected_result_id": 2
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "outcome": "visual_matches",
+              "selected_result_id": 2,
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "candidates": [
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "score": 0.476691,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.010551,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 51,
+                  "label": "boston_bull",
+                  "score": 0.009853,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 106,
+                  "label": "bull_mastiff",
+                  "score": 0.009279,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 58,
+                  "label": "french_bulldog",
+                  "score": 0.008215,
+                  "unresolved_label": false
+                }
+              ],
+              "change": "One photo so far; no comparison across photos.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity remains unverified by independent evidence."
+            },
+            "controller_seconds": 3.439,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 44,
+              "total_duration_ns": 3433126750
+            },
+            "seconds": 0.0
+          }
+        ],
+        "seconds": 6.772
+      },
+      "baseline": {
+        "result": {
+          "candidates": [
+            {
+              "class_id": 15,
+              "label": "pug",
+              "score": 0.476691,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 70,
+              "label": "norwegian_elkhound",
+              "score": 0.010551,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 51,
+              "label": "boston_bull",
+              "score": 0.009853,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 106,
+              "label": "bull_mastiff",
+              "score": 0.009279,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 58,
+              "label": "french_bulldog",
+              "score": 0.008215,
+              "unresolved_label": false
+            }
+          ],
+          "margin": 0.46614,
+          "device": "mps",
+          "inference_seconds": 0.0485,
+          "fallback": null,
+          "mps_allocated_bytes": 348282880,
+          "mps_driver_bytes": 382418944
+        },
+        "status": "complete",
+        "seconds": 0.049
+      }
+    },
+    {
+      "id": "golden-tiny",
+      "label": "golden_retriever",
+      "group": "golden",
+      "non_dog": false,
+      "input_sha256": "d0cb55b7966bdf331607f31fcefc13e8061b47eb003021052ffc9967b89ec7a6",
+      "order": [
+        "baseline",
+        "agent"
+      ],
+      "baseline": {
+        "result": {
+          "candidates": [
+            {
+              "class_id": 8,
+              "label": "golden_retriever",
+              "score": 0.040243,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 23,
+              "label": "english_foxhound",
+              "score": 0.034048,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 19,
+              "label": "walker_hound",
+              "score": 0.032446,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 65,
+              "label": "saluki",
+              "score": 0.030798,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 30,
+              "label": "beagle",
+              "score": 0.027971,
+              "unresolved_label": false
+            }
+          ],
+          "margin": 0.006195,
+          "device": "mps",
+          "inference_seconds": 0.0319,
+          "fallback": null,
+          "mps_allocated_bytes": 348282880,
+          "mps_driver_bytes": 382418944
+        },
+        "status": "complete",
+        "seconds": 0.032
+      },
+      "agent": {
+        "status": "awaiting_photo",
+        "report": null,
+        "request": {
+          "reason": "low_resolution",
+          "view": "closer_full_body",
+          "evidence_ids": [
+            1
+          ],
+          "message": "Move closer and include the same dog's full body and face in the frame.",
+          "why": "The image has too few pixels for a useful breed comparison."
+        },
+        "attempts": 2,
+        "tool_calls": 2,
+        "tool_errors": 0,
+        "last_candidates": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 48,
+              "height": 32,
+              "mean_luminance": 129.82,
+              "laplacian_variance": 3624.47,
+              "quality_flags": [
+                "low_resolution"
+              ],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 1.116,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 25,
+              "total_duration_ns": 1109447292
+            },
+            "seconds": 0.001
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "low_resolution",
+              "view": "closer_full_body"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "reason": "low_resolution",
+              "view": "closer_full_body",
+              "evidence_ids": [
+                1
+              ],
+              "message": "Move closer and include the same dog's full body and face in the frame.",
+              "why": "The image has too few pixels for a useful breed comparison."
+            },
+            "controller_seconds": 2.513,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 48,
+              "total_duration_ns": 2507458292
+            },
+            "seconds": 0.0
+          }
+        ],
+        "seconds": 3.633
+      }
+    },
+    {
+      "id": "dark",
+      "label": null,
+      "group": "dark",
+      "non_dog": true,
+      "input_sha256": "daf7e6b36a44151f67e72ee6a244308931867a3c4b81ccfcd935ac00d419c410",
+      "order": [
+        "agent",
+        "baseline"
+      ],
+      "agent": {
+        "status": "awaiting_photo",
+        "report": null,
+        "request": {
+          "reason": "exposure",
+          "view": "well_lit_full_body",
+          "evidence_ids": [
+            1
+          ],
+          "message": "Add a well-lit full-body photo of the same dog, with the face visible.",
+          "why": "The measured brightness suggests lost image detail."
+        },
+        "attempts": 2,
+        "tool_calls": 2,
+        "tool_errors": 0,
+        "last_candidates": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 640,
+              "height": 480,
+              "mean_luminance": 8.0,
+              "laplacian_variance": 0.0,
+              "quality_flags": [
+                "exposure",
+                "low_detail"
+              ],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 1.096,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 25,
+              "total_duration_ns": 1072161958
+            },
+            "seconds": 0.003
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "exposure",
+              "view": "well_lit_full_body"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "reason": "exposure",
+              "view": "well_lit_full_body",
+              "evidence_ids": [
+                1
+              ],
+              "message": "Add a well-lit full-body photo of the same dog, with the face visible.",
+              "why": "The measured brightness suggests lost image detail."
+            },
+            "controller_seconds": 2.545,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 48,
+              "total_duration_ns": 2539886875
+            },
+            "seconds": 0.0
+          }
+        ],
+        "seconds": 3.648
+      },
+      "baseline": {
+        "result": {
+          "candidates": [
+            {
+              "class_id": 39,
+              "label": "redbone",
+              "score": 0.010581,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 26,
+              "label": "rhodesian_ridgeback",
+              "score": 0.010403,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 12,
+              "label": "border_collie",
+              "score": 0.010247,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 77,
+              "label": "dhole",
+              "score": 0.010115,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 74,
+              "label": "cairn",
+              "score": 0.010056,
+              "unresolved_label": false
+            }
+          ],
+          "margin": 0.000178,
+          "device": "mps",
+          "inference_seconds": 0.103,
+          "fallback": null,
+          "mps_allocated_bytes": 348282880,
+          "mps_driver_bytes": 382418944
+        },
+        "status": "complete",
+        "seconds": 0.104
+      }
+    },
+    {
+      "id": "checker",
+      "label": null,
+      "group": "checker",
+      "non_dog": true,
+      "input_sha256": "80a41d2c5e46d716cf01057d49c1124ceb5064ff4655e12a8b909a2b5721717c",
+      "order": [
+        "baseline",
+        "agent"
+      ],
+      "baseline": {
+        "result": {
+          "candidates": [
+            {
+              "class_id": 15,
+              "label": "pug",
+              "score": 0.013304,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 37,
+              "label": "pomeranian",
+              "score": 0.013247,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 7,
+              "label": "pekinese",
+              "score": 0.012006,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 71,
+              "label": "chihuahua",
+              "score": 0.011793,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 63,
+              "label": "newfoundland",
+              "score": 0.011662,
+              "unresolved_label": false
+            }
+          ],
+          "margin": 5.7e-05,
+          "device": "mps",
+          "inference_seconds": 0.0297,
+          "fallback": null,
+          "mps_allocated_bytes": 348282880,
+          "mps_driver_bytes": 382418944
+        },
+        "status": "complete",
+        "seconds": 0.03
+      },
+      "agent": {
+        "status": "complete",
+        "report": {
+          "outcome": "visual_matches",
+          "selected_result_id": 2,
+          "evidence_ids": [
+            1,
+            2
+          ],
+          "candidates": [
+            {
+              "class_id": 15,
+              "label": "pug",
+              "score": 0.013304,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 37,
+              "label": "pomeranian",
+              "score": 0.013247,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 7,
+              "label": "pekinese",
+              "score": 0.012006,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 71,
+              "label": "chihuahua",
+              "score": 0.011793,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 63,
+              "label": "newfoundland",
+              "score": 0.011662,
+              "unresolved_label": false
+            }
+          ],
+          "change": "One photo so far; no comparison across photos.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity remains unverified by independent evidence."
+        },
+        "request": null,
+        "attempts": 5,
+        "tool_calls": 5,
+        "tool_errors": 2,
+        "last_candidates": [
+          {
+            "class_id": 15,
+            "label": "pug",
+            "score": 0.013304,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 37,
+            "label": "pomeranian",
+            "score": 0.013247,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 7,
+            "label": "pekinese",
+            "score": 0.012006,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 71,
+            "label": "chihuahua",
+            "score": 0.011793,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 63,
+            "label": "newfoundland",
+            "score": 0.011662,
+            "unresolved_label": false
+          }
+        ],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 640,
+              "height": 480,
+              "mean_luminance": 127.5,
+              "laplacian_variance": 6527.7,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 1.139,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 25,
+              "total_duration_ns": 1133090542
+            },
+            "seconds": 0.004
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "score": 0.013304,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 37,
+                  "label": "pomeranian",
+                  "score": 0.013247,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 7,
+                  "label": "pekinese",
+                  "score": 0.012006,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 71,
+                  "label": "chihuahua",
+                  "score": 0.011793,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 63,
+                  "label": "newfoundland",
+                  "score": 0.011662,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 5.7e-05,
+              "device": "mps",
+              "inference_seconds": 0.1028,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 2.132,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 37,
+              "total_duration_ns": 2125457958
+            },
+            "seconds": 0.103
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "low_resolution",
+              "view": "closer_full_body"
+            },
+            "photo_id": "photo-1",
+            "status": "error",
+            "output": {
+              "error": "ValueError: That quality concern is not present in the cited diagnostics."
+            },
+            "controller_seconds": 3.784,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 48,
+              "total_duration_ns": 3776969417
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "low_resolution",
+              "view": "closer_full_body"
+            },
+            "photo_id": "photo-1",
+            "status": "error",
+            "output": {
+              "error": "ValueError: Repeated unproductive action blocked."
+            },
+            "controller_seconds": 3.919,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 48,
+              "total_duration_ns": 3912877500
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "visual_matches",
+              "selected_result_id": 2
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "outcome": "visual_matches",
+              "selected_result_id": 2,
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "candidates": [
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "score": 0.013304,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 37,
+                  "label": "pomeranian",
+                  "score": 0.013247,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 7,
+                  "label": "pekinese",
+                  "score": 0.012006,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 71,
+                  "label": "chihuahua",
+                  "score": 0.011793,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 63,
+                  "label": "newfoundland",
+                  "score": 0.011662,
+                  "unresolved_label": false
+                }
+              ],
+              "change": "One photo so far; no comparison across photos.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity remains unverified by independent evidence."
+            },
+            "controller_seconds": 4.003,
+            "controller": {
+              "model": "qwen3:4b",
+              "eval_count": 44,
+              "total_duration_ns": 3995187542
+            },
+            "seconds": 0.0
+          }
+        ],
+        "seconds": 15.094
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "purpose": "Post-run inspection of deterministic processors; no model inference or outcome tuning.",
+  "classifier_calls": 0,
+  "rows": [
+    {
+      "case_id": "liberty",
+      "image_id": "liberty-02",
+      "model": "resnet",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "1840187e1869578be273070d508f4ee8da80f31002adbfd036f10f914f0adbd4"
+    },
+    {
+      "case_id": "liberty",
+      "image_id": "liberty-02",
+      "model": "vit",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "46b04030702f15e9ff5d21241c7ed7ad53257c455c1a5ae8de159502d5c12b0d"
+    },
+    {
+      "case_id": "robroy",
+      "image_id": "robroy-02",
+      "model": "resnet",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "1e3b1483459d9ea1ecdd85640d33bd5a755c9bd65a480619ae88a264638edea6"
+    },
+    {
+      "case_id": "robroy",
+      "image_id": "robroy-02",
+      "model": "vit",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "65786c15e539e37b3567c94b592b97973a2580a227cdfcc0dc0eb152a15b388f"
+    },
+    {
+      "case_id": "laddie",
+      "image_id": "laddie-01",
+      "model": "resnet",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "60c807e95470613fb27e5a8e6affbfd48d97bd22191eeff62dbb0366f3cc712f"
+    },
+    {
+      "case_id": "laddie",
+      "image_id": "laddie-01",
+      "model": "vit",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "da587198784af6b18b99e27eaaec8f961dcd9ffc5900c6ed712299a2152bb93b"
+    },
+    {
+      "case_id": "koni",
+      "image_id": "koni-02",
+      "model": "resnet",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "402815a1298d94bd891f6c64bf4ec34455a0096c3c9e64b9318f117c18ee3263"
+    },
+    {
+      "case_id": "koni",
+      "image_id": "koni-02",
+      "model": "vit",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "63d5130f8c702ac0eee7fa3b27a0a137bbc44287d9fc9d920c73da9e59d62deb"
+    },
+    {
+      "case_id": "blanco",
+      "image_id": "blanco-02",
+      "model": "resnet",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "b75fcab88d6a4a28d8ff759d17d3886998ec9e41fd15880931fcfddb2bc073a9"
+    },
+    {
+      "case_id": "blanco",
+      "image_id": "blanco-02",
+      "model": "vit",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "bba7a2437b0aac34611afcdfebab42c7da7d0c21dda287ee3c33bcc25bb47539"
+    },
+    {
+      "case_id": "fala",
+      "image_id": "fala-live-02",
+      "model": "resnet",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "eeb5fade1bb91e77b85dd8d5523e815db39662155ddcbc30533c300fa4fd8ad4"
+    },
+    {
+      "case_id": "fala",
+      "image_id": "fala-live-02",
+      "model": "vit",
+      "pixel_values_shape": [
+        3,
+        224,
+        224
+      ],
+      "pixel_values_sha256": "b60af826fd857f9fa0370b27db6ebbfa793b9456194c6b8886cda65a1fb8042c"
+    }
+  ]
+}

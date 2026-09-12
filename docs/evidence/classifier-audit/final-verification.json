@@ -1,0 +1,25 @@
+{
+  "checks": "make check",
+  "tests_passed": 31,
+  "existing_deprecation_warnings": 2,
+  "ruff_passed": true,
+  "javascript_syntax_passed": true,
+  "frozen_sources_unchanged": true,
+  "model_assets_match_original_record": true,
+  "broken_document_links": [],
+  "app_health": {
+    "status": 200,
+    "body": {
+      "ready": true,
+      "controller": "qwen3:4b",
+      "classifier_ready": true,
+      "detail": "Pinned local controller ready: qwen3:4b.",
+      "busy": false,
+      "limitations": [
+        "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+        "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+        "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+      ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "pageid": 60533325,
+  "ns": 6,
+  "title": "File:Greyfriars Bobby Statue.jpg",
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2017-06-30T12:43:27Z",
+      "size": 770035,
+      "width": 1524,
+      "height": 2032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Greyfriars_Bobby_Statue.jpg/1280px-Greyfriars_Bobby_Statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1000,
+      "thumbheight": 1333,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Greyfriars_Bobby_Statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Greyfriars_Bobby_Statue.jpg/1280px-Greyfriars_Bobby_Statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 1333,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Greyfriars_Bobby_Statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Greyfriars_Bobby_Statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Greyfriars_Bobby_Statue.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=60533325",
+      "sha1": "b9acd6b6db680b3df0680e27afd2103eddfb8f21",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-06-30 12:43:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Greyfriars Bobby Statue",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD-user|Greyfriars Bobby Memorial Fountain|Uploaded with MTC!",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The <a href=\"https://en.wikipedia.org/wiki/statue\" class=\"extiw\" title=\"w:statue\">w:statue</a> of <a href=\"https://en.wikipedia.org/wiki/Greyfriars_Bobby\" class=\"extiw\" title=\"w:Greyfriars Bobby\">w:Greyfriars Bobby</a> in <a href=\"https://en.wikipedia.org/wiki/Edinburgh\" class=\"extiw\" title=\"w:Edinburgh\">w:Edinburgh</a>.",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "I created this work entirely by myself.",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/User:Tharnton345\" class=\"extiw\" title=\"w:User:Tharnton345\">Tharnton345</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Tharnton345\" class=\"extiw\" title=\"w:User talk:Tharnton345\">talk</a>)",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 923723469,
+      "parentid": 597045222
+    }
+  ]
+}

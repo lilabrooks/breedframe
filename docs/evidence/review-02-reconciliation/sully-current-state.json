@@ -1,0 +1,594 @@
+{
+  "state": {
+    "current_photo_id": "photo-2",
+    "photo_count": 2,
+    "actions_remaining": 5,
+    "allowed_tools": [
+      "classify_breed",
+      "finish_assessment",
+      "request_another_photo"
+    ],
+    "available_region_ids": [],
+    "request_reasons": [
+      "insufficient_evidence"
+    ],
+    "followup_unavailable": false,
+    "comparison": {
+      "version": 2,
+      "relation": "single_photo",
+      "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+      "views": [
+        {
+          "photo_id": "photo-1",
+          "inspection_event_id": 1,
+          "quality_flags": [],
+          "rankings": [
+            {
+              "event_id": 2,
+              "region_id": null,
+              "candidates": [
+                {
+                  "class_id": 80,
+                  "label": "labrador_retriever",
+                  "score": 0.055967,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 50,
+                  "label": "bluetick",
+                  "score": 0.032064,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 19,
+                  "label": "walker_hound",
+                  "score": 0.025412,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.020146,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 23,
+                  "label": "english_foxhound",
+                  "score": 0.019211,
+                  "unresolved_label": false
+                }
+              ],
+              "weak_scores": true,
+              "quality_flags": []
+            }
+          ],
+          "leading_class_ids": [
+            80
+          ]
+        },
+        {
+          "photo_id": "photo-2",
+          "inspection_event_id": 4,
+          "quality_flags": [],
+          "rankings": [],
+          "leading_class_ids": []
+        }
+      ],
+      "ranked_photo_count": 1,
+      "candidates": [
+        {
+          "class_id": 80,
+          "label": "labrador_retriever",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 1,
+              "score": 0.055967
+            }
+          ],
+          "supporting_photo_ids": [
+            "photo-1"
+          ],
+          "top5_photo_ids": [
+            "photo-1"
+          ],
+          "rank_sum": 1
+        },
+        {
+          "class_id": 50,
+          "label": "bluetick",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 2,
+              "score": 0.032064
+            }
+          ],
+          "supporting_photo_ids": [],
+          "top5_photo_ids": [
+            "photo-1"
+          ],
+          "rank_sum": 2
+        },
+        {
+          "class_id": 19,
+          "label": "walker_hound",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 3,
+              "score": 0.025412
+            }
+          ],
+          "supporting_photo_ids": [],
+          "top5_photo_ids": [
+            "photo-1"
+          ],
+          "rank_sum": 3
+        },
+        {
+          "class_id": 49,
+          "label": "english_setter",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 4,
+              "score": 0.020146
+            }
+          ],
+          "supporting_photo_ids": [],
+          "top5_photo_ids": [
+            "photo-1"
+          ],
+          "rank_sum": 4
+        },
+        {
+          "class_id": 23,
+          "label": "english_foxhound",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 5,
+              "score": 0.019211
+            }
+          ],
+          "supporting_photo_ids": [],
+          "top5_photo_ids": [
+            "photo-1"
+          ],
+          "rank_sum": 5
+        }
+      ],
+      "blockers": [
+        "The current photo has no classifier result."
+      ],
+      "report_eligible_ids": [],
+      "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+      "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+    },
+    "recent_errors": []
+  },
+  "schema": {
+    "$defs": {
+      "ClassifyCall": {
+        "additionalProperties": false,
+        "properties": {
+          "tool": {
+            "const": "classify_breed",
+            "title": "Tool",
+            "type": "string"
+          },
+          "arguments": {
+            "$ref": "#/$defs/PhotoArgs"
+          }
+        },
+        "required": [
+          "tool",
+          "arguments"
+        ],
+        "title": "ClassifyCall",
+        "type": "object"
+      },
+      "FinishArgs": {
+        "additionalProperties": false,
+        "properties": {
+          "outcome": {
+            "const": "inconclusive",
+            "type": "string"
+          },
+          "selected_result_id": {
+            "enum": [
+              null
+            ]
+          }
+        },
+        "required": [
+          "outcome",
+          "selected_result_id"
+        ],
+        "title": "FinishArgs",
+        "type": "object"
+      },
+      "FinishCall": {
+        "additionalProperties": false,
+        "properties": {
+          "tool": {
+            "const": "finish_assessment",
+            "title": "Tool",
+            "type": "string"
+          },
+          "arguments": {
+            "$ref": "#/$defs/FinishArgs"
+          }
+        },
+        "required": [
+          "tool",
+          "arguments"
+        ],
+        "title": "FinishCall",
+        "type": "object"
+      },
+      "InspectCall": {
+        "additionalProperties": false,
+        "properties": {
+          "tool": {
+            "const": "inspect_image",
+            "title": "Tool",
+            "type": "string"
+          },
+          "arguments": {
+            "$ref": "#/$defs/PhotoArgs"
+          }
+        },
+        "required": [
+          "tool",
+          "arguments"
+        ],
+        "title": "InspectCall",
+        "type": "object"
+      },
+      "PhotoArgs": {
+        "additionalProperties": false,
+        "properties": {
+          "photo_id": {
+            "enum": [
+              "photo-2"
+            ]
+          }
+        },
+        "required": [
+          "photo_id"
+        ],
+        "title": "PhotoArgs",
+        "type": "object"
+      },
+      "RegionArgs": {
+        "additionalProperties": false,
+        "properties": {
+          "photo_id": {
+            "enum": [
+              "photo-2"
+            ]
+          },
+          "region_id": {
+            "enum": [
+              "unavailable"
+            ]
+          }
+        },
+        "required": [
+          "photo_id",
+          "region_id"
+        ],
+        "title": "RegionArgs",
+        "type": "object"
+      },
+      "RegionCall": {
+        "additionalProperties": false,
+        "properties": {
+          "tool": {
+            "const": "classify_region",
+            "title": "Tool",
+            "type": "string"
+          },
+          "arguments": {
+            "$ref": "#/$defs/RegionArgs"
+          }
+        },
+        "required": [
+          "tool",
+          "arguments"
+        ],
+        "title": "RegionCall",
+        "type": "object"
+      },
+      "RequestArgs": {
+        "additionalProperties": false,
+        "properties": {
+          "reason": {
+            "enum": [
+              "insufficient_evidence"
+            ]
+          },
+          "view": {
+            "enum": [
+              "well_lit_full_body",
+              "sharp_face_and_body",
+              "closer_full_body"
+            ],
+            "title": "View",
+            "type": "string"
+          }
+        },
+        "required": [
+          "reason",
+          "view"
+        ],
+        "title": "RequestArgs",
+        "type": "object"
+      },
+      "RequestCall": {
+        "additionalProperties": false,
+        "properties": {
+          "tool": {
+            "const": "request_another_photo",
+            "title": "Tool",
+            "type": "string"
+          },
+          "arguments": {
+            "$ref": "#/$defs/RequestArgs"
+          }
+        },
+        "required": [
+          "tool",
+          "arguments"
+        ],
+        "title": "RequestCall",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "call": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/ClassifyCall"
+          },
+          {
+            "$ref": "#/$defs/RequestCall"
+          },
+          {
+            "$ref": "#/$defs/FinishCall"
+          }
+        ],
+        "title": "Call"
+      }
+    },
+    "required": [
+      "call"
+    ],
+    "title": "Decision",
+    "type": "object"
+  },
+  "subsequent_recorded_action": {
+    "id": 5,
+    "kind": "tool",
+    "tool": "finish_assessment",
+    "input": {
+      "outcome": "inconclusive",
+      "selected_result_id": null
+    },
+    "photo_id": "photo-2",
+    "status": "ok",
+    "output": {
+      "version": 2,
+      "outcome": "inconclusive",
+      "selected_result_id": null,
+      "completed_by": "agent",
+      "evidence_ids": [
+        1,
+        2,
+        4
+      ],
+      "candidates": [],
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 80,
+                    "label": "labrador_retriever",
+                    "score": 0.055967,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 50,
+                    "label": "bluetick",
+                    "score": 0.032064,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 19,
+                    "label": "walker_hound",
+                    "score": 0.025412,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 49,
+                    "label": "english_setter",
+                    "score": 0.020146,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 23,
+                    "label": "english_foxhound",
+                    "score": 0.019211,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": []
+              }
+            ],
+            "leading_class_ids": [
+              80
+            ]
+          },
+          {
+            "photo_id": "photo-2",
+            "inspection_event_id": 4,
+            "quality_flags": [],
+            "rankings": [],
+            "leading_class_ids": []
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 80,
+            "label": "labrador_retriever",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.055967
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 50,
+            "label": "bluetick",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.032064
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.025412
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 49,
+            "label": "english_setter",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.020146
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.019211
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "The current photo has no classifier result."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "change": "One photo has classifier evidence; agreement across photographs is untested.",
+      "limitations": [
+        "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+        "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+        "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+      ],
+      "quality_flags": [],
+      "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+    },
+    "controller_seconds": 7.472,
+    "controller": {
+      "model": "qwen3:4b",
+      "eval_count": 46,
+      "total_duration_ns": 7465839167
+    },
+    "seconds": 0.0
+  }
+}

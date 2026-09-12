@@ -1,0 +1,18 @@
+{
+  "model.safetensors": {
+    "bytes": 343586952,
+    "sha256": "4e48fcd3783e463b751846ccbe0e8277aff44b5727e907d1c4809437d8caf2a6"
+  },
+  "config.json": {
+    "bytes": 6751,
+    "sha256": "58d5da63978fa75fc04bf940df3ff1c3c2c51e667646104a227011283fa0a179"
+  },
+  "README.md": {
+    "bytes": 5567,
+    "sha256": "fc4d20929cb6e87ae704ed72dcbf27655d6192db51ec2d8ea771418bb5dd9828"
+  },
+  "preprocessor_config.json": {
+    "bytes": 325,
+    "sha256": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "pageid": 5551714,
+  "ns": 6,
+  "title": "File:Vladimir Putin and Koni-4.jpg",
+  "index": 5,
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2008-12-22T20:17:08Z",
+      "size": 48971,
+      "width": 500,
+      "height": 334,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_and_Koni-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1000,
+      "thumbheight": 668,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_and_Koni-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 668
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_and_Koni-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Koni-4.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5551714",
+      "sha1": "afab07099768e4f23019617e66a4a97d0a85d591",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2008-12-22 20:17:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vladimir Putin and Koni-4",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Koni|Novo-Ogaryovo|Vladimir Putin with animals|Vladimir Putin in July 2002|Russia photographs taken on 2002-07-26|Files from Kremlin.ru, 2002",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vladimir Putin with his dog, a Labrador named Koni, in Novo-Ogaryovo.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on\u00a026 July 2002",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.kremlin.ru/text/images/45100.shtml\">http://www.kremlin.ru/text/images/45100.shtml</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Presidential Press and Information Office",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 1187737829,
+      "parentid": 753551277
+    }
+  ]
+}

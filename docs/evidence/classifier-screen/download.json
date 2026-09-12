@@ -1,0 +1,22 @@
+{
+  "model": "microsoft/resnet-50",
+  "revision": "34c2154c194f829b11125337b98c8f5f9965ff19",
+  "files": {
+    "model.safetensors": {
+      "bytes": 102482854,
+      "sha256": "9c6061af1f450bb0847e529fd742aa5066017be379c71bbf5546b198e5b13a1e"
+    },
+    "config.json": {
+      "bytes": 69556,
+      "sha256": "a1be0f56d516d0b55f9844ce0fbfe5fb359195cba6c6c102d41ae6c202c84d5e"
+    },
+    "README.md": {
+      "bytes": 2642,
+      "sha256": "04d061880708f068399982df268dcbf26c221847a3fe5c20053b209af594bd04"
+    },
+    "preprocessor_config.json": {
+      "bytes": 266,
+      "sha256": "fd575b890da5a949493e1d1e7a70bfcb9e4b99fe444004d2dbfa253add254741"
+    }
+  }
+}

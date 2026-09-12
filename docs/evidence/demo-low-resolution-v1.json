@@ -1,0 +1,229 @@
+{
+  "id": "8d2f22c9c3dd4c8ca3b0eb14193ed7f0",
+  "status": "complete",
+  "photos": [
+    {
+      "id": "photo-1",
+      "width": 48,
+      "height": 32,
+      "sha256": "6a7450ef004d08723263e5b74f0ac46bb9ae46b69cc3c8a5ed0092b0bbedd312"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "kind": "tool",
+      "tool": "inspect_image",
+      "input": {
+        "photo_id": "photo-1"
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "width": 48,
+        "height": 32,
+        "mean_luminance": 116.21,
+        "laplacian_variance": 3515.36,
+        "quality_flags": [
+          "low_resolution"
+        ],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "controller_seconds": 1.043,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 25,
+        "total_duration_ns": 979263375
+      },
+      "seconds": 0.001
+    },
+    {
+      "id": 2,
+      "kind": "tool",
+      "tool": "classify_breed",
+      "input": {
+        "photo_id": "photo-1"
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "candidates": [
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "score": 0.12055,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 30,
+            "label": "beagle",
+            "score": 0.108308,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "score": 0.097516,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 41,
+            "label": "basset",
+            "score": 0.050396,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 65,
+            "label": "saluki",
+            "score": 0.009769,
+            "unresolved_label": false
+          }
+        ],
+        "margin": 0.012242,
+        "device": "mps",
+        "inference_seconds": 0.511,
+        "fallback": null,
+        "mps_allocated_bytes": 348282880,
+        "mps_driver_bytes": 382418944
+      },
+      "controller_seconds": 3.727,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 39,
+        "total_duration_ns": 3721368500
+      },
+      "seconds": 8.099
+    },
+    {
+      "id": 3,
+      "kind": "tool",
+      "tool": "finish_assessment",
+      "input": {
+        "outcome": "visual_matches",
+        "selected_result_id": 2
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "outcome": "visual_matches",
+        "selected_result_id": 2,
+        "evidence_ids": [
+          1,
+          2
+        ],
+        "candidates": [
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "score": 0.12055,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 30,
+            "label": "beagle",
+            "score": 0.108308,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "score": 0.097516,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 41,
+            "label": "basset",
+            "score": 0.050396,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 65,
+            "label": "saluki",
+            "score": 0.009769,
+            "unresolved_label": false
+          }
+        ],
+        "change": "One photo so far; no comparison across photos.",
+        "limitations": [
+          "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+          "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+          "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+        ],
+        "quality_flags": [
+          "low_resolution"
+        ],
+        "uncertainty": "Breed identity remains unverified by independent evidence."
+      },
+      "controller_seconds": 5.784,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 44,
+        "total_duration_ns": 5774651209
+      },
+      "seconds": 0.0
+    }
+  ],
+  "attempts": {
+    "photo-1": 3
+  },
+  "report": {
+    "outcome": "visual_matches",
+    "selected_result_id": 2,
+    "evidence_ids": [
+      1,
+      2
+    ],
+    "candidates": [
+      {
+        "class_id": 23,
+        "label": "english_foxhound",
+        "score": 0.12055,
+        "unresolved_label": false
+      },
+      {
+        "class_id": 30,
+        "label": "beagle",
+        "score": 0.108308,
+        "unresolved_label": false
+      },
+      {
+        "class_id": 19,
+        "label": "walker_hound",
+        "score": 0.097516,
+        "unresolved_label": false
+      },
+      {
+        "class_id": 41,
+        "label": "basset",
+        "score": 0.050396,
+        "unresolved_label": false
+      },
+      {
+        "class_id": 65,
+        "label": "saluki",
+        "score": 0.009769,
+        "unresolved_label": false
+      }
+    ],
+    "change": "One photo so far; no comparison across photos.",
+    "limitations": [
+      "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+      "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+      "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+    ],
+    "quality_flags": [
+      "low_resolution"
+    ],
+    "uncertainty": "Breed identity remains unverified by independent evidence."
+  },
+  "request": null,
+  "runs": [
+    {
+      "photo_id": "photo-1",
+      "seconds": 18.662,
+      "attempts": 3,
+      "status": "complete"
+    }
+  ],
+  "mode": "agent"
+}

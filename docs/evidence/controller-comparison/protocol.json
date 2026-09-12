@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "status": "Fixed before candidate inference",
+  "candidate": "qwen3.5:4b Q4_K_M",
+  "baseline": "qwen3:4b Q4_K_M",
+  "classifier_revision": "160ee8611d7974c550bbaaa108378fbe8be9ef9c",
+  "changes_allowed": "Controller identity selection and verification, accurate identity display and memory attribution, evidence metadata and metric counters. Preserve controller SYSTEM prompt, tool schema, numerical observations, classifier, report thresholds, budgets and image processing. Model-native templates and defaults are recorded as part of each model package.",
+  "scheduled_comparison": [
+    {
+      "split": "development",
+      "mode": "policy",
+      "cases": 6
+    },
+    {
+      "split": "development",
+      "mode": "forced_pair",
+      "cases": 3
+    },
+    {
+      "split": "reserved_evaluation",
+      "mode": "policy",
+      "cases": 7
+    },
+    {
+      "split": "reserved_evaluation",
+      "mode": "forced_pair",
+      "cases": 4
+    }
+  ],
+  "methods_per_case": [
+    "direct",
+    "rules",
+    "agent"
+  ],
+  "timing": "Same warmed-model runner without memory sampling as preserved paired baseline. Run methods sequentially and rotate order within each case. Stop browser inference during measurements.",
+  "compatibility_and_memory_probe": "One preselected development case, Barney, first photo only, through each real text controller. Unload model before its probe, measure cold load plus the case separately from warm evaluation; sample process memory every 200ms. Preserve payload, response metadata and actual case. This repeated baseline probe measures memory and identity plumbing, not a new accuracy estimate.",
+  "decision_metrics": "Retain existing completion, coverage, report correctness, error, unsupported report, latency and follow-up metrics. Add initial photos classified / scheduled cases; follow-up photos classified / supplied follow-ups; cases requesting follow-up / scheduled cases; and valid request reasons. More requests alone do not establish a useful improvement. No candidate can make the already measured low-scoring whole-image predictions report-eligible under unchanged thresholds.",
+  "acceptance": "Consider promotion only for useful evidence-use or reporting improvement, no additional unsupported reports, and acceptable observed memory and latency. Mixed results remain explicit. Default stays Qwen3 4B if no useful improvement. Treat the rules policy as a serious alternative.",
+  "stop": "Run each scheduled method/case once. Existing 6-attempt, 240-second-per-photo, 45-second controller, and 60-second classifier limits apply. Keep all failures and abstentions. Compatibility repairs use development only and are recorded; freeze before reserved runs. Do not add cases or repeat to seek a favorable outcome.",
+  "holdout_disclosure": "Reserved cases were previously observed with the baseline. They are a fixed comparison set, not a fresh blind test.",
+  "excluded": "No hosted API calls, vision input, threshold tuning, classifier substitution, or 9B model trial. Those require separate experiments.",
+  "sampling_reconciliation": {
+    "recorded_before_candidate_inference": true,
+    "reason": "Candidate package presence_penalty is 1.5, baseline package leaves it unset. Ollama 0.34.0 DefaultOptions uses 0. Explicitly set presence_penalty=0, repeat_penalty=1, top_k=20, top_p=0.95 on both models to preserve baseline effective sampling. Original temperature=0, seed=42, context=8192, output=500, think=false remain unchanged.",
+    "runtime_source": "https://raw.githubusercontent.com/ollama/ollama/v0.34.0/api/types.go",
+    "model_templates": "Native templates and stop tokens remain model-specific and are archived in package metadata."
+  }
+}

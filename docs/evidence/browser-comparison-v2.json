@@ -1,0 +1,1873 @@
+{
+  "id": "8729296ae8aa4f1ca69e658b79c1ef0a",
+  "status": "complete",
+  "photos": [
+    {
+      "id": "photo-1",
+      "width": 48,
+      "height": 32,
+      "sha256": "6a7450ef004d08723263e5b74f0ac46bb9ae46b69cc3c8a5ed0092b0bbedd312"
+    },
+    {
+      "id": "photo-2",
+      "width": 600,
+      "height": 480,
+      "sha256": "7234706a2e52f3d01d6d713380609646f0fd855ea7a2aa9770a5c2cd12f1e463",
+      "regions": [
+        {
+          "id": "region-1",
+          "source": "user_selection",
+          "parent_photo_id": "photo-2",
+          "bounds": [
+            30,
+            96,
+            540,
+            471
+          ],
+          "normalized_bounds": [
+            0.05,
+            0.2,
+            0.9,
+            0.98
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "kind": "tool",
+      "tool": "inspect_image",
+      "input": {
+        "photo_id": "photo-1"
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "width": 48,
+        "height": 32,
+        "mean_luminance": 116.21,
+        "laplacian_variance": 3515.36,
+        "quality_flags": [
+          "low_resolution"
+        ],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "controller_seconds": 2.542,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 35,
+        "total_duration_ns": 2532435000
+      },
+      "seconds": 0.001
+    },
+    {
+      "id": 2,
+      "kind": "tool",
+      "tool": "classify_breed",
+      "input": {
+        "photo_id": "photo-1"
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "candidates": [
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "score": 0.12055,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 30,
+            "label": "beagle",
+            "score": 0.108308,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "score": 0.097516,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 41,
+            "label": "basset",
+            "score": 0.050396,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 65,
+            "label": "saluki",
+            "score": 0.009769,
+            "unresolved_label": false
+          }
+        ],
+        "margin": 0.012242,
+        "device": "mps",
+        "inference_seconds": 0.3829,
+        "fallback": null,
+        "mps_allocated_bytes": 348282880,
+        "mps_driver_bytes": 382435328
+      },
+      "controller_seconds": 2.61,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 36,
+        "total_duration_ns": 2602659875
+      },
+      "seconds": 3.884
+    },
+    {
+      "id": 3,
+      "kind": "tool",
+      "tool": "finish_assessment",
+      "input": {
+        "outcome": "inconclusive",
+        "selected_result_id": null
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "version": 2,
+        "outcome": "inconclusive",
+        "selected_result_id": null,
+        "completed_by": "agent",
+        "evidence_ids": [
+          1,
+          2
+        ],
+        "candidates": [],
+        "comparison": {
+          "version": 2,
+          "relation": "single_photo",
+          "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+          "views": [
+            {
+              "photo_id": "photo-1",
+              "inspection_event_id": 1,
+              "quality_flags": [
+                "low_resolution"
+              ],
+              "rankings": [
+                {
+                  "event_id": 2,
+                  "region_id": null,
+                  "candidates": [
+                    {
+                      "class_id": 23,
+                      "label": "english_foxhound",
+                      "score": 0.12055,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 30,
+                      "label": "beagle",
+                      "score": 0.108308,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 19,
+                      "label": "walker_hound",
+                      "score": 0.097516,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 41,
+                      "label": "basset",
+                      "score": 0.050396,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 65,
+                      "label": "saluki",
+                      "score": 0.009769,
+                      "unresolved_label": false
+                    }
+                  ],
+                  "weak_scores": true,
+                  "quality_flags": [
+                    "low_resolution"
+                  ]
+                }
+              ],
+              "leading_class_ids": [
+                23
+              ]
+            }
+          ],
+          "ranked_photo_count": 1,
+          "candidates": [
+            {
+              "class_id": 23,
+              "label": "english_foxhound",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 1,
+                  "score": 0.12055
+                }
+              ],
+              "supporting_photo_ids": [
+                "photo-1"
+              ],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 1
+            },
+            {
+              "class_id": 30,
+              "label": "beagle",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 2,
+                  "score": 0.108308
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 2
+            },
+            {
+              "class_id": 19,
+              "label": "walker_hound",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 3,
+                  "score": 0.097516
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 3
+            },
+            {
+              "class_id": 41,
+              "label": "basset",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 4,
+                  "score": 0.050396
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 4
+            },
+            {
+              "class_id": 65,
+              "label": "saluki",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 5,
+                  "score": 0.009769
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 5
+            }
+          ],
+          "blockers": [
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "report_eligible_ids": [],
+          "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+          "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+        },
+        "change": "One photo has classifier evidence; agreement across photographs is untested.",
+        "limitations": [
+          "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+          "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+          "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+        ],
+        "quality_flags": [
+          "low_resolution"
+        ],
+        "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+      },
+      "controller_seconds": 5.716,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 46,
+        "total_duration_ns": 5709511791
+      },
+      "seconds": 0.0
+    },
+    {
+      "id": 4,
+      "kind": "tool",
+      "tool": "inspect_image",
+      "input": {
+        "photo_id": "photo-2"
+      },
+      "photo_id": "photo-2",
+      "status": "ok",
+      "output": {
+        "width": 600,
+        "height": 480,
+        "mean_luminance": 116.22,
+        "laplacian_variance": 1452.9,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "controller_seconds": 4.807,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 35,
+        "total_duration_ns": 4798162417
+      },
+      "seconds": 0.009
+    },
+    {
+      "id": 5,
+      "kind": "tool",
+      "tool": "finish_assessment",
+      "input": {
+        "outcome": "inconclusive",
+        "selected_result_id": null
+      },
+      "photo_id": "photo-2",
+      "status": "ok",
+      "output": {
+        "version": 2,
+        "outcome": "inconclusive",
+        "selected_result_id": null,
+        "completed_by": "agent",
+        "evidence_ids": [
+          1,
+          2,
+          4
+        ],
+        "candidates": [],
+        "comparison": {
+          "version": 2,
+          "relation": "single_photo",
+          "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+          "views": [
+            {
+              "photo_id": "photo-1",
+              "inspection_event_id": 1,
+              "quality_flags": [
+                "low_resolution"
+              ],
+              "rankings": [
+                {
+                  "event_id": 2,
+                  "region_id": null,
+                  "candidates": [
+                    {
+                      "class_id": 23,
+                      "label": "english_foxhound",
+                      "score": 0.12055,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 30,
+                      "label": "beagle",
+                      "score": 0.108308,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 19,
+                      "label": "walker_hound",
+                      "score": 0.097516,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 41,
+                      "label": "basset",
+                      "score": 0.050396,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 65,
+                      "label": "saluki",
+                      "score": 0.009769,
+                      "unresolved_label": false
+                    }
+                  ],
+                  "weak_scores": true,
+                  "quality_flags": [
+                    "low_resolution"
+                  ]
+                }
+              ],
+              "leading_class_ids": [
+                23
+              ]
+            },
+            {
+              "photo_id": "photo-2",
+              "inspection_event_id": 4,
+              "quality_flags": [],
+              "rankings": [],
+              "leading_class_ids": []
+            }
+          ],
+          "ranked_photo_count": 1,
+          "candidates": [
+            {
+              "class_id": 23,
+              "label": "english_foxhound",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 1,
+                  "score": 0.12055
+                }
+              ],
+              "supporting_photo_ids": [
+                "photo-1"
+              ],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 1
+            },
+            {
+              "class_id": 30,
+              "label": "beagle",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 2,
+                  "score": 0.108308
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 2
+            },
+            {
+              "class_id": 19,
+              "label": "walker_hound",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 3,
+                  "score": 0.097516
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 3
+            },
+            {
+              "class_id": 41,
+              "label": "basset",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 4,
+                  "score": 0.050396
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 4
+            },
+            {
+              "class_id": 65,
+              "label": "saluki",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 5,
+                  "score": 0.009769
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1"
+              ],
+              "rank_sum": 5
+            }
+          ],
+          "blockers": [
+            "The current photo has no classifier result."
+          ],
+          "report_eligible_ids": [],
+          "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+          "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+        },
+        "change": "One photo has classifier evidence; agreement across photographs is untested.",
+        "limitations": [
+          "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+          "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+          "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+        ],
+        "quality_flags": [],
+        "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+      },
+      "controller_seconds": 5.115,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 46,
+        "total_duration_ns": 5108245666
+      },
+      "seconds": 0.0
+    },
+    {
+      "id": 6,
+      "kind": "user_region",
+      "photo_id": "photo-2",
+      "status": "ok",
+      "input": {
+        "photo_id": "photo-2",
+        "left": 0.05,
+        "top": 0.2,
+        "right": 0.9,
+        "bottom": 0.98
+      },
+      "output": {
+        "id": "region-1",
+        "source": "user_selection",
+        "parent_photo_id": "photo-2",
+        "bounds": [
+          30,
+          96,
+          540,
+          471
+        ],
+        "normalized_bounds": [
+          0.05,
+          0.2,
+          0.9,
+          0.98
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "kind": "tool",
+      "tool": "classify_region",
+      "input": {
+        "photo_id": "photo-2",
+        "region_id": "region-1"
+      },
+      "photo_id": "photo-2",
+      "status": "ok",
+      "output": {
+        "candidates": [
+          {
+            "class_id": 30,
+            "label": "beagle",
+            "score": 0.189654,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "score": 0.098803,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "score": 0.09839,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 41,
+            "label": "basset",
+            "score": 0.042721,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 50,
+            "label": "bluetick",
+            "score": 0.009951,
+            "unresolved_label": false
+          }
+        ],
+        "margin": 0.090851,
+        "device": "mps",
+        "inference_seconds": 0.3773,
+        "fallback": null,
+        "mps_allocated_bytes": 348282880,
+        "mps_driver_bytes": 382435328,
+        "region_id": "region-1",
+        "quality_flags": [],
+        "region_inspection": {
+          "width": 510,
+          "height": 375,
+          "mean_luminance": 117.03,
+          "laplacian_variance": 2660.34,
+          "quality_flags": [],
+          "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+        }
+      },
+      "controller_seconds": 5.42,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 45,
+        "total_duration_ns": 5411301750
+      },
+      "seconds": 3.933
+    },
+    {
+      "id": 8,
+      "kind": "tool",
+      "tool": "finish_assessment",
+      "input": {
+        "outcome": "inconclusive",
+        "selected_result_id": null
+      },
+      "photo_id": "photo-2",
+      "status": "ok",
+      "output": {
+        "version": 2,
+        "outcome": "inconclusive",
+        "selected_result_id": null,
+        "completed_by": "agent",
+        "evidence_ids": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "candidates": [],
+        "comparison": {
+          "version": 2,
+          "relation": "disagreement",
+          "summary": "The leading class changes across recorded views. The assessment remains inconclusive.",
+          "views": [
+            {
+              "photo_id": "photo-1",
+              "inspection_event_id": 1,
+              "quality_flags": [
+                "low_resolution"
+              ],
+              "rankings": [
+                {
+                  "event_id": 2,
+                  "region_id": null,
+                  "candidates": [
+                    {
+                      "class_id": 23,
+                      "label": "english_foxhound",
+                      "score": 0.12055,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 30,
+                      "label": "beagle",
+                      "score": 0.108308,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 19,
+                      "label": "walker_hound",
+                      "score": 0.097516,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 41,
+                      "label": "basset",
+                      "score": 0.050396,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 65,
+                      "label": "saluki",
+                      "score": 0.009769,
+                      "unresolved_label": false
+                    }
+                  ],
+                  "weak_scores": true,
+                  "quality_flags": [
+                    "low_resolution"
+                  ]
+                }
+              ],
+              "leading_class_ids": [
+                23
+              ]
+            },
+            {
+              "photo_id": "photo-2",
+              "inspection_event_id": 4,
+              "quality_flags": [],
+              "rankings": [
+                {
+                  "event_id": 7,
+                  "region_id": "region-1",
+                  "candidates": [
+                    {
+                      "class_id": 30,
+                      "label": "beagle",
+                      "score": 0.189654,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 19,
+                      "label": "walker_hound",
+                      "score": 0.098803,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 23,
+                      "label": "english_foxhound",
+                      "score": 0.09839,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 41,
+                      "label": "basset",
+                      "score": 0.042721,
+                      "unresolved_label": false
+                    },
+                    {
+                      "class_id": 50,
+                      "label": "bluetick",
+                      "score": 0.009951,
+                      "unresolved_label": false
+                    }
+                  ],
+                  "weak_scores": true,
+                  "quality_flags": []
+                }
+              ],
+              "leading_class_ids": [
+                30
+              ]
+            }
+          ],
+          "ranked_photo_count": 2,
+          "candidates": [
+            {
+              "class_id": 30,
+              "label": "beagle",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 2,
+                  "score": 0.108308
+                },
+                {
+                  "photo_id": "photo-2",
+                  "event_id": 7,
+                  "region_id": "region-1",
+                  "rank": 1,
+                  "score": 0.189654
+                }
+              ],
+              "supporting_photo_ids": [
+                "photo-2"
+              ],
+              "top5_photo_ids": [
+                "photo-1",
+                "photo-2"
+              ],
+              "rank_sum": 3
+            },
+            {
+              "class_id": 23,
+              "label": "english_foxhound",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 1,
+                  "score": 0.12055
+                },
+                {
+                  "photo_id": "photo-2",
+                  "event_id": 7,
+                  "region_id": "region-1",
+                  "rank": 3,
+                  "score": 0.09839
+                }
+              ],
+              "supporting_photo_ids": [
+                "photo-1"
+              ],
+              "top5_photo_ids": [
+                "photo-1",
+                "photo-2"
+              ],
+              "rank_sum": 4
+            },
+            {
+              "class_id": 19,
+              "label": "walker_hound",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 3,
+                  "score": 0.097516
+                },
+                {
+                  "photo_id": "photo-2",
+                  "event_id": 7,
+                  "region_id": "region-1",
+                  "rank": 2,
+                  "score": 0.098803
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1",
+                "photo-2"
+              ],
+              "rank_sum": 5
+            },
+            {
+              "class_id": 41,
+              "label": "basset",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-1",
+                  "event_id": 2,
+                  "region_id": null,
+                  "rank": 4,
+                  "score": 0.050396
+                },
+                {
+                  "photo_id": "photo-2",
+                  "event_id": 7,
+                  "region_id": "region-1",
+                  "rank": 4,
+                  "score": 0.042721
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-1",
+                "photo-2"
+              ],
+              "rank_sum": 8
+            },
+            {
+              "class_id": 50,
+              "label": "bluetick",
+              "unresolved_label": false,
+              "observations": [
+                {
+                  "photo_id": "photo-2",
+                  "event_id": 7,
+                  "region_id": "region-1",
+                  "rank": 5,
+                  "score": 0.009951
+                }
+              ],
+              "supporting_photo_ids": [],
+              "top5_photo_ids": [
+                "photo-2"
+              ],
+              "rank_sum": 5
+            }
+          ],
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons.",
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "report_eligible_ids": [],
+          "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+          "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+        },
+        "change": "The leading class changes across recorded views. The assessment remains inconclusive.",
+        "limitations": [
+          "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+          "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+          "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+        ],
+        "quality_flags": [],
+        "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+      },
+      "controller_seconds": 7.389,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 47,
+        "total_duration_ns": 7382343584
+      },
+      "seconds": 0.0
+    }
+  ],
+  "attempts": {
+    "photo-1": 3,
+    "photo-2": 4
+  },
+  "report": {
+    "version": 2,
+    "outcome": "inconclusive",
+    "selected_result_id": null,
+    "completed_by": "agent",
+    "evidence_ids": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "candidates": [],
+    "comparison": {
+      "version": 2,
+      "relation": "disagreement",
+      "summary": "The leading class changes across recorded views. The assessment remains inconclusive.",
+      "views": [
+        {
+          "photo_id": "photo-1",
+          "inspection_event_id": 1,
+          "quality_flags": [
+            "low_resolution"
+          ],
+          "rankings": [
+            {
+              "event_id": 2,
+              "region_id": null,
+              "candidates": [
+                {
+                  "class_id": 23,
+                  "label": "english_foxhound",
+                  "score": 0.12055,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 30,
+                  "label": "beagle",
+                  "score": 0.108308,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 19,
+                  "label": "walker_hound",
+                  "score": 0.097516,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 41,
+                  "label": "basset",
+                  "score": 0.050396,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 65,
+                  "label": "saluki",
+                  "score": 0.009769,
+                  "unresolved_label": false
+                }
+              ],
+              "weak_scores": true,
+              "quality_flags": [
+                "low_resolution"
+              ]
+            }
+          ],
+          "leading_class_ids": [
+            23
+          ]
+        },
+        {
+          "photo_id": "photo-2",
+          "inspection_event_id": 4,
+          "quality_flags": [],
+          "rankings": [
+            {
+              "event_id": 7,
+              "region_id": "region-1",
+              "candidates": [
+                {
+                  "class_id": 30,
+                  "label": "beagle",
+                  "score": 0.189654,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 19,
+                  "label": "walker_hound",
+                  "score": 0.098803,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 23,
+                  "label": "english_foxhound",
+                  "score": 0.09839,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 41,
+                  "label": "basset",
+                  "score": 0.042721,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 50,
+                  "label": "bluetick",
+                  "score": 0.009951,
+                  "unresolved_label": false
+                }
+              ],
+              "weak_scores": true,
+              "quality_flags": []
+            }
+          ],
+          "leading_class_ids": [
+            30
+          ]
+        }
+      ],
+      "ranked_photo_count": 2,
+      "candidates": [
+        {
+          "class_id": 30,
+          "label": "beagle",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 2,
+              "score": 0.108308
+            },
+            {
+              "photo_id": "photo-2",
+              "event_id": 7,
+              "region_id": "region-1",
+              "rank": 1,
+              "score": 0.189654
+            }
+          ],
+          "supporting_photo_ids": [
+            "photo-2"
+          ],
+          "top5_photo_ids": [
+            "photo-1",
+            "photo-2"
+          ],
+          "rank_sum": 3
+        },
+        {
+          "class_id": 23,
+          "label": "english_foxhound",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 1,
+              "score": 0.12055
+            },
+            {
+              "photo_id": "photo-2",
+              "event_id": 7,
+              "region_id": "region-1",
+              "rank": 3,
+              "score": 0.09839
+            }
+          ],
+          "supporting_photo_ids": [
+            "photo-1"
+          ],
+          "top5_photo_ids": [
+            "photo-1",
+            "photo-2"
+          ],
+          "rank_sum": 4
+        },
+        {
+          "class_id": 19,
+          "label": "walker_hound",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 3,
+              "score": 0.097516
+            },
+            {
+              "photo_id": "photo-2",
+              "event_id": 7,
+              "region_id": "region-1",
+              "rank": 2,
+              "score": 0.098803
+            }
+          ],
+          "supporting_photo_ids": [],
+          "top5_photo_ids": [
+            "photo-1",
+            "photo-2"
+          ],
+          "rank_sum": 5
+        },
+        {
+          "class_id": 41,
+          "label": "basset",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-1",
+              "event_id": 2,
+              "region_id": null,
+              "rank": 4,
+              "score": 0.050396
+            },
+            {
+              "photo_id": "photo-2",
+              "event_id": 7,
+              "region_id": "region-1",
+              "rank": 4,
+              "score": 0.042721
+            }
+          ],
+          "supporting_photo_ids": [],
+          "top5_photo_ids": [
+            "photo-1",
+            "photo-2"
+          ],
+          "rank_sum": 8
+        },
+        {
+          "class_id": 50,
+          "label": "bluetick",
+          "unresolved_label": false,
+          "observations": [
+            {
+              "photo_id": "photo-2",
+              "event_id": 7,
+              "region_id": "region-1",
+              "rank": 5,
+              "score": 0.009951
+            }
+          ],
+          "supporting_photo_ids": [],
+          "top5_photo_ids": [
+            "photo-2"
+          ],
+          "rank_sum": 5
+        }
+      ],
+      "blockers": [
+        "Recorded rankings disagree on the leading class, including any region comparisons.",
+        "Current results have quality concerns, weak scores, or an unresolved published label."
+      ],
+      "report_eligible_ids": [],
+      "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+      "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+    },
+    "change": "The leading class changes across recorded views. The assessment remains inconclusive.",
+    "limitations": [
+      "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+      "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+      "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+    ],
+    "quality_flags": [],
+    "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+  },
+  "request": null,
+  "runs": [
+    {
+      "photo_id": "photo-1",
+      "seconds": 14.76,
+      "attempts": 3,
+      "status": "complete"
+    },
+    {
+      "photo_id": "photo-2",
+      "seconds": 9.939,
+      "attempts": 2,
+      "status": "complete"
+    },
+    {
+      "photo_id": "photo-2",
+      "seconds": 16.753,
+      "attempts": 4,
+      "status": "complete"
+    }
+  ],
+  "mode": "agent",
+  "version": 2,
+  "demo": true,
+  "report_history": [
+    {
+      "version": 2,
+      "outcome": "inconclusive",
+      "selected_result_id": null,
+      "completed_by": "agent",
+      "evidence_ids": [
+        1,
+        2
+      ],
+      "candidates": [],
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [
+              "low_resolution"
+            ],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 23,
+                    "label": "english_foxhound",
+                    "score": 0.12055,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 30,
+                    "label": "beagle",
+                    "score": 0.108308,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 19,
+                    "label": "walker_hound",
+                    "score": 0.097516,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 41,
+                    "label": "basset",
+                    "score": 0.050396,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 65,
+                    "label": "saluki",
+                    "score": 0.009769,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": [
+                  "low_resolution"
+                ]
+              }
+            ],
+            "leading_class_ids": [
+              23
+            ]
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.12055
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 30,
+            "label": "beagle",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.108308
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.097516
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 41,
+            "label": "basset",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.050396
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 65,
+            "label": "saluki",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.009769
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "Current results have quality concerns, weak scores, or an unresolved published label."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "change": "One photo has classifier evidence; agreement across photographs is untested.",
+      "limitations": [
+        "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+        "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+        "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+      ],
+      "quality_flags": [
+        "low_resolution"
+      ],
+      "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+    },
+    {
+      "version": 2,
+      "outcome": "inconclusive",
+      "selected_result_id": null,
+      "completed_by": "agent",
+      "evidence_ids": [
+        1,
+        2,
+        4
+      ],
+      "candidates": [],
+      "comparison": {
+        "version": 2,
+        "relation": "single_photo",
+        "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+        "views": [
+          {
+            "photo_id": "photo-1",
+            "inspection_event_id": 1,
+            "quality_flags": [
+              "low_resolution"
+            ],
+            "rankings": [
+              {
+                "event_id": 2,
+                "region_id": null,
+                "candidates": [
+                  {
+                    "class_id": 23,
+                    "label": "english_foxhound",
+                    "score": 0.12055,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 30,
+                    "label": "beagle",
+                    "score": 0.108308,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 19,
+                    "label": "walker_hound",
+                    "score": 0.097516,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 41,
+                    "label": "basset",
+                    "score": 0.050396,
+                    "unresolved_label": false
+                  },
+                  {
+                    "class_id": 65,
+                    "label": "saluki",
+                    "score": 0.009769,
+                    "unresolved_label": false
+                  }
+                ],
+                "weak_scores": true,
+                "quality_flags": [
+                  "low_resolution"
+                ]
+              }
+            ],
+            "leading_class_ids": [
+              23
+            ]
+          },
+          {
+            "photo_id": "photo-2",
+            "inspection_event_id": 4,
+            "quality_flags": [],
+            "rankings": [],
+            "leading_class_ids": []
+          }
+        ],
+        "ranked_photo_count": 1,
+        "candidates": [
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 1,
+                "score": 0.12055
+              }
+            ],
+            "supporting_photo_ids": [
+              "photo-1"
+            ],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 1
+          },
+          {
+            "class_id": 30,
+            "label": "beagle",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 2,
+                "score": 0.108308
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 2
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 3,
+                "score": 0.097516
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 3
+          },
+          {
+            "class_id": 41,
+            "label": "basset",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 4,
+                "score": 0.050396
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 4
+          },
+          {
+            "class_id": 65,
+            "label": "saluki",
+            "unresolved_label": false,
+            "observations": [
+              {
+                "photo_id": "photo-1",
+                "event_id": 2,
+                "region_id": null,
+                "rank": 5,
+                "score": 0.009769
+              }
+            ],
+            "supporting_photo_ids": [],
+            "top5_photo_ids": [
+              "photo-1"
+            ],
+            "rank_sum": 5
+          }
+        ],
+        "blockers": [
+          "The current photo has no classifier result."
+        ],
+        "report_eligible_ids": [],
+        "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+        "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+      },
+      "change": "One photo has classifier evidence; agreement across photographs is untested.",
+      "limitations": [
+        "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+        "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+        "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+      ],
+      "quality_flags": [],
+      "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+    }
+  ],
+  "comparison": {
+    "version": 2,
+    "relation": "disagreement",
+    "summary": "The leading class changes across recorded views. The assessment remains inconclusive.",
+    "views": [
+      {
+        "photo_id": "photo-1",
+        "inspection_event_id": 1,
+        "quality_flags": [
+          "low_resolution"
+        ],
+        "rankings": [
+          {
+            "event_id": 2,
+            "region_id": null,
+            "candidates": [
+              {
+                "class_id": 23,
+                "label": "english_foxhound",
+                "score": 0.12055,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 30,
+                "label": "beagle",
+                "score": 0.108308,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 19,
+                "label": "walker_hound",
+                "score": 0.097516,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 41,
+                "label": "basset",
+                "score": 0.050396,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 65,
+                "label": "saluki",
+                "score": 0.009769,
+                "unresolved_label": false
+              }
+            ],
+            "weak_scores": true,
+            "quality_flags": [
+              "low_resolution"
+            ]
+          }
+        ],
+        "leading_class_ids": [
+          23
+        ]
+      },
+      {
+        "photo_id": "photo-2",
+        "inspection_event_id": 4,
+        "quality_flags": [],
+        "rankings": [
+          {
+            "event_id": 7,
+            "region_id": "region-1",
+            "candidates": [
+              {
+                "class_id": 30,
+                "label": "beagle",
+                "score": 0.189654,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 19,
+                "label": "walker_hound",
+                "score": 0.098803,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 23,
+                "label": "english_foxhound",
+                "score": 0.09839,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 41,
+                "label": "basset",
+                "score": 0.042721,
+                "unresolved_label": false
+              },
+              {
+                "class_id": 50,
+                "label": "bluetick",
+                "score": 0.009951,
+                "unresolved_label": false
+              }
+            ],
+            "weak_scores": true,
+            "quality_flags": []
+          }
+        ],
+        "leading_class_ids": [
+          30
+        ]
+      }
+    ],
+    "ranked_photo_count": 2,
+    "candidates": [
+      {
+        "class_id": 30,
+        "label": "beagle",
+        "unresolved_label": false,
+        "observations": [
+          {
+            "photo_id": "photo-1",
+            "event_id": 2,
+            "region_id": null,
+            "rank": 2,
+            "score": 0.108308
+          },
+          {
+            "photo_id": "photo-2",
+            "event_id": 7,
+            "region_id": "region-1",
+            "rank": 1,
+            "score": 0.189654
+          }
+        ],
+        "supporting_photo_ids": [
+          "photo-2"
+        ],
+        "top5_photo_ids": [
+          "photo-1",
+          "photo-2"
+        ],
+        "rank_sum": 3
+      },
+      {
+        "class_id": 23,
+        "label": "english_foxhound",
+        "unresolved_label": false,
+        "observations": [
+          {
+            "photo_id": "photo-1",
+            "event_id": 2,
+            "region_id": null,
+            "rank": 1,
+            "score": 0.12055
+          },
+          {
+            "photo_id": "photo-2",
+            "event_id": 7,
+            "region_id": "region-1",
+            "rank": 3,
+            "score": 0.09839
+          }
+        ],
+        "supporting_photo_ids": [
+          "photo-1"
+        ],
+        "top5_photo_ids": [
+          "photo-1",
+          "photo-2"
+        ],
+        "rank_sum": 4
+      },
+      {
+        "class_id": 19,
+        "label": "walker_hound",
+        "unresolved_label": false,
+        "observations": [
+          {
+            "photo_id": "photo-1",
+            "event_id": 2,
+            "region_id": null,
+            "rank": 3,
+            "score": 0.097516
+          },
+          {
+            "photo_id": "photo-2",
+            "event_id": 7,
+            "region_id": "region-1",
+            "rank": 2,
+            "score": 0.098803
+          }
+        ],
+        "supporting_photo_ids": [],
+        "top5_photo_ids": [
+          "photo-1",
+          "photo-2"
+        ],
+        "rank_sum": 5
+      },
+      {
+        "class_id": 41,
+        "label": "basset",
+        "unresolved_label": false,
+        "observations": [
+          {
+            "photo_id": "photo-1",
+            "event_id": 2,
+            "region_id": null,
+            "rank": 4,
+            "score": 0.050396
+          },
+          {
+            "photo_id": "photo-2",
+            "event_id": 7,
+            "region_id": "region-1",
+            "rank": 4,
+            "score": 0.042721
+          }
+        ],
+        "supporting_photo_ids": [],
+        "top5_photo_ids": [
+          "photo-1",
+          "photo-2"
+        ],
+        "rank_sum": 8
+      },
+      {
+        "class_id": 50,
+        "label": "bluetick",
+        "unresolved_label": false,
+        "observations": [
+          {
+            "photo_id": "photo-2",
+            "event_id": 7,
+            "region_id": "region-1",
+            "rank": 5,
+            "score": 0.009951
+          }
+        ],
+        "supporting_photo_ids": [],
+        "top5_photo_ids": [
+          "photo-2"
+        ],
+        "rank_sum": 5
+      }
+    ],
+    "blockers": [
+      "Recorded rankings disagree on the leading class, including any region comparisons.",
+      "Current results have quality concerns, weak scores, or an unresolved published label."
+    ],
+    "report_eligible_ids": [],
+    "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+    "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+  },
+  "cancel_pending": false
+}

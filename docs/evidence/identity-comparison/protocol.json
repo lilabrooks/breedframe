@@ -1,0 +1,291 @@
+{
+  "registered_at_utc": "2026-09-12T04:06:01.954302+00:00",
+  "manifest_sha256": "18ac4d5c70e9843a3709c70b030356034e5c07b57354499b6f286a3d781d41e9",
+  "source_hashes": {
+    "scripts/evaluate_new_identities.py": "c4f7b55f665c7de89358128e6bcb1492a8e86a3b3cdc69422aee97b480506ab4",
+    "scripts/evaluate_suitability.py": "992084e1f65b8752e3be0d6a034686af36ff58c12c7dcc8f186dc8e6e6d39641",
+    "scripts/offline.sb": "cf35cca89f2e1b677995e788c0fe365bf627c641f260a3e4ea80cbde31a0c60e",
+    "uv.lock": "90ced749a10684eda0487cf8c1529fc2e33f35742fe4cfb26034082c3960b6ba",
+    "docs/evidence/identity-comparison/selection.json": "e2bb21e90d94bd5ace0214e2bd0dbd3736240b349d034af2ec3bbd810ac07c25",
+    "docs/identity-comparison-protocol.md": "614f305462c6cc998e9c9437c79f69b225b2fae9c79261c8c35340df7e807bdc",
+    "docs/evidence/paired-suitability/manifest.json": "386a23126837a00a45b481e0a100ec26327a536951d1770018c33e82098b7158",
+    "breedframe/__init__.py": "83a2148f12df414fbbbcf72f1e137a235ade1d5aae3851abbe71a8ec42ea0cd6",
+    "breedframe/agent.py": "1d28c9630c86a505fec2614d6837b8988388d974b3e0bba43fed98589742f28b",
+    "breedframe/app.py": "b4ca0e35b3ff7fd0afc747542ae5191c092c019d5f2ed8d2d4a4b5d6f1ed22ac",
+    "breedframe/classifier.py": "634bc03a9ed67f649d35bc6b3c03634ef2f83f8036863f95b6094e039a9480c1",
+    "breedframe/config.py": "ed2033b4e4e20f6e02d52faada00387cb049b07465b89ff123c93d3846bbf7de",
+    "breedframe/contracts.py": "822a6a17957e609b0468a157bdae9745537ef712456f1d6615a34344d9bff5db",
+    "breedframe/controller.py": "9d493a0b93128466526cb519d84a3890185fd0654146e9d5d0bd2140923b98fe",
+    "breedframe/evidence.py": "9fc7f5b55d09cd584fb1e30d304f1aa3a38bf7027a6a03559383d983131f8ce9",
+    "breedframe/footprint.py": "d366f13553a79b03a62542a11f21cccd90aaaa0321db32b55379dc18c10b880b",
+    "breedframe/images.py": "55abc592ba100fbe47d63720839a5f92fa87888f8af008efcf446bdd07907a6c",
+    "breedframe/metrics.py": "b51ce861a8b734a512da3218f7f31c7c8f8cd2062e7f4eb9db2d89f83c9a10f7",
+    "breedframe/model_identity.py": "3fe6f4ba9f268c767e09c15ea9abaf50b41e182d3aa9039dd38e44dfa455d071",
+    "breedframe/policies.py": "63732245e8bb96fe704c926550ff7a95611a4725326c6dbded359523ce543212",
+    "breedframe/store.py": "adc2231751e1dd9f713d4e2ed443480123d14ca99ed932f8b5c4117eb9345874",
+    "breedframe/static/app.js": "05dc64b7061123ea0d60925dd8a57d32150d010da28b2cddc0a9a97ed077a047",
+    "breedframe/static/index.html": "4d404c69ba55b1ba39593131e8179554128d342f614c4f84c1fb6ea6b96994e4",
+    "breedframe/static/style.css": "808eb2b720f1f8e268631a44189c2cc605c94d4bb7fe9bf986f212d5ad9a6882",
+    "docs/evidence/identity-comparison/blanco-02-source.json": "db0d5a4e55fb6a774e14f4f965b7d3d0dd92a9fc0aa9941df7cac12fbe7e8755",
+    "docs/evidence/identity-comparison/blanco-01-source.json": "10f30018b2b94cc35bdf101847966dc1b0d25a39006ad7a0e7b3c40381716b64",
+    "docs/evidence/identity-comparison/buffy-yume-02-source.json": "2b680c9afb5aab623fbb4935c134e6beb299c3835c4715ccbc7ca67fd9fce8b1",
+    "docs/evidence/identity-comparison/buffy-yume-01-source.json": "601b46934f4ca287a683939c49c79d61f6cb70c965f448a795526d6fa70203ed",
+    "docs/evidence/identity-comparison/collies-01-source.json": "0c5ad1c9eba688d9d4ed713c1b6e048329161519bddc58a08489551ce98cd406",
+    "docs/evidence/identity-comparison/collies-02-source.json": "27883c81ee71c76593823870a287243565c8c2c660842df851fc1788a73da3ec",
+    "docs/evidence/identity-comparison/fala-live-02-source.json": "d820ae966332168aac167b36b74d4d7cc8aea5a274f591ca28e8d0eca1243f0b",
+    "docs/evidence/identity-comparison/fala-live-01-source.json": "dad97e65b4b85794b288cae321ce31fccad82a3762a4020d148c4f2f02f1bf32",
+    "docs/evidence/identity-comparison/frankel-02-source.json": "3cb8d9641b2bcdaa4d2443d6e4f8b4b151501d837f9e6dc66e3d6418e092e146",
+    "docs/evidence/identity-comparison/frankel-01-source.json": "9db981f654dce25c503438c9217c047b4bc6bd4277b281fbf5928e8c0775a057",
+    "docs/evidence/identity-comparison/hachiko-statue-05-source.json": "f1ad8dbcbab52f7071e4135c6c1e60488e6ede26dcaa1a90dfe6a3abbb8bc93f",
+    "docs/evidence/identity-comparison/hachiko-statue-01-source.json": "ab8e8f3c66c1ad212500e6bd08296c303edf05a280df1075b543e03c5fe30427",
+    "docs/evidence/identity-comparison/kabosu-02-source.json": "63d2584419444f18942165b88cdeed8b03f67e82f491a899bd6e97122944b0c3",
+    "docs/evidence/identity-comparison/kabosu-01-source.json": "f9616d0efabcb400a39372be8cb7405d80ee4dfe1b8324381cd2e841e49817bf",
+    "docs/evidence/identity-comparison/koni-02-source.json": "027f7ebdb33d751708d781582285b6392f92bde5f81ab1d5a6175f9190f9cb9b",
+    "docs/evidence/identity-comparison/koni-01-source.json": "6d36beee44d5e4abd3f85c7a3258f425f2e206a75d768d29fee3f2e67c99926f",
+    "docs/evidence/identity-comparison/laddie-01-source.json": "95e70efbe94bcf70dbc0213245a1524c64b17d1cd862a376a5b1ca40a652616b",
+    "docs/evidence/identity-comparison/laddie-02-source.json": "5a99769c5b92ecc003bcda3b7f7b708f273d322fe19456c3df2d57f2f61add7c",
+    "docs/evidence/identity-comparison/larry-02-source.json": "f616a315d64090fd2b66d2b0b3780e463e6b67cc96cb735d47cd2240958f7b9c",
+    "docs/evidence/identity-comparison/larry-01-source.json": "ae8611ae766d64bc6bdf9d90dc911626ada0c132e432a672eda8e8fdc05650a5",
+    "docs/evidence/identity-comparison/liberty-02-source.json": "d1099aa4bb47df2ada3f355d81cc45e227899ad7937042e15f80f16cf9c7b16d",
+    "docs/evidence/identity-comparison/liberty-01-source.json": "4cb52a9d987b413c73ddfc6ef90827a814e712e25ae4013a7eeeefa1b0e8d565",
+    "docs/evidence/identity-comparison/robroy-02-source.json": "60a2aabe188de5bc1a4119ba485573c4203db23340a1a96e07b4c3153a42ca04",
+    "docs/evidence/identity-comparison/robroy-01-source.json": "27162b9e22c64498a8b61b63f9200194424dc951bfd4ef3cc02d4a4b38040c4e",
+    "docs/evidence/identity-comparison/yuki-02-source.json": "0966895cf43255888a6667d8dd867f5a89c4b6a47b2ede8aa809b26633f2444d",
+    "docs/evidence/identity-comparison/yuki-01-source.json": "630871ab1d688024f8a8801aa1b3aade0909ebd5ca3da9590e0e868716c96e56",
+    "models/vit/config.json": "58d5da63978fa75fc04bf940df3ff1c3c2c51e667646104a227011283fa0a179",
+    "models/vit/preprocessor_config.json": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d",
+    "models/vit/model.safetensors": "4e48fcd3783e463b751846ccbe0e8277aff44b5727e907d1c4809437d8caf2a6",
+    "models/resnet50-candidate/config.json": "a1be0f56d516d0b55f9844ce0fbfe5fb359195cba6c6c102d41ae6c202c84d5e",
+    "models/resnet50-candidate/preprocessor_config.json": "fd575b890da5a949493e1d1e7a70bfcb9e4b99fe444004d2dbfa253add254741",
+    "models/resnet50-candidate/model.safetensors": "9c6061af1f450bb0847e529fd742aa5066017be379c71bbf5546b198e5b13a1e"
+  },
+  "packages": {
+    "torch": "2.14.0",
+    "transformers": "4.57.6",
+    "pillow": "12.3.0",
+    "httpx": "0.28.1"
+  },
+  "schedule": [
+    {
+      "model": "resnet",
+      "case_id": "frankel",
+      "image_id": "frankel-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "hachiko-statue",
+      "image_id": "hachiko-statue-05"
+    },
+    {
+      "model": "resnet",
+      "case_id": "larry",
+      "image_id": "larry-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "blanco",
+      "image_id": "blanco-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "fala",
+      "image_id": "fala-live-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "koni",
+      "image_id": "koni-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "laddie",
+      "image_id": "laddie-01"
+    },
+    {
+      "model": "resnet",
+      "case_id": "liberty",
+      "image_id": "liberty-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "robroy",
+      "image_id": "robroy-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "buffy-yume",
+      "image_id": "buffy-yume-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "collies",
+      "image_id": "collies-01"
+    },
+    {
+      "model": "resnet",
+      "case_id": "kabosu",
+      "image_id": "kabosu-02"
+    },
+    {
+      "model": "resnet",
+      "case_id": "yuki",
+      "image_id": "yuki-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "frankel",
+      "image_id": "frankel-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "frankel",
+      "image_id": "frankel-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "hachiko-statue",
+      "image_id": "hachiko-statue-05"
+    },
+    {
+      "model": "vit",
+      "case_id": "hachiko-statue",
+      "image_id": "hachiko-statue-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "larry",
+      "image_id": "larry-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "larry",
+      "image_id": "larry-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "blanco",
+      "image_id": "blanco-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "blanco",
+      "image_id": "blanco-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "fala",
+      "image_id": "fala-live-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "fala",
+      "image_id": "fala-live-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "koni",
+      "image_id": "koni-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "koni",
+      "image_id": "koni-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "laddie",
+      "image_id": "laddie-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "laddie",
+      "image_id": "laddie-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "liberty",
+      "image_id": "liberty-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "liberty",
+      "image_id": "liberty-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "robroy",
+      "image_id": "robroy-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "robroy",
+      "image_id": "robroy-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "buffy-yume",
+      "image_id": "buffy-yume-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "buffy-yume",
+      "image_id": "buffy-yume-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "collies",
+      "image_id": "collies-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "collies",
+      "image_id": "collies-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "kabosu",
+      "image_id": "kabosu-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "kabosu",
+      "image_id": "kabosu-01"
+    },
+    {
+      "model": "vit",
+      "case_id": "yuki",
+      "image_id": "yuki-02"
+    },
+    {
+      "model": "vit",
+      "case_id": "yuki",
+      "image_id": "yuki-01"
+    }
+  ],
+  "classifier_timeout_seconds": 60,
+  "controller_calls": 0,
+  "vision_calls": 0,
+  "resnet": {
+    "score": 0.8,
+    "margin": 0,
+    "native_dog_ids_inclusive": [
+      151,
+      268
+    ],
+    "photos_per_case": 1
+  },
+  "vit": {
+    "score": 0,
+    "margin": 0,
+    "photos_per_case": 2,
+    "retain_other_application_checks": true
+  },
+  "primary_criteria": {
+    "supported_cases": 6,
+    "min_reports": 3,
+    "max_error_fraction": 0.1,
+    "non_dog_cases": 3,
+    "max_non_dog_reports": 0
+  },
+  "termination": "Complete all 39 calls once unless runtime/concurrency/source integrity fails. No tuning or sample extension."
+}

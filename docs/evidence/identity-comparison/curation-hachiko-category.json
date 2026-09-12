@@ -1,0 +1,2007 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "152655018": {
+        "pageid": 152655018,
+        "ns": 6,
+        "title": "File:1RAR soldiers on leave in Tokyo with Hachiko statue.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-09-15T09:55:22Z",
+            "size": 137981,
+            "width": 487,
+            "height": 654,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1RAR_soldiers_on_leave_in_Tokyo_with_Hachiko_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1343,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1RAR_soldiers_on_leave_in_Tokyo_with_Hachiko_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1343
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1RAR_soldiers_on_leave_in_Tokyo_with_Hachiko_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1RAR_soldiers_on_leave_in_Tokyo_with_Hachiko_statue.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152655018",
+            "sha1": "174037c9b4a2d689e80a55f7c2bb7416e0163df4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-15 09:55:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "1RAR soldiers on leave in Tokyo with Hachiko statue",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|1st Battalion, Royal Australian Regiment|PD-Australia|1956 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "On Tokyo leave from Korea, 1410845 Private (Pte) Kenneth (Ken) Alfred Walker (left), of Rockhampton, Qld, and of the 1st Battalion, The Royal Australian Regiment (1RAR), touches the statue commemorating the dog which waited two years at a Tokyo railway station after his master's death. 4327 Pte Rex Herbert Stevens, of Barmera, SA, and of 1RAR, prepares to take a photograph.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1956-01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.awm.gov.au/collection/C1102997\">https://www.awm.gov.au/collection/C1102997</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Meldrum, Donald Albert (Tim)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267610032,
+            "parentid": 954589513
+          }
+        ]
+      },
+      "143809920": {
+        "pageid": 143809920,
+        "ns": 6,
+        "title": "File:Hachiko (49994232413).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-01-11T05:45:59Z",
+            "size": 19694798,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hachiko_%2849994232413%29.jpg/1280px-Hachiko_%2849994232413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hachiko_%2849994232413%29.jpg/3840px-Hachiko_%2849994232413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hachiko_%2849994232413%29.jpg/1280px-Hachiko_%2849994232413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hachiko_%2849994232413%29.jpg/3840px-Hachiko_%2849994232413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hachiko_%2849994232413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hachiko_(49994232413).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143809920",
+            "sha1": "ecfcf23663c5202992db354cd697df37c410bb3b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-01-11 05:45:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hachiko (49994232413)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Flickr images reviewed by FlickreviewR 2|Photographs by Dick Thomas Johnson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u5fe0\u72ac\u30cf\u30c1\u516c",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-02 13:12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/31029865@N06/49994232413/\">Hachiko</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31029865@N06\">Dick Thomas Johnson</a> from Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1211172279,
+            "parentid": 922925358
+          }
+        ]
+      },
+      "143812870": {
+        "pageid": 143812870,
+        "ns": 6,
+        "title": "File:Hachiko (53083712909).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-01-11T07:47:43Z",
+            "size": 21529605,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Hachiko_%2853083712909%29.jpg/1280px-Hachiko_%2853083712909%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Hachiko_%2853083712909%29.jpg/3840px-Hachiko_%2853083712909%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Hachiko_%2853083712909%29.jpg/1280px-Hachiko_%2853083712909%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Hachiko_%2853083712909%29.jpg/3840px-Hachiko_%2853083712909%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Hachiko_%2853083712909%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hachiko_(53083712909).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143812870",
+            "sha1": "76113da0dc67b08c3870d12eaf7949e938bd405e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-01-11 07:47:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hachiko (53083712909)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Flickr images reviewed by FlickreviewR 2|Photographs by Dick Thomas Johnson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u5fe0\u72ac\u30cf\u30c1\u516c",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-04-09 16:08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/31029865@N06/53083712909/\">Hachiko</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31029865@N06\">Dick Thomas Johnson</a> from Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1154378867,
+            "parentid": 902870985
+          }
+        ]
+      },
+      "89261661": {
+        "pageid": 89261661,
+        "ns": 6,
+        "title": "File:Hachiko square 2020-04-19.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-04-19T14:15:11Z",
+            "size": 2438920,
+            "width": 3456,
+            "height": 2592,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Hachiko_square_2020-04-19.jpg/1280px-Hachiko_square_2020-04-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/86/Hachiko_square_2020-04-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Hachiko_square_2020-04-19.jpg/1280px-Hachiko_square_2020-04-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/86/Hachiko_square_2020-04-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Hachiko_square_2020-04-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hachiko_square_2020-04-19.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=89261661",
+            "sha1": "c81ab08e7cf14f50efec7397be660ec6e592db86",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-19 14:15:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hachiko square 2020-04-19",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Panasonic Lumix DC-FZ85|CC-Zero|Statue of Hachiko (Shibuya)|Self-published work|Shibuya Crossing in 2020|2020 advertisements in Tokyo|COVID-19 pandemic in Shibuya|Empty streets during the COVID-19 pandemic in Japan",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hachiko Square (Tokyo, Japan) under the state of emergency for coronavirus pandemic",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-04-19 11:12:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asanagi\" title=\"User:Asanagi\">Asanagi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267631955,
+            "parentid": 1253989341
+          }
+        ]
+      },
+      "119646672": {
+        "pageid": 119646672,
+        "ns": 6,
+        "title": "File:HAshiko Shibuya Tokyo16.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-06-23T17:13:38Z",
+            "size": 8648472,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/HAshiko_Shibuya_Tokyo16.jpg/1280px-HAshiko_Shibuya_Tokyo16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/HAshiko_Shibuya_Tokyo16.jpg/3840px-HAshiko_Shibuya_Tokyo16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/HAshiko_Shibuya_Tokyo16.jpg/1280px-HAshiko_Shibuya_Tokyo16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/HAshiko_Shibuya_Tokyo16.jpg/3840px-HAshiko_Shibuya_Tokyo16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/HAshiko_Shibuya_Tokyo16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HAshiko_Shibuya_Tokyo16.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=119646672",
+            "sha1": "8e7800a56c9b569d7bc3ac4ad40a194a22885842",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-06-23 17:13:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HAshiko Shibuya Tokyo16",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Self-published work|Shibuya Crossing in 2019",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Image montrant la c\u00e9l\u00e9brit\u00e9 du chien Hachiko avec une file d'attente tr\u00e8s garnie pour faire la photo devant la statue.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-05-30 09:25:59",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267629994,
+            "parentid": 1028837398
+          }
+        ]
+      },
+      "77198346": {
+        "pageid": 77198346,
+        "ns": 6,
+        "title": "File:Koibumi (1953).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-02-10T16:26:26Z",
+            "size": 791568,
+            "width": 3605,
+            "height": 2598,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Koibumi_%281953%29.jpg/1280px-Koibumi_%281953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 721,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/91/Koibumi_%281953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Koibumi_%281953%29.jpg/1280px-Koibumi_%281953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 721,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/91/Koibumi_%281953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Koibumi_%281953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Koibumi_(1953).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77198346",
+            "sha1": "a70cb4fd45046e9b704399023d3d4b2cefcd739e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-02-10 16:26:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Koibumi (1953)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Love Letter (1953 film)|Yoshiko Kuga|Masayuki Mori|Statue of Hachiko (Shibuya)|PD-Japan-film|1953 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Yoshiko Kuga and Masayuki Mori in Koibumi (\u604b\u6587) directed by Kinuyo Tanaka - 1953",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1953-12-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Shint\u014dh\u014d",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Shint\u014dh\u014d",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267607715,
+            "parentid": 1217601386
+          }
+        ]
+      },
+      "143809840": {
+        "pageid": 143809840,
+        "ns": 6,
+        "title": "File:MAGNET by SHIBUYA109 (49997445596).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-01-11T05:43:14Z",
+            "size": 24110315,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/MAGNET_by_SHIBUYA109_%2849997445596%29.jpg/1280px-MAGNET_by_SHIBUYA109_%2849997445596%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/MAGNET_by_SHIBUYA109_%2849997445596%29.jpg/3840px-MAGNET_by_SHIBUYA109_%2849997445596%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/MAGNET_by_SHIBUYA109_%2849997445596%29.jpg/1280px-MAGNET_by_SHIBUYA109_%2849997445596%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/MAGNET_by_SHIBUYA109_%2849997445596%29.jpg/3840px-MAGNET_by_SHIBUYA109_%2849997445596%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/MAGNET_by_SHIBUYA109_%2849997445596%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MAGNET_by_SHIBUYA109_(49997445596).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143809840",
+            "sha1": "86f8039dd571c84736505eff24b9d5b1685fc175",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-01-11 05:43:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "MAGNET by SHIBUYA109 (49997445596)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Shibuya Crossing in 2020|January 2020 in Tokyo|Flickr images reviewed by FlickreviewR 2|Photographs by Dick Thomas Johnson|Views from MAGNET by Shibuya109",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "MAGNET by SHIBUYA109",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-05 15:34",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/31029865@N06/49997445596/\">MAGNET by SHIBUYA109</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31029865@N06\">Dick Thomas Johnson</a> from Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267631547,
+            "parentid": 1195054716
+          }
+        ]
+      },
+      "127800361": {
+        "pageid": 127800361,
+        "ns": 6,
+        "title": "File:Measuring Hachik\u014d (9412144400).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-01-15T19:48:55Z",
+            "size": 16899786,
+            "width": 4912,
+            "height": 7360,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Measuring_Hachik%C5%8D_%289412144400%29.jpg/1280px-Measuring_Hachik%C5%8D_%289412144400%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1498,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Measuring_Hachik%C5%8D_%289412144400%29.jpg/3840px-Measuring_Hachik%C5%8D_%289412144400%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Measuring_Hachik%C5%8D_%289412144400%29.jpg/1280px-Measuring_Hachik%C5%8D_%289412144400%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1498,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Measuring_Hachik%C5%8D_%289412144400%29.jpg/3840px-Measuring_Hachik%C5%8D_%289412144400%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Measuring_Hachik%C5%8D_%289412144400%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Measuring_Hachik%C5%8D_(9412144400).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127800361",
+            "sha1": "cc5f5ec8c151616da05394e378ca7a850dd1e952",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-01-15 19:48:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Measuring Hachik\u014d (9412144400)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Maarten Heerlien",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.659135",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.700678",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Measuring Hachik\u014d",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-04-07 10:37",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/65847118@N06/9412144400/\">Measuring Hachik\u014d</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/65847118@N06\">Maarten Heerlien</a> from Voorschoten, The Netherlands",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 920619525,
+            "parentid": 920265689
+          }
+        ]
+      },
+      "115605567": {
+        "pageid": 115605567,
+        "ns": 6,
+        "title": "File:Protestors against 2022 Russia invasion of Ukraine, in Shibuya Hachiko square 5.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-02-24T12:01:38Z",
+            "size": 3430438,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg/1280px-Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1333,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg/1920px-Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg/1280px-Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1333,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg/1920px-Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Protestors_against_2022_Russia_invasion_of_Ukraine%2C_in_Shibuya_Hachiko_square_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Protestors_against_2022_Russia_invasion_of_Ukraine,_in_Shibuya_Hachiko_square_5.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115605567",
+            "sha1": "5304fb6a2847bcf9b82bdbca853c9833d166d82b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-02-24 12:01:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Protestors against 2022 Russia invasion of Ukraine, in Shibuya Hachiko square 5",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Statue of Hachiko (Shibuya)|Self-published work|Files with coordinates missing SDC location of creation|No war (text)|Ukraine solidarity protest Tokyo 2022-02-26",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.659049",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.700561",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Protestors against 2022 Russia invasion of Ukraine, in Shibuya Hachiko square",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-02-26 15:26:36",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Syced\" title=\"User:Syced\">Syced</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1174964448,
+            "parentid": 1171230676
+          }
+        ]
+      },
+      "73044965": {
+        "pageid": 73044965,
+        "ns": 6,
+        "title": "File:Shibuya (43900289794).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-09-25T12:15:39Z",
+            "size": 5550356,
+            "width": 5568,
+            "height": 3712,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shibuya_%2843900289794%29.jpg/1280px-Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shibuya_%2843900289794%29.jpg/3840px-Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shibuya_%2843900289794%29.jpg/1280px-Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shibuya_%2843900289794%29.jpg/3840px-Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shibuya_(43900289794).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73044965",
+            "sha1": "dc36a9ee7e4a7039155c99b46e483e8cd208d182",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-09-25 12:15:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shibuya (43900289794)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Lying cats|July 2017 in Tokyo|Shibuya Crossing in 2017|Groups of cats in Japan|2 cats|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Details of statues|Photographs by Xiquinho Silva|Animals with statues|Black silver tabby domestic short-haired cats",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.659611",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.701852",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "71070-Tokyo",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-07-17 00:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/xiquinho/43900289794/\">71070-Tokyo</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7138083@N04\">xiquinhosilva</a> from Cacau",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267627903,
+            "parentid": 1163742709
+          }
+        ]
+      },
+      "151359114": {
+        "pageid": 151359114,
+        "ns": 6,
+        "title": "File:Shibuya (Tokyo) hdsr Central area S5 01.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-08-10T14:35:39Z",
+            "size": 14578161,
+            "width": 5111,
+            "height": 3837,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg/1280px-Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 751,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg/3840px-Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg/1280px-Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 751,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg/3840px-Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Shibuya_%28Tokyo%29_hdsr_Central_area_S5_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shibuya_(Tokyo)_hdsr_Central_area_S5_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151359114",
+            "sha1": "93eb859ae31db8ef2c66a2a2dffe3dc37dc5afde",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-08-10 14:35:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shibuya (Tokyo) hdsr Central area S5 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Self-published work|Shibuya Hachiko square",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u00e0 Shibuya central area \u02d0 plaque de r\u00e9seau sur rue",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-01-16 02:16:56",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hyppolyte_de_Saint-Rambert\" title=\"User:Hyppolyte de Saint-Rambert\">Hyppolyte de Saint-Rambert</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1228777983,
+            "parentid": 1181122353
+          }
+        ]
+      },
+      "100337271": {
+        "pageid": 100337271,
+        "ns": 6,
+        "title": "File:Shibuya Hachiko 2021-02-22.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-02-26T00:45:52Z",
+            "size": 4737396,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Shibuya_Hachiko_2021-02-22.jpg/1280px-Shibuya_Hachiko_2021-02-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Shibuya_Hachiko_2021-02-22.jpg/3840px-Shibuya_Hachiko_2021-02-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Shibuya_Hachiko_2021-02-22.jpg/1280px-Shibuya_Hachiko_2021-02-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Shibuya_Hachiko_2021-02-22.jpg/3840px-Shibuya_Hachiko_2021-02-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Shibuya_Hachiko_2021-02-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shibuya_Hachiko_2021-02-22.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=100337271",
+            "sha1": "07f772fd563b3eef22129610f7e8d4430a40baac",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-26 00:45:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shibuya Hachiko 2021-02-22",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Takarakuji shops|Statue of Hachiko (Shibuya)|Self-published work|Banners in Japan|Shibuya Crossing in 2021|February 2021 in Tokyo|Files with coordinates missing SDC location of creation|Japan photographs taken on 2021-02-22|COVID-19 pandemic related signs in Tokyo|Social distancing signs during the COVID-19 pandemic in Japan|People with protective masks during the COVID-19 pandemic in Tokyo",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.659319",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.700669",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "2021\u5e742\u6708\u3001\u7dca\u6025\u4e8b\u614b\u5ba3\u8a00\u4e0b\u306e\u6e0b\u8c37\u99c5\u524d\u3001\u30cf\u30c1\u516c\u5e83\u5834\u3002\u300c3\u5bc6\u300d\u306e\u56de\u907f\u3084\u30bd\u30fc\u30b7\u30e3\u30eb\u30c7\u30a3\u30b9\u30bf\u30f3\u30b9\u306e\u78ba\u4fdd\u306a\u3069\u3092\u547c\u3073\u304b\u3051\u308b\u63b2\u793a\u304c\u78ba\u8a8d\u3067\u304d\u308b\u3002\u5e73\u6642\u3088\u308a\u4eba\u51fa\u304c\u5c11\u306a\u304f\u3001\u307e\u305f\u901a\u884c\u4eba\u306f\u30de\u30b9\u30af\u3092\u7740\u7528\u3057\u3066\u3044\u308b\u3002",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a022 February 2021, 07:40:49",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:%E3%81%97%E3%82%93%E3%81%8E%E3%82%93%E3%81%90%E3%81%8D%E3%82%83%E3%81%A3%E3%81%A8&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:\u3057\u3093\u304e\u3093\u3050\u304d\u3083\u3063\u3068 (page does not exist)\">\u3057\u3093\u304e\u3093\u3050\u304d\u3083\u3063\u3068</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267633920,
+            "parentid": 1162779573
+          }
+        ]
+      },
+      "143809110": {
+        "pageid": 143809110,
+        "ns": 6,
+        "title": "File:Shibuya Station (52501035462).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-01-11T05:23:24Z",
+            "size": 3167920,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Shibuya_Station_%2852501035462%29.jpg/1280px-Shibuya_Station_%2852501035462%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Shibuya_Station_%2852501035462%29.jpg/3840px-Shibuya_Station_%2852501035462%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Shibuya_Station_%2852501035462%29.jpg/1280px-Shibuya_Station_%2852501035462%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Shibuya_Station_%2852501035462%29.jpg/3840px-Shibuya_Station_%2852501035462%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Shibuya_Station_%2852501035462%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shibuya_Station_(52501035462).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143809110",
+            "sha1": "440005b3cb71efbae42e44aa64fac5a8138b4eaa",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-01-11 05:23:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shibuya Station (52501035462)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Flickr images reviewed by FlickreviewR 2|Photographs by Dick Thomas Johnson|2022 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u6e0b\u8c37\u99c5",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-09-03 13:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/31029865@N06/52501035462/\">Shibuya Station</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31029865@N06\">Dick Thomas Johnson</a> from Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267635456,
+            "parentid": 1099559416
+          }
+        ]
+      },
+      "143813203": {
+        "pageid": 143813203,
+        "ns": 6,
+        "title": "File:Shibuya Station (53081222661).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-01-11T07:57:09Z",
+            "size": 18104566,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Shibuya_Station_%2853081222661%29.jpg/1280px-Shibuya_Station_%2853081222661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Shibuya_Station_%2853081222661%29.jpg/3840px-Shibuya_Station_%2853081222661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Shibuya_Station_%2853081222661%29.jpg/1280px-Shibuya_Station_%2853081222661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Shibuya_Station_%2853081222661%29.jpg/3840px-Shibuya_Station_%2853081222661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Shibuya_Station_%2853081222661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shibuya_Station_(53081222661).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143813203",
+            "sha1": "be6fb3b8d7dc0209cb13f34417afdc38cb9320af",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-01-11 07:57:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shibuya Station (53081222661)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Flickr images reviewed by FlickreviewR 2|Photographs by Dick Thomas Johnson|2023 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u6e0b\u8c37\u99c5",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-01-02 13:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/31029865@N06/53081222661/\">Shibuya Station</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31029865@N06\">Dick Thomas Johnson</a> from Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1184798180,
+            "parentid": 958068112
+          }
+        ]
+      },
+      "54993270": {
+        "pageid": 54993270,
+        "ns": 6,
+        "title": "File:Shibuya, Tokio, Jap\u00f3n 2016-12 (32046064901).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-01-13T04:36:45Z",
+            "size": 3047946,
+            "width": 4000,
+            "height": 2248,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg/1280px-Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 562,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg/3840px-Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg/1280px-Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 562,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg/3840px-Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Shibuya%2C_Tokio%2C_Jap%C3%B3n_2016-12_%2832046064901%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shibuya,_Tokio,_Jap%C3%B3n_2016-12_(32046064901).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54993270",
+            "sha1": "1dc3f51df5e58d3d119f7fd52b05315185e615c2",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-01-13 04:36:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shibuya, Tokio, Jap\u00f3n 2016-12 (32046064901)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Clothed statues|Green light|Flickr images reviewed by FlickreviewR|67th NHK K\u014dhaku Uta Gassen|Shibuya Crossing in 2016|December 2016 in Tokyo|Red and white clothing in art|Files with coordinates missing SDC location of creation|2016 advertisements in Tokyo|Japan photographs taken on 2016-12-31|Shibuya Hachiko square|National flag duos|NHK advertisements|Shibuya Crossing at night in the 2010s|Crowds in Shibuya|Photographs of the national flag of Japan in Shibuya|Exterior lighting in the special wards of T\u014dky\u014d",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.659004",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.700957",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Shibuya, Tokio, Jap\u00f3n",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a031 December 2016, 10:09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/88083695@N07/32046064901/\">Shibuya, Tokio, Jap\u00f3n</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/88083695@N07\">Pablo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1260926024,
+            "parentid": 1181064750
+          }
+        ]
+      },
+      "181651404": {
+        "pageid": 181651404,
+        "ns": 6,
+        "title": "File:The Hachiko statue at Shibuya, Tokyo, Japan.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-11T16:32:35Z",
+            "size": 4286557,
+            "width": 4032,
+            "height": 2268,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/1280px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 563,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/3840px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/1280px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 563,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/3840px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Hachiko_statue_at_Shibuya,_Tokyo,_Japan.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=181651404",
+            "sha1": "9ffd9567f66723a2fd4da3d8d4befcbdd7d6ecf6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-01-11 16:32:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Hachiko statue at Shibuya, Tokyo, Japan",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Self-published work|Files with coordinates missing SDC location of creation|Taken with Google Pixel 10 Pro",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.658872",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.700425",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Hachiko statue at Shibuya, Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-11-01 13:12:23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Joli_Rumi\" title=\"User:Joli Rumi\">Joli Rumi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1224908598,
+            "parentid": 1171807670
+          }
+        ]
+      },
+      "91107057": {
+        "pageid": 91107057,
+        "ns": 6,
+        "title": "File:\u30cf\u30c1\u516c\u524d20200419.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-06-10T14:14:38Z",
+            "size": 3467689,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg/1280px-%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg/3840px-%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg/1280px-%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg/3840px-%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E3%83%8F%E3%83%81%E5%85%AC%E5%89%8D20200419.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91107057",
+            "sha1": "3880c24bffe731745852fead27ad7719b537999f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-10 14:14:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "\u30cf\u30c1\u516c\u524d20200419",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Self-published work|Files with coordinates missing SDC location of creation|Japan photographs taken on 2020-04-19|COVID-19 pandemic in Shibuya|People with surgical masks during the COVID-19 pandemic in Tokyo|2020 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.659011",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.700822",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The scene in front of Hachiko at night under the state of emergency. Despite it being a Sunday, there was little traffic and people around.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a019 April 2020, 18:47:23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E7%89%87%E5%89%B2%E3%82%8C%E9%9D%B4%E4%B8%8B\" title=\"User:\u7247\u5272\u308c\u9774\u4e0b\">\u7247\u5272\u308c\u9774\u4e0b (unpaired sock)</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267633201,
+            "parentid": 1149015462
+          }
+        ]
+      }
+    }
+  }
+}

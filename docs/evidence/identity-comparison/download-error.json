@@ -1,0 +1,12 @@
+{
+  "time": "2026-09-12T03:53:31.470583+00:00",
+  "image_id": "koni-02",
+  "status": 429,
+  "headers": {
+    "date": "Sat, 12 Sep 2026 03:53:31 GMT",
+    "x-cache-status": "int-front",
+    "retry-after": "10",
+    "content-type": "text/html; charset=utf-8"
+  },
+  "note": "Only rate-limit diagnostic headers retained; unrelated network identifiers omitted."
+}

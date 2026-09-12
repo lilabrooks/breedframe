@@ -1,0 +1,935 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "5540593": {
+        "pageid": 5540593,
+        "ns": 6,
+        "title": "File:Vladimir Putin 11 October 2002-1.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-12-21T07:26:42Z",
+            "size": 90256,
+            "width": 500,
+            "height": 334,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Vladimir_Putin_11_October_2002-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Vladimir_Putin_11_October_2002-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Vladimir_Putin_11_October_2002-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_11_October_2002-1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5540593",
+            "sha1": "3d7f6d99fa0d49a3bfe5452987e1bc547af01f26",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-12-21 07:26:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 11 October 2002-1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Koni|Vladimir Putin with animals|Vladimir Putin in October 2002|2002 in Tver Oblast|Tony Blair and Vladimir Putin|Vladimir Putin in Tver Oblast|State residence Rus, Zavidovo|Russia photographs taken on 2002-10-11|Files from Kremlin.ru, 2002",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "ZAVIDOVO, THE TVER REGION. President Putin with British Prime Minister Tony Blair.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2002-10-11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.kremlin.ru/sdocs/news.shtml?day=11&amp;month=10&amp;year=2002&amp;Submit.x=2&amp;Submit.y=0&amp;value_from=&amp;value_to=&amp;date=&amp;stype=&amp;dayRequired=no&amp;day_enable=true#\">http://www.kremlin.ru/sdocs/news.shtml?day=11&amp;month=10&amp;year=2002&amp;Submit.x=2&amp;Submit.y=0&amp;value_from=&amp;value_to=&amp;date=&amp;stype=&amp;dayRequired=no&amp;day_enable=true#</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Presidential Press and Information Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1187737762,
+            "parentid": 978502194
+          }
+        ]
+      },
+      "5540208": {
+        "pageid": 5540208,
+        "ns": 6,
+        "title": "File:Vladimir Putin 21 January 2007-1.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-01-28T16:59:47Z",
+            "size": 1155549,
+            "width": 3504,
+            "height": 2336,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vladimir_Putin_21_January_2007-1.jpg/1280px-Vladimir_Putin_21_January_2007-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vladimir_Putin_21_January_2007-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vladimir_Putin_21_January_2007-1.jpg/1280px-Vladimir_Putin_21_January_2007-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vladimir_Putin_21_January_2007-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vladimir_Putin_21_January_2007-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_21_January_2007-1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5540208",
+            "sha1": "3b4eff082e27b03a4bb6c399632e5da49f05c9d5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-01-28 16:59:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 21 January 2007-1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Bocharov Ruchei (Sochi)|Koni|Vladimir Putin with animals|Vladimir Putin in January 2007|Files from Kremlin.ru, 2007|Angela Merkel in January 2007|Vladimir Putin in Sochi|Angela Merkel and Vladimir Putin in 2007",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Putin\u2019s Labrador, Koni, popped into the room during the talks, which set off a media firestorm. The President did not know that the German Chancellor had a fear of dogs. He said he wanted to make her happy. \u201cWhen I learned that she does not like dogs, I apologised, of course,\u201d Vladimir Putin said in an interview with Bild in 2016.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-01-21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://20.kremlin.ru/en/2007/events/407/1360\">http://20.kremlin.ru/en/2007/events/407/1360</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Presidential Press and Information Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1227873965,
+            "parentid": 1226659000
+          }
+        ]
+      },
+      "5540212": {
+        "pageid": 5540212,
+        "ns": 6,
+        "title": "File:Vladimir Putin 21 January 2007-2.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-12-21T04:47:25Z",
+            "size": 54885,
+            "width": 500,
+            "height": 334,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Vladimir_Putin_21_January_2007-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Vladimir_Putin_21_January_2007-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Vladimir_Putin_21_January_2007-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_21_January_2007-2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5540212",
+            "sha1": "87d7bf4b011353e7594ff00a6d4c42037da2f4f2",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-12-21 04:47:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 21 January 2007-2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Bocharov Ruchei (Sochi)|Koni|Vladimir Putin with animals|Vladimir Putin in January 2007|Files from Kremlin.ru, 2007|Angela Merkel in January 2007|Vladimir Putin in Sochi|Angela Merkel and Vladimir Putin in 2007",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "BOCHAROV RUCHEI, SOCHI. Before the conversation with Federal Chancellor of Germany Angela Merkel.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-01-21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.kremlin.ru/sdocs/news.shtml?day=21&amp;month=01&amp;year=2007&amp;Submit.x=0&amp;Submit.y=6&amp;value_from=&amp;value_to=&amp;date=&amp;stype=&amp;dayRequired=no&amp;day_enable=true#\">http://www.kremlin.ru/sdocs/news.shtml?day=21&amp;month=01&amp;year=2007&amp;Submit.x=0&amp;Submit.y=6&amp;value_from=&amp;value_to=&amp;date=&amp;stype=&amp;dayRequired=no&amp;day_enable=true#</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Presidential Press and Information Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1227873984,
+            "parentid": 1226658966
+          }
+        ]
+      },
+      "5540261": {
+        "pageid": 5540261,
+        "ns": 6,
+        "title": "File:Vladimir Putin 4 April 2005-1.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-12-21T05:01:03Z",
+            "size": 85845,
+            "width": 500,
+            "height": 378,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vladimir_Putin_4_April_2005-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 756,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vladimir_Putin_4_April_2005-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 756
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vladimir_Putin_4_April_2005-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_4_April_2005-1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5540261",
+            "sha1": "424c98e468363ecbd682569f24279d9cb4846126",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-12-21 05:01:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 4 April 2005-1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Koni|Vladimir Putin with animals|Vladimir Putin in April 2005|2005 in Sochi|Dogs of Moscow|Russia photographs taken on 2005-04-04|Alexander Lukashenko and Vladimir Putin in 2005|Files from Kremlin.ru, 2005|Vladimir Putin in Sochi",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "SOCHI. Meeting with Belarusian President Alexander Lukashenko.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2005-04-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.kremlin.ru/sdocs/news.shtml?day=4&amp;month=04&amp;year=2005&amp;Submit.x=13&amp;Submit.y=11&amp;value_from=&amp;value_to=&amp;date=&amp;stype=&amp;dayRequired=no&amp;day_enable=true#\">http://www.kremlin.ru/sdocs/news.shtml?day=4&amp;month=04&amp;year=2005&amp;Submit.x=13&amp;Submit.y=11&amp;value_from=&amp;value_to=&amp;date=&amp;stype=&amp;dayRequired=no&amp;day_enable=true#</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Presidential Press and Information Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1187737703,
+            "parentid": 1120207892
+          }
+        ]
+      },
+      "5540265": {
+        "pageid": 5540265,
+        "ns": 6,
+        "title": "File:Vladimir Putin 7 March 2003-2.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-12-21T05:02:51Z",
+            "size": 90159,
+            "width": 500,
+            "height": 334,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Vladimir_Putin_7_March_2003-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Vladimir_Putin_7_March_2003-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Vladimir_Putin_7_March_2003-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_7_March_2003-2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5540265",
+            "sha1": "9eeb03cb507f6cc9576ce666f32f21d9bab69aa1",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-12-21 05:02:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 7 March 2003-2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Bocharov Ruchei (Sochi)|Koni|Vladimir Putin with animals|Vladimir Putin in March 2003|Photographs taken on 2003-03-07|Alexander Lukashenko and Vladimir Putin in 2003|Files from Kremlin.ru, 2003|Vladimir Putin in Sochi",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "BOCHAROV RUCHEI, SOCHI. President Putin with Belarusian President Alexander Lukashenko.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a07 March 2003",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.kremlin.ru/sdocs/news.shtml?day=7&amp;month=03&amp;year=2003&amp;Submit.x=5&amp;Submit.y=7&amp;value_from=&amp;value_to=&amp;date=&amp;stype=&amp;dayRequired=no&amp;day_enable=true#\">http://www.kremlin.ru/sdocs/news.shtml?day=7&amp;month=03&amp;year=2003&amp;Submit.x=5&amp;Submit.y=7&amp;value_from=&amp;value_to=&amp;date=&amp;stype=&amp;dayRequired=no&amp;day_enable=true#</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Presidential Press and Information Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1187737717,
+            "parentid": 996001811
+          }
+        ]
+      },
+      "5540009": {
+        "pageid": 5540009,
+        "ns": 6,
+        "title": "File:Vladimir Putin and Koni-3.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-12-21T03:25:11Z",
+            "size": 83947,
+            "width": 500,
+            "height": 550,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vladimir_Putin_and_Koni-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1100,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vladimir_Putin_and_Koni-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1100
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vladimir_Putin_and_Koni-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Koni-3.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5540009",
+            "sha1": "a08cbe66203ffccc456273d97b313318e1cd7080",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-12-21 03:25:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin and Koni-3",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Margot Klestil-L\u00f6ffler|Koni|Novo-Ogaryovo|Vladimir Putin with animals|Fur trimmings|Vladimir Putin in February 2004|Fox (clothing)|Old men of Austria|Thomas Klestil and Vladimir Putin|Fur fashion in 2004|Russia photographs taken on 2004-02-14|Files from Kremlin.ru, 2004|Vladimir Putin with Lyudmila Putina in 2004",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Novo-Ogaryovo. With Labrador Koni. From left to right: Lyudmila Putina, Austrian President Thomas Klestil, Margot Klestil-Loffler.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a014 February 2004",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.kremlin.ru/text/images/61480.shtml\">http://www.kremlin.ru/text/images/61480.shtml</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Presidential Press and Information Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1187737659,
+            "parentid": 1063739244
+          }
+        ]
+      },
+      "5551714": {
+        "pageid": 5551714,
+        "ns": 6,
+        "title": "File:Vladimir Putin and Koni-4.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-12-22T20:17:08Z",
+            "size": 48971,
+            "width": 500,
+            "height": 334,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_and_Koni-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_and_Koni-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_and_Koni-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Koni-4.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5551714",
+            "sha1": "afab07099768e4f23019617e66a4a97d0a85d591",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-12-22 20:17:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin and Koni-4",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Koni|Novo-Ogaryovo|Vladimir Putin with animals|Vladimir Putin in July 2002|Russia photographs taken on 2002-07-26|Files from Kremlin.ru, 2002",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vladimir Putin with his dog, a Labrador named Koni, in Novo-Ogaryovo.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a026 July 2002",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.kremlin.ru/text/images/45100.shtml\">http://www.kremlin.ru/text/images/45100.shtml</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Presidential Press and Information Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1187737829,
+            "parentid": 753551277
+          }
+        ]
+      },
+      "5551929": {
+        "pageid": 5551929,
+        "ns": 6,
+        "title": "File:Vladimir Putin and Koni-6.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2008-12-22T20:55:25Z",
+            "size": 78949,
+            "width": 336,
+            "height": 500,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Vladimir_Putin_and_Koni-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1488,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Vladimir_Putin_and_Koni-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1488
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Vladimir_Putin_and_Koni-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Koni-6.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5551929",
+            "sha1": "3dc7ac7d3d8abae5b3b1a7c45c3f05d88e404870",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-12-22 20:55:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin and Koni-6",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Koni|Vladimir Putin with animals|Vladimir Putin in June 2002|Photographs taken on 2002-06-14|Files from Kremlin.ru, 2002",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vladimir Putin exercising whilst <a href=\"https://en.wikipedia.org/wiki/Koni_(dog)\" class=\"extiw\" title=\"en:Koni (dog)\">en:Koni (dog)</a> watches on.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2002-06-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://president.kremlin.ru/dyn_images/img23934.jpg\">http://president.kremlin.ru/dyn_images/img23934.jpg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Presidential Press and Information Office",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1187737894,
+            "parentid": 910299652
+          }
+        ]
+      }
+    }
+  }
+}

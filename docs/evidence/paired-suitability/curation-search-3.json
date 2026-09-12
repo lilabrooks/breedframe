@@ -1,0 +1,978 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "97970184": {
+        "pageid": 97970184,
+        "ns": 6,
+        "title": "File:Abraham Lincoln's personality (IA abrahamlincolxxxxx00linc).pdf",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-12-23T02:24:37Z",
+            "size": 2335158,
+            "width": 1214,
+            "height": 1570,
+            "pagecount": 32,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Abraham_Lincoln%27s_personality_%28IA_abrahamlincolxxxxx00linc%29.pdf/page1-960px-Abraham_Lincoln%27s_personality_%28IA_abrahamlincolxxxxx00linc%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1293,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Abraham_Lincoln%27s_personality_%28IA_abrahamlincolxxxxx00linc%29.pdf/page1-960px-Abraham_Lincoln%27s_personality_%28IA_abrahamlincolxxxxx00linc%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1293
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Abraham_Lincoln%27s_personality_%28IA_abrahamlincolxxxxx00linc%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln%27s_personality_(IA_abrahamlincolxxxxx00linc).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97970184",
+            "sha1": "d934e452716575f8bf878e928644f06ee8694e7c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-12-23 02:24:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nAbraham Lincoln's personality</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-old-100-expired|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Lincoln Financial Foundation Collection|Old books from American Libraries",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nLincoln Financial Foundation Collection</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dd>From the files of the Lincoln Financial Foundation Collection</dd>\n<dd>Excerpts from newspapers and other sources</dd>\n<dd>18</dd></dl>\n<br>Subjects: Lincoln, Abraham, 1809-1865; Dogs; Pets</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/abrahamlincolxxxxx00linc\" class=\"extiw\" title=\"iarchive:abrahamlincolxxxxx00linc\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: abrahamlincolxxxxx00linc</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/abrahamlincolxxxxx00linc/abrahamlincolxxxxx00linc.pdf\">https://archive.org/download/abrahamlincolxxxxx00linc/abrahamlincolxxxxx00linc.pdf</a></dd></dl>\n<ul><li>IA digitizing sponsor: Friends of The Lincoln Collection of Indiana, Inc.</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1010690575,
+            "parentid": 1004643886
+          }
+        ]
+      },
+      "40684027": {
+        "pageid": 40684027,
+        "ns": 6,
+        "title": "File:FDR-Memorial-Waterfall-1.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-06-02T19:29:27Z",
+            "size": 24609974,
+            "width": 4400,
+            "height": 5603,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/FDR-Memorial-Waterfall-1.jpg/1280px-FDR-Memorial-Waterfall-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1273,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/FDR-Memorial-Waterfall-1.jpg/3840px-FDR-Memorial-Waterfall-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/FDR-Memorial-Waterfall-1.jpg/1280px-FDR-Memorial-Waterfall-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1273,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/FDR-Memorial-Waterfall-1.jpg/3840px-FDR-Memorial-Waterfall-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/FDR-Memorial-Waterfall-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR-Memorial-Waterfall-1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40684027",
+            "sha1": "333ae3e6651cc92e60402c1c20e528b6b4dcda83",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-02 19:29:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR-Memorial-Waterfall-1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|PD-Highsmith|Library of Congress-no known copyright restrictions|FDR Memorial photographs by Carol M. Highsmith",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photograph of waterfall in Room Three of the <a href=\"https://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_Memorial\" class=\"extiw\" title=\"w:Franklin Delano Roosevelt Memorial\">Franklin Delano Roosevelt Memorial</a>, Washington, D.C.\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.nps.gov/nr/travel/presidents/fdr_memorial.html\">National Park Service</a><br>In Room Three of the memorial, a waterfall crashes over scattered boulders, suggesting the destruction and violence of World War II, which dominated Roosevelt\u2019s third term in office.  Neil Estern created the statues of Roosevelt and his beloved dog, Fala, calmly presiding over the chaos surrounding them.</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1997 and 2006",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/highsm.14070\">highsm.14070</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Carol_M._Highsmith\" class=\"extiw\" title=\"w:en:Carol M. Highsmith\"><span title=\"American photographer (born 1946)\">Carol M. Highsmith</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work is from the <a href=\"https://www.wikidata.org/wiki/Q79156263\" class=\"extiw\" title=\"d:Q79156263\"><span title=\"collection at the Library of Congress\">Carol M. Highsmith Archive</span></a> collection at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Library_of_Congress\" class=\"extiw\" title=\"en:Library of Congress\"><span lang=\"en\" dir=\"ltr\">Library of Congress</span></a></span>. According to the library, there are <a rel=\"nofollow\" class=\"external text\" href=\"https://www.loc.gov/rr/print/res/482_high.html\">no known copyright restrictions</a> on the use of this work.<br>Carol M. Highsmith has stipulated that her photographs are in the public domain. Photographs of sculpture or other works of art may be restricted by the copyright of the artist; see <a href=\"//commons.wikimedia.org/wiki/Commons:FOP_US#Artworks_and_sculptures\" class=\"mw-redirect\" title=\"Commons:FOP US\">Commons:FOP US#Artworks and sculptures</a> for more information.\n</td>\n<td><figure class=\"mw-halign-right skin-invert noresize\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/120px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"63\" height=\"63\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/250px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"720\"></a><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1238845857,
+            "parentid": 701333927
+          }
+        ]
+      },
+      "40684272": {
+        "pageid": 40684272,
+        "ns": 6,
+        "title": "File:FDR-Memorial-Waterfall-2.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-06-02T19:41:05Z",
+            "size": 26669406,
+            "width": 4400,
+            "height": 5514,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/FDR-Memorial-Waterfall-2.jpg/1280px-FDR-Memorial-Waterfall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1253,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/FDR-Memorial-Waterfall-2.jpg/3840px-FDR-Memorial-Waterfall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/FDR-Memorial-Waterfall-2.jpg/1280px-FDR-Memorial-Waterfall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1253,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/FDR-Memorial-Waterfall-2.jpg/3840px-FDR-Memorial-Waterfall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/FDR-Memorial-Waterfall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR-Memorial-Waterfall-2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40684272",
+            "sha1": "3703e1679a55d4e913d823be139de2adc8a8613c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-02 19:41:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR-Memorial-Waterfall-2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|PD-Highsmith|Library of Congress-no known copyright restrictions|FDR Memorial photographs by Carol M. Highsmith",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photograph of waterfall in Room Three of the <a href=\"https://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_Memorial\" class=\"extiw\" title=\"w:Franklin Delano Roosevelt Memorial\">Franklin Delano Roosevelt Memorial</a>, Washington, D.C.\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.nps.gov/nr/travel/presidents/fdr_memorial.html\">National Park Service</a><br>In Room Three of the memorial, a waterfall crashes over scattered boulders, suggesting the destruction and violence of World War II, which dominated Roosevelt\u2019s third term in office.  Neil Estern created the statues of Roosevelt and his beloved dog, Fala, calmly presiding over the chaos surrounding them.</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1997 and 2006",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/highsm.15241\">highsm.15241</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Carol_M._Highsmith\" class=\"extiw\" title=\"w:en:Carol M. Highsmith\"><span title=\"American photographer (born 1946)\">Carol M. Highsmith</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work is from the <a href=\"https://www.wikidata.org/wiki/Q79156263\" class=\"extiw\" title=\"d:Q79156263\"><span title=\"collection at the Library of Congress\">Carol M. Highsmith Archive</span></a> collection at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Library_of_Congress\" class=\"extiw\" title=\"en:Library of Congress\"><span lang=\"en\" dir=\"ltr\">Library of Congress</span></a></span>. According to the library, there are <a rel=\"nofollow\" class=\"external text\" href=\"https://www.loc.gov/rr/print/res/482_high.html\">no known copyright restrictions</a> on the use of this work.<br>Carol M. Highsmith has stipulated that her photographs are in the public domain. Photographs of sculpture or other works of art may be restricted by the copyright of the artist; see <a href=\"//commons.wikimedia.org/wiki/Commons:FOP_US#Artworks_and_sculptures\" class=\"mw-redirect\" title=\"Commons:FOP US\">Commons:FOP US#Artworks and sculptures</a> for more information.\n</td>\n<td><figure class=\"mw-halign-right skin-invert noresize\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/120px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"63\" height=\"63\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/250px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"720\"></a><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1238845871,
+            "parentid": 267032001
+          }
+        ]
+      },
+      "40684503": {
+        "pageid": 40684503,
+        "ns": 6,
+        "title": "File:FDR-Memorial-Waterfall-3.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-06-02T19:58:15Z",
+            "size": 16815120,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/FDR-Memorial-Waterfall-3.jpg/1280px-FDR-Memorial-Waterfall-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/FDR-Memorial-Waterfall-3.jpg/3840px-FDR-Memorial-Waterfall-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/FDR-Memorial-Waterfall-3.jpg/1280px-FDR-Memorial-Waterfall-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/FDR-Memorial-Waterfall-3.jpg/3840px-FDR-Memorial-Waterfall-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/FDR-Memorial-Waterfall-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR-Memorial-Waterfall-3.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40684503",
+            "sha1": "c408c6e20cf85e89e459ee4ac75441a7691c5500",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-02 19:58:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR-Memorial-Waterfall-3",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|PD-Highsmith|Library of Congress-no known copyright restrictions|FDR Memorial photographs by Carol M. Highsmith",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photograph of waterfall in Room Three of the <a href=\"https://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_Memorial\" class=\"extiw\" title=\"w:Franklin Delano Roosevelt Memorial\">Franklin Delano Roosevelt Memorial</a>, Washington, D.C.\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.nps.gov/nr/travel/presidents/fdr_memorial.html\">National Park Service</a><br>In Room Three of the memorial, a waterfall crashes over scattered boulders, suggesting the destruction and violence of World War II, which dominated Roosevelt\u2019s third term in office.  Neil Estern created the statues of Roosevelt and his beloved dog, Fala, calmly presiding over the chaos surrounding them.</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-05-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/highsm.04256\">highsm.04256</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Carol_M._Highsmith\" class=\"extiw\" title=\"w:en:Carol M. Highsmith\"><span title=\"American photographer (born 1946)\">Carol M. Highsmith</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work is from the <a href=\"https://www.wikidata.org/wiki/Q79156263\" class=\"extiw\" title=\"d:Q79156263\"><span title=\"collection at the Library of Congress\">Carol M. Highsmith Archive</span></a> collection at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Library_of_Congress\" class=\"extiw\" title=\"en:Library of Congress\"><span lang=\"en\" dir=\"ltr\">Library of Congress</span></a></span>. According to the library, there are <a rel=\"nofollow\" class=\"external text\" href=\"https://www.loc.gov/rr/print/res/482_high.html\">no known copyright restrictions</a> on the use of this work.<br>Carol M. Highsmith has stipulated that her photographs are in the public domain. Photographs of sculpture or other works of art may be restricted by the copyright of the artist; see <a href=\"//commons.wikimedia.org/wiki/Commons:FOP_US#Artworks_and_sculptures\" class=\"mw-redirect\" title=\"Commons:FOP US\">Commons:FOP US#Artworks and sculptures</a> for more information.\n</td>\n<td><figure class=\"mw-halign-right skin-invert noresize\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/120px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"63\" height=\"63\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/250px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"720\"></a><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1238845886,
+            "parentid": 486858685
+          }
+        ]
+      },
+      "40684546": {
+        "pageid": 40684546,
+        "ns": 6,
+        "title": "File:FDR-Memorial-Waterfall-4.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-06-02T20:01:34Z",
+            "size": 16647478,
+            "width": 5000,
+            "height": 3848,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/FDR-Memorial-Waterfall-4.jpg/1280px-FDR-Memorial-Waterfall-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 770,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/FDR-Memorial-Waterfall-4.jpg/3840px-FDR-Memorial-Waterfall-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/FDR-Memorial-Waterfall-4.jpg/1280px-FDR-Memorial-Waterfall-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 770,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/FDR-Memorial-Waterfall-4.jpg/3840px-FDR-Memorial-Waterfall-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/FDR-Memorial-Waterfall-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR-Memorial-Waterfall-4.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40684546",
+            "sha1": "2b1558c85f8a6ec4bd8298baa17f3c86747900a7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-02 20:01:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR-Memorial-Waterfall-4",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|PD-Highsmith|Library of Congress-no known copyright restrictions|FDR Memorial photographs by Carol M. Highsmith",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photograph of waterfall in Room Three of the <a href=\"https://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_Memorial\" class=\"extiw\" title=\"w:Franklin Delano Roosevelt Memorial\">Franklin Delano Roosevelt Memorial</a>, Washington, D.C.\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.nps.gov/nr/travel/presidents/fdr_memorial.html\">National Park Service</a><br>In Room Three of the memorial, a waterfall crashes over scattered boulders, suggesting the destruction and violence of World War II, which dominated Roosevelt\u2019s third term in office.  Neil Estern created the statues of Roosevelt and his beloved dog, Fala, calmly presiding over the chaos surrounding them.</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1997 and 2006",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/highsm.14826\">highsm.14826</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Carol_M._Highsmith\" class=\"extiw\" title=\"w:en:Carol M. Highsmith\"><span title=\"American photographer (born 1946)\">Carol M. Highsmith</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work is from the <a href=\"https://www.wikidata.org/wiki/Q79156263\" class=\"extiw\" title=\"d:Q79156263\"><span title=\"collection at the Library of Congress\">Carol M. Highsmith Archive</span></a> collection at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Library_of_Congress\" class=\"extiw\" title=\"en:Library of Congress\"><span lang=\"en\" dir=\"ltr\">Library of Congress</span></a></span>. According to the library, there are <a rel=\"nofollow\" class=\"external text\" href=\"https://www.loc.gov/rr/print/res/482_high.html\">no known copyright restrictions</a> on the use of this work.<br>Carol M. Highsmith has stipulated that her photographs are in the public domain. Photographs of sculpture or other works of art may be restricted by the copyright of the artist; see <a href=\"//commons.wikimedia.org/wiki/Commons:FOP_US#Artworks_and_sculptures\" class=\"mw-redirect\" title=\"Commons:FOP US\">Commons:FOP US#Artworks and sculptures</a> for more information.\n</td>\n<td><figure class=\"mw-halign-right skin-invert noresize\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/120px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"63\" height=\"63\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Seal_of_the_United_States_Library_of_Congress.svg/250px-Seal_of_the_United_States_Library_of_Congress.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"720\"></a><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1176875312,
+            "parentid": 267032003
+          }
+        ]
+      },
+      "92025928": {
+        "pageid": 92025928,
+        "ns": 6,
+        "title": "File:January to December 1992 (IA cfaminutes20feb1992).pdf",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-07-08T13:49:55Z",
+            "size": 1541509,
+            "width": 1172,
+            "height": 1514,
+            "pagecount": 54,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/January_to_December_1992_%28IA_cfaminutes20feb1992%29.pdf/page1-960px-January_to_December_1992_%28IA_cfaminutes20feb1992%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1292,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/January_to_December_1992_%28IA_cfaminutes20feb1992%29.pdf/page1-960px-January_to_December_1992_%28IA_cfaminutes20feb1992%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1292
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/January_to_December_1992_%28IA_cfaminutes20feb1992%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:January_to_December_1992_(IA_cfaminutes20feb1992).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92025928",
+            "sha1": "7d190de6ef1a3df2b6a8722a3a4e208e5af2732d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-08 13:49:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nJanuary to December 1992</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Minutes of the Commission of Fine Arts (US)|Books from the United States PDF files|PD-USGov missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nCFA</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects: minutes</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/cfaminutes20feb1992\" class=\"extiw\" title=\"iarchive:cfaminutes20feb1992\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: cfaminutes20feb1992</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/cfaminutes20feb1992/cfaminutes20feb1992.pdf\">https://archive.org/download/cfaminutes20feb1992/cfaminutes20feb1992.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1108860863,
+            "parentid": 873150038
+          }
+        ]
+      },
+      "92025973": {
+        "pageid": 92025973,
+        "ns": 6,
+        "title": "File:January to December 1992 (IA cfaminutes21may1992).pdf",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-07-08T13:52:11Z",
+            "size": 1324234,
+            "width": 1091,
+            "height": 1522,
+            "pagecount": 52,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/January_to_December_1992_%28IA_cfaminutes21may1992%29.pdf/page1-960px-January_to_December_1992_%28IA_cfaminutes21may1992%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1395,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/January_to_December_1992_%28IA_cfaminutes21may1992%29.pdf/page1-960px-January_to_December_1992_%28IA_cfaminutes21may1992%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1395
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/January_to_December_1992_%28IA_cfaminutes21may1992%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:January_to_December_1992_(IA_cfaminutes21may1992).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92025973",
+            "sha1": "d12db6134563467ec42e32fef6449fee292d24d0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-08 13:52:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nJanuary to December 1992</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Minutes of the Commission of Fine Arts (US)|Books from the United States PDF files",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nCFA</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects: minutes</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/cfaminutes21may1992\" class=\"extiw\" title=\"iarchive:cfaminutes21may1992\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: cfaminutes21may1992</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/cfaminutes21may1992/cfaminutes21may1992.pdf\">https://archive.org/download/cfaminutes21may1992/cfaminutes21may1992.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1019025791,
+            "parentid": 911617731
+          }
+        ]
+      },
+      "92271048": {
+        "pageid": 92271048,
+        "ns": 6,
+        "title": "File:January to December 1997 (IA cfaminutes16jan1997).pdf",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-07-15T12:35:06Z",
+            "size": 2174341,
+            "width": 1156,
+            "height": 1489,
+            "pagecount": 86,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/January_to_December_1997_%28IA_cfaminutes16jan1997%29.pdf/page1-960px-January_to_December_1997_%28IA_cfaminutes16jan1997%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1288,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/January_to_December_1997_%28IA_cfaminutes16jan1997%29.pdf/page1-960px-January_to_December_1997_%28IA_cfaminutes16jan1997%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1288
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/January_to_December_1997_%28IA_cfaminutes16jan1997%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:January_to_December_1997_(IA_cfaminutes16jan1997).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92271048",
+            "sha1": "056f675e29bed2191fc99a82e53c3ccff4a2a4b9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-15 12:35:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nJanuary to December 1997</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Minutes of the Commission of Fine Arts (US)|Books from the United States PDF files|PD-USGov missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nCFA</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects: minutes</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/cfaminutes16jan1997\" class=\"extiw\" title=\"iarchive:cfaminutes16jan1997\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: cfaminutes16jan1997</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/cfaminutes16jan1997/cfaminutes16jan1997.pdf\">https://archive.org/download/cfaminutes16jan1997/cfaminutes16jan1997.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 873150057,
+            "parentid": 673945956
+          }
+        ]
+      },
+      "93683591": {
+        "pageid": 93683591,
+        "ns": 6,
+        "title": "File:Werner encyclopaedia. A standard work of reference in art, literature, science, history, geography, commerce, biography, discovery and invention ... (Vol. 9, FAL-FYZ) (IA wernerencyclopae09unse).pdf",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-08-30T16:28:19Z",
+            "size": 111187824,
+            "width": 1308,
+            "height": 2008,
+            "pagecount": 1016,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Werner_encyclopaedia._A_standard_work_of_reference_in_art%2C_literature%2C_science%2C_history%2C_geography%2C_commerce%2C_biography%2C_discovery_and_invention_..._%28Vol._9%2C_FAL-FYZ%29_%28IA_wernerencyclopae09unse%29.pdf/page1-1280px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1535,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Werner_encyclopaedia._A_standard_work_of_reference_in_art%2C_literature%2C_science%2C_history%2C_geography%2C_commerce%2C_biography%2C_discovery_and_invention_..._%28Vol._9%2C_FAL-FYZ%29_%28IA_wernerencyclopae09unse%29.pdf/page1-1280px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1535
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Werner_encyclopaedia._A_standard_work_of_reference_in_art%2C_literature%2C_science%2C_history%2C_geography%2C_commerce%2C_biography%2C_discovery_and_invention_..._%28Vol._9%2C_FAL-FYZ%29_%28IA_wernerencyclopae09unse%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Werner_encyclopaedia._A_standard_work_of_reference_in_art,_literature,_science,_history,_geography,_commerce,_biography,_discovery_and_invention_..._(Vol._9,_FAL-FYZ)_(IA_wernerencyclopae09unse).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93683591",
+            "sha1": "10af919379f7c6e7ba446e2b9618d81f5be0bfa0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-30 16:28:19",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nWerner encyclopaedia.  A standard work of reference in art, literature, science, history, geography, commerce, biography, discovery and invention ... (Vol. 9, FAL-FYZ)</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Books in the Library of Congress|IA books of at least 500 pages|PD-US missing SDC copyright status|Werner Encyclop\u00e6dia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>25 v. 28 cm\n</p>\n<br>Subjects: Encyclopedias and dictionaries</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/wernerencyclopae09unse\" class=\"extiw\" title=\"iarchive:wernerencyclopae09unse\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: wernerencyclopae09unse</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/wernerencyclopae09unse/wernerencyclopae09unse.pdf\">https://archive.org/download/wernerencyclopae09unse/wernerencyclopae09unse.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 558986824,
+            "parentid": 514570396
+          }
+        ]
+      }
+    }
+  }
+}

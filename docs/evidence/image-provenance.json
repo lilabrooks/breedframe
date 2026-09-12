@@ -1,0 +1,35 @@
+[
+  {
+    "id": "beagle",
+    "path": "data/demo/beagle.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Beagle_600.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Beagle_600.jpg",
+    "author": "sannse",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sha256": "c447c2792286bb69ba03793751076cc722afda0ba20f3348e97c926e7d25629c",
+    "changes": "Original downloaded bytes"
+  },
+  {
+    "id": "golden",
+    "path": "data/evaluation/golden.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_Retriever_Carlos_(10581910556).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Golden_Retriever_Carlos_(10581910556).jpg",
+    "author": "Dirk Vorderstra\u00dfe",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "sha256": "1cda8a722958d54d9d6659be538a0e98877c8e80c20b9ed9dd7a5ef3a7ff8fd1",
+    "changes": "Original downloaded bytes"
+  },
+  {
+    "id": "pug",
+    "path": "data/evaluation/pug.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pug_600.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pug_600.jpg",
+    "author": "sannse",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sha256": "ec6ed5091e305e09db7bd44bf419430f16ae07192f17a81f33d18d4dd852b8ec",
+    "changes": "Original downloaded bytes"
+  }
+]

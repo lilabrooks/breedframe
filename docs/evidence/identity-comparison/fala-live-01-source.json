@@ -1,0 +1,90 @@
+{
+  "pageid": 168597,
+  "ns": 6,
+  "title": "File:FDR seated with Fala.jpg",
+  "index": 8,
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2014-01-04T20:41:13Z",
+      "size": 396866,
+      "width": 819,
+      "height": 1062,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/90/FDR_seated_with_Fala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1000,
+      "thumbheight": 1297,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/FDR_seated_with_Fala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 1297
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/FDR_seated_with_Fala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR_seated_with_Fala.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=168597",
+      "sha1": "9249532d0b6ee5fd555e356a6bfedd9bf03a25d8",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-01-04 20:41:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "FDR seated with Fala",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Files with no machine-readable author|Files with no machine-readable source|Executive Office of the President files|Media missing infobox template|Franklin D. Roosevelt and Fala|Black and white photographs of sitting men|Franklin Delano Roosevelt in 1942|Files in need of review (sources)|Images from the Franklin D. Roosevelt Library & Museum",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 1037216207,
+      "parentid": 1034910148
+    }
+  ]
+}

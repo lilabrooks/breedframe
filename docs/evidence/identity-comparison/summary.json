@@ -1,0 +1,297 @@
+{
+  "results_sha256": "1642013f3da4a59b3904776c0590a2bb02917cd0d79cf415615098b2768646af",
+  "models": {
+    "resnet": {
+      "cohorts": {
+        "different_breed_group": {
+          "cases": 1,
+          "reports": 0,
+          "abstentions": 1
+        },
+        "non_dog": {
+          "cases": 3,
+          "reports": 0,
+          "abstentions": 3
+        },
+        "shared_description_group": {
+          "cases": 1,
+          "reports": 0,
+          "abstentions": 1
+        },
+        "supported_breed": {
+          "cases": 6,
+          "reports": 0,
+          "abstentions": 6,
+          "correct": 0,
+          "wrong": 0,
+          "coverage": 0.0,
+          "error_fraction": null
+        },
+        "unknown_ancestry": {
+          "cases": 1,
+          "reports": 0,
+          "abstentions": 1
+        },
+        "unsupported_breed": {
+          "cases": 1,
+          "reports": 0,
+          "abstentions": 1
+        }
+      },
+      "primary_targets_met": false,
+      "product_ready": false
+    },
+    "vit": {
+      "cohorts": {
+        "different_breed_group": {
+          "cases": 1,
+          "reports": 0,
+          "abstentions": 1
+        },
+        "non_dog": {
+          "cases": 3,
+          "reports": 0,
+          "abstentions": 3
+        },
+        "shared_description_group": {
+          "cases": 1,
+          "reports": 0,
+          "abstentions": 1
+        },
+        "supported_breed": {
+          "cases": 6,
+          "reports": 0,
+          "abstentions": 6,
+          "correct": 0,
+          "wrong": 0,
+          "coverage": 0.0,
+          "error_fraction": null
+        },
+        "unknown_ancestry": {
+          "cases": 1,
+          "reports": 0,
+          "abstentions": 1
+        },
+        "unsupported_breed": {
+          "cases": 1,
+          "reports": 0,
+          "abstentions": 1
+        }
+      },
+      "primary_targets_met": false,
+      "product_ready": false
+    }
+  },
+  "supported_raw_results": [
+    {
+      "case_id": "liberty",
+      "initial_photo_id": "liberty-02",
+      "expected_label": "golden_retriever",
+      "expected_native_id": 207,
+      "resnet_top1": {
+        "class_id": 213,
+        "label": "Irish setter, red setter",
+        "score": 0.4585009515285492
+      },
+      "resnet_margin": 0.2654961943626404,
+      "resnet_raw_correct": false,
+      "vit_top1": [
+        {
+          "class_id": 102,
+          "label": "irish_wolfhound",
+          "score": 0.042364,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 35,
+          "label": "standard_poodle",
+          "score": 0.105324,
+          "unresolved_label": false
+        }
+      ],
+      "vit_raw_correct": [
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "robroy",
+      "initial_photo_id": "robroy-02",
+      "expected_label": "collie",
+      "expected_native_id": 231,
+      "resnet_top1": {
+        "class_id": 921,
+        "label": "book jacket, dust cover, dust jacket, dust wrapper",
+        "score": 0.8070185780525208
+      },
+      "resnet_margin": 0.7767208814620972,
+      "resnet_raw_correct": false,
+      "vit_top1": [
+        {
+          "class_id": 15,
+          "label": "pug",
+          "score": 0.01995,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 92,
+          "label": "great_pyrenees",
+          "score": 0.224842,
+          "unresolved_label": false
+        }
+      ],
+      "vit_raw_correct": [
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "laddie",
+      "initial_photo_id": "laddie-01",
+      "expected_label": "airedale",
+      "expected_native_id": 191,
+      "resnet_top1": {
+        "class_id": 191,
+        "label": "Airedale, Airedale terrier",
+        "score": 0.6625791192054749
+      },
+      "resnet_margin": 0.537439227104187,
+      "resnet_raw_correct": true,
+      "vit_top1": [
+        {
+          "class_id": 54,
+          "label": "airedale",
+          "score": 0.105946,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 42,
+          "label": "scottish_deerhound",
+          "score": 0.042571,
+          "unresolved_label": false
+        }
+      ],
+      "vit_raw_correct": [
+        true,
+        false
+      ]
+    },
+    {
+      "case_id": "koni",
+      "initial_photo_id": "koni-02",
+      "expected_label": "labrador_retriever",
+      "expected_native_id": 208,
+      "resnet_top1": {
+        "class_id": 206,
+        "label": "curly-coated retriever",
+        "score": 0.2951613664627075
+      },
+      "resnet_margin": 0.014119178056716919,
+      "resnet_raw_correct": false,
+      "vit_top1": [
+        {
+          "class_id": 98,
+          "label": "giant_schnauzer",
+          "score": 0.037633,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 85,
+          "label": "flat",
+          "score": 0.085687,
+          "unresolved_label": true
+        }
+      ],
+      "vit_raw_correct": [
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "blanco",
+      "initial_photo_id": "blanco-02",
+      "expected_label": "collie",
+      "expected_native_id": 231,
+      "resnet_top1": {
+        "class_id": 207,
+        "label": "golden retriever",
+        "score": 0.7486253976821899
+      },
+      "resnet_margin": 0.7043349742889404,
+      "resnet_raw_correct": false,
+      "vit_top1": [
+        {
+          "class_id": 92,
+          "label": "great_pyrenees",
+          "score": 0.03025,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 65,
+          "label": "saluki",
+          "score": 0.209003,
+          "unresolved_label": false
+        }
+      ],
+      "vit_raw_correct": [
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "fala",
+      "initial_photo_id": "fala-live-02",
+      "expected_label": "scotch_terrier",
+      "expected_native_id": 199,
+      "resnet_top1": {
+        "class_id": 224,
+        "label": "groenendael",
+        "score": 0.6236146092414856
+      },
+      "resnet_margin": 0.3040088713169098,
+      "resnet_raw_correct": false,
+      "vit_top1": [
+        {
+          "class_id": 15,
+          "label": "pug",
+          "score": 0.022112,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 64,
+          "label": "bouvier_des_flandres",
+          "score": 0.030973,
+          "unresolved_label": false
+        }
+      ],
+      "vit_raw_correct": [
+        false,
+        false
+      ]
+    }
+  ],
+  "raw_resnet_correct_initial_cases": 1,
+  "raw_resnet_initial_cases": 6,
+  "raw_vit_correct_initial_cases": 1,
+  "raw_vit_initial_cases": 6,
+  "raw_vit_correct_photos": 1,
+  "raw_vit_photos": 12,
+  "pairs_with_leading_label_agreement": 0,
+  "pair_cases": 13,
+  "all_quality_flags_empty": true,
+  "resnet_threshold_limit": {
+    "correct_leading_labels": 1,
+    "supported_cases": 6,
+    "min_reports_required": 3,
+    "wrong_case_dominating_only_correct_case": "blanco",
+    "only_correct_case": "laddie",
+    "explanation": "Any minimum score and minimum margin that admit Laddie also admit the wrongly labeled Blanco. More broadly, only one correct leading label is available, so thresholds alone cannot provide at least three reports with at most 10% errors."
+  },
+  "inference_calls": {
+    "resnet": 13,
+    "vit": 26,
+    "controller": 0,
+    "vision": 0
+  },
+  "new_inference_after_completion": 0
+}

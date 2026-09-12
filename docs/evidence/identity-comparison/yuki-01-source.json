@@ -1,0 +1,106 @@
+{
+  "pageid": 67593998,
+  "ns": 6,
+  "title": "File:Johnson and Yuki howl in the Oval Office.jpg",
+  "index": 6,
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2018-03-22T22:55:41Z",
+      "size": 11594,
+      "width": 317,
+      "height": 326,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1000,
+      "thumbheight": 1028,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 1028
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johnson_and_Yuki_howl_in_the_Oval_Office.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67593998",
+      "sha1": "146ad6a79f15a2a605ee8208eca088ef6a7fa86b",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-03-22 22:55:41",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Johnson and Yuki howl in the Oval Office",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Executive Office of the President files|Lyndon B. Johnson in 1968|Dogs howling|Lyndon B. Johnson in the Oval Office|Pets in the Oval Office|Yuki (dog)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "President Lyndon Johnson and his beloved Yuki liked to perform in the Oval Office. Yuki was found at a Texas gas station by Johnson's daughter Luci. He was one of the President's favorite dogs. President Johnson also had two beagles which he named Him and Her!",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "1968-01-30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20000304170644/http://www.whitehouse.gov:80/WH/kids/html/pets.html\">https://web.archive.org/web/20000304170644/http://www.whitehouse.gov:80/WH/kids/html/pets.html</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Yoichi R. Okamoto",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 1255707034,
+      "parentid": 1254469471
+    }
+  ]
+}

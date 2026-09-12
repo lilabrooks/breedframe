@@ -1,0 +1,1003 @@
+{
+  "created_at_utc": "2026-09-12T03:37:11.237847+00:00",
+  "images": [
+    {
+      "id": "barney-01",
+      "path": "data/photo-set-v2/images/barney-01.jpg",
+      "sha256": "7703b8b6d90f30b4f5fe5aca4f39223f116025cd2181019136cad8ff1e0e42c6",
+      "cohort": "supported_breed",
+      "identity_group": "barney",
+      "live_dog_present": true,
+      "expected_label": "scotch_terrier",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        304,
+        210
+      ],
+      "normalized_metadata": {
+        "width": 304,
+        "height": 210,
+        "sha256": "b6dc5a9ce290443b2aa62218df086138fabed579277151d79a1ffa731b70a5b5"
+      },
+      "normalized_path": "data/paired-suitability/normalized/barney-01.png",
+      "normalized_sha256": "986027a9476c9b661905926f5a229171277514890ad69ef102eeb43a8fc7170f",
+      "vision_path": "data/paired-suitability/vision/barney-01.png",
+      "vision_sha256": "986027a9476c9b661905926f5a229171277514890ad69ef102eeb43a8fc7170f",
+      "inspection": {
+        "width": 304,
+        "height": 210,
+        "mean_luminance": 147.17,
+        "laplacian_variance": 2153.04,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "barney-02",
+      "path": "data/photo-set-v2/images/barney-02.jpg",
+      "sha256": "96590f7746f8f2336499f4dede5fa053bda1af9383f33b5c7401fd3abecc7b2c",
+      "cohort": "supported_breed",
+      "identity_group": "barney",
+      "live_dog_present": true,
+      "expected_label": "scotch_terrier",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        1024,
+        683
+      ],
+      "normalized_metadata": {
+        "width": 2160,
+        "height": 1440,
+        "sha256": "c3b8249cdd78849f1f5de61a9de2b7370668db8d7522d96bfa49109c8b53efa0"
+      },
+      "normalized_path": "data/paired-suitability/normalized/barney-02.png",
+      "normalized_sha256": "d43d704601059dbc54c006d9f604aa5b5c034e0564fdbfc8f17a0e7c68671eea",
+      "vision_path": "data/paired-suitability/vision/barney-02.png",
+      "vision_sha256": "a5d18ed83d653fb8f8c7d05104bfa7e94333d5dd438570f42aec2f2b0d9a256e",
+      "inspection": {
+        "width": 2160,
+        "height": 1440,
+        "mean_luminance": 76.49,
+        "laplacian_variance": 646.41,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "sully-01",
+      "path": "data/photo-set-v2/images/sully-01.jpg",
+      "sha256": "35d108db97b4d877a28a3f71a1fb31b867dd1fdefdb027ddf57a1b7600284d0b",
+      "cohort": "supported_breed",
+      "identity_group": "sully",
+      "live_dog_present": true,
+      "expected_label": "labrador_retriever",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        1024,
+        888
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1110,
+        "sha256": "c8d67a1f4d1912a9cc88b109960e8bc1664fef1b3c01cbeb1438bd9c725427ee"
+      },
+      "normalized_path": "data/paired-suitability/normalized/sully-01.png",
+      "normalized_sha256": "44be46284525a0ec1d278df9de3d0599f36a43ed3aab355c1bd531e322f2c7c1",
+      "vision_path": "data/paired-suitability/vision/sully-01.png",
+      "vision_sha256": "9ed19bc9d1595e6bc2b5db62c615392a86171ed1caf9fccb253d233b1328a14c",
+      "inspection": {
+        "width": 1280,
+        "height": 1110,
+        "mean_luminance": 83.65,
+        "laplacian_variance": 391.81,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "sully-02",
+      "path": "data/photo-set-v2/images/sully-02.jpg",
+      "sha256": "be84e690068bd5d25b808175d687c61321432663a22ce8ce31d8dd7b86c7c6ab",
+      "cohort": "supported_breed",
+      "identity_group": "sully",
+      "live_dog_present": true,
+      "expected_label": "labrador_retriever",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        1024,
+        682
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "071662ba45bd6709ac0c68998e880f4698cef9f89cdf0ebb1120259a52d562fe"
+      },
+      "normalized_path": "data/paired-suitability/normalized/sully-02.png",
+      "normalized_sha256": "5cf4910c30de720d154b44163744c325c83e7ed89830f29799b53eb782fe3af8",
+      "vision_path": "data/paired-suitability/vision/sully-02.png",
+      "vision_sha256": "3ee3d1e14c79e573f4adc7f1a23eedc0f71c37917c482c43c89b435d6ef4f84a",
+      "inspection": {
+        "width": 1280,
+        "height": 853,
+        "mean_luminance": 93.47,
+        "laplacian_variance": 1106.52,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "champ-01",
+      "path": "data/photo-set-v2/images/champ-01.jpg",
+      "sha256": "34ecb6237bb0aed65262f057c9429ce85fb1f47ae9b2adf18c59dc5ef43d95b0",
+      "cohort": "supported_breed",
+      "identity_group": "champ",
+      "live_dog_present": true,
+      "expected_label": "german_shepherd",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        960,
+        639
+      ],
+      "normalized_metadata": {
+        "width": 960,
+        "height": 639,
+        "sha256": "71329e67223f428e86399c4f3e61dc9dba15f372e0e0aa931e924d6b19fe40dc"
+      },
+      "normalized_path": "data/paired-suitability/normalized/champ-01.png",
+      "normalized_sha256": "8c6bcd1cdad3f341602b3f585f16e41f995c26e532633df5e6300535011b01b9",
+      "vision_path": "data/paired-suitability/vision/champ-01.png",
+      "vision_sha256": "8c6bcd1cdad3f341602b3f585f16e41f995c26e532633df5e6300535011b01b9",
+      "inspection": {
+        "width": 960,
+        "height": 639,
+        "mean_luminance": 127.66,
+        "laplacian_variance": 2366.64,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "champ-02",
+      "path": "data/photo-set-v2/images/champ-02.jpg",
+      "sha256": "037d69e5b8d135853237aa1e026dfdfbec1145d4156e61b99adb2d87bd9607a6",
+      "cohort": "supported_breed",
+      "identity_group": "champ",
+      "live_dog_present": true,
+      "expected_label": "german_shepherd",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        960,
+        960
+      ],
+      "normalized_metadata": {
+        "width": 960,
+        "height": 960,
+        "sha256": "92c82fac383271af3ba5f376cd940df9e561ae431f3aa8fe47d16147f5b70c26"
+      },
+      "normalized_path": "data/paired-suitability/normalized/champ-02.png",
+      "normalized_sha256": "ed53c25569dd8366992a24fe7c3937109d0be7bcd7ad8c421f1621c185771ad3",
+      "vision_path": "data/paired-suitability/vision/champ-02.png",
+      "vision_sha256": "ed53c25569dd8366992a24fe7c3937109d0be7bcd7ad8c421f1621c185771ad3",
+      "inspection": {
+        "width": 960,
+        "height": 960,
+        "mean_luminance": 82.05,
+        "laplacian_variance": 896.33,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "buddy-01",
+      "path": "data/photo-set-v2/images/buddy-01.jpg",
+      "sha256": "847bebb13da42f4172c68a457a318b03cda6ebba242bec527197b2892a3fa3a2",
+      "cohort": "supported_breed",
+      "identity_group": "buddy",
+      "live_dog_present": true,
+      "expected_label": "labrador_retriever",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        960,
+        785
+      ],
+      "normalized_metadata": {
+        "width": 960,
+        "height": 785,
+        "sha256": "5f2f09a514d276212172e6112b1460a0cc800045ad6f06f5acc56f0f586a3fa5"
+      },
+      "normalized_path": "data/paired-suitability/normalized/buddy-01.png",
+      "normalized_sha256": "693792c3a5963ea847ef2b6fe627e001bb943577beb74abdd0adc230ce3ffb6e",
+      "vision_path": "data/paired-suitability/vision/buddy-01.png",
+      "vision_sha256": "693792c3a5963ea847ef2b6fe627e001bb943577beb74abdd0adc230ce3ffb6e",
+      "inspection": {
+        "width": 960,
+        "height": 785,
+        "mean_luminance": 106.1,
+        "laplacian_variance": 265.23,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "buddy-02",
+      "path": "data/photo-set-v2/images/buddy-02.jpg",
+      "sha256": "9774dafca1997fe59ed07fcdb8ce4395ebed150de892b38e0e177cc687f59b61",
+      "cohort": "supported_breed",
+      "identity_group": "buddy",
+      "live_dog_present": true,
+      "expected_label": "labrador_retriever",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        960,
+        724
+      ],
+      "normalized_metadata": {
+        "width": 960,
+        "height": 724,
+        "sha256": "7069e2606fd6f523614240fc5a346afba64a426c2f5b7f769016afd520ee325c"
+      },
+      "normalized_path": "data/paired-suitability/normalized/buddy-02.png",
+      "normalized_sha256": "859ebece331b131324a4653f4aa97d0611e6acf624516ae7bd44ccc29a8f82e5",
+      "vision_path": "data/paired-suitability/vision/buddy-02.png",
+      "vision_sha256": "859ebece331b131324a4653f4aa97d0611e6acf624516ae7bd44ccc29a8f82e5",
+      "inspection": {
+        "width": 960,
+        "height": 724,
+        "mean_luminance": 114.54,
+        "laplacian_variance": 1162.15,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "millie-01",
+      "path": "data/photo-set-v2/images/millie-01.jpg",
+      "sha256": "ae2ffbe172408c44dbeef092f6dcd9cf71a68a6e067343d064b5e9af9139c8af",
+      "cohort": "supported_breed",
+      "identity_group": "millie",
+      "live_dog_present": true,
+      "expected_label": "english_springer",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        500,
+        348
+      ],
+      "normalized_metadata": {
+        "width": 500,
+        "height": 348,
+        "sha256": "65a9d1f3dd2454087d3d52ac23dc3142823468482913d68251ac40fd3ac10631"
+      },
+      "normalized_path": "data/paired-suitability/normalized/millie-01.png",
+      "normalized_sha256": "a5d4bf53734ba418162d5e8b04944565b02f009a9f91da112578fb1fad038c9e",
+      "vision_path": "data/paired-suitability/vision/millie-01.png",
+      "vision_sha256": "a5d4bf53734ba418162d5e8b04944565b02f009a9f91da112578fb1fad038c9e",
+      "inspection": {
+        "width": 500,
+        "height": 348,
+        "mean_luminance": 121.62,
+        "laplacian_variance": 2712.01,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "millie-02",
+      "path": "data/photo-set-v2/images/millie-02.jpg",
+      "sha256": "50ded86e894d5659fb42262bb7f3004b4ebef950c7501889650f55a79575cb8d",
+      "cohort": "supported_breed",
+      "identity_group": "millie",
+      "live_dog_present": true,
+      "expected_label": "english_springer",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        500,
+        395
+      ],
+      "normalized_metadata": {
+        "width": 500,
+        "height": 395,
+        "sha256": "b75a88193a12ea590d3cf265564544d3766c5d73b28558ec3dbd4f748ba46c13"
+      },
+      "normalized_path": "data/paired-suitability/normalized/millie-02.png",
+      "normalized_sha256": "158d698e7c2b4dbc255f6bf6c45fe9c3e980d0b2f1fc233197844b00f746c4d5",
+      "vision_path": "data/paired-suitability/vision/millie-02.png",
+      "vision_sha256": "158d698e7c2b4dbc255f6bf6c45fe9c3e980d0b2f1fc233197844b00f746c4d5",
+      "inspection": {
+        "width": 500,
+        "height": 395,
+        "mean_luminance": 98.36,
+        "laplacian_variance": 6540.41,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "conan-01",
+      "path": "data/photo-set-v2/images/conan-01.jpg",
+      "sha256": "56e3368bacd16698bf64e243581a441fde7031afdf36da4565a07568a1d1aa38",
+      "cohort": "supported_breed",
+      "identity_group": "conan",
+      "live_dog_present": true,
+      "expected_label": "malinois",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        1024,
+        682
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "456e65047532e461a0ead82fa5c7801f7ae4d58eb04a9a51cc94d8d2d9ef63e4"
+      },
+      "normalized_path": "data/paired-suitability/normalized/conan-01.png",
+      "normalized_sha256": "31bb2102f4bf875bb6aa31d84b5c10c57d3a13e349ff4f902d1eb687915f2c23",
+      "vision_path": "data/paired-suitability/vision/conan-01.png",
+      "vision_sha256": "63e6d59f328ee338a6b37564a85ab10b69a9cd5a98bc91fb58bf87f96b2e312a",
+      "inspection": {
+        "width": 1280,
+        "height": 853,
+        "mean_luminance": 144.86,
+        "laplacian_variance": 1623.15,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "conan-02",
+      "path": "data/photo-set-v2/images/conan-02.jpg",
+      "sha256": "01cff9d60c7f35bf825d53c7d36e45a36567dd8b2859cd31ac544e045cac0ec2",
+      "cohort": "supported_breed",
+      "identity_group": "conan",
+      "live_dog_present": true,
+      "expected_label": "malinois",
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        819,
+        1024
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1600,
+        "sha256": "1f9c95c9843cf79958ada2e041435e2f106f2f0a8a05db23bc5305a667fb5437"
+      },
+      "normalized_path": "data/paired-suitability/normalized/conan-02.png",
+      "normalized_sha256": "9ac9e2c09c0870c2e1f8daf5a46ff6c2fc382a227f7e7051e6bfff7bd39af223",
+      "vision_path": "data/paired-suitability/vision/conan-02.png",
+      "vision_sha256": "27424dfe906cd2b127d634e0c6577c30bed30cc472cfa75b729edb359425f392",
+      "inspection": {
+        "width": 1280,
+        "height": 1600,
+        "mean_luminance": 177.17,
+        "laplacian_variance": 295.38,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "bo-01",
+      "path": "data/photo-set-v2/images/bo-01.jpg",
+      "sha256": "b670b11bdebc2cfeeb7aaecc4c8785b34c0237c10a2242a9c5c960e36b502ac9",
+      "cohort": "unsupported_breed",
+      "identity_group": "bo",
+      "live_dog_present": true,
+      "expected_label": null,
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        1024,
+        682
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "0deae87b5a41afbeabb20ee5fc85d0c808ff4d73d0914fff53fb79d482362156"
+      },
+      "normalized_path": "data/paired-suitability/normalized/bo-01.png",
+      "normalized_sha256": "3c15bcc071d4c014891a103c2ec28ec3c162043e1b11cf866d5edf54a4bc5348",
+      "vision_path": "data/paired-suitability/vision/bo-01.png",
+      "vision_sha256": "14acaf19aafa6d77fe073e62062e7c17dd629d8be0ab5b3145b0245560bcdd1d",
+      "inspection": {
+        "width": 1280,
+        "height": 853,
+        "mean_luminance": 141.48,
+        "laplacian_variance": 591.98,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "bo-02",
+      "path": "data/photo-set-v2/images/bo-02.jpg",
+      "sha256": "1727fcccfbdf35f28e11b76fd921de5cb70ac2ea7f0c230fff751bca34ce5ae9",
+      "cohort": "unsupported_breed",
+      "identity_group": "bo",
+      "live_dog_present": true,
+      "expected_label": null,
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        683,
+        1024
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1920,
+        "sha256": "51a6877129c43f5e55a531bc1b9096017cfea22ebe9fa35fe850a2d771ae33f1"
+      },
+      "normalized_path": "data/paired-suitability/normalized/bo-02.png",
+      "normalized_sha256": "78a4a93032cfaf087c12984ca076f167537200b2a0b1e8c2f4fe398e7c4d56f7",
+      "vision_path": "data/paired-suitability/vision/bo-02.png",
+      "vision_sha256": "ed653c88b651d1167b29ecf3bbf518cf84b99857afba009383dbe228315f07d3",
+      "inspection": {
+        "width": 1280,
+        "height": 1920,
+        "mean_luminance": 93.48,
+        "laplacian_variance": 1453.13,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "multi-01",
+      "path": "data/photo-set-v2/images/multi-01.jpg",
+      "sha256": "6344165279247ed079248b099f6e331b770094183cf5dc702d7495d30019bc8d",
+      "cohort": "multiple_dogs",
+      "identity_group": "barney",
+      "live_dog_present": true,
+      "expected_label": null,
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "multiple",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        330,
+        220
+      ],
+      "normalized_metadata": {
+        "width": 330,
+        "height": 220,
+        "sha256": "ca2388a920938e7b5da15d02b4f9b04f23c49587aaa5db58fa9c80559479e1a8"
+      },
+      "normalized_path": "data/paired-suitability/normalized/multi-01.png",
+      "normalized_sha256": "8c36e61c74e80603e0b9b9ff0f39555769f83415db1acf87cbdec62ee8b73732",
+      "vision_path": "data/paired-suitability/vision/multi-01.png",
+      "vision_sha256": "8c36e61c74e80603e0b9b9ff0f39555769f83415db1acf87cbdec62ee8b73732",
+      "inspection": {
+        "width": 330,
+        "height": 220,
+        "mean_luminance": 133.54,
+        "laplacian_variance": 8373.25,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "multi-02",
+      "path": "data/photo-set-v2/images/multi-02.jpg",
+      "sha256": "e6631c0f846487d87a0ba0598853e335d76216a7afbe5a318300e5dd3b1d6bb8",
+      "cohort": "multiple_dogs",
+      "identity_group": "champ",
+      "live_dog_present": true,
+      "expected_label": null,
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "multiple",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        1024,
+        682
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 853,
+        "sha256": "29a98975b0fa47e08e99d6199dcedaef41de8e818615fd1308fc737300631d16"
+      },
+      "normalized_path": "data/paired-suitability/normalized/multi-02.png",
+      "normalized_sha256": "896c66d8ca7af6cbc66b05cc7f987d85339a7596447e478a1805559ac2270bf3",
+      "vision_path": "data/paired-suitability/vision/multi-02.png",
+      "vision_sha256": "2c93e0283865c4bda821d8c0ccc6e8e575e7f882e4aed9bed59bce95280df0e8",
+      "inspection": {
+        "width": 1280,
+        "height": 853,
+        "mean_luminance": 130.45,
+        "laplacian_variance": 2824.5,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "cat-01",
+      "path": "data/photo-set-v2/images/cat-01.jpg",
+      "sha256": "be1dae6fee327321ee12852b946649441894fb0b34e2e3d8902ab9fd35aca066",
+      "cohort": "non_dog",
+      "identity_group": "buddy",
+      "live_dog_present": false,
+      "expected_label": null,
+      "expected_subject_type": "other_animal",
+      "expected_dog_count": "zero",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        794,
+        1024
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1651,
+        "sha256": "02fc6e5456cfbc8577d1285499cc34ac5703a110ad90ae824655046ff20c8ca9"
+      },
+      "normalized_path": "data/paired-suitability/normalized/cat-01.png",
+      "normalized_sha256": "9ff6882d5fece8ddced3d3d6d21b3fe6d7adc2fbfca32960576ee181940bcbc6",
+      "vision_path": "data/paired-suitability/vision/cat-01.png",
+      "vision_sha256": "cc408eceef95fefed7c23d6d75b50b829037127f7893ef5da25fa2c7d6554bc7",
+      "inspection": {
+        "width": 1280,
+        "height": 1651,
+        "mean_luminance": 69.72,
+        "laplacian_variance": 385.88,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "statue-01",
+      "path": "data/photo-set-v2/images/statue-01.jpg",
+      "sha256": "a560597c4afd43fbde230cf4fcbc5974d6149a1f8e48ed38810b4975ce05bb2b",
+      "cohort": "non_dog",
+      "identity_group": "barney",
+      "live_dog_present": false,
+      "expected_label": null,
+      "expected_subject_type": "dog_depiction",
+      "expected_dog_count": "zero",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        500,
+        438
+      ],
+      "normalized_metadata": {
+        "width": 500,
+        "height": 438,
+        "sha256": "ad1e0ab4aa7f573639596dfec5fd2e1b4d1190d9118ff6b8249854b9c791952b"
+      },
+      "normalized_path": "data/paired-suitability/normalized/statue-01.png",
+      "normalized_sha256": "a1d51c58f3f88443c5014d405391ed5f3a50cbd6bc5aa771a74dfb03eeed42b4",
+      "vision_path": "data/paired-suitability/vision/statue-01.png",
+      "vision_sha256": "a1d51c58f3f88443c5014d405391ed5f3a50cbd6bc5aa771a74dfb03eeed42b4",
+      "inspection": {
+        "width": 500,
+        "height": 438,
+        "mean_luminance": 88.59,
+        "laplacian_variance": 1160.21,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "horse-01",
+      "path": "data/photo-set-v2/images/horse-01.jpg",
+      "sha256": "58f87f7e76b5e0788776bc4b422cf1c6a399007d54447f6194da927152ec708c",
+      "cohort": "non_dog",
+      "identity_group": "horse",
+      "live_dog_present": false,
+      "expected_label": null,
+      "expected_subject_type": "other_animal",
+      "expected_dog_count": "zero",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        330,
+        440
+      ],
+      "normalized_metadata": {
+        "width": 330,
+        "height": 440,
+        "sha256": "0eabdc84f05a3b67bd3993ab42543d3a773de79ba31f154841e43c6b7cce9f6f"
+      },
+      "normalized_path": "data/paired-suitability/normalized/horse-01.png",
+      "normalized_sha256": "df9cbfb7ebd2fe7631d9068398cb5e124213cd76d8b936320ba1ef42f34eb880",
+      "vision_path": "data/paired-suitability/vision/horse-01.png",
+      "vision_sha256": "df9cbfb7ebd2fe7631d9068398cb5e124213cd76d8b936320ba1ef42f34eb880",
+      "inspection": {
+        "width": 330,
+        "height": 440,
+        "mean_luminance": 120.83,
+        "laplacian_variance": 8234.53,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "mixed-01",
+      "path": "data/photo-set-v2/images/mixed-01.jpg",
+      "sha256": "ca66ea7152951a93c5629b293bfcabb37b0b0cf1f1a4d620ff4bbc752f588bca",
+      "cohort": "unknown_ancestry",
+      "identity_group": "topper",
+      "live_dog_present": true,
+      "expected_label": null,
+      "expected_subject_type": "real_dog",
+      "expected_dog_count": "one",
+      "prior_exposure": "Existing development corpus; cached ViT and ResNet predictions reused.",
+      "provenance_manifest": "docs/evidence/photo-set-v2/manifest.json",
+      "vision_dimensions": [
+        683,
+        1024
+      ],
+      "normalized_metadata": {
+        "width": 960,
+        "height": 1440,
+        "sha256": "afd75cffbd79f4eb7990bcfda51c53d32f5d56881fd308557ea918436db592a7"
+      },
+      "normalized_path": "data/paired-suitability/normalized/mixed-01.png",
+      "normalized_sha256": "aab27fa1f5aaa680d1fd5d87eb269ec10bcb72c099ec19a45573f57ae2caea7f",
+      "vision_path": "data/paired-suitability/vision/mixed-01.png",
+      "vision_sha256": "816ffb4507c5b2dd8f57c192055df87804a3da420b4aae45a521718a091f9be4",
+      "inspection": {
+        "width": 960,
+        "height": 1440,
+        "mean_luminance": 134.74,
+        "laplacian_variance": 315.26,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "socks-02",
+      "path": "data/paired-suitability/images/socks-02.jpg",
+      "sha256": "71e910ffbe69dd349fa396f1f8d75306cf2837b823a9be3ca85b1330ba9eda6d",
+      "cohort": "non_dog",
+      "identity_group": "socks",
+      "live_dog_present": false,
+      "expected_label": null,
+      "expected_subject_type": "other_animal",
+      "expected_dog_count": "zero",
+      "visual_review": "Cat at a lectern, no live dog visible. Different exposure from the official portrait.",
+      "source_title": "File:Socks the Cat Explores.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Socks_the_Cat_Explores.jpg",
+      "source_revision_url": "https://commons.wikimedia.org/w/index.php?oldid=1039873729",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Socks_the_Cat_Explores.jpg/1280px-Socks_the_Cat_Explores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "2ddf119722a59a8ee97143194964239cbc8adc41",
+      "source_metadata": "docs/evidence/paired-suitability/socks-02-source.json",
+      "license": "Public domain",
+      "prior_exposure": "Selected and visually reviewed before new inference; training overlap unknown.",
+      "vision_dimensions": [
+        1024,
+        679
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 849,
+        "sha256": "cfd1b2921c11d6d2c02542a80cacf8e45a37eb4b3e1033e518ccea71b7e705e1"
+      },
+      "normalized_path": "data/paired-suitability/normalized/socks-02.png",
+      "normalized_sha256": "8e72218fff6390087c01c06e274c715aaf43d28f75c706decda844b7170648a3",
+      "vision_path": "data/paired-suitability/vision/socks-02.png",
+      "vision_sha256": "79e42fda9179e1ebe0ed22b2c90e4e344f86792d7de596cd59db9fca4e41e1d6",
+      "inspection": {
+        "width": 1280,
+        "height": 849,
+        "mean_luminance": 71.61,
+        "laplacian_variance": 383.44,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "valegro-01",
+      "path": "data/paired-suitability/images/valegro-01.jpg",
+      "sha256": "8b410e8597ac28aab53ac3b43c43fdb619f4ccece144ec516ec4664a62343928",
+      "cohort": "non_dog",
+      "identity_group": "valegro",
+      "live_dog_present": false,
+      "expected_label": null,
+      "expected_subject_type": "other_animal",
+      "expected_dog_count": "zero",
+      "visual_review": "Horse and rider in an arena, side view; no live dog visible. Source names Valegro, 2012.",
+      "source_title": "File:Charlotte Dujardin 2012 Olympic Dressage.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG",
+      "source_revision_url": "https://commons.wikimedia.org/w/index.php?oldid=1147587887",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/1280px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "8f967543daf4f8c1858da1b44f85942383646f1a",
+      "source_metadata": "docs/evidence/paired-suitability/valegro-01-source.json",
+      "license": "CC BY-SA 3.0",
+      "prior_exposure": "Selected and visually reviewed before new inference; training overlap unknown.",
+      "vision_dimensions": [
+        1024,
+        680
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 850,
+        "sha256": "28211d0679e53e1d5e3dc3d1046f3566ad42ebd19861ea94c9cc261735ae59bb"
+      },
+      "normalized_path": "data/paired-suitability/normalized/valegro-01.png",
+      "normalized_sha256": "6ffe7bd9f6244cf0b95c56ff6bc218f67d1c2d8865bc5f45c7e5d874a58ec2c7",
+      "vision_path": "data/paired-suitability/vision/valegro-01.png",
+      "vision_sha256": "d327b1b13a26380fdb18343777e95ce27c068c683da5fad0c5aa150658ef5471",
+      "inspection": {
+        "width": 1280,
+        "height": 850,
+        "mean_luminance": 165.39,
+        "laplacian_variance": 2925.43,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "valegro-02",
+      "path": "data/paired-suitability/images/valegro-02.jpg",
+      "sha256": "aa2c829196f235ab3653f952be515bc983c9870a3c5a787132169b38a34b427f",
+      "cohort": "non_dog",
+      "identity_group": "valegro",
+      "live_dog_present": false,
+      "expected_label": null,
+      "expected_subject_type": "other_animal",
+      "expected_dog_count": "zero",
+      "visual_review": "Horse and rider approaching camera; no live dog visible. Source names Valegro, 2014.",
+      "source_title": "File:Charlotte DUJARDIN JEM2014.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Charlotte_DUJARDIN_JEM2014.JPG",
+      "source_revision_url": "https://commons.wikimedia.org/w/index.php?oldid=1199737031",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Charlotte_DUJARDIN_JEM2014.JPG/1280px-Charlotte_DUJARDIN_JEM2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "46860f5d98b3ed71e318e51c1dea8e33634fb65e",
+      "source_metadata": "docs/evidence/paired-suitability/valegro-02-source.json",
+      "license": "CC BY-SA 4.0",
+      "prior_exposure": "Selected and visually reviewed before new inference; training overlap unknown.",
+      "vision_dimensions": [
+        683,
+        1024
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1920,
+        "sha256": "4fdc466a015c76e09964ec755884c25a0b747471c210ede2fd77115b7a1ebcb0"
+      },
+      "normalized_path": "data/paired-suitability/normalized/valegro-02.png",
+      "normalized_sha256": "685e58d757a9fb97038dc36ff8b1b0e670cd5387f942f83f41ec5d58cec5031a",
+      "vision_path": "data/paired-suitability/vision/valegro-02.png",
+      "vision_sha256": "353dd454c02a59b2056559ea724597887c9b658aa14787c81860815adfe64d1e",
+      "inspection": {
+        "width": 1280,
+        "height": 1920,
+        "mean_luminance": 144.21,
+        "laplacian_variance": 738.74,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "bobby-statue-01",
+      "path": "data/paired-suitability/images/bobby-statue-01.jpg",
+      "sha256": "f01c9cf16bbdb3d39889df9431553658af0ef730067af171f0f450c055743a1e",
+      "cohort": "non_dog",
+      "identity_group": "greyfriars-bobby-sculpture",
+      "live_dog_present": false,
+      "expected_label": null,
+      "expected_subject_type": "dog_depiction",
+      "expected_dog_count": "zero",
+      "visual_review": "Dog sculpture on a fountain, surroundings and one person; no live dog visible.",
+      "source_title": "File:Greyfriars Bobby Statue.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Greyfriars_Bobby_Statue.jpg",
+      "source_revision_url": "https://commons.wikimedia.org/w/index.php?oldid=923723469",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Greyfriars_Bobby_Statue.jpg/1280px-Greyfriars_Bobby_Statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "b9acd6b6db680b3df0680e27afd2103eddfb8f21",
+      "source_metadata": "docs/evidence/paired-suitability/bobby-statue-01-source.json",
+      "license": "Public domain",
+      "prior_exposure": "Selected and visually reviewed before new inference; training overlap unknown.",
+      "vision_dimensions": [
+        768,
+        1024
+      ],
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1707,
+        "sha256": "266eb5641cb51083539548129dff730c22bb66d52836587650b351efe31a9883"
+      },
+      "normalized_path": "data/paired-suitability/normalized/bobby-statue-01.png",
+      "normalized_sha256": "ca39bdc2055c4531874fa63199739caafdb86e77fa81666f1b85d471e2cb0c57",
+      "vision_path": "data/paired-suitability/vision/bobby-statue-01.png",
+      "vision_sha256": "d4a600e09389e004404aad4ec7714a50dccd7f59c83ab95fb49c17cbb79b3e79",
+      "inspection": {
+        "width": 1280,
+        "height": 1707,
+        "mean_luminance": 121.77,
+        "laplacian_variance": 1251.18,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    },
+    {
+      "id": "bobby-statue-02",
+      "path": "data/paired-suitability/images/bobby-statue-02.jpg",
+      "sha256": "58329aba1d56e0e1b269846690fcc6d71c7f1123266feca43cc124073668b2d7",
+      "cohort": "non_dog",
+      "identity_group": "greyfriars-bobby-sculpture",
+      "live_dog_present": false,
+      "expected_label": null,
+      "expected_subject_type": "dog_depiction",
+      "expected_dog_count": "zero",
+      "visual_review": "Closer front view of the same dog sculpture; no live dog visible. Different author/exposure.",
+      "source_title": "File:Greyfriars Bobby statue, Edinburgh.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Greyfriars_Bobby_statue,_Edinburgh.JPG",
+      "source_revision_url": "https://commons.wikimedia.org/w/index.php?oldid=1242125750",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Greyfriars_Bobby_statue%2C_Edinburgh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original_sha1": "fe5111cf599cc7a0110d85330da8bbcc926e9674",
+      "source_metadata": "docs/evidence/paired-suitability/bobby-statue-02-source.json",
+      "license": "CC BY-SA 3.0",
+      "prior_exposure": "Selected and visually reviewed before new inference; training overlap unknown.",
+      "vision_dimensions": [
+        645,
+        1024
+      ],
+      "normalized_metadata": {
+        "width": 961,
+        "height": 1525,
+        "sha256": "cb60bf3dd51813d3b610f0cfc73a1f13e726ef6df3093c19c12c5133cffd1278"
+      },
+      "normalized_path": "data/paired-suitability/normalized/bobby-statue-02.png",
+      "normalized_sha256": "75754d40692c9fb86997b5a0c2b70dca459417be49d77b2335ad23f5610840f1",
+      "vision_path": "data/paired-suitability/vision/bobby-statue-02.png",
+      "vision_sha256": "536ba406279226ae4a46e649d5f62630dafefb88275103497d34d58bcdb9a03e",
+      "inspection": {
+        "width": 961,
+        "height": 1525,
+        "mean_luminance": 128.91,
+        "laplacian_variance": 1456.52,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "id": "barney",
+      "photo_ids": [
+        "barney-01",
+        "barney-02"
+      ],
+      "cohort": "supported_breed",
+      "expected_label": "scotch_terrier",
+      "exposure": "Previously exposed pair"
+    },
+    {
+      "id": "buddy",
+      "photo_ids": [
+        "buddy-01",
+        "buddy-02"
+      ],
+      "cohort": "supported_breed",
+      "expected_label": "labrador_retriever",
+      "exposure": "Previously exposed pair"
+    },
+    {
+      "id": "sully",
+      "photo_ids": [
+        "sully-01",
+        "sully-02"
+      ],
+      "cohort": "supported_breed",
+      "expected_label": "labrador_retriever",
+      "exposure": "Previously exposed pair"
+    },
+    {
+      "id": "champ",
+      "photo_ids": [
+        "champ-02",
+        "champ-01"
+      ],
+      "cohort": "supported_breed",
+      "expected_label": "german_shepherd",
+      "exposure": "Previously exposed pair"
+    },
+    {
+      "id": "millie",
+      "photo_ids": [
+        "millie-01",
+        "millie-02"
+      ],
+      "cohort": "supported_breed",
+      "expected_label": "english_springer",
+      "exposure": "Previously exposed pair"
+    },
+    {
+      "id": "conan",
+      "photo_ids": [
+        "conan-01",
+        "conan-02"
+      ],
+      "cohort": "supported_breed",
+      "expected_label": "malinois",
+      "exposure": "Previously exposed pair"
+    },
+    {
+      "id": "bo",
+      "photo_ids": [
+        "bo-01",
+        "bo-02"
+      ],
+      "cohort": "unsupported_breed",
+      "expected_label": null,
+      "exposure": "Previously exposed pair"
+    },
+    {
+      "id": "socks",
+      "photo_ids": [
+        "cat-01",
+        "socks-02"
+      ],
+      "cohort": "non_dog",
+      "expected_label": null,
+      "exposure": "One exposed image; documented second photo of the same cat"
+    },
+    {
+      "id": "valegro",
+      "photo_ids": [
+        "valegro-01",
+        "valegro-02"
+      ],
+      "cohort": "non_dog",
+      "expected_label": null,
+      "exposure": "New photos of the same named horse, 2012 and 2014"
+    },
+    {
+      "id": "bobby-statue",
+      "photo_ids": [
+        "bobby-statue-01",
+        "bobby-statue-02"
+      ],
+      "cohort": "non_dog",
+      "expected_label": null,
+      "exposure": "New photos of the same sculpture, different authors and exposures"
+    }
+  ],
+  "selection": "Convenience controls selected by visible content, source identity and reuse metadata before inference.",
+  "excluded_before_inference": {
+    "fala-01": "Dog sculpture too small in a wide memorial scene to be a useful depiction challenge.",
+    "fala-02": "Dog sculpture too small in a wide memorial scene to be a useful depiction challenge."
+  },
+  "limitations": [
+    "No paired unknown-ancestry or multiple-dog controls; no different-breed group.",
+    "No non-animal empty scenes; depiction controls are sculptures only.",
+    "Source-reported identities and breeds; no pedigree validation or confirmed training exclusion.",
+    "Photos in each pair are dependent observations of one identity, not independent subjects."
+  ]
+}

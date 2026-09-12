@@ -1,0 +1,153 @@
+{
+  "_id": "652bfc95ec10d7e481ff7639",
+  "id": "dima806/133_dog_breeds_image_detection",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "vit",
+    "image-classification",
+    "base_model:google/vit-base-patch16-224-in21k",
+    "base_model:finetune:google/vit-base-patch16-224-in21k",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 24,
+  "likes": 1,
+  "modelId": "dima806/133_dog_breeds_image_detection",
+  "author": "dima806",
+  "sha": "8b734b71aa413c186715e6ec4bbfbdb0cb23d19f",
+  "lastModified": "2024-10-19T10:15:32.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "ViTForImageClassification"
+    ],
+    "model_type": "vit"
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "metrics": [
+      "accuracy",
+      "f1"
+    ],
+    "base_model": [
+      "google/vit-base-patch16-224-in21k"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForImageClassification",
+    "pipeline_tag": "image-classification",
+    "processor": "AutoImageProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "checkpoint-1200/config.json"
+    },
+    {
+      "rfilename": "checkpoint-1200/model.safetensors"
+    },
+    {
+      "rfilename": "checkpoint-1200/optimizer.pt"
+    },
+    {
+      "rfilename": "checkpoint-1200/preprocessor_config.json"
+    },
+    {
+      "rfilename": "checkpoint-1200/rng_state.pth"
+    },
+    {
+      "rfilename": "checkpoint-1200/scheduler.pt"
+    },
+    {
+      "rfilename": "checkpoint-1200/trainer_state.json"
+    },
+    {
+      "rfilename": "checkpoint-1200/training_args.bin"
+    },
+    {
+      "rfilename": "checkpoint-480/config.json"
+    },
+    {
+      "rfilename": "checkpoint-480/model.safetensors"
+    },
+    {
+      "rfilename": "checkpoint-480/optimizer.pt"
+    },
+    {
+      "rfilename": "checkpoint-480/preprocessor_config.json"
+    },
+    {
+      "rfilename": "checkpoint-480/rng_state.pth"
+    },
+    {
+      "rfilename": "checkpoint-480/scheduler.pt"
+    },
+    {
+      "rfilename": "checkpoint-480/trainer_state.json"
+    },
+    {
+      "rfilename": "checkpoint-480/training_args.bin"
+    },
+    {
+      "rfilename": "checkpoint-9600/config.json"
+    },
+    {
+      "rfilename": "checkpoint-9600/optimizer.pt"
+    },
+    {
+      "rfilename": "checkpoint-9600/preprocessor_config.json"
+    },
+    {
+      "rfilename": "checkpoint-9600/pytorch_model.bin"
+    },
+    {
+      "rfilename": "checkpoint-9600/rng_state.pth"
+    },
+    {
+      "rfilename": "checkpoint-9600/scheduler.pt"
+    },
+    {
+      "rfilename": "checkpoint-9600/trainer_state.json"
+    },
+    {
+      "rfilename": "checkpoint-9600/training_args.bin"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "training_args.bin"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2023-10-15T14:52:05.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 85900933
+    },
+    "total": 85900933
+  },
+  "usedStorage": 3093107083
+}

@@ -1,0 +1,159 @@
+{
+  "created_at": "2026-09-12T01:53:20.108382+00:00",
+  "git_revision": null,
+  "git_status": "?? .gitignore\n?? LICENSE\n?? Makefile\n?? README.md\n?? breedframe/\n?? docs/\n?? pyproject.toml\n?? scripts/\n?? tests/\n?? uv.lock\n",
+  "runtime": {
+    "version": {
+      "version": "0.34.0"
+    },
+    "tags": {
+      "models": [
+        {
+          "name": "qwen3:4b",
+          "model": "qwen3:4b",
+          "modified_at": "2026-09-11T20:23:06.062242926-04:00",
+          "size": 2497293931,
+          "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M",
+            "context_length": 262144,
+            "embedding_length": 2560
+          },
+          "capabilities": [
+            "completion",
+            "tools",
+            "thinking"
+          ]
+        }
+      ]
+    },
+    "ps": {
+      "models": [
+        {
+          "name": "qwen3:4b",
+          "model": "qwen3:4b",
+          "size": 3856589127,
+          "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen3",
+            "families": [
+              "qwen3"
+            ],
+            "parameter_size": "4.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-09-11T22:18:49.4803-04:00",
+          "size_vram": 3856589127,
+          "context_length": 8192
+        }
+      ]
+    }
+  },
+  "archive": "docs/evidence/controller-comparison/baseline-source.tar.gz",
+  "archive_sha256": "8ccce92b270d2f9c24d509ce3c374c63eba12190eba3e7046e6d4a917523b9c6",
+  "files": {
+    ".gitignore": "224fc51d0097534846f8a292009f804e8ad53c7ecb1fc88e01f7f2d98e535574",
+    "LICENSE": "0c1febbc1a59f36c23ffbbf4a5fa80480f51e24b0d26b986ebeb1dfba82a5843",
+    "Makefile": "dc26efcf5f6259019728c4e0565733e69ffdcf2d2fcf25d2cddeca6c023f9efc",
+    "README.md": "180dd3b15f94b9a77d8564b0ff8a8755a2189cd267e42c11ba6f36396d4a2024",
+    "breedframe/__init__.py": "83a2148f12df414fbbbcf72f1e137a235ade1d5aae3851abbe71a8ec42ea0cd6",
+    "breedframe/agent.py": "97e4a8479164fd1ef9684234393f5032d8f9e1d92f37dc59e1a9d2b6638b947f",
+    "breedframe/app.py": "e784ca5e9d10a55015038c77cb8b5bdf8c9bc850c1639dc50ca5c8341a92ce2c",
+    "breedframe/classifier.py": "634bc03a9ed67f649d35bc6b3c03634ef2f83f8036863f95b6094e039a9480c1",
+    "breedframe/config.py": "6de88e6ad7141f55ca90cb3e691c0a14670c1237937cc5f340531dba596b7761",
+    "breedframe/contracts.py": "822a6a17957e609b0468a157bdae9745537ef712456f1d6615a34344d9bff5db",
+    "breedframe/controller.py": "54791de8514085d3500b6c2f87c756e2ca2a4a4d246164252742ce96555d26eb",
+    "breedframe/evidence.py": "9fc7f5b55d09cd584fb1e30d304f1aa3a38bf7027a6a03559383d983131f8ce9",
+    "breedframe/footprint.py": "d366f13553a79b03a62542a11f21cccd90aaaa0321db32b55379dc18c10b880b",
+    "breedframe/images.py": "55abc592ba100fbe47d63720839a5f92fa87888f8af008efcf446bdd07907a6c",
+    "breedframe/metrics.py": "194cc4093d2b074ef8a5399b408f84345d2d170771ed6a9ff756e0f6f080eb8b",
+    "breedframe/policies.py": "63732245e8bb96fe704c926550ff7a95611a4725326c6dbded359523ce543212",
+    "breedframe/static/app.js": "bc87f7094806b1b0a733a66dad9a18c37f16919e838b01bfbe17ef07859ffd12",
+    "breedframe/static/index.html": "4d404c69ba55b1ba39593131e8179554128d342f614c4f84c1fb6ea6b96994e4",
+    "breedframe/static/style.css": "808eb2b720f1f8e268631a44189c2cc605c94d4bb7fe9bf986f212d5ad9a6882",
+    "breedframe/store.py": "adc2231751e1dd9f713d4e2ed443480123d14ca99ed932f8b5c4117eb9345874",
+    "docs/adr/001-local-inference.md": "e68bcdc439f2ea0a9159a5e5014d8c5ae122bbe22744fcad0fb91bd394c20a59",
+    "docs/development.md": "b3e79176ed794d77abf5cd2b1a3ee3c3a46ac9339bb7e74dddfd662f2ce3ec29",
+    "docs/evaluation.md": "0358b2f8cfbd547bfe134d164e0594ebff1f90f41fc8ad7b6a74595462820d90",
+    "docs/evidence-comparison.md": "5b2fe7415c6c1d91f7eab50158306a94a0bbbe00b08a3ffdb1f1d2961961aa6a",
+    "docs/evidence/browser-assessment-v2.md": "72c656f6ef5f6b272cba58aff9a32482182efa6194ff2da792a7a60264de1d0a",
+    "docs/evidence/browser-cancelled-v2.json": "55a0967baf9312a9df6c3fd12832bb6412d70d04b1c90092d1b0c67bd3a56dee",
+    "docs/evidence/browser-comparison-v2.json": "9fa55f867092ae5c7de3a1bc518a3728f6cbbf25dff5d56fb15f542726a51ffc",
+    "docs/evidence/browser-partial-v2.json": "7de8a1d3a559f38569e98ac2206fbe5131c552be806d6d240926c365d89141b3",
+    "docs/evidence/browser-resumed.json": "a0657bba85d4f87b6bd5b8629e3288a1adeeb3d6824fd22df6d15d6241b211bb",
+    "docs/evidence/classifier-artifacts.json": "656e1141d4feb874020fc4aa76bf51594c039970314425fc23fb22104344907f",
+    "docs/evidence/cli-demo-v2.json": "1d52b4ffc56d4cf48912eef731076b6751de936cbd27b27068a1f5dc61600317",
+    "docs/evidence/cpu-smoke.json": "845338456b0a7067e5893e0eca8d5714221afbca99befed4db64e2022ee90e00",
+    "docs/evidence/crop-pilot-manifest.json": "074dd22e0271bdcdc4c558b9fded43f35802d8ac50f6312832fd37dd5366b1b0",
+    "docs/evidence/crop-pilot-results.json": "d56c8b2394b028a494ed21f126c957c90fce6fd249584c8ec1461638d10c6f73",
+    "docs/evidence/demo-low-resolution-v1.json": "cdaaaadebfa875e83a8215dc4c7e3ec5a16ad2a198f6afa9fb07fe5552712d4b",
+    "docs/evidence/demo-paused.json": "4a47f0dca708a1c35a4eef5aa59bb5244673b69eac71b14ca4057b96499e4a05",
+    "docs/evidence/demo-resumed.json": "93783478f3ff81effe2635eb4adad08dbb3c39a59efd49526d9eec3aa27091cd",
+    "docs/evidence/evaluation-manifest.json": "1224803970e085b3894e77e7d36e2847fb7ae02f669b6f25e03224b92c944791",
+    "docs/evidence/evaluation-results.json": "746d5b140b888d7ccf872685a425fde80f1256ea8a71e0022dd26c1e3141bbf9",
+    "docs/evidence/first-slice-native-failed.json": "652efc1a316d88a65cf7a6dac93f61b6fede54723e9e2985056004cc674583da",
+    "docs/evidence/first-slice-schema-v1.json": "3d227ae5319e67e5ec26cb840fa68e1424b7217960891418b6482bbc093abe80",
+    "docs/evidence/first-slice.json": "fdaa945df7020b3e7aae8324bdad26024473f0229e9b2970f8e4c40af68dd0ce",
+    "docs/evidence/image-provenance.json": "838604a8587cebb5402a1db5d318b6f46b116381c9d2cd5de2eea3bb25db862d",
+    "docs/evidence/model-verification.json": "c29a9d39efcf8b39f810a3259728eafa17c6ca6adbe0ca986c73ccfe9c3847e3",
+    "docs/evidence/offline-smoke.json": "fedac78ad5796a3405ee589e3da3ce4a86c4d3bea9dfe1abec984400af9d8cd3",
+    "docs/evidence/paired-development-forced-v2.json": "4f9d6b9451f07574374a0fc70a4c6d56178c5da424c9ceab1402b278a0b61cd0",
+    "docs/evidence/paired-development-v2.json": "65ae7a73cdde79dd15071b9207f1851f9289e6e375053c1cff647079bf56da9f",
+    "docs/evidence/paired-reserved-forced-v2.json": "3dcebd43fb9eaa513e451f120c082fd4a38937d7706946314a5d707c2543c79c",
+    "docs/evidence/paired-reserved-policy-v2.json": "6ed5368db532cfeea1bf3846652cb6743d523ed03631283c14db9cf35e21e4c8",
+    "docs/evidence/photo-set-v2/attribution.md": "1f37a8ba1592e201b643ef41973f94d908c9e841a99989c59411fb311dca0f3e",
+    "docs/evidence/photo-set-v2/manifest.json": "9e71d544417fdfacf59a2a3fbe6d83efa55faf54c0769c5d4c94d8180d1e50b3",
+    "docs/evidence/photo-set-v2/validation.json": "246718c080b2c3d8369e24660286ea97c7f17d34d45cd6608f48a4128f3da5d3",
+    "docs/evidence/verification-v2.json": "3f184db89144c1f2f2cf64f068d86f3da9ddc972550d4359e4c6bc9c85c8e504",
+    "docs/evidence/verification.json": "48289ac543f6177335d53ba420837b602cf3803b53a0e07f71e48b699b6d08a8",
+    "docs/model-comparison-plan.md": "8e700386777eb5bf703a6e160430b2d01d8054420d40beeea90ddf2e7ee4fc56",
+    "docs/photo-set-v2.md": "c0fbb1460a17a7d47d0ab2bfb82669257e6ccb5c73bc9372f52dbaccba27bb92",
+    "docs/screenshots/README.md": "265a946cf003fc3b6b12ac39aa2ce65cba387372d4130d12373692d832c53951",
+    "docs/screenshots/comparison-mobile-v2.png": "48198a596b89c2b2027c0e125724c84e302d9404571635ac11374d7bb3e8b142",
+    "docs/screenshots/comparison-v2.png": "38fa789db091b6740a84bbfdab7ac8fa51ba2b8813b1d32f39b64b4c716eef84",
+    "docs/screenshots/mobile.png": "73e6336d715f514a4b99158827567f9adf1e70519e581dbf71b274c2e668ebf5",
+    "docs/screenshots/paused.png": "f15fa4ec96c0a37fa5f8c5e58276dbb55d787de02d8594fa3af7b98e0ed4a67c",
+    "docs/screenshots/resumed.png": "6e39bbaf7261b42efeffd396cbe2dfa74113cc386accf0867edad7082d4cbad1",
+    "docs/spec.md": "b0692cecd85081236a4518e77c13739e90d9078cd8c966a701985b627f43ce0d",
+    "pyproject.toml": "8b33156980906781388624e4da553e49b22fee908880845bb87692f3fccb88cb",
+    "scripts/check_models.py": "63f86f9f0d9be230475db77bc1e2f0ab7472892dd09774c896164d91581d613b",
+    "scripts/demo.py": "9344b2ceff0e0094e998226c986029c2feb73de3ba150147017198f20323a05f",
+    "scripts/download_classifier.py": "93377b3c0f3de130d64579757c2f779b588abbd6c7e94f00b6cccba8397dc89c",
+    "scripts/evaluate.py": "247b2b24028e03c46b43268512faa6f26c251da697f36d2b783be04d8bedd407",
+    "scripts/evaluate_crops.py": "cf7feeac162a87f19e2289354a06f277ef4f676f2c0beb5ac438625d4d6eb9ca",
+    "scripts/evaluate_pairs.py": "d2db82073a5c7be13098ff69d82a3eb6af333dabb44677161aad44e537bdbfa4",
+    "scripts/fetch_photo_set.py": "fa26c04ce6754bd1a0b668b96b5735ad2c7fbb1fbbd3a0902f644fab9ba2bbf5",
+    "scripts/offline.sb": "cf35cca89f2e1b677995e788c0fe365bf627c641f260a3e4ea80cbde31a0c60e",
+    "scripts/offline_smoke.py": "42e55adfaacdc561d54f20ba6c2ef48a9c87305450d0b747b9e3b52f0e029afe",
+    "scripts/prepare_images.py": "a2339579702a1c0a96a171d1e75606b05803fd5829bb187125e9ec6189af9716",
+    "scripts/probe_cpu.py": "d14f449c81e1c93c9158576cfd2f482c031ff3b97ab5a59c53da965bbc6cb56c",
+    "scripts/run_case.py": "6fdc0e3b96760b669a7c6477c7bc5ca8910d058da2c216dfe963f7b71c70f8a5",
+    "scripts/serve_ollama.sh": "421714410b767d35a926e0632082e240c5f6125cbcded02d4a40b66210cb3e9f",
+    "scripts/setup.sh": "9ea0e7c251cef4eeead1814694dc8a525af19c8726d88caccc4399cc70ccd01f",
+    "scripts/start.sh": "c986b847f7ab0d0127cf02664afa7d311b3c0f13b6641fb1a167d5d086e3811b",
+    "tests/test_agent.py": "1d731ac77f3b7e203600d49aa21c22cc476312272030f765e9201e3428ede5af",
+    "tests/test_api.py": "f7f8d31036fa42a7ff6df6e84380492a114016e23edbb1e473b4ea7e57cbdbb3",
+    "tests/test_classifier.py": "f53dac31af52ced60d1304139ac897ffab7d2667c314eab5e45d358ae0d7f976",
+    "tests/test_evaluation.py": "ffb23570fb12ddd7a4e440a306a682f209d3c5223a951d976fb77085924cc34b",
+    "tests/test_evidence.py": "703c1d7af37adb8c13c07d3fa460e167703e64743f75cfae2d9284c4716a7659",
+    "uv.lock": "90ced749a10684eda0487cf8c1529fc2e33f35742fe4cfb26034082c3960b6ba"
+  },
+  "classifier_revision": "160ee8611d7974c550bbaaa108378fbe8be9ef9c",
+  "inference_settings": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 500,
+    "think": false
+  },
+  "note": "Uncommitted source and curated public evidence snapshot before candidate implementation. Earlier paired hashes differ only in documented region/retry fixes; no regions or retries were used by those runs."
+}

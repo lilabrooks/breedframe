@@ -1,0 +1,1 @@
+"""BreedFrame local assessment application."""

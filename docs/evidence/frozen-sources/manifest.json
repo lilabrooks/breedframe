@@ -1,0 +1,31 @@
+{
+  "purpose": "Measured sources preserved before publication cleanup; historical registrations remain unchanged.",
+  "files": [
+    {
+      "original_path": "scripts/evaluate_new_identities.py",
+      "archived_path": "docs/evidence/frozen-sources/scripts/evaluate_new_identities.py",
+      "sha256": "c4f7b55f665c7de89358128e6bcb1492a8e86a3b3cdc69422aee97b480506ab4",
+      "registrations": [
+        "docs/evidence/identity-comparison/protocol.json"
+      ]
+    },
+    {
+      "original_path": "scripts/evaluate_suitability.py",
+      "archived_path": "docs/evidence/frozen-sources/scripts/evaluate_suitability.py",
+      "sha256": "992084e1f65b8752e3be0d6a034686af36ff58c12c7dcc8f186dc8e6e6d39641",
+      "registrations": [
+        "docs/evidence/paired-suitability/protocol.json",
+        "docs/evidence/identity-comparison/protocol.json"
+      ]
+    },
+    {
+      "original_path": "breedframe/static/index.html",
+      "archived_path": "docs/evidence/frozen-sources/breedframe/static/index.html",
+      "sha256": "4d404c69ba55b1ba39593131e8179554128d342f614c4f84c1fb6ea6b96994e4",
+      "registrations": [
+        "docs/evidence/paired-suitability/protocol.json",
+        "docs/evidence/identity-comparison/protocol.json"
+      ]
+    }
+  ]
+}

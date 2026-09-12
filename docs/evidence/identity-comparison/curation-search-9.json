@@ -1,0 +1,931 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "54425234": {
+        "pageid": 54425234,
+        "ns": 6,
+        "title": "File:Buffy and Yume.jpeg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-24T16:17:50Z",
+            "size": 97100,
+            "width": 1100,
+            "height": 735,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Buffy_and_Yume.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Buffy_and_Yume.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Buffy_and_Yume.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Buffy_and_Yume.jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54425234",
+            "sha1": "6a18483228c18cfd98698356abd831fac001dcf8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-24 16:17:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Buffy and Yume",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Yume|Buffy|Vladimir Putin in March 2013|Dogs in snow|Files from Kremlin.ru, 2013",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0421\u043e\u0431\u0430\u043a\u0430 \u043f\u043e\u0440\u043e\u0434\u044b \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443 \u042e\u043c\u044d, \u043f\u043e\u0434\u0430\u0440\u043e\u043a \u0433\u043b\u0430\u0432\u044b \u043f\u0440\u0435\u0444\u0435\u043a\u0442\u0443\u0440\u044b \u0410\u043a\u0438\u0442\u0430 (\u042f\u043f\u043e\u043d\u0438\u044f), \u0438 \u0431\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0430\u044f \u043e\u0432\u0447\u0430\u0440\u043a\u0430 \u0411\u0430\u0444\u0444\u0438, \u043f\u043e\u0434\u0430\u0440\u043e\u043a \u041f\u0440\u0435\u043c\u044c\u0435\u0440-\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430 \u0411\u043e\u043b\u0433\u0430\u0440\u0438\u0438 \u0411\u043e\u0439\u043a\u043e \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0430.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://static.kremlin.ru/media/events/photos/orig/41d45952bb1ba7012c77.jpeg\">http://static.kremlin.ru/media/events/photos/orig/41d45952bb1ba7012c77.jpeg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0424\u043e\u0442\u043e \u043f\u0440\u0435\u0441\u0441-\u0441\u043b\u0443\u0436\u0431\u044b \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 836816397,
+            "parentid": 724900815
+          }
+        ]
+      },
+      "54424975": {
+        "pageid": 54424975,
+        "ns": 6,
+        "title": "File:Vladimir Putin 24 March 2013 (10).jpeg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-24T16:07:24Z",
+            "size": 252360,
+            "width": 1100,
+            "height": 735,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Vladimir_Putin_24_March_2013_%2810%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Vladimir_Putin_24_March_2013_%2810%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Vladimir_Putin_24_March_2013_%2810%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_24_March_2013_(10).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54424975",
+            "sha1": "4b92cb4cc6c33cb9112d2b77dee9fa081d305b5b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-24 16:07:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 24 March 2013 (10)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Yume|Buffy|Vladimir Putin in March 2013|Dogs in snow|Files from Kremlin.ru, 2013|Men playing with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0421 \u0411\u0430\u0444\u0444\u0438, \u0431\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0439 \u043e\u0432\u0447\u0430\u0440\u043a\u043e\u0439, \u0438 \u042e\u043c\u044d, \u0441\u043e\u0431\u0430\u043a\u043e\u0439 \u043f\u043e\u0440\u043e\u0434\u044b \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://static.kremlin.ru/media/events/photos/orig/41d45950d2dae27102d6.jpeg\">http://static.kremlin.ru/media/events/photos/orig/41d45950d2dae27102d6.jpeg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0424\u043e\u0442\u043e \u043f\u0440\u0435\u0441\u0441-\u0441\u043b\u0443\u0436\u0431\u044b \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1269529179,
+            "parentid": 979796774
+          }
+        ]
+      },
+      "54425157": {
+        "pageid": 54425157,
+        "ns": 6,
+        "title": "File:Vladimir Putin 24 March 2013 (17).jpeg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-24T16:14:58Z",
+            "size": 200479,
+            "width": 1100,
+            "height": 735,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Vladimir_Putin_24_March_2013_%2817%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Vladimir_Putin_24_March_2013_%2817%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Vladimir_Putin_24_March_2013_%2817%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_24_March_2013_(17).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54425157",
+            "sha1": "d29642f6c869b541e041a7fc8fbee9c05f09952e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-24 16:14:58",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 24 March 2013 (17)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Yume|Buffy|Vladimir Putin in March 2013|Dogs in snow|Files from Kremlin.ru, 2013|Men playing with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0421 \u0411\u0430\u0444\u0444\u0438, \u0431\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0439 \u043e\u0432\u0447\u0430\u0440\u043a\u043e\u0439, \u0438 \u042e\u043c\u044d, \u0441\u043e\u0431\u0430\u043a\u043e\u0439 \u043f\u043e\u0440\u043e\u0434\u044b \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://static.kremlin.ru/media/events/photos/orig/41d45951dd5a91924afc.jpeg\">http://static.kremlin.ru/media/events/photos/orig/41d45951dd5a91924afc.jpeg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0424\u043e\u0442\u043e \u043f\u0440\u0435\u0441\u0441-\u0441\u043b\u0443\u0436\u0431\u044b \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1146746761,
+            "parentid": 979796794
+          }
+        ]
+      },
+      "54424703": {
+        "pageid": 54424703,
+        "ns": 6,
+        "title": "File:Vladimir Putin 24 March 2013 (2).jpeg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-24T15:56:42Z",
+            "size": 267258,
+            "width": 1100,
+            "height": 735,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Vladimir_Putin_24_March_2013_%282%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Vladimir_Putin_24_March_2013_%282%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Vladimir_Putin_24_March_2013_%282%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_24_March_2013_(2).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54424703",
+            "sha1": "f74bbbf62ca42daaef0e825f72e0cf165b568135",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-24 15:56:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 24 March 2013 (2)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Yume|Buffy|Vladimir Putin in March 2013|Dogs in snow|Files from Kremlin.ru, 2013|Men playing with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0421 \u0411\u0430\u0444\u0444\u0438, \u0431\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0439 \u043e\u0432\u0447\u0430\u0440\u043a\u043e\u0439, \u0438 \u042e\u043c\u044d, \u0441\u043e\u0431\u0430\u043a\u043e\u0439 \u043f\u043e\u0440\u043e\u0434\u044b \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://static.kremlin.ru/media/events/photos/orig/41d4595067c232c22e4a.jpeg\">http://static.kremlin.ru/media/events/photos/orig/41d4595067c232c22e4a.jpeg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0424\u043e\u0442\u043e \u043f\u0440\u0435\u0441\u0441-\u0441\u043b\u0443\u0436\u0431\u044b \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1270048178,
+            "parentid": 979796795
+          }
+        ]
+      },
+      "54424803": {
+        "pageid": 54424803,
+        "ns": 6,
+        "title": "File:Vladimir Putin 24 March 2013 (4).jpeg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-24T16:00:37Z",
+            "size": 254677,
+            "width": 1100,
+            "height": 735,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_24_March_2013_%284%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_24_March_2013_%284%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vladimir_Putin_24_March_2013_%284%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_24_March_2013_(4).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54424803",
+            "sha1": "b17f57d947d48f3174e5635206f3775f896ff4df",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-24 16:00:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 24 March 2013 (4)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Yume|Buffy|Vladimir Putin in March 2013|Dogs in snow|Files from Kremlin.ru, 2013|Men playing with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0421 \u0411\u0430\u0444\u0444\u0438, \u0431\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0439 \u043e\u0432\u0447\u0430\u0440\u043a\u043e\u0439, \u0438 \u042e\u043c\u044d, \u0441\u043e\u0431\u0430\u043a\u043e\u0439 \u043f\u043e\u0440\u043e\u0434\u044b \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://static.kremlin.ru/media/events/photos/orig/41d4595079197415d9f4.jpeg\">http://static.kremlin.ru/media/events/photos/orig/41d4595079197415d9f4.jpeg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0424\u043e\u0442\u043e \u043f\u0440\u0435\u0441\u0441-\u0441\u043b\u0443\u0436\u0431\u044b \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1270048194,
+            "parentid": 979796801
+          }
+        ]
+      },
+      "54424832": {
+        "pageid": 54424832,
+        "ns": 6,
+        "title": "File:Vladimir Putin 24 March 2013 (5).jpeg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-24T16:02:11Z",
+            "size": 236022,
+            "width": 1100,
+            "height": 735,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Vladimir_Putin_24_March_2013_%285%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Vladimir_Putin_24_March_2013_%285%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Vladimir_Putin_24_March_2013_%285%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_24_March_2013_(5).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54424832",
+            "sha1": "03966b03f14230930edc597736d74aa78972d188",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-24 16:02:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 24 March 2013 (5)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Yume|Buffy|Vladimir Putin in March 2013|Dogs in snow|Files from Kremlin.ru, 2013|Men playing with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0421 \u0411\u0430\u0444\u0444\u0438, \u0431\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0439 \u043e\u0432\u0447\u0430\u0440\u043a\u043e\u0439, \u0438 \u042e\u043c\u044d, \u0441\u043e\u0431\u0430\u043a\u043e\u0439 \u043f\u043e\u0440\u043e\u0434\u044b \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://news.kremlin.ru/media/events/photos/orig/41d4595083316c2fa17d.jpeg\">http://news.kremlin.ru/media/events/photos/orig/41d4595083316c2fa17d.jpeg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0424\u043e\u0442\u043e \u043f\u0440\u0435\u0441\u0441-\u0441\u043b\u0443\u0436\u0431\u044b \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1270048211,
+            "parentid": 979796804
+          }
+        ]
+      },
+      "54424856": {
+        "pageid": 54424856,
+        "ns": 6,
+        "title": "File:Vladimir Putin 24 March 2013 (6).jpeg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-24T16:03:15Z",
+            "size": 214696,
+            "width": 1100,
+            "height": 735,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Vladimir_Putin_24_March_2013_%286%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Vladimir_Putin_24_March_2013_%286%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Vladimir_Putin_24_March_2013_%286%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_24_March_2013_(6).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54424856",
+            "sha1": "2a8f60fcb87d606bf8504ed614a7bc024a0c0e90",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-24 16:03:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 24 March 2013 (6)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Yume|Buffy|Vladimir Putin in March 2013|Dogs in snow|Files from Kremlin.ru, 2013|Men playing with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0421 \u0411\u0430\u0444\u0444\u0438, \u0431\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0439 \u043e\u0432\u0447\u0430\u0440\u043a\u043e\u0439, \u0438 \u042e\u043c\u044d, \u0441\u043e\u0431\u0430\u043a\u043e\u0439 \u043f\u043e\u0440\u043e\u0434\u044b \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://static.kremlin.ru/media/events/photos/orig/41d459508a2b0514d001.jpeg\">http://static.kremlin.ru/media/events/photos/orig/41d459508a2b0514d001.jpeg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0424\u043e\u0442\u043e \u043f\u0440\u0435\u0441\u0441-\u0441\u043b\u0443\u0436\u0431\u044b \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1270048232,
+            "parentid": 979796808
+          }
+        ]
+      },
+      "54424956": {
+        "pageid": 54424956,
+        "ns": 6,
+        "title": "File:Vladimir Putin 24 March 2013 (9).jpeg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-12-24T16:06:27Z",
+            "size": 215321,
+            "width": 1100,
+            "height": 735,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Vladimir_Putin_24_March_2013_%289%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Vladimir_Putin_24_March_2013_%289%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Vladimir_Putin_24_March_2013_%289%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_24_March_2013_(9).jpeg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54424956",
+            "sha1": "78448eac9c101d6d33366ed3b63ec13c8e61105d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-24 16:06:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vladimir Putin 24 March 2013 (9)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Yume|Buffy|Vladimir Putin in March 2013|Dogs in snow|Files from Kremlin.ru, 2013|Men playing with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0438 \u0432 \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u0435. \u0421 \u0411\u0430\u0444\u0444\u0438, \u0431\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u043e\u0439 \u043e\u0432\u0447\u0430\u0440\u043a\u043e\u0439, \u0438 \u042e\u043c\u044d, \u0441\u043e\u0431\u0430\u043a\u043e\u0439 \u043f\u043e\u0440\u043e\u0434\u044b \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://static.kremlin.ru/media/events/photos/orig/41d45950c6456091f48d.jpeg\">http://static.kremlin.ru/media/events/photos/orig/41d45950c6456091f48d.jpeg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u0424\u043e\u0442\u043e \u043f\u0440\u0435\u0441\u0441-\u0441\u043b\u0443\u0436\u0431\u044b \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1251989285,
+            "parentid": 979796814
+          }
+        ]
+      }
+    }
+  }
+}

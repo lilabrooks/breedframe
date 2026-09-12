@@ -1,0 +1,473 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "156271643": {
+        "pageid": 156271643,
+        "ns": 6,
+        "title": "File:2 black and white collies - Flickr - conall...jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-12-05T03:18:34Z",
+            "size": 7831774,
+            "width": 4702,
+            "height": 3389,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/2_black_and_white_collies_-_Flickr_-_conall...jpg/1280px-2_black_and_white_collies_-_Flickr_-_conall...jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 721,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/2_black_and_white_collies_-_Flickr_-_conall...jpg/3840px-2_black_and_white_collies_-_Flickr_-_conall...jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/2_black_and_white_collies_-_Flickr_-_conall...jpg/1280px-2_black_and_white_collies_-_Flickr_-_conall...jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 721,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/2_black_and_white_collies_-_Flickr_-_conall...jpg/3840px-2_black_and_white_collies_-_Flickr_-_conall...jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/2_black_and_white_collies_-_Flickr_-_conall...jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2_black_and_white_collies_-_Flickr_-_conall...jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=156271643",
+            "sha1": "fc094adbecbb0c1ac3d3b712b15945c3b91b5c0d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-12-05 03:18:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2 black and white collies - Flickr - conall..",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "United Kingdom photographs taken on 2024-11-04|2 dogs|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Flickr files uploaded by Red panda bot|Photos in Flickr Explore|2024 black and white photographs|Photographs by Conall McCaughey",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "54.373838",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-5.769761",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>...in black and white\n</p><p>Susie is really white and black, Shay is definitely black and white.\n</p><p>In English, the phrase \"White and Black\" feels odd, wrong, an error. ....But for a dog that is more white than black using the phrase \"White and Black\" does actually convey useful extra information but \"black and white\" just reads/sounds better,\n</p><p>Interestingly (well I think it is interesting anyway), in Spanish the conventional order is the other way round \"blanco y negro\" so \"white and black\", and to say \"negro y blanco\" feels odd/wrong.\n</p>\nI dont usually post B&amp;W   pics but I see the November explore takeover is  B&amp;W themed ...so I have one to enter now!",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a04 November 2024, 12:22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/conall/54117882264/\">2 black and white collies</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/16176711@N02\">Conall</a> from Downpatrick, Northern Ireland",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1098078587,
+            "parentid": 1014044072
+          }
+        ]
+      },
+      "66764455": {
+        "pageid": 66764455,
+        "ns": 6,
+        "title": "File:Border Collie Macho Blanco y Negro (Batman, los Baganes Border Collie).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-02-24T13:24:19Z",
+            "size": 758533,
+            "width": 1200,
+            "height": 821,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Border_Collie_Macho_Blanco_y_Negro_%28Batman%2C_los_Baganes_Border_Collie%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 684,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Border_Collie_Macho_Blanco_y_Negro_%28Batman%2C_los_Baganes_Border_Collie%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 684
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Border_Collie_Macho_Blanco_y_Negro_%28Batman%2C_los_Baganes_Border_Collie%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Border_Collie_Macho_Blanco_y_Negro_(Batman,_los_Baganes_Border_Collie).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66764455",
+            "sha1": "3f700dff88aafd7ffde685d3dfb8f9d6e42752a9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-02-24 13:24:19",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Border Collie Macho Blanco y Negro (Batman, los Baganes Border Collie)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Border Collie|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Border Collie Macho Blanco y Negro",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-11-16 20:14:18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rocbag&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rocbag (page does not exist)\">Rocbag</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 829440405,
+            "parentid": 622528759
+          }
+        ]
+      },
+      "99395989": {
+        "pageid": 99395989,
+        "ns": 6,
+        "title": "File:Cantabrian Water Dog.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-01-29T20:38:00Z",
+            "size": 206812,
+            "width": 1280,
+            "height": 853,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Cantabrian_Water_Dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 666,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Cantabrian_Water_Dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 666
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Cantabrian_Water_Dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cantabrian_Water_Dog.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99395989",
+            "sha1": "6c48b1757ada4cda41ddab53283fedab75a7b55f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-01-29 20:38:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cantabrian Water Dog",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images with watermarks|Cantabrian water dog|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cantabrian Water Dog",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-01-29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chili_The_Border_Collie&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chili The Border Collie (page does not exist)\">Chili The Border Collie</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1036768703,
+            "parentid": 847466238
+          }
+        ]
+      },
+      "9651998": {
+        "pageid": 9651998,
+        "ns": 6,
+        "title": "File:JUANCITO EN SAN CLEMENTE , PROVINCIA DE C\u00d3RDOBA. ARGENTINA.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2010-03-04T21:54:39Z",
+            "size": 21068,
+            "width": 320,
+            "height": 240,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/JUANCITO_EN_SAN_CLEMENTE_%2C_PROVINCIA_DE_C%C3%93RDOBA._ARGENTINA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/JUANCITO_EN_SAN_CLEMENTE_%2C_PROVINCIA_DE_C%C3%93RDOBA._ARGENTINA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/JUANCITO_EN_SAN_CLEMENTE_%2C_PROVINCIA_DE_C%C3%93RDOBA._ARGENTINA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:JUANCITO_EN_SAN_CLEMENTE_,_PROVINCIA_DE_C%C3%93RDOBA._ARGENTINA.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9651998",
+            "sha1": "fc00bb397992c8bb5fc8d4472bd0060d6ff8ec47",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-03-04 21:54:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "JUANCITO EN SAN CLEMENTE , PROVINCIA DE C\u00d3RDOBA. ARGENTINA",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with LG MG295|Border Collie|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Dogs of Argentina|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "40.000005",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-3.999989",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "ES UN BORDER COLLIE NEGRO Y BLANCO \u00a1ES HERMOSO!",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rodrip95&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rodrip95 (page does not exist)\">Rodrip95</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1172573548,
+            "parentid": 1064028931
+          }
+        ]
+      }
+    }
+  }
+}

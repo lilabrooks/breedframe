@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "frozen_before_inference": true,
+  "selection": "Two Commons dog photographs with source breed labels, one fixed low-resolution derivative, and two generated non-dog controls. Five inputs, four source groups. Convenience smoke evaluation; training overlap unknown. Demo beagle and derivatives excluded.",
+  "protocol": "Run each baseline and agent once on identical decoded pixels, alternating order. Six action attempts, at most 240 seconds per photo. No follow-up photos in this evaluation; requested cases count as incomplete and abstaining. Label metrics include all three labeled inputs in their denominator, including abstentions and failures. Report selected-report top-1 separately from last classifier output. No threshold or prompt tuning on these cases. Synthetic controls measure false breed reports, not general non-dog detection.",
+  "cases": [
+    {"id":"golden", "path":"data/evaluation/golden.jpg", "label":"golden_retriever", "group":"golden"},
+    {"id":"pug", "path":"data/evaluation/pug.jpg", "label":"pug", "group":"pug"},
+    {"id":"golden-tiny", "path":"data/evaluation/golden-tiny.png", "label":"golden_retriever", "group":"golden", "transformation":"Resize to 48x32, Pillow default bicubic for RGB; retains source CC BY 2.0 attribution."},
+    {"id":"dark", "path":"data/evaluation/dark.png", "label":null, "group":"dark", "non_dog":true, "source":"Generated constant RGB(8,8,8), 640x480, CC0"},
+    {"id":"checker", "path":"data/evaluation/checker.png", "label":null, "group":"checker", "non_dog":true, "source":"Generated black/white 40px checkerboard, 640x480, CC0"}
+  ]
+}

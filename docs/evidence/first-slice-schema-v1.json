@@ -1,0 +1,204 @@
+{
+  "id": "7e55b6b0368a443d8e02b37758424f10",
+  "status": "incomplete",
+  "photos": [
+    {
+      "id": "photo-1",
+      "width": 600,
+      "height": 480,
+      "sha256": "7234706a2e52f3d01d6d713380609646f0fd855ea7a2aa9770a5c2cd12f1e463"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "kind": "tool",
+      "tool": "inspect_image",
+      "input": {
+        "photo_id": "photo-1"
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "width": 600,
+        "height": 480,
+        "mean_luminance": 116.22,
+        "laplacian_variance": 1452.9,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "controller_seconds": 1.61,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 25,
+        "total_duration_ns": 1539786000
+      },
+      "seconds": 0.014
+    },
+    {
+      "id": 2,
+      "kind": "tool",
+      "tool": "classify_breed",
+      "input": {
+        "photo_id": "photo-1"
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "candidates": [
+          {
+            "class_id": 30,
+            "label": "beagle",
+            "score": 0.175492,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "score": 0.11238,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "score": 0.098788,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 41,
+            "label": "basset",
+            "score": 0.035255,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 50,
+            "label": "bluetick",
+            "score": 0.010063,
+            "unresolved_label": false
+          }
+        ],
+        "margin": 0.063112,
+        "device": "mps",
+        "inference_seconds": 2.2444,
+        "fallback": null,
+        "mps_allocated_bytes": 348282880,
+        "mps_driver_bytes": 382418944
+      },
+      "controller_seconds": 1.443,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 26,
+        "total_duration_ns": 1414050875
+      },
+      "seconds": 17.155
+    },
+    {
+      "id": 3,
+      "kind": "tool",
+      "tool": "finish_assessment",
+      "input": {
+        "evidence_ids": [
+          2
+        ],
+        "outcome": "visual_matches",
+        "selected_result_id": 30
+      },
+      "photo_id": "photo-1",
+      "status": "error",
+      "output": {
+        "error": "ValueError: Cite an inspection of the current photo before requesting or finishing."
+      },
+      "controller_seconds": 5.159,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 58,
+        "total_duration_ns": 5031035917
+      },
+      "seconds": 0.008
+    },
+    {
+      "id": 4,
+      "kind": "tool",
+      "tool": "inspect_image",
+      "input": {
+        "photo_id": "photo-1"
+      },
+      "photo_id": "photo-1",
+      "status": "error",
+      "output": {
+        "error": "ValueError: Repeated unproductive action blocked."
+      },
+      "controller_seconds": 5.481,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 35,
+        "total_duration_ns": 5351151625
+      },
+      "seconds": 0.0
+    },
+    {
+      "id": 5,
+      "kind": "tool",
+      "tool": "request_another_photo",
+      "input": {
+        "evidence_ids": [
+          1,
+          2
+        ],
+        "reason": "low_resolution",
+        "view": "closer_full_body"
+      },
+      "photo_id": "photo-1",
+      "status": "error",
+      "output": {
+        "error": "ValueError: That quality concern is not present in the cited diagnostics."
+      },
+      "controller_seconds": 9.901,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 68,
+        "total_duration_ns": 9826754500
+      },
+      "seconds": 0.002
+    },
+    {
+      "id": 6,
+      "kind": "tool",
+      "tool": "finish_assessment",
+      "input": {
+        "evidence_ids": [
+          2
+        ],
+        "outcome": "visual_matches",
+        "selected_result_id": 30
+      },
+      "photo_id": "photo-1",
+      "status": "error",
+      "output": {
+        "error": "ValueError: Repeated unproductive action blocked."
+      },
+      "controller_seconds": 9.195,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 58,
+        "total_duration_ns": 9115274875
+      },
+      "seconds": 0.0
+    }
+  ],
+  "attempts": {
+    "photo-1": 6
+  },
+  "report": null,
+  "request": null,
+  "runs": [
+    {
+      "photo_id": "photo-1",
+      "seconds": 50.124,
+      "attempts": 6,
+      "status": "incomplete"
+    }
+  ],
+  "mode": "agent",
+  "stop_reason": "Action budget exhausted; usable observations retained."
+}

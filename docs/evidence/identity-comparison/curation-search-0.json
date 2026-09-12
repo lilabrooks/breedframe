@@ -1,0 +1,952 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "9336350": {
+        "pageid": 9336350,
+        "ns": 6,
+        "title": "File:Bonfire Fiesta - geograph.org.uk - 239249.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2010-01-31T22:35:05Z",
+            "size": 193163,
+            "width": 640,
+            "height": 480,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bonfire_Fiesta_-_geograph.org.uk_-_239249.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bonfire_Fiesta_-_geograph.org.uk_-_239249.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bonfire_Fiesta_-_geograph.org.uk_-_239249.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bonfire_Fiesta_-_geograph.org.uk_-_239249.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9336350",
+            "sha1": "d8c6bc7fa997063ed5026cf6feb744a74a59359e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-01-31 22:35:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bonfire Fiesta - geograph.org.uk - 239249",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ford Fiesta MK3|Images from Geograph Britain and Ireland|Broxbourne Woods|Ford automobiles in the United Kingdom|Information field template with formatting|September 2006 in Hertfordshire|Automobiles in Hertfordshire|United Kingdom photographs taken on 2006-09-13|Automobiles in the United Kingdom photographed in 2006|Burned automobiles in the United Kingdom|Images from Geograph Britain and Ireland missing SDC coordinates of the point of view|Images by Martin Addison",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.746400",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-0.077000",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Bonfire Fiesta. A Ford Fiesta burnt out in Broxbourne Woods National Nature Reserve beside one of the footpaths.   Mindless destruction of the environment and resources.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a013 September 2006",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/239249\">geograph.org.uk</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/4942\">Martin Addison</a>",
+                "source": "commons-desc-page"
+              },
+              "Attribution": {
+                "value": "Martin Addison",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 958854611,
+            "parentid": 951949889
+          }
+        ]
+      },
+      "117303229": {
+        "pageid": 117303229,
+        "ns": 6,
+        "title": "File:Ermine Street by Danemead Wood, view south from the Spital Brook ford - geograph.org.uk - 3427466.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-04-25T00:19:52Z",
+            "size": 383997,
+            "width": 768,
+            "height": 1024,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ermine_Street_by_Danemead_Wood%2C_view_south_from_the_Spital_Brook_ford_-_geograph.org.uk_-_3427466.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1333,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ermine_Street_by_Danemead_Wood%2C_view_south_from_the_Spital_Brook_ford_-_geograph.org.uk_-_3427466.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1333
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ermine_Street_by_Danemead_Wood%2C_view_south_from_the_Spital_Brook_ford_-_geograph.org.uk_-_3427466.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ermine_Street_by_Danemead_Wood,_view_south_from_the_Spital_Brook_ford_-_geograph.org.uk_-_3427466.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=117303229",
+            "sha1": "d70d5df4f860f5b9c66255eec523392caa14135f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-04-25 00:19:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ermine Street by Danemead Wood, view south from the Spital Brook ford - geograph.org.uk - 3427466",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Geograph Britain and Ireland|Brickendon Liberty",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.755038",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-0.049749",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ermine Street by Danemead Wood: view south from the Spital Brook ford\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Ermine_Street_by_Danemead_Wood,_view_south_from_the_Spital_Brook_ford_-_geograph.org.uk_-_3427466.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-04-20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/3427466\">Geograph Britain and Ireland</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Ermine_Street_by_Danemead_Wood,_view_south_from_the_Spital_Brook_ford_-_geograph.org.uk_-_3427466.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/19114\">Stefan Czapski</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Ermine_Street_by_Danemead_Wood,_view_south_from_the_Spital_Brook_ford_-_geograph.org.uk_-_3427466.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<i>Ermine Street by Danemead Wood: view south from the Spital Brook ford</i> by\u00a0Stefan Czapski",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1188595784,
+            "parentid": 938362439
+          }
+        ]
+      },
+      "104823650": {
+        "pageid": 104823650,
+        "ns": 6,
+        "title": "File:Ford (6314621522).jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-05-02T20:19:34Z",
+            "size": 164350,
+            "width": 776,
+            "height": 436,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ford_%286314621522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 562,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ford_%286314621522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 562
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ford_%286314621522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ford_(6314621522).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=104823650",
+            "sha1": "57df252b24d451e405fac83b5a99f82f5c1cb72f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-05-02 20:19:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ford (6314621522)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US DOS|Liberty (dog)|Flickr images reviewed by FlickreviewR 2|Files uploaded by Orizan|Gerald Ford at the Wilson desk|Files from the United States Embassy in Jakarta Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Gerald Ford (1974-77) gives his golden retriever, Liberty, some attention in the Oval Office.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-11-05 16:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/usembassyjakarta/6314621522/\">Ford</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/39809323@N03\">U.S. Embassy, Jakarta</a> from Jakarta, Indonesia",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255131508,
+            "parentid": 1080560858
+          }
+        ]
+      },
+      "10537432": {
+        "pageid": 10537432,
+        "ns": 6,
+        "title": "File:Golden Age of Hollywood.png",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-01-10T03:08:17Z",
+            "size": 953100,
+            "width": 960,
+            "height": 720,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Golden_Age_of_Hollywood.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Golden_Age_of_Hollywood.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Golden_Age_of_Hollywood.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Golden_Age_of_Hollywood.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10537432",
+            "sha1": "91b7c5488e25cd43e5e7b6116063fdfc5fabc451",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-01-10 03:08:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Golden Age of Hollywood",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Gene Kelly|Alfred Hitchcock|Charlton Heston|James Dean|Buster Keaton|Mary Pickford|Claudette Colbert|Vivien Leigh|Clark Gable|Mae West|Burt Lancaster|William Holden|Zeppo Marx|Howard Hawks|Marx Brothers|Images with annotations|John Ford (director)|Images with 10+ annotations|Lauren Bacall in 1945|Marilyn Monroe in 1953|Katharine Hepburn in 1943|Audrey Hepburn in 1953|Orson Welles in 1937|John Wayne in 1951|Marlene Dietrich in 1951|Humphrey Bogart in 1940|Rita Hayworth in 1941|Bette Davis in 1950|Spencer Tracy in 1941|Joan Crawford in 1927|Cary Grant in 1959|Jean Harlow in 1935|Fred Astaire in 1951|Kirk Douglas in 1969|Ava Gardner in 1954|Grace Kelly in 1954|Ingrid Bergman in 1944|Sophia Loren in 1962|Elizabeth Taylor in 1950|Shirley Temple in 1939|Greta Garbo in 1924|Laurence Olivier in 1939|James Cagney in 1942|Barbara Stanwyck in 1943|Joan Fontaine in 1942|Gary Cooper in 1942|Ginger Rogers in 1937|Henry Fonda in 1937|Gregory Peck in 1953|Judy Garland in 1946|Marlon Brando in 1951|Tyrone Power in 1938|Janet Leigh in 1958|Lillian Gish in 1921|Groucho Marx in 1931|Chico Marx in 1931|Harpo Marx in 1931|People of Hollywood, Los Angeles|History of Hollywood, Los Angeles",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Montage of Golden Hollywood",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-06-02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Based on the following public domain/ freely useable files. Author/source are given:\n</p>\n<ol><li><a href=\"//commons.wikimedia.org/wiki/File:Greta_Garbo_1924_2.jpg\" title=\"File:Greta Garbo 1924 2.jpg\">File:Greta Garbo 1924 2.jpg</a> (Author: Henry B. Goodwin)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Humphrey_Bogart_1940.jpg\" title=\"File:Humphrey Bogart 1940.jpg\">File:Humphrey Bogart 1940.jpg</a> (Author:Minneapolis Tribune-photo from Warner Bros)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Lauren_Bacall_1945.jpg\" title=\"File:Lauren Bacall 1945.jpg\">File:Lauren Bacall 1945.jpg</a> (Author:Liberty Publications)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Gable,_Clark_01.jpg\" title=\"File:Gable, Clark 01.jpg\">File:Gable, Clark 01.jpg</a> (Author:Studio publicity still)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:KatharineHepburninStageDoorCanteencropped.jpg\" title=\"File:KatharineHepburninStageDoorCanteencropped.jpg\">File:KatharineHepburninStageDoorCanteencropped.jpg </a> (Author: Stage Door Canteen)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Fred_Astaire_in_Royal_Wedding.jpg\" title=\"File:Fred Astaire in Royal Wedding.jpg\">File:Fred Astaire in Royal Wedding.jpg </a> (Author:Royal Wedding (MGM) )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Ginger_Rogers_Argentinean_Magazine_AD_2.jpg\" title=\"File:Ginger Rogers Argentinean Magazine AD 2.jpg\">File:Ginger Rogers Argentinean Magazine AD 2.jpg</a> (Author:Argentinean Magazine)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Marlon_Brando_in_Steetcar_Named_Desire_trailer.jpg\" class=\"mw-redirect\" title=\"File:Marlon Brando in Steetcar Named Desire trailer.jpg\">File:Marlon Brando in Steetcar Named Desire trailer.jpg</a> (Author:A Street Car Named Desire)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Marx_Brothers_1931.jpg\" title=\"File:Marx Brothers 1931.jpg\">File:Marx Brothers 1931.jpg </a> (Author:Library of Congress)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Joancrawford3crop.jpg\" title=\"File:Joancrawford3crop.jpg\">File:Joancrawford3crop.jpg</a> (Author:Library of Congress)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Operation_Pacific-John_Wayne2.JPG\" title=\"File:Operation Pacific-John Wayne2.JPG\">File: Operation Pacific-John Wayne2.JPG</a> (Author: Operation Pacific, Warner Brothers)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Nakedspur_trailer_3.jpg\" title=\"File:Nakedspur trailer 3.jpg\">File:Nakedspur trailer 3.jpg </a> (Author: The Naked Spur, MGM)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Busterkeaton.jpg\" title=\"File:Busterkeaton.jpg\">File:Busterkeaton.jpg </a> (Author: Library of Congress)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Claudette_Colbert_in_I_Cover_the_Waterfront_1.jpg\" title=\"File:Claudette Colbert in I Cover the Waterfront 1.jpg\">File: Claudette Colbert in I Cover the Waterfront 1.jpg</a> (Author:I Cover the Waterfront )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Gene_kelly.jpg\" title=\"File:Gene kelly.jpg\">File:Gene kelly.jpg</a> (Author:Metro-Goldwyn-Mayer)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Burt_Lancaster.jpg\" title=\"File:Burt Lancaster.jpg\">File: Burt Lancaster.jpg</a> (Author: Vengeance Valley)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Judy_Garland_in_Till_the_Clouds_Roll_By_1_cropped.jpg\" title=\"File:Judy Garland in Till the Clouds Roll By 1 cropped.jpg\">File:Judy Garland in Till the Clouds Roll By 1 cropped.jpg</a> (Author:Till the Clouds Roll By)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Gregory_Peck_in_Roman_Holiday_trailer_cropped.jpg\" title=\"File:Gregory Peck in Roman Holiday trailer cropped.jpg\">File: Gregory Peck in Roman Holiday trailer cropped.jpg</a> (Author: Roman Holiday)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Elizabeth_Taylor_in_Father_of_the_Bride_trailer.JPG\" title=\"File:Elizabeth Taylor in Father of the Bride trailer.JPG\">File: Elizabeth Taylor in Father of the Bride trailer.JPG </a> (Author:Father of the Bride  )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Kirk_and_Michael_Douglas_-1969.jpg\" class=\"mw-redirect\" title=\"File:Kirk and Michael Douglas -1969.jpg\">File:Kirk and Michael Douglas -1969.jpg</a> (Author:Cinema Center Films)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Bette_Davis_in_All_About_Eve_trailer.jpg\" title=\"File:Bette Davis in All About Eve trailer.jpg\">File:Bette Davis in All About Eve trailer.jpg </a> (Author:All About Eve )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Audrey_Hepburn_Roman_Holiday_cropped.jpg\" title=\"File:Audrey Hepburn Roman Holiday cropped.jpg\">File:Audrey Hepburn Roman Holiday cropped.jpg </a> (Author:Roman Holiday )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Harlow_still.jpg\" class=\"mw-redirect\" title=\"File:Harlow still.jpg\">File:Harlow_still.jpg </a> (Author: MGM still)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Alfred_Hitchcock_NYWTS.jpg\" title=\"File:Alfred Hitchcock NYWTS.jpg\">File: Alfred Hitchcock NYWTS.jpg</a> (Author: Library of Congress)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:John_Ford,_1946.jpg\" title=\"File:John Ford, 1946.jpg\">File:John Ford, 1946.jpg </a> (Author:Los Angeles News )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Bacall%26Hawks.jpg\" title=\"File:Bacall&amp;Hawks.jpg\">File: Bacall&amp;Hawks.jpg</a> (Author:Los Angeles Times )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Dial_M_for_Murder1.jpg\" title=\"File:Dial M for Murder1.jpg\">File:Dial M for Murder1.jpg </a> (Author:Dial M for Murder )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Laurenceolivier.jpg\" title=\"File:Laurenceolivier.jpg\">File: Laurenceolivier.jpg</a> (Author: Library of Congress)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Marlene_Dietrich_in_No_Highway_(1951).jpg\" title=\"File:Marlene Dietrich in No Highway (1951).jpg\">File:Marlene Dietrich in No Highway (1951).jpg</a> (Author:Twentieth Century Fox)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:James_Cagney_in_Yankee_Doodle_Dandy_trailer_2.jpg\" title=\"File:James Cagney in Yankee Doodle Dandy trailer 2.jpg\">File:James Cagney in Yankee Doodle Dandy trailer 2.jpg </a> (Author:Yankee Doodle Dandy )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Ava_Gardner_barefoot_contessa_crop.jpg\" title=\"File:Ava Gardner barefoot contessa crop.jpg\">File:Ava Gardner barefoot contessa crop.jpg </a> (Author:The Barefoot Contessa )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Cary_Grant_in_1959.jpg\" title=\"File:Cary Grant in 1959.jpg\">File:Cary Grant in 1959.jpg</a> (Author:North by Northwest)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Ingrid_Bergman_-_Gaslight_44.jpg\" title=\"File:Ingrid Bergman - Gaslight 44.jpg\">File:Ingrid Bergman - Gaslight 44.jpg</a> (Author: MGM photographer)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Henry_Fonda_in_Slim.JPG\" title=\"File:Henry Fonda in Slim.JPG\">File:Henry Fonda in Slim.JPG </a> (Author:Slim )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Gentlemen_Prefer_Blondes_Movie_Trailer_Screenshot_(35).jpg\" title=\"File:Gentlemen Prefer Blondes Movie Trailer Screenshot (35).jpg\">File: Gentlemen Prefer Blondes Movie Trailer Screenshot (35).jpg</a> (Author: Gentlemen Prefer Blondes )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:James_Dean_in_East_of_Eden_trailer_2.jpg\" title=\"File:James Dean in East of Eden trailer 2.jpg\">File:James Dean in East of Eden trailer 2.jpg </a> (Author: East of Eden)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Orson_Welles_1937.jpg\" title=\"File:Orson Welles 1937.jpg\">File: Orson Welles 1937.jpg</a> (Author: Library of Congress)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Mae_West_LAT.jpg\" title=\"File:Mae West LAT.jpg\">File:Mae West LAT.jpg</a> (Author:Los Angeles Times Archive)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Holden_1952.jpg\" title=\"File:Holden 1952.jpg\">File:Holden 1952.jpg </a> (Author:Reagan Library )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Five_Miles_to_Midnight_1962.JPG\" title=\"File:Five Miles to Midnight 1962.JPG\">File: Five Miles to Midnight 1962.JPG</a> (Author:Five Miles to Midnight )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Vivien_Leigh_in_Waterloo_Bridge_trailer_a.jpg\" title=\"File:Vivien Leigh in Waterloo Bridge trailer a.jpg\">File:Vivien Leigh in Waterloo Bridge trailer a.jpg</a> (Author:Waterloo Bridge trailer )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Joan_Fontaine_and_Gary_Cooper.jpg\" title=\"File:Joan Fontaine and Gary Cooper.jpg\">File: Joan Fontaine and Gary Cooper.jpg</a> (Author:Los Angeles Times )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Spencer_Tracy_in_Dr._Jekyll_and_Mr._Hyde_trailer(2).jpg\" title=\"File:Spencer Tracy in Dr. Jekyll and Mr. Hyde trailer(2).jpg\">File: Spencer Tracy in Dr. Jekyll and Mr. Hyde trailer(2).jpg</a> (Author: Dr. Jekyll and Mr. Hyde MGM)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:BarbaraStanwyckLadyofBurlesque16cropped.jpg\" title=\"File:BarbaraStanwyckLadyofBurlesque16cropped.jpg\">File:BarbaraStanwyckLadyofBurlesque16cropped.jpg </a> (Author:Lady of Burlesque )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Lillian_Gish-edit2.jpg\" title=\"File:Lillian Gish-edit2.jpg\">File:Lillian Gish-edit2.jpg </a> (Author: Library of Congress)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Tyrone_power_ragtime_1.jpg\" title=\"File:Tyrone power ragtime 1.jpg\">File:Tyrone power ragtime 1.jpg</a> (Author:Alexander's Ragtime Band)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Temple_in_Little_Princess_1939.JPG\" title=\"File:Temple in Little Princess 1939.JPG\">File: Temple in Little Princess 1939.JPG</a> (Author:The Little Princess, 20th Century Fox )</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Touch_of_Evil-Janet_Leigh%26Charlton_Heston2.JPG\" title=\"File:Touch of Evil-Janet Leigh&amp;Charlton Heston2.JPG\">File: Touch of Evil-Janet Leigh&amp;Charlton Heston2.JPG</a> (Author: Touch of Evil)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Rita_Hayworth_in_Blood_and_Sand_trailer.jpg\" title=\"File:Rita Hayworth in Blood and Sand trailer.jpg\">File:Rita Hayworth in Blood and Sand trailer.jpg </a> (Author: Blood and Sand)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Mary_Pickford_original.jpg\" title=\"File:Mary Pickford original.jpg\">File: Mary Pickford original.jpg</a> (Author: Studio still)</li></ol>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Self made based upon work by the authors shown above",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1275146671,
+            "parentid": 1245474343
+          }
+        ]
+      },
+      "92062085": {
+        "pageid": 92062085,
+        "ns": 6,
+        "title": "File:Liberty Hyde Bailey letters to Walter Deane, 1883-1929 (inclusive) (IA LibertyHydeBail00Bail).pdf",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-07-09T20:18:53Z",
+            "size": 22776593,
+            "width": 327,
+            "height": 541,
+            "pagecount": 440,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Liberty_Hyde_Bailey_letters_to_Walter_Deane%2C_1883-1929_%28inclusive%29_%28IA_LibertyHydeBail00Bail%29.pdf/page1-250px-Liberty_Hyde_Bailey_letters_to_Walter_Deane%2C_1883-1929_%28inclusive%29_%28IA_LibertyHydeBail00Bail%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1654,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Liberty_Hyde_Bailey_letters_to_Walter_Deane%2C_1883-1929_%28inclusive%29_%28IA_LibertyHydeBail00Bail%29.pdf/page1-250px-Liberty_Hyde_Bailey_letters_to_Walter_Deane%2C_1883-1929_%28inclusive%29_%28IA_LibertyHydeBail00Bail%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1654
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Liberty_Hyde_Bailey_letters_to_Walter_Deane%2C_1883-1929_%28inclusive%29_%28IA_LibertyHydeBail00Bail%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Liberty_Hyde_Bailey_letters_to_Walter_Deane,_1883-1929_(inclusive)_(IA_LibertyHydeBail00Bail).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92062085",
+            "sha1": "7c0d912fed5493876fb2f8e025c5e1b91d7847d9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-09 20:18:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nLiberty Hyde Bailey letters to Walter Deane, 1883-1929 (inclusive)</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Liberty Hyde Bailey|Scans from the Internet Archive/unverified|PD US expired|Files from the Biodiversity Heritage Library|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Books from the Biodiversity Heritage Library|Correspondence with Walter Deane",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n<dl><dd>Bailey, L. H.(Liberty Hyde),1858-1954,correspondent</dd>\n<dd>Deane, Walter,1848-1930,addressee</dd></dl></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dd>Walter Deane Papers. Archives, Gray Herbarium Library, Harvard University Herbaria</dd>\n<dd>Electronic finding aid available <a rel=\"nofollow\" class=\"external free\" href=\"https://www.huh.harvard.edu/libraries/archives/Deane/DEANEINT.html\">https://www.huh.harvard.edu/libraries/archives/Deane/DEANEINT.html</a></dd>\n<dd>Consists of letters from Liberty Hyde Bailey to Walter Deane, primarily botanical in content</dd>\n<dd>Electronic finding aid available</dd></dl>\n<br>Subjects: Botanists; Bailey, L. H. (Liberty Hyde), 1858-1954; Deane, Walter, 1848-1930</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/LibertyHydeBail00Bail\" class=\"extiw\" title=\"iarchive:LibertyHydeBail00Bail\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: LibertyHydeBail00Bail</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/LibertyHydeBail00Bail/LibertyHydeBail00Bail.pdf\">https://archive.org/download/LibertyHydeBail00Bail/LibertyHydeBail00Bail.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1141126601,
+            "parentid": 730080182
+          }
+        ]
+      },
+      "108185987": {
+        "pageid": 108185987,
+        "ns": 6,
+        "title": "File:Minor ford across Ermine Street - geograph.org.uk - 2444248.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-08-05T20:17:38Z",
+            "size": 509192,
+            "width": 1024,
+            "height": 768,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Minor_ford_across_Ermine_Street_-_geograph.org.uk_-_2444248.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Minor_ford_across_Ermine_Street_-_geograph.org.uk_-_2444248.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Minor_ford_across_Ermine_Street_-_geograph.org.uk_-_2444248.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Minor_ford_across_Ermine_Street_-_geograph.org.uk_-_2444248.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=108185987",
+            "sha1": "c98547db46936a13a9b87dbd3cdc0a70cba8cf7f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-08-05 20:17:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Minor ford across Ermine Street - geograph.org.uk - 2444248",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Geograph Britain and Ireland|Brickendon Liberty",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.759976",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-0.049246",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Minor ford across Ermine Street\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Minor_ford_across_Ermine_Street_-_geograph.org.uk_-_2444248.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-06-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/2444248\">Geograph Britain and Ireland</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Minor_ford_across_Ermine_Street_-_geograph.org.uk_-_2444248.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/6597\">Stephen Craven</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Minor_ford_across_Ermine_Street_-_geograph.org.uk_-_2444248.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<i>Minor ford across Ermine Street</i> by\u00a0Stephen Craven",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1018238979,
+            "parentid": 936665547
+          }
+        ]
+      },
+      "59808571": {
+        "pageid": 59808571,
+        "ns": 6,
+        "title": "File:President and Mrs. Ford with Susan and Liberty - NARA - 186835 (cropped2).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-06-10T19:20:11Z",
+            "size": 6237996,
+            "width": 3519,
+            "height": 3255,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg/1280px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 925,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg/1280px-President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 925,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_and_Mrs._Ford_with_Susan_and_Liberty_-_NARA_-_186835_(cropped2).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=59808571",
+            "sha1": "95cd75c711f1ae1c5e6615eed291af2a1d0e6b53",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-06-10 19:20:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>President and Mrs. Ford with Susan and Liberty</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Gerald Ford family|Susan Ford|Media contributed by the Gerald R. Ford Presidential Library and Museum|Liberty (dog)|Artworks without Wikidata item|Extracted images|People with dogs|United States photographs taken on 1976-08-07|CC-PD-Mark|1976 at Camp David|Photographs by David Hume Kennerly from 1976|Betty and Gerald Ford in 1976|Gerald Ford in August 1976|\"The White House Years\" media photo kit at the Gerald R. Ford Presidential Library|Gerald Ford at Camp David",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:David_Hume_Kennerly\" class=\"extiw\" title=\"w:en:David Hume Kennerly\"><span title=\"American photographer (born 1947)\">David Hume Kennerly</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Photograph of President Gerald Ford and First Lady Betty Ford with Susan and Liberty at Camp David.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "7 August 1976<div style=\"display: none;\">date QS:P571,+1976-08-07T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Gerald_R._Ford_Presidential_Library\" class=\"extiw\" title=\"en:Gerald R. Ford Presidential Library\">Gerald R. Ford Presidential Library</a></span>: <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.fordlibrarymuseum.gov/avproj/whitehouse-years-03.asp\" href=\"https://www.fordlibrarymuseum.gov/avproj/whitehouse-years-03.asp\">B0986-19</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254390043,
+            "parentid": 1253969089
+          }
+        ]
+      },
+      "117303771": {
+        "pageid": 117303771,
+        "ns": 6,
+        "title": "File:Trees by Ermine Street, close to the Spital Brook ford - geograph.org.uk - 3427599.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2022-04-25T00:48:59Z",
+            "size": 382378,
+            "width": 768,
+            "height": 1024,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Trees_by_Ermine_Street%2C_close_to_the_Spital_Brook_ford_-_geograph.org.uk_-_3427599.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1333,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Trees_by_Ermine_Street%2C_close_to_the_Spital_Brook_ford_-_geograph.org.uk_-_3427599.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1333
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Trees_by_Ermine_Street%2C_close_to_the_Spital_Brook_ford_-_geograph.org.uk_-_3427599.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Trees_by_Ermine_Street,_close_to_the_Spital_Brook_ford_-_geograph.org.uk_-_3427599.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=117303771",
+            "sha1": "ce747dca0c6486dd49c418fdc36266ac063245da",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-04-25 00:48:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Trees by Ermine Street, close to the Spital Brook ford - geograph.org.uk - 3427599",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Geograph Britain and Ireland|Brickendon Liberty",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.754768",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-0.049760",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Trees by Ermine Street, close to the Spital Brook ford\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Trees_by_Ermine_Street,_close_to_the_Spital_Brook_ford_-_geograph.org.uk_-_3427599.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-04-20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/3427599\">Geograph Britain and Ireland</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Trees_by_Ermine_Street,_close_to_the_Spital_Brook_ford_-_geograph.org.uk_-_3427599.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/19114\">Stefan Czapski</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Trees_by_Ermine_Street,_close_to_the_Spital_Brook_ford_-_geograph.org.uk_-_3427599.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<i>Trees by Ermine Street, close to the Spital Brook ford</i> by\u00a0Stefan Czapski",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1177062618,
+            "parentid": 944546039
+          }
+        ]
+      }
+    }
+  }
+}

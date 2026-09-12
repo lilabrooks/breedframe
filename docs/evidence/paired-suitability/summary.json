@@ -1,0 +1,130 @@
+{
+  "agreement_results_sha256": "84448735278ab56e4fa3f1eaf65eb26086d51f73f83ef8fd010c19a93374385f",
+  "vit_two_photo_pairs": {
+    "non_dog": {
+      "denominator": 3,
+      "reports": 0
+    },
+    "supported_breed": {
+      "denominator": 6,
+      "reports": 3,
+      "correct": 3,
+      "wrong": 0
+    },
+    "unsupported_breed": {
+      "denominator": 1,
+      "reports": 0
+    }
+  },
+  "resnet_all_photos": {
+    "multiple_dogs": {
+      "denominator": 2,
+      "reports": 2
+    },
+    "non_dog": {
+      "denominator": 8,
+      "reports": 0
+    },
+    "supported_breed": {
+      "denominator": 12,
+      "reports": 8,
+      "correct": 8,
+      "wrong": 0
+    },
+    "unknown_ancestry": {
+      "denominator": 1,
+      "reports": 1
+    },
+    "unsupported_breed": {
+      "denominator": 2,
+      "reports": 0
+    }
+  },
+  "resnet_preassigned_first_photos": {
+    "non_dog": {
+      "denominator": 3,
+      "reports": 0
+    },
+    "supported_breed": {
+      "denominator": 6,
+      "reports": 3,
+      "correct": 3,
+      "wrong": 0
+    },
+    "unsupported_breed": {
+      "denominator": 1,
+      "reports": 0
+    }
+  },
+  "new_vit_calls": 5,
+  "new_resnet_calls": 5,
+  "vision_calls": 0,
+  "controller_decision_calls": 0,
+  "vision_triggered": false,
+  "claim_scope": "Exposed supported cases and three convenience negative identities; no general rejection or product-readiness claim.",
+  "new_negative_pairs": [
+    {
+      "id": "socks",
+      "views": [
+        {
+          "class_id": 12,
+          "label": "border_collie",
+          "score": 0.061449,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 21,
+          "label": "cardigan",
+          "score": 0.094661,
+          "unresolved_label": false
+        }
+      ],
+      "emitted": false,
+      "blockers": [
+        "Recorded rankings disagree on the leading class, including any region comparisons."
+      ]
+    },
+    {
+      "id": "valegro",
+      "views": [
+        {
+          "class_id": 48,
+          "label": "weimaraner",
+          "score": 0.014503,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 16,
+          "label": "kelpie",
+          "score": 0.016868,
+          "unresolved_label": false
+        }
+      ],
+      "emitted": false,
+      "blockers": [
+        "Recorded rankings disagree on the leading class, including any region comparisons."
+      ]
+    },
+    {
+      "id": "bobby-statue",
+      "views": [
+        {
+          "class_id": 30,
+          "label": "beagle",
+          "score": 0.014125,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 98,
+          "label": "giant_schnauzer",
+          "score": 0.082945,
+          "unresolved_label": false
+        }
+      ],
+      "emitted": false,
+      "blockers": [
+        "Recorded rankings disagree on the leading class, including any region comparisons."
+      ]
+    }
+  ]
+}

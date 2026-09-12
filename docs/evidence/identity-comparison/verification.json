@@ -1,0 +1,19 @@
+{
+  "verified_at_utc": "2026-09-12T04:08:56.199645+00:00",
+  "results_sha256": "1642013f3da4a59b3904776c0590a2bb02917cd0d79cf415615098b2768646af",
+  "source_and_input_hashes_unchanged": true,
+  "all_39_calls_accounted_for": true,
+  "saved_reports_and_metrics_reproduced": true,
+  "app_after": {
+    "ready": true,
+    "controller": "qwen3:4b",
+    "classifier_ready": true,
+    "detail": "Pinned local controller ready: qwen3:4b.",
+    "busy": false,
+    "limitations": [
+      "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+      "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+      "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+    ]
+  }
+}

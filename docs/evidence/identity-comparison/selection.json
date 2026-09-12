@@ -1,0 +1,284 @@
+{
+  "cases": [
+    {
+      "id": "liberty",
+      "photo_ids": [
+        "liberty-01",
+        "liberty-02"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "liberty"
+      ],
+      "expected_label": "golden_retriever",
+      "expected_native_id": 207,
+      "source_reported_breed": "Golden Retriever",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source captions in liberty-01-source.json and liberty-02-source.json"
+    },
+    {
+      "id": "robroy",
+      "photo_ids": [
+        "robroy-01",
+        "robroy-02"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "robroy"
+      ],
+      "expected_label": "collie",
+      "expected_native_id": 231,
+      "source_reported_breed": "Collie",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.whitehousehistory.org/white-house-pets/top-dogs-at-the-white-house"
+    },
+    {
+      "id": "laddie",
+      "photo_ids": [
+        "laddie-01",
+        "laddie-02"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "laddie"
+      ],
+      "expected_label": "airedale",
+      "expected_native_id": 191,
+      "source_reported_breed": "Airedale Terrier",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.whitehousehistory.org/photos/photo-2-3"
+    },
+    {
+      "id": "koni",
+      "photo_ids": [
+        "koni-01",
+        "koni-02"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "koni"
+      ],
+      "expected_label": "labrador_retriever",
+      "expected_native_id": 208,
+      "source_reported_breed": "Labrador Retriever",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source captions in koni-01-source.json and koni-02-source.json"
+    },
+    {
+      "id": "blanco",
+      "photo_ids": [
+        "blanco-01",
+        "blanco-02"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "blanco"
+      ],
+      "expected_label": "collie",
+      "expected_native_id": 231,
+      "source_reported_breed": "Collie",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.lbjlibrary.org/life-and-legacy/the-man-himself/lbjs-dogs"
+    },
+    {
+      "id": "fala",
+      "photo_ids": [
+        "fala-live-01",
+        "fala-live-02"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "fala"
+      ],
+      "expected_label": "scotch_terrier",
+      "expected_native_id": 199,
+      "source_reported_breed": "Scottish Terrier",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.nps.gov/articles/fala.htm"
+    },
+    {
+      "id": "larry",
+      "photo_ids": [
+        "larry-01",
+        "larry-02"
+      ],
+      "cohort": "non_dog",
+      "subject_ids": [
+        "larry-cat-auderghem"
+      ],
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": false,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source file metadata and human visual inspection"
+    },
+    {
+      "id": "frankel",
+      "photo_ids": [
+        "frankel-01",
+        "frankel-02"
+      ],
+      "cohort": "non_dog",
+      "subject_ids": [
+        "frankel-horse"
+      ],
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": false,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source file metadata and human visual inspection"
+    },
+    {
+      "id": "hachiko-statue",
+      "photo_ids": [
+        "hachiko-statue-01",
+        "hachiko-statue-05"
+      ],
+      "cohort": "non_dog",
+      "subject_ids": [
+        "hachiko-modern-shibuya-sculpture"
+      ],
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": false,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source file metadata and human visual inspection"
+    },
+    {
+      "id": "kabosu",
+      "photo_ids": [
+        "kabosu-01",
+        "kabosu-02"
+      ],
+      "cohort": "unsupported_breed",
+      "subject_ids": [
+        "kabosu"
+      ],
+      "source_reported_breed": "Shiba Inu",
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://foundation.dogecoin.com/blog/2024-05-24-kabosu-obituary/"
+    },
+    {
+      "id": "yuki",
+      "photo_ids": [
+        "yuki-01",
+        "yuki-02"
+      ],
+      "cohort": "unknown_ancestry",
+      "subject_ids": [
+        "yuki-lbj"
+      ],
+      "source_reported_breed": "Mixed breed; components unverified",
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.lbjlibrary.org/life-and-legacy/the-man-himself/lbjs-dogs"
+    },
+    {
+      "id": "collies",
+      "photo_ids": [
+        "collies-01",
+        "collies-02"
+      ],
+      "cohort": "shared_description_group",
+      "subject_ids": [
+        "susie-conall",
+        "shay-conall"
+      ],
+      "source_reported_breed": "Both described as collies by owner; exact subtype unverified",
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Owner titles and descriptions in collies-01-source.json and collies-02-source.json"
+    },
+    {
+      "id": "buffy-yume",
+      "photo_ids": [
+        "buffy-yume-01",
+        "buffy-yume-02"
+      ],
+      "cohort": "different_breed_group",
+      "subject_ids": [
+        "buffy",
+        "yume"
+      ],
+      "source_reported_breed": [
+        "Bulgarian shepherd",
+        "Akita Inu"
+      ],
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Official source captions in buffy-yume-01-source.json and buffy-yume-02-source.json"
+    }
+  ],
+  "visual_reviews": {
+    "liberty-01": "Single dog standing beside a seated person in an office; dark archival image.",
+    "liberty-02": "Single dog walking outdoors with three people. Source is an existing crop of a separate Camp David exposure.",
+    "robroy-01": "Single white dog, close side view, partial human hand at muzzle; small native source.",
+    "robroy-02": "Single white dog indoors beside an artist. Source caption names Rob Roy; framed archival photograph.",
+    "laddie-01": "Single dog seated in portrait; source is a published portrait crop.",
+    "laddie-02": "Single dog outdoors holding an envelope; separate exposure and pose from portrait.",
+    "koni-01": "Single black dog in front of a group of people indoors.",
+    "koni-02": "Single black dog interacting with a seated person outdoors; source names Koni and Labrador.",
+    "blanco-01": "Single white dog seen at a distance, holding a seated person's hand in the Oval Office.",
+    "blanco-02": "Single white dog closer to camera outdoors with a seated person; distinct dated archive exposure.",
+    "fala-live-01": "Single small dark dog held by a seated person; dark archival image, dog partially obscured by arms.",
+    "fala-live-02": "Single small dog on a seated person's lap outdoors; source names Fala as a puppy in 1940.",
+    "larry-01": "Single orange cat indoors beside a mug; no visible live dog.",
+    "larry-02": "Same source-named orange cat outdoors on grass; no visible live dog.",
+    "frankel-01": "Named horse and rider among people after a race; no visible live dog.",
+    "frankel-02": "Same named horse and rider in side view on a racetrack; separate exposure, no visible live dog.",
+    "hachiko-statue-01": "Modern Shibuya dog sculpture visible in a wide street scene with people; no visible live dog.",
+    "hachiko-statue-05": "Closer view of same modern sculpture; a person measures its partly occluded muzzle, body remains visible. No visible live dog.",
+    "kabosu-01": "Single source-named dog held by owner at an event, looking toward camera.",
+    "kabosu-02": "Same dog and owner 30 seconds later, changed head and body position. Separate exposure, strongly dependent event context.",
+    "yuki-01": "Single small dog lying across a seated person's lap, mouth raised; small archival source.",
+    "yuki-02": "Same named dog held by a person in a pool; separate exposure with another person and float nearby.",
+    "collies-01": "Two owner-named black and white dogs, one seated and one resting on grass; exact breed subtype unverified.",
+    "collies-02": "Same owner-named pair on a wooded path in a later photograph; one seated and one resting.",
+    "buffy-yume-01": "Two dogs in snow, one reddish and one long-coated multicolored dog; caption names Buffy and Yume and their different breeds.",
+    "buffy-yume-02": "Both same named dogs interact with a seated person in snow; a separate exposure in the same session."
+  },
+  "previously_inferred_subject_ids": [
+    "barney",
+    "miss-beazley",
+    "buddy",
+    "sully",
+    "champ",
+    "major",
+    "millie",
+    "conan",
+    "bo",
+    "topper",
+    "socks",
+    "valegro",
+    "greyfriars-bobby-sculpture",
+    "original-horse",
+    "barney-missbeazley-sculptures",
+    "unnamed-pug-demo"
+  ],
+  "exposure": "No selected photograph has received BreedFrame classifier inference before this registration. Identity-disjoint from prior evaluated cases. Public-image training overlap unknown. Excluded Fala sculpture images were visually reviewed in earlier curation without inference. Archive-heavy convenience selection; no population estimate.",
+  "exclusions": {
+    "Rex": "Source identifies Cavalier King Charles Spaniel; exact correspondence to the published label taxonomy was not assumed.",
+    "Heidi": "Available images appear to derive from the same dated press-conference photograph; independent exposures not established.",
+    "Doug the Pug": "Search returned one exposure and its crop; no pair established.",
+    "Him and Her": "The candidate greeting image is dated 1966-03-18 but names Her, whose death the LBJ Library dates to 1964. Group identity is inconsistent.",
+    "Sunny": "Retrieved images also contain previously evaluated Bo; excluded to preserve identity separation.",
+    "hachiko-statue-02": "Cats at the sculpture feet; insufficient view of the dog depiction for the intended paired control.",
+    "hachiko-statue-03": "Crowd obscures the dog sculpture.",
+    "hachiko-statue-04": "Another distant crowded view; the selected measuring photograph supplies a closer distinct view."
+  }
+}

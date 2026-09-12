@@ -1,0 +1,988 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "94862895": {
+        "pageid": 94862895,
+        "ns": 6,
+        "title": "File:Larry the cat lying on a desk next to a coffee mug (DSC 0063).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-10-08T16:34:25Z",
+            "size": 10020697,
+            "width": 5605,
+            "height": 3898,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg/1280px-Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 695,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg/3840px-Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg/1280px-Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 695,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg/3840px-Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_%28DSC_0063%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_lying_on_a_desk_next_to_a_coffee_mug_(DSC_0063).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94862895",
+            "sha1": "61a2c6e054392e7ca1a94ba1f0be37097364e3b1",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-08 16:34:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Larry the cat lying on a desk next to a coffee mug (DSC 0063)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "ISO speed rating 200|Self-published work|Lying cats|F-number f/4|Lens focal length 50 mm|Cats looking at viewer|Larry the cat|Uploaded with dtMediaWiki|Photographs by Trougnouf in 2020|Taken with Nikon corporation NIKON Z 6 and Nikkor Z 24-70mm f/4 S|Coffee mugs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Larry the cat lying on a desk next to a coffee mug",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-10-08 14:27:11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf (Benoit Brummer)</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1122173497,
+            "parentid": 1028026205
+          }
+        ]
+      },
+      "89091565": {
+        "pageid": 89091565,
+        "ns": 6,
+        "title": "File:Larry the cat posing on the roof (DSCF7128).jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-04-12T21:35:39Z",
+            "size": 8410249,
+            "width": 4936,
+            "height": 3295,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg/1280px-Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg/3840px-Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg/1280px-Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg/3840px-Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Larry_the_cat_posing_on_the_roof_%28DSCF7128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_posing_on_the_roof_(DSCF7128).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=89091565",
+            "sha1": "343603b1e2b7030151599f29f98d0597feab777a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-12 21:35:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Larry the cat posing on the roof (DSCF7128)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Fujifilm X-T1 and XF18-55mmF2.8-4 R LM OIS|Self-published work|F-number f/3.6|Images with extracted images|ISO speed rating 500|Black roofs|April 2020 in Belgium|Larry the cat|Cats on roofs|Golden hour in Belgium|Belgium photographs taken on 2020-04-08|Uploaded with dtMediaWiki|Photographs by Trougnouf in 2020|Files with coordinates missing SDC location of creation (50\u00b0 N, 4\u00b0 E)|Cats at sunset|Cat collars with tags|Animals at golden hour|Lens focal length 35.8 mm|Roofs in Brussels",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.841986",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "4.352093",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Larry the cat posing on the roof during golden hour",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-04-08 20:05:50",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf (Benoit Brummer)</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1122173499,
+            "parentid": 1090652478
+          }
+        ]
+      },
+      "65087787": {
+        "pageid": 65087787,
+        "ns": 6,
+        "title": "File:Larry the cat sitting besides a wooden lawn chair in Auderghem, Belgium (DSCF2368).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-12-28T20:07:52Z",
+            "size": 6649092,
+            "width": 4541,
+            "height": 2910,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg/1280px-Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 641,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg/3840px-Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg/1280px-Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 641,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg/3840px-Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem%2C_Belgium_%28DSCF2368%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_sitting_besides_a_wooden_lawn_chair_in_Auderghem,_Belgium_(DSCF2368).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65087787",
+            "sha1": "ab705f66f9d65baac561f0f84fef25bb81dcf5d4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-12-28 20:07:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Larry the cat sitting besides a wooden lawn chair in Auderghem, Belgium (DSCF2368)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Fujifilm X-E2 and XF18-55mmF2.8-4 R LM OIS|Self-published work|Sitting cats|Cats looking at viewer|Larry the cat|Belgium photographs taken on 2017-12-27|Photographs by Trougnouf in 2017|Cats on grass|Wooden chairs|Files with coordinates missing SDC location of creation (50\u00b0 N, 4\u00b0 E)|Cats facing left|Cats in gardens",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.808533",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "4.431009",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Larry the cat sitting besides a wooden lawn chair in Auderghem, Belgium",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-12-27 13:15:02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1239289122,
+            "parentid": 1122045006
+          }
+        ]
+      },
+      "94808352": {
+        "pageid": 94808352,
+        "ns": 6,
+        "title": "File:Larry the cat sitting on a bed (DSC 0010).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-10-06T16:19:15Z",
+            "size": 9755604,
+            "width": 5662,
+            "height": 3693,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg/1280px-Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 652,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg/3840px-Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg/1280px-Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 652,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg/3840px-Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Larry_the_cat_sitting_on_a_bed_%28DSC_0010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_sitting_on_a_bed_(DSC_0010).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94808352",
+            "sha1": "7d4d35e80df00d41cfdf55d5ffac224834ae0edf",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-06 16:19:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Larry the cat sitting on a bed (DSC 0010)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "ISO speed rating 1000|Self-published work|Sitting cats|F-number f/4|Cats in beds|Larry the cat|Uploaded with dtMediaWiki|Photographs by Trougnouf in 2020|Taken with Nikon corporation NIKON Z 6 and Nikkor Z 24-70mm f/4 S|Cat collars with tags|Lens focal length 69 mm",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Larry the cat sitting on a bed",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-10-06 17:34:13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf (Benoit Brummer)</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1161609767,
+            "parentid": 1122173501
+          }
+        ]
+      },
+      "65087795": {
+        "pageid": 65087795,
+        "ns": 6,
+        "title": "File:Larry the cat standing on grass and licking his nose in Auderghem, Belgium (DSCF2372).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-12-28T20:08:02Z",
+            "size": 3235389,
+            "width": 3425,
+            "height": 1675,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Larry_the_cat_standing_on_grass_and_licking_his_nose_in_Auderghem%2C_Belgium_%28DSCF2372%29.jpg/1280px-Larry_the_cat_standing_on_grass_and_licking_his_nose_in_Auderghem%2C_Belgium_%28DSCF2372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 489,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Larry_the_cat_standing_on_grass_and_licking_his_nose_in_Auderghem%2C_Belgium_%28DSCF2372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Larry_the_cat_standing_on_grass_and_licking_his_nose_in_Auderghem%2C_Belgium_%28DSCF2372%29.jpg/1280px-Larry_the_cat_standing_on_grass_and_licking_his_nose_in_Auderghem%2C_Belgium_%28DSCF2372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 489,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Larry_the_cat_standing_on_grass_and_licking_his_nose_in_Auderghem%2C_Belgium_%28DSCF2372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Larry_the_cat_standing_on_grass_and_licking_his_nose_in_Auderghem%2C_Belgium_%28DSCF2372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_standing_on_grass_and_licking_his_nose_in_Auderghem,_Belgium_(DSCF2372).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65087795",
+            "sha1": "7e9c6416ac3906891203197683c14cc51e16eb92",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-12-28 20:08:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Larry the cat standing on grass and licking his nose in Auderghem, Belgium (DSCF2372)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Fujifilm X-E2 and XF18-55mmF2.8-4 R LM OIS|Licking cats|Self-published work|Standing cats|Larry the cat|Belgium photographs taken on 2017-12-27|Photographs by Trougnouf in 2017|Cats on grass|Files with coordinates missing SDC location of creation (50\u00b0 N, 4\u00b0 E)|Cats in gardens",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.808533",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "4.431009",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Larry the cat standing on grass and licking his nose in Auderghem, Belgium",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-12-27 13:18:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1268755973,
+            "parentid": 1122045010
+          }
+        ]
+      },
+      "65087799": {
+        "pageid": 65087799,
+        "ns": 6,
+        "title": "File:Larry the cat standing on gravel and gently pulling on a wool string in Auderghem, Belgium (DSCF2328).jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-05-24T12:36:03Z",
+            "size": 4274391,
+            "width": 3408,
+            "height": 2412,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Larry_the_cat_standing_on_gravel_and_gently_pulling_on_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2328%29.jpg/1280px-Larry_the_cat_standing_on_gravel_and_gently_pulling_on_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2328%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 708,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Larry_the_cat_standing_on_gravel_and_gently_pulling_on_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2328%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Larry_the_cat_standing_on_gravel_and_gently_pulling_on_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2328%29.jpg/1280px-Larry_the_cat_standing_on_gravel_and_gently_pulling_on_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2328%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 708,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Larry_the_cat_standing_on_gravel_and_gently_pulling_on_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2328%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Larry_the_cat_standing_on_gravel_and_gently_pulling_on_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2328%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_standing_on_gravel_and_gently_pulling_on_a_wool_string_in_Auderghem,_Belgium_(DSCF2328).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65087799",
+            "sha1": "70efd11741d2d20eb86d4d14040353ccd853c905",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-05-24 12:36:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Larry the cat standing on gravel and gently pulling on a wool string in Auderghem, Belgium (DSCF2328)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Fujifilm X-E2 and XF18-55mmF2.8-4 R LM OIS|Self-published work|Playing cats|Images with extracted images|Larry the cat|Cats on stones|Belgium photographs taken on 2017-12-27|Photographs by Trougnouf in 2017|Files with coordinates missing SDC location of creation (50\u00b0 N, 4\u00b0 E)|Cats standing on rear legs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.808533",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "4.431009",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Larry the cat standing on gravel and gently pulling on a wool string in Auderghem, Belgium",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-12-27 12:50:45",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1122045012,
+            "parentid": 1028040320
+          }
+        ]
+      },
+      "65087798": {
+        "pageid": 65087798,
+        "ns": 6,
+        "title": "File:Larry the cat standing on gravel and verociously attacking a wool string in Auderghem, Belgium (DSCF2327).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-12-28T20:08:05Z",
+            "size": 3401763,
+            "width": 3433,
+            "height": 2106,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Larry_the_cat_standing_on_gravel_and_verociously_attacking_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2327%29.jpg/1280px-Larry_the_cat_standing_on_gravel_and_verociously_attacking_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2327%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 613,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Larry_the_cat_standing_on_gravel_and_verociously_attacking_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2327%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Larry_the_cat_standing_on_gravel_and_verociously_attacking_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2327%29.jpg/1280px-Larry_the_cat_standing_on_gravel_and_verociously_attacking_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2327%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 613,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Larry_the_cat_standing_on_gravel_and_verociously_attacking_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2327%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Larry_the_cat_standing_on_gravel_and_verociously_attacking_a_wool_string_in_Auderghem%2C_Belgium_%28DSCF2327%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_standing_on_gravel_and_verociously_attacking_a_wool_string_in_Auderghem,_Belgium_(DSCF2327).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65087798",
+            "sha1": "23936bb3e0d922555182a95ea3868417cabba70a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-12-28 20:08:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Larry the cat standing on gravel and verociously attacking a wool string in Auderghem, Belgium (DSCF2327)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Fujifilm X-E2 and XF18-55mmF2.8-4 R LM OIS|Self-published work|Playing cats|Larry the cat|Cats on stones|Belgium photographs taken on 2017-12-27|Photographs by Trougnouf in 2017|Files with coordinates missing SDC location of creation (50\u00b0 N, 4\u00b0 E)|Cats standing on rear legs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.808533",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "4.431009",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Larry the cat standing on gravel and verociously attacking a wool string in Auderghem, Belgium",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-12-27 12:50:43",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1122045018,
+            "parentid": 1028040542
+          }
+        ]
+      },
+      "64876469": {
+        "pageid": 64876469,
+        "ns": 6,
+        "title": "File:Larry the cat trying out his harness for the first time in Auderghem, Belgium (sideways).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-12-18T04:01:51Z",
+            "size": 7247342,
+            "width": 4562,
+            "height": 3047,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg/1280px-Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg/3840px-Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg/1280px-Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg/3840px-Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem%2C_Belgium_%28sideways%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_trying_out_his_harness_for_the_first_time_in_Auderghem,_Belgium_(sideways).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64876469",
+            "sha1": "1911bf674844179fd26248485593d510d6f59181",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-12-18 04:01:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Larry the cat trying out his harness for the first time in Auderghem, Belgium (sideways)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Fujifilm X-E2 and XF18-55mmF2.8-4 R LM OIS|Self-published work|Harnessed cats|Larry the cat|Photographs by Trougnouf in 2017|Cats facing left",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Larry the cat trying out his harness for the first time in Auderghem, Belgium (sideways). The front part of the harness is missing in this picture because Larry managed to pull out of it.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-12-17 16:25:39",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1144158120,
+            "parentid": 1122044342
+          }
+        ]
+      }
+    }
+  }
+}

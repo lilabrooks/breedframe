@@ -1,0 +1,11 @@
+{"status":"pulling manifest"}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":329507712}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":666319808}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":1060822336}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":1470725952}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":1877588176}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":2282971504}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":2686263016}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":3092761888}
+{"status":"pulling 81fb60c7daa8","digest":"sha256:81fb60c7daa80fc1123380b98970b320ae233409f0f71a72ed7b9b0d62f40490","total":3389971840,"completed":3379191456}
+{"status":"success"}

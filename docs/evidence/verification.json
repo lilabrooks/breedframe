@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-09-11T20:56:41.144866-04:00",
+  "tests_passed": 15,
+  "test_warnings": "Two dependency deprecations from Starlette/httpx and anyio; no failing tests.",
+  "checks": [
+    "make check: Ruff lint and format, pytest, node syntax",
+    "setup.sh idempotent rerun",
+    "start.sh real loopback server",
+    "real browser pause, reload, file-picker upload, resumption and baseline",
+    "390px layout: no horizontal overflow and all images loaded",
+    "Browser console: no errors or warnings",
+    "External network denied for controller and client/classifier; assessment completed",
+    "Explicit CPU path matched MPS top five to six recorded decimal places",
+    "README local Markdown rendering and all relative links",
+    "Frozen evaluation manifest and controller hashes still match",
+    "Git candidate list excludes weights, caches and uploaded photos"
+  ],
+  "branch": "main",
+  "commits": 0,
+  "remotes": 0,
+  "limits": [
+    "Not a production security audit",
+    "No GitHub rendering or remote CI run; project not published",
+    "Memory is a process-level estimate; browser and OS excluded",
+    "Original full pre-truncation label mapping not retrieved; exact published labels preserved"
+  ],
+  "screenshot_cases": {
+    "paused.png": "439abbefebb94ed88de2d1aa57aaf3e4",
+    "mobile.png": "439abbefebb94ed88de2d1aa57aaf3e4",
+    "resumed.png": "151ff5d47ffb431483546eb2e0f8e19f"
+  }
+}

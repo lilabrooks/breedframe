@@ -1,0 +1,904 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "40754078": {
+        "pageid": 40754078,
+        "ns": 6,
+        "title": "File:FDR-Fala-1940-crop.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-06-05T19:11:16Z",
+            "size": 247245,
+            "width": 800,
+            "height": 900,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/45/FDR-Fala-1940-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1125,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/FDR-Fala-1940-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1125
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/FDR-Fala-1940-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR-Fala-1940-crop.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40754078",
+            "sha1": "41908ea9e4c880c3138f8b2c393ed16c304f4d4e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-05 19:11:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR-Fala-1940-crop",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|Franklin D. Roosevelt and Fala|Franklin Delano Roosevelt in 1940",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photograph of President <a href=\"https://en.wikipedia.org/wiki/Franklin_D._Roosevelt\" class=\"extiw\" title=\"w:Franklin D. Roosevelt\">Franklin D. Roosevelt</a> with his dog <a href=\"https://en.wikipedia.org/wiki/Fala_(dog)\" class=\"extiw\" title=\"w:Fala (dog)\">Fala</a> at a picnic on \"Sunset Hill\" near Pine Plains, NY. Fala is four months old.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1940-08-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/fdrlibrary/5693460762/in/photostream/\">Franklin D. Roosevelt Presidential Library</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Franklin D. Roosevelt Presidential Library &amp; Museum",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This file is a work of an employee of the <a href=\"https://en.wikipedia.org/wiki/Executive_Office_of_the_President_of_the_United_States\" class=\"extiw\" title=\"w:Executive Office of the President of the United States\">Executive Office of the President of the United States</a>, taken or made as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"w:Federal Government of the United States\">U.S. federal government</a>, it is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1238845685,
+            "parentid": 1037216242
+          }
+        ]
+      },
+      "40751692": {
+        "pageid": 40751692,
+        "ns": 6,
+        "title": "File:FDR-Fala-1940.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-06-05T18:25:15Z",
+            "size": 113398,
+            "width": 2436,
+            "height": 1768,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/FDR-Fala-1940.jpg/1280px-FDR-Fala-1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 726,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/cd/FDR-Fala-1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/FDR-Fala-1940.jpg/1280px-FDR-Fala-1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 726,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cd/FDR-Fala-1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/FDR-Fala-1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR-Fala-1940.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40751692",
+            "sha1": "36c438f51501012768ee709851e62db4fb805b66",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-05 18:25:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR-Fala-1940",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Franklin D. Roosevelt and Fala|Flickr images reviewed by FlickreviewR|Franklin Delano Roosevelt in 1940|Images from the Franklin D. Roosevelt Library & Museum",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photograph of President <a href=\"https://en.wikipedia.org/wiki/Franklin_D._Roosevelt\" class=\"extiw\" title=\"w:Franklin D. Roosevelt\">Franklin D. Roosevelt</a> with his dog <a href=\"https://en.wikipedia.org/wiki/Fala_(dog)\" class=\"extiw\" title=\"w:Fala (dog)\">Fala</a> at a picnic on \"Sunset Hill\" near Pine Plains, NY. Fala is four months old. The doll next to the president is a handmade shaker doll made by Mary Garettson of Rhinebeck, NY.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1940-08-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/fdrlibrary/5693460762/\">https://www.flickr.com/photos/fdrlibrary/5693460762/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "FDR Presidential Library &amp; Museum",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/2.0/deed.en\">Attribution 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> \u2013 to copy, distribute and transmit the work</li>\n<li><b>to remix</b> \u2013 to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> \u2013 You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<table id=\"FlickrReview\" style=\"width:100%; margin:0.3em auto; text-align:start; background-color:var(--background-color-success-subtle,#d5fdf4); padding: 3px; border:1px solid var(--border-color-base,#a2a9b1); color:inherit;\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image was originally posted to <b><a href=\"https://en.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"en:Flickr\">Flickr</a></b> by FDR Presidential Library &amp; Museum at <a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/54078784@N08/5693460762\">https://www.flickr.com/photos/54078784@N08/5693460762</a>. It was reviewed on 5 June 2015 by <b><span id=\"flickr_upload_bot_reviewer\"><a href=\"//commons.wikimedia.org/wiki/User:FlickreviewR\" title=\"User:FlickreviewR\">FlickreviewR</a></span></b> and was confirmed to be licensed under the terms of the cc-by-2.0.\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\n</td></tr></tbody></table><span style=\"display:none\">5 June 2015</span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1037216244,
+            "parentid": 982063715
+          }
+        ]
+      },
+      "43594838": {
+        "pageid": 43594838,
+        "ns": 6,
+        "title": "File:FDR-Wheelchair-February-1941.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-09-24T13:33:56Z",
+            "size": 2431707,
+            "width": 4504,
+            "height": 5693,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/FDR-Wheelchair-February-1941.jpg/1280px-FDR-Wheelchair-February-1941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1264,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/FDR-Wheelchair-February-1941.jpg/3840px-FDR-Wheelchair-February-1941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/FDR-Wheelchair-February-1941.jpg/1280px-FDR-Wheelchair-February-1941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1264,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/FDR-Wheelchair-February-1941.jpg/3840px-FDR-Wheelchair-February-1941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/FDR-Wheelchair-February-1941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR-Wheelchair-February-1941.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43594838",
+            "sha1": "7159658155c77c9809d6d1845a76e9a87b80d44d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-09-24 13:33:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR-Wheelchair-February-1941",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Top Cottage|Ruthie (given name)|Bie (surname)|February 1941 in New York (state)|Franklin D. Roosevelt and Fala|Images with extracted images|Flickr images reviewed by FlickreviewR|Franklin Delano Roosevelt in 1941|Files with coordinates missing SDC location of creation|People in wheelchairs in the United States|1 girl with 1 man|Girls in the 1940s|Black and white photographs of standing girls|Black and white photographs of girls wearing dresses|Images from the Franklin D. Roosevelt Library & Museum|Politicians with children|Historical images of Hyde Park, New York|Males in wheelchairs|Franklin Delano Roosevelt with children|Photographs by Margaret Suckley|Black and white photographs of girls with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "41.764589",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-73.877863",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Roosevelt in his wheelchair on the porch at Top Cottage in Hyde Park, NY with Ruthie Bie and Fala. February 1941. This photograph was taken by his friend, Margaret \"Daisy\" Suckley.<br>Ruthie Bie (later Bautista), then three years old, was the daughter of the property caretakers. <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.cnn.com/exchange/blogs/notebook/archive/2007_02_18_index.html\">[1]</a> <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.gettyimages.com/detail/news-photo/american-president-franklin-d-roosevelt-poses-with-his-dog-news-photo/137822922\">[2]</a> <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.npr.org/sections/thetwo-way/2013/07/10/200700811/video-rare-clip-reveals-roosevelts-use-of-wheelchair\">[3]</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1941-02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/fdrlibrary/5813155742/\">73-113 61</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/54078784@N08\">FDR Presidential Library &amp; Museum</a> photograph by <a href=\"https://en.wikipedia.org/wiki/Margaret_Suckley\" class=\"extiw\" title=\"w:Margaret Suckley\">Margaret Suckley</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1214747566,
+            "parentid": 1186444972
+          }
+        ]
+      },
+      "153778154": {
+        "pageid": 153778154,
+        "ns": 6,
+        "title": "File:FDR-Wheelchair-February-1941 (cropped).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-10-11T02:22:05Z",
+            "size": 1823391,
+            "width": 4013,
+            "height": 4735,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/FDR-Wheelchair-February-1941_%28cropped%29.jpg/1280px-FDR-Wheelchair-February-1941_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1180,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/FDR-Wheelchair-February-1941_%28cropped%29.jpg/3840px-FDR-Wheelchair-February-1941_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/FDR-Wheelchair-February-1941_%28cropped%29.jpg/1280px-FDR-Wheelchair-February-1941_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1180,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/FDR-Wheelchair-February-1941_%28cropped%29.jpg/3840px-FDR-Wheelchair-February-1941_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/FDR-Wheelchair-February-1941_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR-Wheelchair-February-1941_(cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153778154",
+            "sha1": "f7a80ec43311e0eecfc4bc657211caafbe16b383",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-10-11 02:22:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR-Wheelchair-February-1941 (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Top Cottage|Ruthie (given name)|Bie (surname)|February 1941 in New York (state)|Franklin D. Roosevelt and Fala|Extracted images|Franklin Delano Roosevelt in 1941|Files with coordinates missing SDC location of creation|People in wheelchairs in the United States|1 girl with 1 man|Girls in the 1940s|Black and white photographs of standing girls|Black and white photographs of girls wearing dresses|Images from the Franklin D. Roosevelt Library & Museum|Politicians with children|Historical images of Hyde Park, New York|Males in wheelchairs|Franklin Delano Roosevelt with children|Photographs by Margaret Suckley|Black and white photographs of girls with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "41.764589",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-73.877863",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Roosevelt in his wheelchair on the porch at Top Cottage in Hyde Park, NY with Ruthie Bie and Fala. February 1941. This photograph was taken by his friend, Margaret \"Daisy\" Suckley.<br>Ruthie Bie (later Bautista), then three years old, was the daughter of the property caretakers. <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.cnn.com/exchange/blogs/notebook/archive/2007_02_18_index.html\">[1]</a> <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.gettyimages.com/detail/news-photo/american-president-franklin-d-roosevelt-poses-with-his-dog-news-photo/137822922\">[2]</a> <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.npr.org/sections/thetwo-way/2013/07/10/200700811/video-rare-clip-reveals-roosevelts-use-of-wheelchair\">[3]</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1941-02",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/fdrlibrary/5813155742/\">73-113 61</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/54078784@N08\">FDR Presidential Library &amp; Museum</a> photograph by <a href=\"https://en.wikipedia.org/wiki/Margaret_Suckley\" class=\"extiw\" title=\"w:Margaret Suckley\">Margaret Suckley</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1238846088,
+            "parentid": 1090417707
+          }
+        ]
+      },
+      "168596": {
+        "pageid": 168596,
+        "ns": 6,
+        "title": "File:FDR and Fala side by side.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-08-30T15:53:10Z",
+            "size": 23802,
+            "width": 269,
+            "height": 259,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/54/FDR_and_Fala_side_by_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 963,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/FDR_and_Fala_side_by_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 963
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/FDR_and_Fala_side_by_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR_and_Fala_side_by_side.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=168596",
+            "sha1": "d7583a89cb0690be9e0fa63bdb80fc00df9434b9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-08-30 15:53:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR and Fala side by side",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|Files with no machine-readable source|Executive Office of the President files|Franklin D. Roosevelt and Fala|Media lacking author information|Images without source|Franklin Delano Roosevelt in 1941|White House in 1941|Files in need of review (sources)|Images from the Franklin D. Roosevelt Library & Museum",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/Category:Fala_(dog)\" title=\"Category:Fala (dog)\">Fala</a> with <a href=\"//commons.wikimedia.org/wiki/President_of_the_United_States\" title=\"President of the United States\">President</a> <a href=\"//commons.wikimedia.org/wiki/Category:Franklin_Delano_Roosevelt\" title=\"Category:Franklin Delano Roosevelt\">Franklin D. Roosevelt</a>. \n<ul><li>FDR Presidential Library photo, taken in December 1941.</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1941-12",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1089072536,
+            "parentid": 1037216204
+          }
+        ]
+      },
+      "168597": {
+        "pageid": 168597,
+        "ns": 6,
+        "title": "File:FDR seated with Fala.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-01-04T20:41:13Z",
+            "size": 396866,
+            "width": 819,
+            "height": 1062,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/90/FDR_seated_with_Fala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1297,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/FDR_seated_with_Fala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1297
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/FDR_seated_with_Fala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:FDR_seated_with_Fala.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=168597",
+            "sha1": "9249532d0b6ee5fd555e356a6bfedd9bf03a25d8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-01-04 20:41:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "FDR seated with Fala",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|Files with no machine-readable source|Executive Office of the President files|Media missing infobox template|Franklin D. Roosevelt and Fala|Black and white photographs of sitting men|Franklin Delano Roosevelt in 1942|Files in need of review (sources)|Images from the Franklin D. Roosevelt Library & Museum",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1037216207,
+            "parentid": 1034910148
+          }
+        ]
+      },
+      "17096253": {
+        "pageid": 17096253,
+        "ns": 6,
+        "title": "File:Franklin D. Roosevelt at Fort Riley, Kansas - NARA - 196897.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-10-23T22:51:05Z",
+            "size": 1116058,
+            "width": 2223,
+            "height": 3000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Franklin_D._Roosevelt_at_Fort_Riley%2C_Kansas_-_NARA_-_196897.jpg/1280px-Franklin_D._Roosevelt_at_Fort_Riley%2C_Kansas_-_NARA_-_196897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1350,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/86/Franklin_D._Roosevelt_at_Fort_Riley%2C_Kansas_-_NARA_-_196897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Franklin_D._Roosevelt_at_Fort_Riley%2C_Kansas_-_NARA_-_196897.jpg/1280px-Franklin_D._Roosevelt_at_Fort_Riley%2C_Kansas_-_NARA_-_196897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1350,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/86/Franklin_D._Roosevelt_at_Fort_Riley%2C_Kansas_-_NARA_-_196897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Franklin_D._Roosevelt_at_Fort_Riley%2C_Kansas_-_NARA_-_196897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Franklin_D._Roosevelt_at_Fort_Riley,_Kansas_-_NARA_-_196897.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17096253",
+            "sha1": "64a2d5748998e557410151ba5eb9c0108fc33b3d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-10-23 22:51:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n<i>Franklin D. Roosevelt at Fort Riley, Kansas</i></div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "1943 in Kansas|PD US Government|Images from the National Archives and Records Administration|Media contributed by the National Archives and Records Administration|Fort Riley|Artworks without Wikidata item|Franklin D. Roosevelt and Fala|Template Unknown (author)|CC-PD-Mark|US National Archives series: Franklin D. Roosevelt Library Public Domain Photographs, compiled 1882 - 1962|Franklin Delano Roosevelt in 1943|April 1943 United States photographs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "20 April 1943<div style=\"display: none;\">date QS:P571,+1943-04-20T00:00:00Z/11</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration\" class=\"extiw\" title=\"en:U.S. National Archives and Records Administration\">U.S. National Archives and Records Administration</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1260195729,
+            "parentid": 1037216225
+          }
+        ]
+      },
+      "4670542": {
+        "pageid": 4670542,
+        "ns": 6,
+        "title": "File:Roosevelt in a wheelchair.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-05-17T19:58:57Z",
+            "size": 1831856,
+            "width": 3784,
+            "height": 5041,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Roosevelt_in_a_wheelchair.jpg/1280px-Roosevelt_in_a_wheelchair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1332,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/be/Roosevelt_in_a_wheelchair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Roosevelt_in_a_wheelchair.jpg/1280px-Roosevelt_in_a_wheelchair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1332,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/be/Roosevelt_in_a_wheelchair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Roosevelt_in_a_wheelchair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Roosevelt_in_a_wheelchair.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4670542",
+            "sha1": "92d9f373db678e7a0ff876d8cd3d274102c88e5d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-05-17 19:58:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Roosevelt in a wheelchair",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Top Cottage|PD-author|Ruthie (given name)|Bie (surname)|February 1941 in New York (state)|Franklin D. Roosevelt and Fala|Franklin Delano Roosevelt in 1941|February 1941 United States photographs|1 girl with 1 man|Girls in the 1940s|Black and white photographs of standing girls|Black and white photographs of girls wearing dresses|Images from the Franklin D. Roosevelt Library & Museum|Historical images of Hyde Park, New York|Males in wheelchairs|Franklin Delano Roosevelt with children|Photographs by Margaret Suckley|Black and white photographs of girls with dogs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Franklin_D._Roosevelt\" class=\"extiw\" title=\"w:Franklin D. Roosevelt\">Franklin D. Roosevelt</a>, <a href=\"https://en.wikipedia.org/wiki/Fala_(dog)\" class=\"extiw\" title=\"en:Fala (dog)\">Fala</a> and Ruthie Bie at <a href=\"https://en.wikipedia.org/wiki/Top_Cottage\" class=\"extiw\" title=\"en:Top Cottage\">Hill Top Cottage</a> in Hyde Park, N.Y. The better of two extant photos of FDR in a wheel chair.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken in\u00a0February 1941",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Franklin Delano Roosevelt Library, <a rel=\"nofollow\" class=\"external text\" href=\"http://www.fdrlibrary.marist.edu/archives/collections/franklin/?p=digitallibrary/digitalcontent&amp;id=4168\">Library ID 73113:61</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Margaret_Suckley\" class=\"extiw\" title=\"w:en:Margaret Suckley\"><span title=\"American archivist (1891\u20131991)\">Margaret Suckley</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Released by the copyright-holder, the Franklin Delano Roosevelt Library: [To the best of our knowledge, this image is in the public domain and can be used without further permission <a rel=\"nofollow\" class=\"external free\" href=\"http://www.fdrlibrary.marist.edu/archives/collections/franklin/?p=digitallibrary/digitalcontent&amp;id=4168\">http://www.fdrlibrary.marist.edu/archives/collections/franklin/?p=digitallibrary/digitalcontent&amp;id=4168</a>]",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1096536712,
+            "parentid": 1090415174
+          }
+        ]
+      }
+    }
+  }
+}

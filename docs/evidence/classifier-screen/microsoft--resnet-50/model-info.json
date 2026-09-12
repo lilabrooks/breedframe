@@ -1,0 +1,190 @@
+{
+  "_id": "62320573f8e97eef2a7ea544",
+  "id": "microsoft/resnet-50",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "tf",
+    "jax",
+    "safetensors",
+    "resnet",
+    "image-classification",
+    "vision",
+    "dataset:imagenet-1k",
+    "arxiv:1512.03385",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 893313,
+  "likes": 509,
+  "modelId": "microsoft/resnet-50",
+  "author": "microsoft",
+  "sha": "34c2154c194f829b11125337b98c8f5f9965ff19",
+  "lastModified": "2024-02-13T21:24:05.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "ResNetForImageClassification"
+    ],
+    "model_type": "resnet"
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "tags": [
+      "vision",
+      "image-classification"
+    ],
+    "datasets": [
+      "imagenet-1k"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForImageClassification",
+    "pipeline_tag": "image-classification",
+    "processor": "AutoImageProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "flax_model.msgpack"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "tf_model.h5"
+    }
+  ],
+  "spaces": [
+    "embedl/hfviewer",
+    "merve/vision_papers",
+    "burtenshaw/autotrain-mcp",
+    "Nuno-Tome/simple_image_classifier",
+    "Omnibus/AI-or-Not",
+    "CodeTed/Body_Index_Predictor",
+    "Ramos-Ramos/visual-emb-gam-probing",
+    "taquynhnga/CNNs-interpretation-visualization",
+    "Khaled27/Naptah",
+    "hysts/space-that-creates-model-demo-space",
+    "yerang/LivePortrait2",
+    "davanstrien/arch_demo",
+    "mixcard/image-2-details",
+    "williamphoenix/Mithridatium",
+    "chaitanya1/colored-ascii-art-generator",
+    "CamBinDEV/Cam-Bin",
+    "Nuno-Tome/compared_image_classifier",
+    "jeffhaines/rice-disease-identifier",
+    "akhaliq/space-that-creates-model-demo-space",
+    "realambuj/Image_Classifier_using_RESNET50",
+    "peteralexandercharles/space-that-creates-model-demo-space",
+    "rbarman/resnet50-example",
+    "lianglv/microsoft-resnet-50",
+    "ludusc/latent-space-theories",
+    "jonanfu/demo_clase_platzi",
+    "Charles95/gradio-tasks",
+    "Waranchari/Image_Classification",
+    "cmckinle/AI-or-Not",
+    "Krishm197/WasteAI",
+    "Dexwel25/microsoft-resnet-50",
+    "drmurataltun/microsoft-resnet-50",
+    "agentsvalley/Animal-Species-Identifier",
+    "humbleakh/ImgClassify",
+    "peace2024/dubswayAgenticV2",
+    "Amithkuppili/multi-model_v1.0",
+    "arwnsyh/factify-models",
+    "flipova-app/flippa-ai",
+    "zergswim/test",
+    "kasidith/classification",
+    "saimandava/microsoft-resnet-50",
+    "Latyrine/microsoft-resnet-50",
+    "Skakade/microsoft-resnet-50",
+    "zhongzzz/zzq",
+    "glrh11/image-classification",
+    "ntayal/healthy-infected-plant",
+    "BubuDavid/image-classification",
+    "mahakgupta1/microsoft-resnet-50",
+    "hg2001/microsoft-resnet-50-demo2",
+    "awacke1/Image-Classifier-microsoft-resnet-50",
+    "SivaResearch/Opensource_imageClassifer_combo",
+    "risekid/imageProcess",
+    "kisn/microsoft-resnet-50",
+    "takeabilfive/microsoft-resnet-50",
+    "MokkaAbhishek/microsoft-resnet-50",
+    "Nirvana-Real/microsoft-resnet-50",
+    "EinfachOlder/space-that-creates-model-demo-space",
+    "degaya/microsoft-resnet-50",
+    "smerdov/microsoft-resnet-50",
+    "tellview/microsoft-resnet-50",
+    "greenrain0012/microsoft-resnet-50",
+    "hamlegs/IntelliStyle",
+    "ARUZ/microsoft-resnet-50",
+    "UNIQ-DEV/Image-Classification-Benchmark",
+    "ABITOS/microsoft-resnet-50",
+    "PlayForLose/Final_Project",
+    "surya696030/microsoft-resnet-50",
+    "zh5259/microsoft-resnet-50",
+    "n1thun/microsoft-resnet-50",
+    "threeidots/VTHacksAPP",
+    "greenarcade/microsoft-resnet-50",
+    "eliasb/microsoft-resnet-50",
+    "ganeshkamath89/gradio-huggingface-pipeline-tasks-demo-all",
+    "CarolFei/project_dog_emotion_recomandation",
+    "Omnibus/AI-or-Not-dev",
+    "karoladelk/microsoft-resnet-50",
+    "TheKitten/space-that-creates-model-demo-space",
+    "vkthakur88/microsoft-resnet-50",
+    "engajify/object_video",
+    "Hasani/Object-Detection-Video",
+    "kaust-generative-ai/diabetic-retinopathy",
+    "DevBM/image-classification",
+    "lucy1118/storytelling-backup",
+    "Dannel/gender",
+    "comqositi/microsoft-resnet-50",
+    "madhupiot/microsoft-resnet-50",
+    "revanthreddy09/microsoft-resnet-50",
+    "yougandar/handwrittendigit",
+    "shadownada/uff",
+    "rafaelduarte877/Youtube-Video-Slimiarity-Calculator",
+    "Pablinho/microsoft-resnet-50",
+    "Feng2024FACE/microsoft-resnet-50",
+    "a7madmostafa/img-classification",
+    "ake178178/beyoureyes",
+    "dharaneeshgunturu/microsoft-resnet-50",
+    "Tanusree88/ViT-MRI-FineTuning",
+    "Tanusree88/Segmentation_and_classification",
+    "rararara9999/facemask_detection",
+    "rararara9999/app",
+    "rararara9999/SentimentAnalysis",
+    "rararara9999/pretrainedmodel"
+  ],
+  "createdAt": "2022-03-16T15:42:43.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 25610152
+    },
+    "total": 25610152
+  },
+  "inference": "warm",
+  "usedStorage": 410255200
+}

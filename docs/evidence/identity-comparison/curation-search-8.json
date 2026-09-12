@@ -1,0 +1,905 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "131516026": {
+        "pageid": 131516026,
+        "ns": 6,
+        "title": "File:27th Tokyo International Film Festival- Kinoshita Tetsuya, Kaji Yuki & Titan from Attack on Titan the first part (15436110710).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-05-04T11:02:33Z",
+            "size": 6715438,
+            "width": 4198,
+            "height": 2799,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg/1280px-27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg/3840px-27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg/1280px-27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg/3840px-27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya%2C_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_%2815436110710%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:27th_Tokyo_International_Film_Festival-_Kinoshita_Tetsuya,_Kaji_Yuki_%26_Titan_from_Attack_on_Titan_the_first_part_(15436110710).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131516026",
+            "sha1": "022813e50d25cbc8f2fd3beea04ba4d5363f691a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-05-04 11:02:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "27th Tokyo International Film Festival- Kinoshita Tetsuya, Kaji Yuki & Titan from Attack on Titan the first part (15436110710)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tokyo International Film Festival 2014|Yuki Kaji|Images with extracted images|Flickr images reviewed by FlickreviewR 2|Photographs by Dick Thomas Johnson|Cosplay of male Attack on Titan characters",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u7b2c27\u56de \u6771\u4eac\u56fd\u969b\u6620\u753b\u796d \u68b6\u88d5\u8cb4 \u6728\u4e0b\u54f2\u54c9 \u5de8\u4eba (\u9032\u6483\u306e\u5de8\u4eba \u524d\u7de8 \u7d05\u84ee\u306e\u5f13\u77e2)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-10-23 16:41:57",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/31029865@N06/15436110710/\">https://www.flickr.com/photos/31029865@N06/15436110710/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Dick Thomas Johnson",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"messagebox\" style=\"border:2px solid #ddd; clear: both; margin: 0.5em auto; text-align: center; width: 100%\" lang=\"en\">\n<tbody><tr>\n<td class=\"noresize\" style=\"padding:2px 0 2px 0.9em\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Extracted_image_icon.svg\" class=\"mw-file-description\"><img alt=\"Image extraction process\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Extracted_image_icon.svg/60px-Extracted_image_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"48\" height=\"69\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Extracted_image_icon.svg/120px-Extracted_image_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"420\" data-file-height=\"600\"></a></span>\n</td>\n<td style=\"padding:0.25em 0.9em; width:100%\">This image has an <b>extracted file</b>: <a href=\"//commons.wikimedia.org/wiki/File:27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg\" title=\"File:27th Tokyo International Film Festival Y\u016bki Kaji.jpg\">27th Tokyo International Film Festival Y\u016bki Kaji.jpg</a>.\n</td>\n<td style=\"padding:2px 0.9em 2px 0; min-width:48px\"><div class=\"wpImageAnnotatorControl wpImageAnnotatorOff\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg\" class=\"mw-file-description\" title=\"lang=en\"><img alt=\"lang=en\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg/120px-27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"92\" height=\"124\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg/250px-27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1359\" data-file-height=\"1837\"></a></span>\n</div>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1236393720,
+            "parentid": 1116156528
+          }
+        ]
+      },
+      "36686647": {
+        "pageid": 36686647,
+        "ns": 6,
+        "title": "File:27th Tokyo International Film Festival Y\u016bki Kaji.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-11-09T03:50:34Z",
+            "size": 2304888,
+            "width": 1359,
+            "height": 1837,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg/1280px-27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1352,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b1/27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg/1280px-27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1352,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b1/27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:27th_Tokyo_International_Film_Festival_Y%C5%ABki_Kaji.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36686647",
+            "sha1": "65f3992a9a2c9a5971683bf90f347055697c264b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-11-09 03:50:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "27th Tokyo International Film Festival Y\u016bki Kaji",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 700D|Tokyo International Film Festival 2014|Yuki Kaji|Flickr images reviewed by trusted users|Photographs by Dick Thomas Johnson",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "27th Tokyo International Film Festival <a href=\"https://en.wikipedia.org/wiki/Y%C5%ABki_Kaji\" class=\"extiw\" title=\"en:Y\u016bki Kaji\">Y\u016bki Kaji</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-10-23 16:41:57",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/31029865@N06/15436110710/\">https://www.flickr.com/photos/31029865@N06/15436110710/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Dick Thomas Johnson",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1236393623,
+            "parentid": 1226920031
+          }
+        ]
+      },
+      "67593998": {
+        "pageid": 67593998,
+        "ns": 6,
+        "title": "File:Johnson and Yuki howl in the Oval Office.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-22T22:55:41Z",
+            "size": 11594,
+            "width": 317,
+            "height": 326,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1028,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1028
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johnson_and_Yuki_howl_in_the_Oval_Office.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67593998",
+            "sha1": "146ad6a79f15a2a605ee8208eca088ef6a7fa86b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-03-22 22:55:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Johnson and Yuki howl in the Oval Office",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|Lyndon B. Johnson in 1968|Dogs howling|Lyndon B. Johnson in the Oval Office|Pets in the Oval Office|Yuki (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Lyndon Johnson and his beloved Yuki liked to perform in the Oval Office. Yuki was found at a Texas gas station by Johnson's daughter Luci. He was one of the President's favorite dogs. President Johnson also had two beagles which he named Him and Her!",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1968-01-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20000304170644/http://www.whitehouse.gov:80/WH/kids/html/pets.html\">https://web.archive.org/web/20000304170644/http://www.whitehouse.gov:80/WH/kids/html/pets.html</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Yoichi R. Okamoto",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255707034,
+            "parentid": 1254469471
+          }
+        ]
+      },
+      "182632154": {
+        "pageid": 182632154,
+        "ns": 6,
+        "title": "File:LBJ and Yuki sing while grandson Patrick Lyndon looks on.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-28T20:42:09Z",
+            "size": 1182168,
+            "width": 1342,
+            "height": 2000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/LBJ_and_Yuki_sing_while_grandson_Patrick_Lyndon_looks_on.jpg/1280px-LBJ_and_Yuki_sing_while_grandson_Patrick_Lyndon_looks_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1490,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/18/LBJ_and_Yuki_sing_while_grandson_Patrick_Lyndon_looks_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/LBJ_and_Yuki_sing_while_grandson_Patrick_Lyndon_looks_on.jpg/1280px-LBJ_and_Yuki_sing_while_grandson_Patrick_Lyndon_looks_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1490,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/18/LBJ_and_Yuki_sing_while_grandson_Patrick_Lyndon_looks_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/LBJ_and_Yuki_sing_while_grandson_Patrick_Lyndon_looks_on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:LBJ_and_Yuki_sing_while_grandson_Patrick_Lyndon_looks_on.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182632154",
+            "sha1": "20d0a67b3775595046844e78630c5a633432ad38",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-01-28 20:42:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "LBJ and Yuki sing while grandson Patrick Lyndon looks on",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Lyndon B. Johnson in 1968|CC-PD-Mark|Men singing|Patrick Lyndon Nugent|PD-USGov missing SDC copyright status|Yuki (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Lyndon B. Johnson sings with Yuki while his grandson, Patrick Lyndon Nugent, looks on.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1968-01-06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.lbjlibrary.org/object/photo/lbj-and-yuki-sing-while-grandson-patrick-lyndon-looks-jan-6-1968\">https://www.lbjlibrary.org/object/photo/lbj-and-yuki-sing-while-grandson-patrick-lyndon-looks-jan-6-1968</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Yoichi Okamoto",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254469473,
+            "parentid": 1221484047
+          }
+        ]
+      },
+      "1329016": {
+        "pageid": 1329016,
+        "ns": 6,
+        "title": "File:LBJ with Eastland.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-10-11T17:54:26Z",
+            "size": 1015082,
+            "width": 2000,
+            "height": 1342,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/LBJ_with_Eastland.jpg/1280px-LBJ_with_Eastland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 671,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/32/LBJ_with_Eastland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/LBJ_with_Eastland.jpg/1280px-LBJ_with_Eastland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 671,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/32/LBJ_with_Eastland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/LBJ_with_Eastland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:LBJ_with_Eastland.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1329016",
+            "sha1": "52e3873884eee989c1a1a4236cbaf2956229cdb5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-10-11 17:54:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "LBJ with Eastland",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|James Eastland|Lyndon B. Johnson in 1968|CC-PD-Mark|1968 black and white photographs|Lyndon B. Johnson in the Oval Office|Yuki (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sen. James Eastland, President Lyndon B. Johnson, and Yuki (the President's dog).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1968-11-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.lbjlibrary.net/collections/photo-archive/photolab-detail.html?id=675\">LBJ Library A4972-6</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Yoichi Okamoto",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254469833,
+            "parentid": 1254393122
+          }
+        ]
+      },
+      "11269091": {
+        "pageid": 11269091,
+        "ns": 6,
+        "title": "File:Lyndon B. Johnson's family Xmas Eve 1968.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-01-17T13:39:35Z",
+            "size": 9271495,
+            "width": 4850,
+            "height": 4852,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg/1280px-Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1000,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg/3840px-Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg/1280px-Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1000,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg/3840px-Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson%27s_family_Xmas_Eve_1968.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11269091",
+            "sha1": "d264a0390a9bf7972de9d8b41a91dfb63b14a2be",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-01-17 13:39:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Lyndon B. Johnson's family Xmas Eve 1968",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Grandparents|PD US Government|Christmas Eve|Lynda Bird Johnson Robb|Yellow Oval Room|Luci Baines Johnson|Fashion in 1968|Lyndon B. Johnson in 1968|CC-PD-Mark|White House in 1968|Christmas 1968 in the United States|Families at Christmas|United States photographs taken on 1968-12-24|Images from the Lyndon Baines Johnson Library and Museum|Lady Bird and Lyndon Johnson|Frank Wolfe (White House photographer)|Parents with offspring in the United States|Yuki (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Lyndon B. Johnson and his family on Christmas Eve in 1968. Yellow Oval Room, White House.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a024 December 1968",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://lbjlibrary.org/collections/photo-archive/photolab-detail.html?id=1394\">LBJ Library</a> (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.lbjlibrary.org/assets/lbj_tools/photolab/photos/2/large/d2904-1.tif\">direct link, 63.75 MB TIFF</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Frank Wolfe",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254469732,
+            "parentid": 1224811971
+          }
+        ]
+      },
+      "10583377": {
+        "pageid": 10583377,
+        "ns": 6,
+        "title": "File:Lyndon Johnson (in pool).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2011-01-17T15:45:02Z",
+            "size": 2794416,
+            "width": 4840,
+            "height": 3212,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lyndon_Johnson_%28in_pool%29.jpg/1280px-Lyndon_Johnson_%28in_pool%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 664,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lyndon_Johnson_%28in_pool%29.jpg/3840px-Lyndon_Johnson_%28in_pool%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lyndon_Johnson_%28in_pool%29.jpg/1280px-Lyndon_Johnson_%28in_pool%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 664,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lyndon_Johnson_%28in_pool%29.jpg/3840px-Lyndon_Johnson_%28in_pool%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Lyndon_Johnson_%28in_pool%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lyndon_Johnson_(in_pool).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10583377",
+            "sha1": "72f95c5c75eaaad76c6c8b37ac65bdaae774f998",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-01-17 15:45:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Lyndon Johnson (in pool)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Grandfathers|Reading to children|Outdoor swimming pools in Texas|People in swimming pools|Lyndon B. Johnson in 1968|Topless old men|CC-PD-Mark|Topless male politicians|August 1968 in Texas|Topless men in Texas|United States photographs taken on 1968-08-27|Men wearing sunglasses in Texas|Lyndon B. Johnson in Texas|Topless men reading|Images from the Lyndon Baines Johnson Library and Museum|People at the LBJ Ranch|2 male people|Male people with dogs|Yuki (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/Lyndon_B._Johnson\" title=\"Lyndon B. Johnson\">Lyndon B. Johnson</a> on his 60th birthday on August 27, 1968 with his grandson in the pool at the <a href=\"https://en.wikipedia.org/wiki/Lyndon_B._Johnson_National_Historical_Park\" class=\"extiw\" title=\"w:Lyndon B. Johnson National Historical Park\">LBJ Ranch</a>, near <a href=\"https://en.wikipedia.org/wiki/Stonewall,_Texas\" class=\"extiw\" title=\"w:Stonewall, Texas\">Stonewall, Texas</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1968-08-27",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.lbjlibrary.org/collections/photo-archive/photolab-detail.html?id=1380\">LBJ Library</a> (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.lbjlibrary.org/assets/lbj_tools/photolab/photos/1/large/d1493-15.tif\">direct link, 44.5 MB TIFF</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/White_House_Photo_Office\" class=\"extiw\" title=\"w:White House Photo Office\">White House Photo Office</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254469472,
+            "parentid": 1252395341
+          }
+        ]
+      },
+      "91711725": {
+        "pageid": 91711725,
+        "ns": 6,
+        "title": "File:President Lyndon B. Johnson on his Birthday in Swimming Pool with his Dog and Grandson - DPLA - c6f332f6fe66d0083beef8c83be3efbc.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-06-29T17:26:07Z",
+            "size": 1756073,
+            "width": 3150,
+            "height": 2090,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/President_Lyndon_B._Johnson_on_his_Birthday_in_Swimming_Pool_with_his_Dog_and_Grandson_-_DPLA_-_c6f332f6fe66d0083beef8c83be3efbc.jpg/1280px-President_Lyndon_B._Johnson_on_his_Birthday_in_Swimming_Pool_with_his_Dog_and_Grandson_-_DPLA_-_c6f332f6fe66d0083beef8c83be3efbc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 663,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/10/President_Lyndon_B._Johnson_on_his_Birthday_in_Swimming_Pool_with_his_Dog_and_Grandson_-_DPLA_-_c6f332f6fe66d0083beef8c83be3efbc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/President_Lyndon_B._Johnson_on_his_Birthday_in_Swimming_Pool_with_his_Dog_and_Grandson_-_DPLA_-_c6f332f6fe66d0083beef8c83be3efbc.jpg/1280px-President_Lyndon_B._Johnson_on_his_Birthday_in_Swimming_Pool_with_his_Dog_and_Grandson_-_DPLA_-_c6f332f6fe66d0083beef8c83be3efbc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 663,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/10/President_Lyndon_B._Johnson_on_his_Birthday_in_Swimming_Pool_with_his_Dog_and_Grandson_-_DPLA_-_c6f332f6fe66d0083beef8c83be3efbc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/President_Lyndon_B._Johnson_on_his_Birthday_in_Swimming_Pool_with_his_Dog_and_Grandson_-_DPLA_-_c6f332f6fe66d0083beef8c83be3efbc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_Lyndon_B._Johnson_on_his_Birthday_in_Swimming_Pool_with_his_Dog_and_Grandson_-_DPLA_-_c6f332f6fe66d0083beef8c83be3efbc.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91711725",
+            "sha1": "222a574f6c7d1bcc601549bdff3ae61d157ae4d4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-29 17:26:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "President Lyndon B. Johnson on his Birthday in Swimming Pool with his Dog and Grandson - DPLA - c6f332f6fe66d0083beef8c83be3efbc",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|PD US Government|Grandfathers|Media contributed by the National Archives and Records Administration|Media contributed by the Digital Public Library of America|Reading to children|Media contributed by Lyndon Baines Johnson Library and Museum|Outdoor swimming pools in Texas|People in swimming pools|Lyndon B. Johnson in 1968|Topless old men|CC-PD-Mark|Topless male politicians|August 1968 in Texas|Files uploaded by RandomUserGuy1738|Topless men in Texas|United States photographs taken on 1968-08-27|Men wearing sunglasses in Texas|Lyndon B. Johnson in Texas|Topless men reading|Images from the Lyndon Baines Johnson Library and Museum|People at the LBJ Ranch|2 male people|Male people with dogs|Yuki (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "President (1963-1969\u00a0: Johnson). White House Photograph Office. 1963-1969",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Original caption: Location: LBJ Ranch, near Stonewall, Texas. Depicted: L-R: President Lyndon B. Johnson (holding Yuki), Patrick Lyndon Nugent.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "27 August 1968",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span style=\"display:inline-block; padding: 4px 16px; vertical-align: middle;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Codex_icon_download_color-progressive.svg/40px-Codex_icon_download_color-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Codex_icon_download_color-progressive.svg/60px-Codex_icon_download_color-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"20\" data-file-height=\"20\"></span></span>\u00a0<a rel=\"nofollow\" class=\"external text\" href=\"https://nara-media-001.s3.amazonaws.com/arcmedia/presidential-libraries/johnson/gallery/d1493-15_med_a.jpg\">File URL</a></span><span style=\"display:inline-block; padding: 4px 16px; vertical-align: middle; border-left: 2px solid #a2a9b1;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breezeicons-actions-22-database-index.svg/40px-Breezeicons-actions-22-database-index.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breezeicons-actions-22-database-index.svg/60px-Breezeicons-actions-22-database-index.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\u00a0<a href=\"https://catalog.archives.gov/id/6802686\" class=\"extiw\" title=\"nara:6802686\">Catalog record</a></span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image might not be in the public domain outside of the United States; this especially applies in the countries and areas that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada, Mainland China (not Hong Kong or Macao), Germany, Mexico, and Switzerland. The creator and year of publication are essential information and must be provided. See <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Public_domain\" class=\"extiw\" title=\"w:Wikipedia:Public domain\">Wikipedia:Public domain</a> and <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Copyrights\" class=\"extiw\" title=\"w:Wikipedia:Copyrights\">Wikipedia:Copyrights</a> for more details.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254469479,
+            "parentid": 1252395928
+          }
+        ]
+      }
+    }
+  }
+}

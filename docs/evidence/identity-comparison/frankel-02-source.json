@@ -1,0 +1,114 @@
+{
+  "pageid": 44017936,
+  "ns": 6,
+  "title": "File:Frankel at York, 2013.jpg",
+  "index": 3,
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2015-10-05T17:57:02Z",
+      "size": 1792330,
+      "width": 1600,
+      "height": 1113,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Frankel_at_York%2C_2013.jpg/1280px-Frankel_at_York%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1000,
+      "thumbheight": 696,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Frankel_at_York%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Frankel_at_York%2C_2013.jpg/1280px-Frankel_at_York%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 696,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Frankel_at_York%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Frankel_at_York%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Frankel_at_York,_2013.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44017936",
+      "sha1": "a9f9b0f7221a33ef482bfe46a1505665473bfa61",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-10-05 17:57:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Frankel at York, 2013",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Frankel (horse)|Self-published work|August 2012 in York|England photographs taken on 2012-08-22|Horse racing at York racecourse",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Frankel goes to the post for the Juddmonte International at York, 2012",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-08-22 15:36:44",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sjp22&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sjp22 (page does not exist)\">Sjp22</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 1260065280,
+      "parentid": 1176980069
+    }
+  ]
+}

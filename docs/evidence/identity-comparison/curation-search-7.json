@@ -1,0 +1,839 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "11780840": {
+        "pageid": 11780840,
+        "ns": 6,
+        "title": "File:A Portrait of the Artist as a Young Man (Huebsch 1916).djvu",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2010-10-14T10:55:55Z",
+            "size": 10120201,
+            "width": 2366,
+            "height": 3574,
+            "pagecount": 312,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu/page1-1280px-A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1511,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu/page1-1920px-A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu/page1-1280px-A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1511,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu/page1-1920px-A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/A_Portrait_of_the_Artist_as_a_Young_Man_%28Huebsch_1916%29.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:A_Portrait_of_the_Artist_as_a_Young_Man_(Huebsch_1916).djvu",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11780840",
+            "sha1": "44d5a214a68b928549dfb4f039c71cea68b7f56c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-10-14 10:55:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nPortrait of the Artist as a Young Man</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "A Portrait of the Artist as a Young Man|DjVu files in English|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books without Wikidata item",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:James_Joyce\" class=\"extiw\" title=\"w:en:James Joyce\"><span title=\"Irish novelist and poet (1882\u20131941)\">James Joyce</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"//archive.org/details/portraitofartist00joycrich\" class=\"extiw\" title=\"iarchive:portraitofartist00joycrich\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: portraitofartist00joycrich</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Public domain works must be out of copyright in both the United States and in the source country of the work in order to be hosted on the Commons. If the work is not a U.S. work, the file <b>must</b> have an additional <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags\" title=\"Commons:Copyright tags\">copyright tag</a> indicating the copyright status in the source country.<br><b>Note:</b> This tag should <i>not</i> be used for sound recordings.<span style=\"display:none;\"><span class=\"licensetpl_short\">PD-1923</span><span class=\"licensetpl_long\"><a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">Public domain</a> in the United States</span><span class=\"licensetpl_link\">//commons.wikimedia.org/wiki/File:A_Portrait_of_the_Artist_as_a_Young_Man_(Huebsch_1916).djvu</span></span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 995993658,
+            "parentid": 776482440
+          }
+        ]
+      },
+      "91831467": {
+        "pageid": 91831467,
+        "ns": 6,
+        "title": "File:Exploration of the valley of the Amazon (IA explorationofval21854hern).pdf",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-07-02T20:30:50Z",
+            "size": 46352304,
+            "width": 827,
+            "height": 1343,
+            "pagecount": 438,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Exploration_of_the_valley_of_the_Amazon_%28IA_explorationofval21854hern%29.pdf/page1-500px-Exploration_of_the_valley_of_the_Amazon_%28IA_explorationofval21854hern%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1624,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Exploration_of_the_valley_of_the_Amazon_%28IA_explorationofval21854hern%29.pdf/page1-500px-Exploration_of_the_valley_of_the_Amazon_%28IA_explorationofval21854hern%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1624
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Exploration_of_the_valley_of_the_Amazon_%28IA_explorationofval21854hern%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Exploration_of_the_valley_of_the_Amazon_(IA_explorationofval21854hern).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91831467",
+            "sha1": "ebee0e789e9c8632aa1102d66c746ee9c9c12ed4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-02 20:30:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nExploration of the valley of the Amazon</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Scans from the Internet Archive/unverified|PD US expired|Files from the Biodiversity Heritage Library|Exploration of the valley of the Amazon (1853)|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Books from the Biodiversity Heritage Library|PD-US missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n<dl><dd>Herndon, William Lewis, 1813-1857</dd>\n<dd>Gibbon, Lardner</dd>\n<dd>United States. Navy Dept</dd></dl></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dd>Four plates wanting in v. 2</dd>\n<dd>Vol. 1, by Herndon; v. 2, by Gibbon. Imprint of v. 2: Washington, A.O.P. Nicholson, public printer</dd>\n<dd>Also issued (Washington, 1854) as House ex. Doc., 33d Cong., 1st sess</dd>\n<dd>extracted picklist</dd></dl>\n<br>Subjects:</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/explorationofval21854hern\" class=\"extiw\" title=\"iarchive:explorationofval21854hern\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: explorationofval21854hern</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/explorationofval21854hern/explorationofval21854hern.pdf\">https://archive.org/download/explorationofval21854hern/explorationofval21854hern.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1237472113,
+            "parentid": 612038655
+          }
+        ]
+      },
+      "67593998": {
+        "pageid": 67593998,
+        "ns": 6,
+        "title": "File:Johnson and Yuki howl in the Oval Office.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-22T22:55:41Z",
+            "size": 11594,
+            "width": 317,
+            "height": 326,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1028,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1028
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johnson_and_Yuki_howl_in_the_Oval_Office.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67593998",
+            "sha1": "146ad6a79f15a2a605ee8208eca088ef6a7fa86b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-03-22 22:55:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Johnson and Yuki howl in the Oval Office",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|Lyndon B. Johnson in 1968|Dogs howling|Lyndon B. Johnson in the Oval Office|Pets in the Oval Office|Yuki (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Lyndon Johnson and his beloved Yuki liked to perform in the Oval Office. Yuki was found at a Texas gas station by Johnson's daughter Luci. He was one of the President's favorite dogs. President Johnson also had two beagles which he named Him and Her!",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1968-01-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20000304170644/http://www.whitehouse.gov:80/WH/kids/html/pets.html\">https://web.archive.org/web/20000304170644/http://www.whitehouse.gov:80/WH/kids/html/pets.html</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Yoichi R. Okamoto",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255707034,
+            "parentid": 1254469471
+          }
+        ]
+      },
+      "97996785": {
+        "pageid": 97996785,
+        "ns": 6,
+        "title": "File:Mormoniad (IA cu31924029467200).pdf",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-12-23T20:13:56Z",
+            "size": 1945874,
+            "width": 633,
+            "height": 1039,
+            "pagecount": 112,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Mormoniad_%28IA_cu31924029467200%29.pdf/page1-500px-Mormoniad_%28IA_cu31924029467200%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1641,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Mormoniad_%28IA_cu31924029467200%29.pdf/page1-500px-Mormoniad_%28IA_cu31924029467200%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1641
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Mormoniad_%28IA_cu31924029467200%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mormoniad_(IA_cu31924029467200).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97996785",
+            "sha1": "d188429a739ec6fa486194a31cdea2a7dc4b18c4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-12-23 20:13:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nMormoniad</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|PD-old-100-expired|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Scans from Cornell University Library|1858 books from Boston|PD-old missing SDC copyright status|Books about Mormonism",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dd>The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/about/faqs.php#140\">What is the directory structure for the texts?</a> FAQ for information about file content and naming conventions.</dd>\n<dd>In verse</dd>\n<dd>Rare Annex copy 1: Gift of Moses Coit Tyler</dd></dl>\n<br>Subjects: Mormons and Mormonism</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/cu31924029467200\" class=\"extiw\" title=\"iarchive:cu31924029467200\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: cu31924029467200</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/cu31924029467200/cu31924029467200.pdf\">https://archive.org/download/cu31924029467200/cu31924029467200.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1270302033,
+            "parentid": 1264795716
+          }
+        ]
+      },
+      "97745011": {
+        "pageid": 97745011,
+        "ns": 6,
+        "title": "File:Professor Latimer's progress; a novel of contemporaneous adventure; (IA cu31924021706118).pdf",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-12-18T08:36:27Z",
+            "size": 5757830,
+            "width": 639,
+            "height": 989,
+            "pagecount": 380,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Professor_Latimer%27s_progress%3B_a_novel_of_contemporaneous_adventure%3B_%28IA_cu31924021706118%29.pdf/page1-500px-Professor_Latimer%27s_progress%3B_a_novel_of_contemporaneous_adventure%3B_%28IA_cu31924021706118%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1548,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Professor_Latimer%27s_progress%3B_a_novel_of_contemporaneous_adventure%3B_%28IA_cu31924021706118%29.pdf/page1-500px-Professor_Latimer%27s_progress%3B_a_novel_of_contemporaneous_adventure%3B_%28IA_cu31924021706118%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1548
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Professor_Latimer%27s_progress%3B_a_novel_of_contemporaneous_adventure%3B_%28IA_cu31924021706118%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Professor_Latimer%27s_progress;_a_novel_of_contemporaneous_adventure;_(IA_cu31924021706118).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97745011",
+            "sha1": "057f903ac07c8207cec439dd8830daf8f709b353",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-12-18 08:36:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nProfessor Latimer's progress; a novel of contemporaneous adventure;</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Simeon Strunsky|Books from New York (state)|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Novels in the Cornell University Library",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nStrunsky, Simeon, 1879-1948</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/about/faqs.php#140\">What is the directory structure for the texts?</a> FAQ for information about file content and naming conventions.\n</p>\n<br>Subjects:</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/cu31924021706118\" class=\"extiw\" title=\"iarchive:cu31924021706118\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: cu31924021706118</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/cu31924021706118/cu31924021706118.pdf\">https://archive.org/download/cu31924021706118/cu31924021706118.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1245940429,
+            "parentid": 994249213
+          }
+        ]
+      },
+      "96198635": {
+        "pageid": 96198635,
+        "ns": 6,
+        "title": "File:Rab and his friends (IA rabandhisfriends00browrich).pdf",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-11-16T22:23:06Z",
+            "size": 2823123,
+            "width": 735,
+            "height": 960,
+            "pagecount": 84,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Rab_and_his_friends_%28IA_rabandhisfriends00browrich%29.pdf/page1-500px-Rab_and_his_friends_%28IA_rabandhisfriends00browrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1306,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Rab_and_his_friends_%28IA_rabandhisfriends00browrich%29.pdf/page1-500px-Rab_and_his_friends_%28IA_rabandhisfriends00browrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1306
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Rab_and_his_friends_%28IA_rabandhisfriends00browrich%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rab_and_his_friends_(IA_rabandhisfriends00browrich).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96198635",
+            "sha1": "1606c90b2a299674bddfa692fd41208fb90ad61e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-11-16 22:23:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nRab and his friends</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Rab and his friends|Books with Wikidata item|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|California Digital Library|Books published in Edinburgh|Books with Wikidata item missing accession number|Artworks digital representation of unclassified work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n<dl><dd>Brown, John, 1810-1882</dd>\n<dd>T.N. Foulis (Firm)</dd></dl></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects: Brown, John, 1810-1882; Authors, Scottish -- 19th century Biography; Rab (Dog); Dogs -- Scotland Anecdotes</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/rabandhisfriends00browrich\" class=\"extiw\" title=\"iarchive:rabandhisfriends00browrich\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: rabandhisfriends00browrich</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/rabandhisfriends00browrich/rabandhisfriends00browrich.pdf\">https://archive.org/download/rabandhisfriends00browrich/rabandhisfriends00browrich.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 979959856,
+            "parentid": 965803484
+          }
+        ]
+      },
+      "93551321": {
+        "pageid": 93551321,
+        "ns": 6,
+        "title": "File:Sandy Oorang (IA sandyoorang00lytl).pdf",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-08-26T12:47:22Z",
+            "size": 105491577,
+            "width": 1095,
+            "height": 1808,
+            "pagecount": 274,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sandy_Oorang_%28IA_sandyoorang00lytl%29.pdf/page1-960px-Sandy_Oorang_%28IA_sandyoorang00lytl%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1651,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sandy_Oorang_%28IA_sandyoorang00lytl%29.pdf/page1-960px-Sandy_Oorang_%28IA_sandyoorang00lytl%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1651
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sandy_Oorang_%28IA_sandyoorang00lytl%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sandy_Oorang_(IA_sandyoorang00lytl).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93551321",
+            "sha1": "a0862797118a639cfcd6e1764994b98294709af6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-26 12:47:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nSandy Oorang</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Books from New York (state)|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Books in the Library of Congress|PD-US missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nLytle, Horace, 1884-</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>Sandy Oorang.--The heart of a pal.--The monarch of Moose Lake.--The mightiest eagle\n</p>\n<br>Subjects: Dogs</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/sandyoorang00lytl\" class=\"extiw\" title=\"iarchive:sandyoorang00lytl\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: sandyoorang00lytl</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/sandyoorang00lytl/sandyoorang00lytl.pdf\">https://archive.org/download/sandyoorang00lytl/sandyoorang00lytl.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 997104536,
+            "parentid": 518387133
+          }
+        ]
+      },
+      "95160212": {
+        "pageid": 95160212,
+        "ns": 6,
+        "title": "File:The epic of Hades - in three books (IA epicofhades00morr).pdf",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-10-17T20:04:52Z",
+            "size": 7040234,
+            "width": 604,
+            "height": 945,
+            "pagecount": 232,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/The_epic_of_Hades_-_in_three_books_%28IA_epicofhades00morr%29.pdf/page1-500px-The_epic_of_Hades_-_in_three_books_%28IA_epicofhades00morr%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1565,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/The_epic_of_Hades_-_in_three_books_%28IA_epicofhades00morr%29.pdf/page1-500px-The_epic_of_Hades_-_in_three_books_%28IA_epicofhades00morr%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1565
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/The_epic_of_Hades_-_in_three_books_%28IA_epicofhades00morr%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_epic_of_Hades_-_in_three_books_(IA_epicofhades00morr).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95160212",
+            "sha1": "994c95c0c8369d7ac6dc9659ae349a0b5ee06298",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-17 20:04:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nThe epic of Hades\u00a0: in three books</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Books from New York (state)|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|California Digital Library|Lewis Morris (1833\u20131907)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nMorris, Lewis, Sir, 1833-1907</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects:</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/epicofhades00morr\" class=\"extiw\" title=\"iarchive:epicofhades00morr\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: epicofhades00morr</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/epicofhades00morr/epicofhades00morr.pdf\">https://archive.org/download/epicofhades00morr/epicofhades00morr.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1223514113,
+            "parentid": 835156498
+          }
+        ]
+      }
+    }
+  }
+}

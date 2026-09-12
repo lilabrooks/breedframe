@@ -1,0 +1,27 @@
+{
+  "finished_at": "2026-09-12T02:13:23.568702+00:00",
+  "tests": "29 passed; two pre-existing dependency deprecation warnings",
+  "ruff": "check and format passed",
+  "javascript": "node syntax check passed",
+  "download_command": "cached pinned download verified; temporary server stopped",
+  "api": "Candidate selection verified on temporary port against saved development case without additional inference; temporary API stopped",
+  "default_app": {
+    "ready": true,
+    "controller": "qwen3:4b",
+    "classifier_ready": true,
+    "detail": "Pinned local controller ready: qwen3:4b.",
+    "busy": false,
+    "limitations": [
+      "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+      "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+      "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+    ]
+  },
+  "loaded_models_after_cleanup": {
+    "models": []
+  },
+  "source_drift": [],
+  "missing_local_links": [],
+  "repository_audit": "zero errors; project remains uncommitted with no remote",
+  "decision": "Keep Qwen3 4B default; Qwen3.5 installed as optional pinned candidate. No further model trials or threshold changes in this round."
+}

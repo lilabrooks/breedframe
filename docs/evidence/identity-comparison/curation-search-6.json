@@ -1,0 +1,835 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "97551336": {
+        "pageid": 97551336,
+        "ns": 6,
+        "title": "File:Doctor Johnson; his religious life and his death. With observations on the English church and dissent (IA cu31924013186725).pdf",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-12-14T09:52:48Z",
+            "size": 12286999,
+            "width": 658,
+            "height": 1154,
+            "pagecount": 560,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Doctor_Johnson%3B_his_religious_life_and_his_death._With_observations_on_the_English_church_and_dissent_%28IA_cu31924013186725%29.pdf/page1-500px-Doctor_Johnson%3B_his_religious_life_and_his_death._With_observations_on_the_English_church_and_dissent_%28IA_cu31924013186725%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1754,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Doctor_Johnson%3B_his_religious_life_and_his_death._With_observations_on_the_English_church_and_dissent_%28IA_cu31924013186725%29.pdf/page1-500px-Doctor_Johnson%3B_his_religious_life_and_his_death._With_observations_on_the_English_church_and_dissent_%28IA_cu31924013186725%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1754
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Doctor_Johnson%3B_his_religious_life_and_his_death._With_observations_on_the_English_church_and_dissent_%28IA_cu31924013186725%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Doctor_Johnson;_his_religious_life_and_his_death._With_observations_on_the_English_church_and_dissent_(IA_cu31924013186725).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97551336",
+            "sha1": "facf5166c63ebbbe62fcf1574a0db04be9066893",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-12-14 09:52:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nDoctor Johnson; his religious life and his death. With observations on the English church and dissent</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-old-100-expired|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books published in London|Books uploaded by F\u00e6|Books without Wikidata item|Scans from Cornell University Library",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n<dl><dd>Armitage, Robert, 1805?-1852</dd>\n<dd>Johnson, Samuel, 1709-1784</dd></dl></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/about/faqs.php#140\">What is the directory structure for the texts?</a> FAQ for information about file content and naming conventions.\n</p>\n<br>Subjects:</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/cu31924013186725\" class=\"extiw\" title=\"iarchive:cu31924013186725\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: cu31924013186725</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/cu31924013186725/cu31924013186725.pdf\">https://archive.org/download/cu31924013186725/cu31924013186725.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1270428563,
+            "parentid": 1207619444
+          }
+        ]
+      },
+      "91487168": {
+        "pageid": 91487168,
+        "ns": 6,
+        "title": "File:Dr. Johnson- his religious life and his death .. (IA drjohnsonhisreli00arm).pdf",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-06-23T13:34:40Z",
+            "size": 19417331,
+            "width": 691,
+            "height": 1116,
+            "pagecount": 416,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00arm%29.pdf/page1-500px-Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00arm%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1615,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00arm%29.pdf/page1-500px-Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00arm%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1615
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00arm%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dr._Johnson-_his_religious_life_and_his_death_.._(IA_drjohnsonhisreli00arm).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91487168",
+            "sha1": "df8d82d15b5d2e9db7f54376cfee0bc085f2224f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-23 13:34:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nDr. Johnson: his religious life and his death ..</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US expired|Books uploaded by F\u00e6|Books without Wikidata item|Books in the Library of Congress|PD-US missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nArmitage, Robert, 1805?-1852</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects: Johnson, Samuel, 1709-1784; Johnson, Samuel, 1709-1784</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/drjohnsonhisreli00arm\">https://archive.org/details/drjohnsonhisreli00arm</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/drjohnsonhisreli00arm/drjohnsonhisreli00arm.pdf\">https://archive.org/download/drjohnsonhisreli00arm/drjohnsonhisreli00arm.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1028741963,
+            "parentid": 436597046
+          }
+        ]
+      },
+      "98621058": {
+        "pageid": 98621058,
+        "ns": 6,
+        "title": "File:Dr. Johnson- his religious life and his death .. (IA drjohnsonhisreli00armi).pdf",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-01-07T16:18:47Z",
+            "size": 25506296,
+            "width": 818,
+            "height": 1412,
+            "pagecount": 422,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00armi%29.pdf/page1-500px-Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00armi%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1726,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00armi%29.pdf/page1-500px-Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00armi%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1726
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Dr._Johnson-_his_religious_life_and_his_death_.._%28IA_drjohnsonhisreli00armi%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dr._Johnson-_his_religious_life_and_his_death_.._(IA_drjohnsonhisreli00armi).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=98621058",
+            "sha1": "cc429907bc4706216559c280e0812d7621ec8cc5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-01-07 16:18:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nDr. Johnson: his religious life and his death ..</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Books from New York (state)|PD-old-100-expired|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Old books from American Libraries|Books from the United States PDF files|PD-old missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nArmitage, Robert, 1805?-1852</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects: Johnson, Samuel, 1709-1784</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/drjohnsonhisreli00armi\" class=\"extiw\" title=\"iarchive:drjohnsonhisreli00armi\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: drjohnsonhisreli00armi</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/drjohnsonhisreli00armi/drjohnsonhisreli00armi.pdf\">https://archive.org/download/drjohnsonhisreli00armi/drjohnsonhisreli00armi.pdf</a></dd></dl>\n<ul><li>IA contributor: New York Public Library</li>\n<li>IA digitizing sponsor: MSN</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1212156046,
+            "parentid": 875545752
+          }
+        ]
+      },
+      "95088078": {
+        "pageid": 95088078,
+        "ns": 6,
+        "title": "File:Dr. Johnson - his religious life and his death (IA drjohnsonhisreli00armirich).pdf",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-10-15T13:53:25Z",
+            "size": 25383940,
+            "width": 864,
+            "height": 1416,
+            "pagecount": 424,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Dr._Johnson_-_his_religious_life_and_his_death_%28IA_drjohnsonhisreli00armirich%29.pdf/page1-500px-Dr._Johnson_-_his_religious_life_and_his_death_%28IA_drjohnsonhisreli00armirich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1639,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Dr._Johnson_-_his_religious_life_and_his_death_%28IA_drjohnsonhisreli00armirich%29.pdf/page1-500px-Dr._Johnson_-_his_religious_life_and_his_death_%28IA_drjohnsonhisreli00armirich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1639
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Dr._Johnson_-_his_religious_life_and_his_death_%28IA_drjohnsonhisreli00armirich%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dr._Johnson_-_his_religious_life_and_his_death_(IA_drjohnsonhisreli00armirich).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95088078",
+            "sha1": "1e1b222e0bf3c024dfdc591952c3d13ceefa7021",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-15 13:53:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nDr. Johnson\u00a0: his religious life and his death</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Books from New York (state)|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|California Digital Library|Books from the United States PDF files",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nArmitage, Robert, 1805-1852</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>Includes bibliographical references\n</p>\n<br>Subjects: Johnson, Samuel, 1709-1784; Church of England</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/drjohnsonhisreli00armirich\" class=\"extiw\" title=\"iarchive:drjohnsonhisreli00armirich\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: drjohnsonhisreli00armirich</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/drjohnsonhisreli00armirich/drjohnsonhisreli00armirich.pdf\">https://archive.org/download/drjohnsonhisreli00armirich/drjohnsonhisreli00armirich.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1212156075,
+            "parentid": 875545751
+          }
+        ]
+      },
+      "92081998": {
+        "pageid": 92081998,
+        "ns": 6,
+        "title": "File:Fifty perfect poems (IA fiftyperfectpoem01dana).pdf",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-07-10T08:24:26Z",
+            "size": 10332945,
+            "width": 966,
+            "height": 1385,
+            "pagecount": 228,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Fifty_perfect_poems_%28IA_fiftyperfectpoem01dana%29.pdf/page1-960px-Fifty_perfect_poems_%28IA_fiftyperfectpoem01dana%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1434,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Fifty_perfect_poems_%28IA_fiftyperfectpoem01dana%29.pdf/page1-960px-Fifty_perfect_poems_%28IA_fiftyperfectpoem01dana%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1434
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Fifty_perfect_poems_%28IA_fiftyperfectpoem01dana%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fifty_perfect_poems_(IA_fiftyperfectpoem01dana).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92081998",
+            "sha1": "cdd952f6341ba3843dee995434ca59f4d5386f6f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-10 08:24:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nFifty perfect poems</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Books from New York (state)|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Books in the Library of Congress|Books from the United States PDF files",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n<dl><dd>Dana, Charles A. (Charles Anderson), 1819-1897, ed</dd>\n<dd>Johnson, Rossiter, 1840-1931, joint ed</dd></dl></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nSubjects: English poetry; American poetry</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/fiftyperfectpoem01dana\" class=\"extiw\" title=\"iarchive:fiftyperfectpoem01dana\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: fiftyperfectpoem01dana</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/fiftyperfectpoem01dana/fiftyperfectpoem01dana.pdf\">https://archive.org/download/fiftyperfectpoem01dana/fiftyperfectpoem01dana.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 899370737,
+            "parentid": 875695998
+          }
+        ]
+      },
+      "197571965": {
+        "pageid": 197571965,
+        "ns": 6,
+        "title": "File:Stickeen (IA stickeen00muir 0).pdf",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-08-16T02:50:52Z",
+            "size": 3615807,
+            "width": 581,
+            "height": 964,
+            "pagecount": 72,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Stickeen_%28IA_stickeen00muir_0%29.pdf/page1-500px-Stickeen_%28IA_stickeen00muir_0%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1659,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Stickeen_%28IA_stickeen00muir_0%29.pdf/page1-500px-Stickeen_%28IA_stickeen00muir_0%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1659
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Stickeen_%28IA_stickeen00muir_0%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Stickeen_(IA_stickeen00muir_0).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197571965",
+            "sha1": "c90e444c569db813ad2bca78d3a1a86f6c0d6e43",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-08-16 02:50:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nStickeen</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-old-70-expired|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|IA uploads needing categories|PD-old missing SDC copyright status|Books scanned by Boston Public Library",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nMuir, John, 1838-1914</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dd>5 preliminary leaves, 3-47, [7] pages\u00a0: 20 cm</dd>\n<dd>The naturalist affectionately relates his experiences with the courageous, adventurous dog who helped him battle a storm on Alaska's Taylor Glacier</dd>\n<dd>Originally published: Boston, Mass.\u00a0: Houghton Mifflin, 1909</dd></dl>\n<br>Subjects: Muir, John, 1838-1914; Dogs -- Alaska -- Anecdotes; Dogs -- Legends and stories</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/stickeen00muir_0\" class=\"extiw\" title=\"iarchive:stickeen00muir 0\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: stickeen00muir_0</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/stickeen00muir_0/stickeen00muir_0.pdf\">https://archive.org/download/stickeen00muir_0/stickeen00muir_0.pdf</a></dd></dl>\n<ul><li>IA contributor: Boston Public Library</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1261906296,
+            "parentid": 0
+          }
+        ]
+      },
+      "98045049": {
+        "pageid": 98045049,
+        "ns": 6,
+        "title": "File:The literary guillotine ... by ? .. (IA cu31924030977254).pdf",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-12-25T08:03:52Z",
+            "size": 4169455,
+            "width": 633,
+            "height": 1064,
+            "pagecount": 290,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/The_literary_guillotine_..._by_%3F_.._%28IA_cu31924030977254%29.pdf/page1-500px-The_literary_guillotine_..._by_%3F_.._%28IA_cu31924030977254%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1681,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/The_literary_guillotine_..._by_%3F_.._%28IA_cu31924030977254%29.pdf/page1-500px-The_literary_guillotine_..._by_%3F_.._%28IA_cu31924030977254%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1681
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/The_literary_guillotine_..._by_%3F_.._%28IA_cu31924030977254%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_literary_guillotine_..._by_%3F_.._(IA_cu31924030977254).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=98045049",
+            "sha1": "bba3e0c68dffd1b9267326ca61cce7c7264293f4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-12-25 08:03:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nThe literary guillotine ... by\u00a0? ..</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Books from New York (state)|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Scans from Cornell University Library|Books from the United States PDF files|PD-US missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n<dl><dd>Whitelock, William Wallace, 1869-1940</dd>\n<dd>Twain, Mark, 1835-1910, supposed author</dd></dl></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dd>The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/about/faqs.php#140\">https://archive.org/about/faqs.php#140</a>\" rel=\"nofollow\"&gt;What is the directory structure for the texts?&lt;/a&gt; FAQ for information about file content and naming conventions.</dd>\n<dd>A satire on some popular authors, including Booth Tarkington</dd>\n<dd>Sometimes ascribed to Mark Twain. Cf. Johnson, p. 156</dd></dl>\n<br>Subjects: Tarkington, Booth, 1869-1946; Literature; Literature</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/cu31924030977254\" class=\"extiw\" title=\"iarchive:cu31924030977254\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: cu31924030977254</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/cu31924030977254/cu31924030977254.pdf\">https://archive.org/download/cu31924030977254/cu31924030977254.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 900090213,
+            "parentid": 875529325
+          }
+        ]
+      },
+      "99043961": {
+        "pageid": 99043961,
+        "ns": 6,
+        "title": "File:The practical working of the church in Spain (IA ThePracticalWorkingOfTheChurchOfSpain).pdf",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-02-02T09:43:33Z",
+            "size": 19608935,
+            "width": 827,
+            "height": 1045,
+            "pagecount": 435,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/The_practical_working_of_the_church_in_Spain_%28IA_ThePracticalWorkingOfTheChurchOfSpain%29.pdf/page1-500px-The_practical_working_of_the_church_in_Spain_%28IA_ThePracticalWorkingOfTheChurchOfSpain%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1264,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/The_practical_working_of_the_church_in_Spain_%28IA_ThePracticalWorkingOfTheChurchOfSpain%29.pdf/page1-500px-The_practical_working_of_the_church_in_Spain_%28IA_ThePracticalWorkingOfTheChurchOfSpain%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1264
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/The_practical_working_of_the_church_in_Spain_%28IA_ThePracticalWorkingOfTheChurchOfSpain%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_practical_working_of_the_church_in_Spain_(IA_ThePracticalWorkingOfTheChurchOfSpain).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99043961",
+            "sha1": "d8e474fd5ae058b71dca62f20d5cef7d4328c7f4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-02 09:43:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nThe practical working of the church in Spain</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-old-100-expired|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Internet Archive (Google cover page removed)|Old books in Internet Archive additional collections|PD-old missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nMeyrick, Frederick, 1827-1906</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>CONTENTS. \nCHAP. I. \nMalaga. Gibraltar to Malaga. Toleration of the English Sendee. Funeral Sendee. Campo Santo. Andalusian character. Abolition of Monasteries. English and Roman Churches. Lent Sermons. Procession on Ash- Wednesday. Casa de Mendicidad. Sisters of St. Vincent de Paul. Good Friday. Monks. The Blessed Virgin. Procession of the Nazarenes. Procession of la Virgen de la Soledad. Hills of Malaga. Climate. p. 1 \nCHAP. II. \nArrival at Malaga. Alameda. Fonda. Andalusian dress. Church at Gibraltar. At Algeciras. Cathedral of Malaga. Figures of St. Mary. Vespers. High Mass. Sunday. Procession de la Virgen de los Reyes. La Mendicidad. Desecration. Books and Booksellers. Disappointment. Monks. The Ave Maria. The Quarenta horas. Holy Week. Palm Sunday. Monday. Tuesday. Wednesday. Thursday. Good Friday. Sabado Santo. Disuse of Confessions. El Calvario. The Blessed Virgin. 25 \nCHAP. III. \nQuarantine at Gibraltar. Algeciras. Malaga. Bell-ringing. Smuggling sea-water. Priests' hats. Lola Montes. Recovery of stolen goods. Spanish Fast Days. English Burial Ground. Spanish Funeral. Noche buena. Soul release. Bargaining. Laws relative to murder. Sale of Images in Churches. Dead Body on the Alameda Easter Eve. Pocket-picking. 50 \nCHAP. IV. \nSeville. Cathedral. Chapel Royal. Murillo's San Antonio. Roelas. St. Francis Borgia. High Mass. Holy Communion. Personal Experience. Cadiz. Seville. Bull-fights. Alcazar Gardens. The Alcazar. Houses. Una cosa de Espana. Cadiz. 72 \nCHAP. V. \nGibraltar. The Cobbler's Garden. Malaga. Casa de Pupilos. Cow-fight. Vigil of All Saints. All Souls Day. Priestly character. Abuse of Confession. Tone of mind of the Laity. State Education. Church Services. La Sagrada Compania. The British Legion. Stabbing. University of Salamanca. Catechising. Appointment of Clergy. Characteristic Dialogue. Names. Naeimiento. 88 \nCHAP. VI. \nBay of Biscay. The Malaguenos. Working of an intelligent Spaniard's mind under present circumstances. The Horn's. Ridicule of Fasting. Stabbing. Treatment of the Priesthood. Payment of the Clergy. Funeral customs. Epitaphs. The Fandango. Parochial arrangement. Sisters of Charity. Clerical Education. Esparteran Bishops. Vicars Capitular. Ventura Gomez. Ortigosa. Royal recommendations to Chapters. Jansenism. Dispensations. State interference in Ecclesiastical Judgments. Uncanonical Elections. State intrusions in the dioceses of Toledo Guadix and Osma. Parallel to the election to the See of Hereford, and the Episcopal Confirmation Question. 106 \nCHAP. VII. \nHome Mission at Malaga. Archbishop of Santiago's Sermon in the Cathedral. Maria Santisima. Doctrine of Indulgences. Exhortation to Confession. Day of Judgment. Effect of the Mission. Supply of Clergy. Hymns to the Blessed Virgin. Novena to the Blessed Virgin. Legend of Sta. Rita. The Bilde. Forged Miracles. Contempt of the Priesthood. Fray Feliz. The Divine Shepherdess. Masses for the Dead. Presentations. Murders. Gipsy-widow. Legend of S. Demas. Intercession of S. Mary. Rich convents in Malaga. Dominicans. Capuchins at Carthagena. Country-people, 134 \nCHAP. VIII. \nSpanish Customs. Ball of Tinaja on the First Sunday in Lent. Burial of the Sardine or Anchovy on Ash-Wednesday. 182 \nCHAP. IX. \nExcessive Power of the State. Disobedience to Church Laws. Credulity or Infidelity. The Scriptures. Sunday. Friday. Dispensations. Character of the Priesthood. Mission at Malaga. Adoration of the Blessed Virgin. Doctrine of Indulgences. Intermixture of Truth and Fable. Appointment of Clergy. Method of building a Church at Madrid. Stabbing. Pocket-picking. Murders. Spanish conceptions of England. 195 \nCHAP. X. \nDanger of chess-playing. The Inquisition. Balmes on Catholicism compared with Protestantism in its effects on Civilization. Popular Theory about the Blessed Virgin. Seven Points. Anglican and Roman Branches of the Catholic Church. Irreverence. Rending of the White Veil. Thursday in Holy Week. Processions on Good Friday. Fracas. Illusions about Seville dispelled. Revolution in Portugal. The Cortes. Sermon on Viernes de Dolores. Mariolatry. Casa de Espositos. The Concordat. 213 \nCHAP. XI. \nMalaga to Seville. Ceremonies. Ill-behaviour. Processions at Seville. La Feria. Maja dress. The Infanta. Burial of Christ's Poor in Catholic Spain. Outrage on the dead body of a child. Exhumation of the dead. Intolerance. 234 \nCHAP. XII. \nArrival at Gibraltar. Gibraltar Cathedral. Alameda. Cobbler's Garden. Galleries and Batteries. S. Michael's Cave. Jews of Gibraltar. 245 \nCHAP. XIII. \nGibraltar to Granada. Spanish non-washing. Children in Salamis. The Manta. San Roque. The Guadiaro. Similarity between Greece and Spain. Unsophisticated character of some of the poor. Burial of Protestants in Spain. Question of Tolerance. Honda. Jose Maria. His method of ingratiating himself with the poor. Of bribing the soldiers. Terms made by him with Government. His death. His amulets. Balberan and present Banditti. Jueves de Dolores. Funeral. Posada de Jesu Nazareno. Loja. Yega of Granada. Sierra Nevada. Granada. 255 \nCHAP. XIV. \nMurder of a Smuggler. Escape of his son. Spanish nonchalance. Concealment of scandals. Cathedral of Granada. Arrangement of Spanish Churches. Procession on Palm Sunday. The Miserere. Thursday night. Morning of Good Friday. Value of compulsory Conformity. Scepticism. State of Spain. Sabado Santo. Scene in the Cathedral. General Dog-persecution. Anticipation of Easter. 271 \nCHAP. XV. \nThe Alhambra. The Moors and the Christians. Kingdom of Granada. District of the Alhambra. Horse-shoe arch. The Palace. Its Legends. The Generalife. The Torre de las Infantas. La Cartuja. Archbishop's Palace. Way-side murder Cross. Murder by two Guardias. Robber-dangers. Ride between Salona and Thermopylae. Method of growing fat. Blue, Red, White, and Black Blood. Alamedas and Cafes. Whirlwind. 285 \nCHAP. XVI. \nEaster Sunday at Granada. Banking. Monuments of the Catholic Kings. Irreverence. Indulgences. Our Lady de las Angustias. Bula de la Cruzada. Adieu to the Alhambra. Heavy tidings. Granada to Cordova. Soto de Roma. Bridge of Pinos. Alcala, Cordova. 306 \nCHAP. XVII. \nCordova. The Ommiad Caliphate. The Moors. The Mosque. Almansur. Azzahra and Azzahira. Garden. Cordova to Seville. Ecija. Carmona. Easter Confessions. Bula de la Cruzada. Pasting. The Blessed Virgin. Real Prayers of the people. Two systems \u2014 on paper and in practice. Prostration. Orientalism. Pam of Mairena. Seville. 318 \nCHAP. XVIII. \nSunday at Seville. - Murillo. The Bull-fight. The Giralda. The Cathedral. The Chapel Royal. Blanco White. Gardens of San Telmo. Impoverished state of some of the Clergy. The Alcazar. Sisterhood at the Foundling Hospital. The Guadalquivir. Cadiz. The Cathedral. Murillo's death. Church. 334 \nCHAP. XIX. \nTracts at Seville. The Cross of Caravaca. Miracles wrought by it. Sta. Philomena. Her History. Her Name. Her existence. Letter from a Spanish Priest to an English Clergyman. Distress of mind among the Spanish Priesthood. Communication from a Spanish Priest. A cry for help and sympathy. 384 \nAPPENDIX \nNo. I. Documents. Archbishop of Santiago de Cuba's Book of Prayers. Novena of the Divine Shepherdess. Panegyric on S. Mary. \"New invention\" of the title of Divine Shepherdess in 1703. Progress of the devotion propagated by the Missionary Capuchins. First office of the Divine Shepherdess\u00a0: Knowing her sheep. Second office\u00a0: Leading her sheep to good pastures. Third office\u00a0: Driving away the wolves with her voice and crook. Fourth office\u00a0: Encouraging the feeble sheep. Fifth office\u00a0: Healing the sick sheep. Sixth office: Seeking for the lost sheep. Seventh office: Bringing back the lost sheep to the fold. Eighth office\u00a0: Assisting the sheep at them death. Ninth office: Being an example to the sheep. The Joys of the divine and most loving Shepherdess of souls. The Seven Mysteries of Joy. The Seven Mysteries of Sorrow. The Seven Mysteries of Glory. 371 \nNo. II. Mr. Faber. 405 \n</p><p>Digitized by Google.\n</p>\n<br>Subjects: Church history</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/ThePracticalWorkingOfTheChurchOfSpain\" class=\"extiw\" title=\"iarchive:ThePracticalWorkingOfTheChurchOfSpain\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: ThePracticalWorkingOfTheChurchOfSpain</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/ThePracticalWorkingOfTheChurchOfSpain/ThePracticalWorkingOfTheChurchOfSpain.pdf\">https://archive.org/download/ThePracticalWorkingOfTheChurchOfSpain/ThePracticalWorkingOfTheChurchOfSpain.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 529940970,
+            "parentid": 529940920
+          }
+        ]
+      }
+    }
+  }
+}

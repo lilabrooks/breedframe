@@ -1,0 +1,941 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "152655018": {
+        "pageid": 152655018,
+        "ns": 6,
+        "title": "File:1RAR soldiers on leave in Tokyo with Hachiko statue.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-09-15T09:55:22Z",
+            "size": 137981,
+            "width": 487,
+            "height": 654,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1RAR_soldiers_on_leave_in_Tokyo_with_Hachiko_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1343,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1RAR_soldiers_on_leave_in_Tokyo_with_Hachiko_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1343
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1RAR_soldiers_on_leave_in_Tokyo_with_Hachiko_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1RAR_soldiers_on_leave_in_Tokyo_with_Hachiko_statue.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152655018",
+            "sha1": "174037c9b4a2d689e80a55f7c2bb7416e0163df4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-15 09:55:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "1RAR soldiers on leave in Tokyo with Hachiko statue",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|1st Battalion, Royal Australian Regiment|PD-Australia|1956 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "On Tokyo leave from Korea, 1410845 Private (Pte) Kenneth (Ken) Alfred Walker (left), of Rockhampton, Qld, and of the 1st Battalion, The Royal Australian Regiment (1RAR), touches the statue commemorating the dog which waited two years at a Tokyo railway station after his master's death. 4327 Pte Rex Herbert Stevens, of Barmera, SA, and of 1RAR, prepares to take a photograph.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1956-01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.awm.gov.au/collection/C1102997\">https://www.awm.gov.au/collection/C1102997</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Meldrum, Donald Albert (Tim)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267610032,
+            "parentid": 954589513
+          }
+        ]
+      },
+      "194071325": {
+        "pageid": 194071325,
+        "ns": 6,
+        "title": "File:Hachik\u014d Statue with a Crowd.webp",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-06-18T08:08:39Z",
+            "size": 74950,
+            "width": 800,
+            "height": 509,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hachik%C5%8D_Statue_with_a_Crowd.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 636,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hachik%C5%8D_Statue_with_a_Crowd.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 636
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hachik%C5%8D_Statue_with_a_Crowd.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hachik%C5%8D_Statue_with_a_Crowd.webp",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=194071325",
+            "sha1": "007896acd3287ac2c31fac207b243634afd31147",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-06-18 08:08:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hachik\u014d Statue with a Crowd",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-1996 (with a reason)|PD-Japan-oldphoto|PD-old-80-1996|CC-PD-Mark|1934 events in Japan|1934 photographs of Japan|PD-old missing SDC copyright status|Statue of Hachiko (Shibuya, 1934-1944)|1934 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hachik\u014d\u2019s first statue and the crowd on the day of its unveiling on April 21, 1934.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "(Statue)Published in <a href=\"https://en.wikipedia.org/wiki/en:1934\" class=\"extiw\" title=\"w:en:1934\"><span title=\"year\">1934</span></a> <br>Taken in\u00a021 April 1934",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://mainichi.jp/graphs/20250414/mpj/00m/040/136000f/20250414mpj00m040124000p\">https://mainichi.jp/graphs/20250414/mpj/00m/040/136000f/20250414mpj00m040124000p</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q11451366\" class=\"extiw\" title=\"d:Q11451366\"><span title=\"Japanese sculptor\">Teru And\u014d</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<p>The author died in 1945, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 80 years or fewer</b>.\n</p>\n<hr> \n<div class=\"plainlinks\">\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the United States because it meets three requirements:\n</p>\n<ol><li>it was first <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> outside the United States (and <i>not</i> published in the U.S. within 30 days),</li>\n<li>it was first published before 1 March 1989 without copyright notice or before 1964 without copyright renewal or before the source country established <a href=\"//commons.wikimedia.org/wiki/File:U.S._Copyright_Office_circular_38a.pdf\" title=\"File:U.S. Copyright Office circular 38a.pdf\">copyright relations</a> with the United States,</li>\n<li>it was in the public domain in its home country  on the <a href=\"https://en.wikipedia.org/wiki/URAA\" class=\"extiw\" title=\"en:URAA\">URAA</a> date (January 1, 1996 for most countries).</li></ol>\n</div> \n<hr>\n<small>For background information, see the explanations on <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wikipedia:Non-US_copyrights\" class=\"extiw\" title=\"en:Wikipedia:Non-US copyrights\"><span lang=\"en\" dir=\"ltr\">Non-U.S. copyrights</span></a></span>.<br><b>Note:</b> in addition to this statement, there <i>must</i> be a statement on this page explaining <i>why</i> the work was PD on the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Uruguay_Round_Agreements_Act\" class=\"extiw\" title=\"en:Uruguay Round Agreements Act\"><span lang=\"en\" dir=\"ltr\">URAA</span></a></span> date in its source country. Additionally, there must be verifiable information about previous publications of the work.</small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267608687,
+            "parentid": 1233412940
+          }
+        ]
+      },
+      "73044965": {
+        "pageid": 73044965,
+        "ns": 6,
+        "title": "File:Shibuya (43900289794).jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-09-25T12:15:39Z",
+            "size": 5550356,
+            "width": 5568,
+            "height": 3712,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shibuya_%2843900289794%29.jpg/1280px-Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shibuya_%2843900289794%29.jpg/3840px-Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shibuya_%2843900289794%29.jpg/1280px-Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shibuya_%2843900289794%29.jpg/3840px-Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Shibuya_%2843900289794%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shibuya_(43900289794).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73044965",
+            "sha1": "dc36a9ee7e4a7039155c99b46e483e8cd208d182",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-09-25 12:15:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shibuya (43900289794)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Lying cats|July 2017 in Tokyo|Shibuya Crossing in 2017|Groups of cats in Japan|2 cats|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Details of statues|Photographs by Xiquinho Silva|Animals with statues|Black silver tabby domestic short-haired cats",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.659611",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.701852",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "71070-Tokyo",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-07-17 00:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/xiquinho/43900289794/\">71070-Tokyo</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7138083@N04\">xiquinhosilva</a> from Cacau",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267627903,
+            "parentid": 1163742709
+          }
+        ]
+      },
+      "194033752": {
+        "pageid": 194033752,
+        "ns": 6,
+        "title": "File:Statue of Hachik\u014d by And\u014d Teru (1934).1.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-06-17T12:44:42Z",
+            "size": 130730,
+            "width": 800,
+            "height": 1316,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1645,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1645
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_(1934).1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=194033752",
+            "sha1": "ae6917e4f829af88387f61b7ff4ba21aa49d4b56",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-06-17 12:44:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Statue of Hachik\u014d by And\u014d Teru (1934).1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Artworks without Wikidata item|PD-1996 (with a reason)|PD-Japan-oldphoto|PD-old-80-1996|Template Unknown (artist)|CC-PD-Mark|Statue of Hachiko (Shibuya, 1934-1944)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u521d\u4ee3\u30cf\u30c1\u516c\u50cf\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_(1934).1.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "before 1945<div style=\"display: none;\">date QS:P,+1945-00-00T00:00:00Z/7,P1326,+1945-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://jp.pinterest.com/pin/507077239264404608/\">https://jp.pinterest.com/pin/507077239264404608/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown photographer",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "To uploader: <b>Please provide the source and <u>publication date</u>.</b>\n<ul><li>If the photograph was also published in the United States within 30 days after publication in Japan, it might be copyrighted. If the copyright has not expired in the U.S, this file will be deleted. See <a href=\"//commons.wikimedia.org/wiki/Commons:Hirtle_chart\" title=\"Commons:Hirtle chart\">Commons:Hirtle chart</a>.</li>\n<li>This template should not be used for a faithful photographic reproduction of an artwork. Under Article 23 of the former Copyright Act, its protection will be consistent with the artwork. See also <a href=\"//commons.wikimedia.org/wiki/Commons:When_to_use_the_PD-Art_tag\" title=\"Commons:When to use the PD-Art tag\">Commons:When to use the PD-Art tag</a>.</li></ul>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "AuthorCount": {
+                "value": 2,
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267609127,
+            "parentid": 1267609049
+          }
+        ]
+      },
+      "194067052": {
+        "pageid": 194067052,
+        "ns": 6,
+        "title": "File:Statue of Hachik\u014d by And\u014d Teru (1934).2.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-06-18T05:59:43Z",
+            "size": 203944,
+            "width": 796,
+            "height": 1200,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1508,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1508
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_(1934).2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=194067052",
+            "sha1": "a5e2e5a2f6c6660ef58816281e637749e3f47edd",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-06-18 05:59:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Statue of Hachik\u014d by And\u014d Teru (1934).2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Artworks without Wikidata item|PD-1996 (with a reason)|PD-Japan-oldphoto|PD-old-80-1996|1939 photographs|CC-PD-Mark|1939 photographs of Japan|PD-old missing SDC copyright status|Statue of Hachiko (Shibuya, 1934-1944)|1939 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u521d\u4ee3\u5fe0\u72ac\u30cf\u30c1\u516c\u50cf\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_(1934).2.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken in\u00a01939",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://search.showakan.go.jp/search/photo/detail.php?id=90254911\">https://search.showakan.go.jp/search/photo/detail.php?id=90254911</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:K%C5%8Dji_Morooka\" class=\"extiw\" title=\"w:en:K\u014dji Morooka\"><span title=\"Japanese photographer (1914\u20131991)\">K\u014dji Morooka</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "To uploader: <b>Please provide the source and <u>publication date</u>.</b>\n<ul><li>If the photograph was also published in the United States within 30 days after publication in Japan, it might be copyrighted. If the copyright has not expired in the U.S, this file will be deleted. See <a href=\"//commons.wikimedia.org/wiki/Commons:Hirtle_chart\" title=\"Commons:Hirtle chart\">Commons:Hirtle chart</a>.</li>\n<li>This template should not be used for a faithful photographic reproduction of an artwork. Under Article 23 of the former Copyright Act, its protection will be consistent with the artwork. See also <a href=\"//commons.wikimedia.org/wiki/Commons:When_to_use_the_PD-Art_tag\" title=\"Commons:When to use the PD-Art tag\">Commons:When to use the PD-Art tag</a>.</li></ul>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "AuthorCount": {
+                "value": 2,
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267609354,
+            "parentid": 1233409080
+          }
+        ]
+      },
+      "194022459": {
+        "pageid": 194022459,
+        "ns": 6,
+        "title": "File:Statue of Hachik\u014d by And\u014d Teru (1934).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-06-17T06:09:09Z",
+            "size": 83305,
+            "width": 768,
+            "height": 504,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 656,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 656
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_%281934%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_(1934).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=194022459",
+            "sha1": "bdc3e67f3e0a24947da8be5292ceed14bb64a327",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-06-17 06:09:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Statue of Hachik\u014d by And\u014d Teru (1934)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Artworks without Wikidata item|PD-1996 (with a reason)|PD-Japan-oldphoto|PD-old-80-1996|Template Unknown (artist)|CC-PD-Mark|PD-old missing SDC copyright status|Statue of Hachiko (Shibuya, 1934-1944)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u521d\u4ee3\u30cf\u30c1\u516c\u50cf\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Statue_of_Hachik%C5%8D_by_And%C5%8D_Teru_(1934).jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "before 1945<div style=\"display: none;\">date QS:P,+1945-00-00T00:00:00Z/7,P1326,+1945-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://ameblo.jp/no-1kojikoji/entry-12493720026.html\">https://ameblo.jp/no-1kojikoji/entry-12493720026.html</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown photographer",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "To uploader: <b>Please provide the source and <u>publication date</u>.</b>\n<ul><li>If the photograph was also published in the United States within 30 days after publication in Japan, it might be copyrighted. If the copyright has not expired in the U.S, this file will be deleted. See <a href=\"//commons.wikimedia.org/wiki/Commons:Hirtle_chart\" title=\"Commons:Hirtle chart\">Commons:Hirtle chart</a>.</li>\n<li>This template should not be used for a faithful photographic reproduction of an artwork. Under Article 23 of the former Copyright Act, its protection will be consistent with the artwork. See also <a href=\"//commons.wikimedia.org/wiki/Commons:When_to_use_the_PD-Art_tag\" title=\"Commons:When to use the PD-Art tag\">Commons:When to use the PD-Art tag</a>.</li></ul>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "AuthorCount": {
+                "value": 2,
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1232752135,
+            "parentid": 1232747640
+          }
+        ]
+      },
+      "181651404": {
+        "pageid": 181651404,
+        "ns": 6,
+        "title": "File:The Hachiko statue at Shibuya, Tokyo, Japan.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-01-11T16:32:35Z",
+            "size": 4286557,
+            "width": 4032,
+            "height": 2268,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/1280px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 563,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/3840px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/1280px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 563,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg/3840px-The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_Hachiko_statue_at_Shibuya%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Hachiko_statue_at_Shibuya,_Tokyo,_Japan.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=181651404",
+            "sha1": "9ffd9567f66723a2fd4da3d8d4befcbdd7d6ecf6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-01-11 16:32:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Hachiko statue at Shibuya, Tokyo, Japan",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Statue of Hachiko (Shibuya)|Self-published work|Files with coordinates missing SDC location of creation|Taken with Google Pixel 10 Pro",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.658872",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "139.700425",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Hachiko statue at Shibuya, Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-11-01 13:12:23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Joli_Rumi\" title=\"User:Joli Rumi\">Joli Rumi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1224908598,
+            "parentid": 1171807670
+          }
+        ]
+      },
+      "194073087": {
+        "pageid": 194073087,
+        "ns": 6,
+        "title": "File:The Hachik\u014d's statue before being draped with a Japanese flag.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-06-18T09:15:30Z",
+            "size": 118964,
+            "width": 1024,
+            "height": 738,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/73/The_Hachik%C5%8D%27s_statue_before_being_draped_with_a_Japanese_flag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 721,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/The_Hachik%C5%8D%27s_statue_before_being_draped_with_a_Japanese_flag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 721
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/The_Hachik%C5%8D%27s_statue_before_being_draped_with_a_Japanese_flag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Hachik%C5%8D%27s_statue_before_being_draped_with_a_Japanese_flag.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=194073087",
+            "sha1": "500d44459b33514636d6b04c8bd24b0eb70164eb",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-06-18 09:15:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Hachik\u014d's statue before being draped with a Japanese flag",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-1996 (with a reason)|PD-Japan-oldphoto|PD-old-80-1996|CC-PD-Mark|1944 events in Japan|October 1944 photographs|1944 photographs of Japan|PD-old missing SDC copyright status|Statue of Hachiko (Shibuya, 1934-1944)|1944 at Shibuya Station",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The original Hachik\u014d statue, set to be removed under wartime metal requisition, during a farewell ceremony on October 12, 1944, as a Japanese flag was being draped over it.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Published in <a href=\"https://en.wikipedia.org/wiki/en:1934\" class=\"extiw\" title=\"w:en:1934\"><span title=\"year\">1934</span></a> (Statue) <br>Taken in\u00a012 October 1944",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.newsgawakaru.com/knowledge/33475/\">https://www.newsgawakaru.com/knowledge/33475/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q11451366\" class=\"extiw\" title=\"d:Q11451366\"><span title=\"Japanese sculptor\">Teru And\u014d</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<p>The author died in 1945, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 80 years or fewer</b>.\n</p>\n<hr> \n<div class=\"plainlinks\">\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the United States because it meets three requirements:\n</p>\n<ol><li>it was first <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> outside the United States (and <i>not</i> published in the U.S. within 30 days),</li>\n<li>it was first published before 1 March 1989 without copyright notice or before 1964 without copyright renewal or before the source country established <a href=\"//commons.wikimedia.org/wiki/File:U.S._Copyright_Office_circular_38a.pdf\" title=\"File:U.S. Copyright Office circular 38a.pdf\">copyright relations</a> with the United States,</li>\n<li>it was in the public domain in its home country  on the <a href=\"https://en.wikipedia.org/wiki/URAA\" class=\"extiw\" title=\"en:URAA\">URAA</a> date (January 1, 1996 for most countries).</li></ol>\n</div> \n<hr>\n<small>For background information, see the explanations on <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wikipedia:Non-US_copyrights\" class=\"extiw\" title=\"en:Wikipedia:Non-US copyrights\"><span lang=\"en\" dir=\"ltr\">Non-U.S. copyrights</span></a></span>.<br><b>Note:</b> in addition to this statement, there <i>must</i> be a statement on this page explaining <i>why</i> the work was PD on the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Uruguay_Round_Agreements_Act\" class=\"extiw\" title=\"en:Uruguay Round Agreements Act\"><span lang=\"en\" dir=\"ltr\">URAA</span></a></span> date in its source country. Additionally, there must be verifiable information about previous publications of the work.</small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1267609552,
+            "parentid": 1233413294
+          }
+        ]
+      }
+    }
+  }
+}

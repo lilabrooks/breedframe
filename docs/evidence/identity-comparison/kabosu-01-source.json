@@ -1,0 +1,114 @@
+{
+  "pageid": 139984259,
+  "ns": 6,
+  "title": "File:Kabosu and Atsuko Sato 2023-11-02 (1).jpg",
+  "index": 5,
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2023-11-02T12:51:17Z",
+      "size": 764348,
+      "width": 2281,
+      "height": 2281,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg/1280px-Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1000,
+      "thumbheight": 1000,
+      "responsiveUrls": {
+        "2": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg/1280px-Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 1000,
+        "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kabosu_and_Atsuko_Sato_2023-11-02_(1).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139984259",
+      "sha1": "5f1987932bdf973537bf7e75a80eb54fc9a88047",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-11-02 12:51:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Kabosu and Atsuko Sato 2023-11-02 (1)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Images with extracted images|Kabosu (dog)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Kabosu held by her master Atsuko Sato\n<ul><li>At the Doge Day event for Kabosu celebrating her 18th birthday in Furusato Square Park (Sakura, Chiba, Japan)</li></ul>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-11-02 13:31:15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asanagi\" title=\"User:Asanagi\">Asanagi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 880106480,
+      "parentid": 879576365
+    }
+  ]
+}

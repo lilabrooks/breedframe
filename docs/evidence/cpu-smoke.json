@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    {
+      "class_id": 30,
+      "label": "beagle",
+      "score": 0.175492,
+      "unresolved_label": false
+    },
+    {
+      "class_id": 23,
+      "label": "english_foxhound",
+      "score": 0.11238,
+      "unresolved_label": false
+    },
+    {
+      "class_id": 19,
+      "label": "walker_hound",
+      "score": 0.098788,
+      "unresolved_label": false
+    },
+    {
+      "class_id": 41,
+      "label": "basset",
+      "score": 0.035255,
+      "unresolved_label": false
+    },
+    {
+      "class_id": 50,
+      "label": "bluetick",
+      "score": 0.010063,
+      "unresolved_label": false
+    }
+  ],
+  "margin": 0.063112,
+  "device": "cpu",
+  "inference_seconds": 0.8311,
+  "fallback": null,
+  "mps_allocated_bytes": 0,
+  "mps_driver_bytes": 0,
+  "same_top5_ids_as_mps": true,
+  "max_top5_score_difference": 0.0
+}

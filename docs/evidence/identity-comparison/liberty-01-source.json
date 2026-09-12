@@ -1,0 +1,106 @@
+{
+  "pageid": 104823650,
+  "ns": 6,
+  "title": "File:Ford (6314621522).jpg",
+  "index": 8,
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2021-05-02T20:19:34Z",
+      "size": 164350,
+      "width": 776,
+      "height": 436,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ford_%286314621522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1000,
+      "thumbheight": 562,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ford_%286314621522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 562
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ford_%286314621522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ford_(6314621522).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=104823650",
+      "sha1": "57df252b24d451e405fac83b5a99f82f5c1cb72f",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-05-02 20:19:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ford (6314621522)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD US DOS|Liberty (dog)|Flickr images reviewed by FlickreviewR 2|Files uploaded by Orizan|Gerald Ford at the Wilson desk|Files from the United States Embassy in Jakarta Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "President Gerald Ford (1974-77) gives his golden retriever, Liberty, some attention in the Oval Office.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-11-05 16:28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/usembassyjakarta/6314621522/\">Ford</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/39809323@N03\">U.S. Embassy, Jakarta</a> from Jakarta, Indonesia",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 1255131508,
+      "parentid": 1080560858
+    }
+  ]
+}

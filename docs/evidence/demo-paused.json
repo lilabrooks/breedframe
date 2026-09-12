@@ -1,0 +1,90 @@
+{
+  "id": "5bdb6633959d4a7294b7e2166f729ff6",
+  "status": "awaiting_photo",
+  "photos": [
+    {
+      "id": "photo-1",
+      "width": 48,
+      "height": 32,
+      "sha256": "6a7450ef004d08723263e5b74f0ac46bb9ae46b69cc3c8a5ed0092b0bbedd312"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "kind": "tool",
+      "tool": "inspect_image",
+      "input": {
+        "photo_id": "photo-1"
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "width": 48,
+        "height": 32,
+        "mean_luminance": 116.21,
+        "laplacian_variance": 3515.36,
+        "quality_flags": [
+          "low_resolution"
+        ],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "controller_seconds": 2.755,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 25,
+        "total_duration_ns": 2706561125
+      },
+      "seconds": 0.002
+    },
+    {
+      "id": 2,
+      "kind": "tool",
+      "tool": "request_another_photo",
+      "input": {
+        "reason": "low_resolution",
+        "view": "closer_full_body"
+      },
+      "photo_id": "photo-1",
+      "status": "ok",
+      "output": {
+        "reason": "low_resolution",
+        "view": "closer_full_body",
+        "evidence_ids": [
+          1
+        ],
+        "message": "Move closer and include the same dog's full body and face in the frame.",
+        "why": "The image has too few pixels for a useful breed comparison."
+      },
+      "controller_seconds": 2.092,
+      "controller": {
+        "model": "qwen3:4b",
+        "eval_count": 48,
+        "total_duration_ns": 2085716625
+      },
+      "seconds": 0.0
+    }
+  ],
+  "attempts": {
+    "photo-1": 2
+  },
+  "report": null,
+  "request": {
+    "reason": "low_resolution",
+    "view": "closer_full_body",
+    "evidence_ids": [
+      1
+    ],
+    "message": "Move closer and include the same dog's full body and face in the frame.",
+    "why": "The image has too few pixels for a useful breed comparison."
+  },
+  "runs": [
+    {
+      "photo_id": "photo-1",
+      "seconds": 4.852,
+      "attempts": 2,
+      "status": "awaiting_photo"
+    }
+  ],
+  "mode": "agent"
+}

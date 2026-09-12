@@ -1,0 +1,568 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "22938288": {
+        "pageid": 22938288,
+        "ns": 6,
+        "title": "File:C311-7-64 LBJ Library.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-02-01T17:36:17Z",
+            "size": 3502964,
+            "width": 1823,
+            "height": 1826,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/C311-7-64_LBJ_Library.jpg/1280px-C311-7-64_LBJ_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1002,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/7d/C311-7-64_LBJ_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/C311-7-64_LBJ_Library.jpg/1280px-C311-7-64_LBJ_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1002,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/7d/C311-7-64_LBJ_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/C311-7-64_LBJ_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:C311-7-64_LBJ_Library.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22938288",
+            "sha1": "039fef940f29ac833d78d0d5f5c35b1e3beea425",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-02-01 17:36:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "C311-7-64 LBJ Library",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Beagle (dog)|Executive Office of the President files|Fashion in 1964|Lyndon B. Johnson in 1964|Men with dogs|Photographs taken on 1964-05-04|May 1964 United States photographs|Photographs by Yoichi Okamoto|Him (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "U.S. President Lyndon Johnson caused a storm of protest when he lifted his dog \"Him\" by his ears.\nMay 4, 1964",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1964-05-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.lbjlib.utexas.edu/Johnson/archives.hom/FAQs/dog/pet_image_index.asp#ear\">http://www.lbjlib.utexas.edu/Johnson/archives.hom/FAQs/dog/pet_image_index.asp#ear</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Yoichi_Okamoto\" class=\"extiw\" title=\"w:en:Yoichi Okamoto\"><span title=\"American photographer (1915\u20131985)\">Yoichi Okamoto</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254470559,
+            "parentid": 913384945
+          }
+        ]
+      },
+      "67593998": {
+        "pageid": 67593998,
+        "ns": 6,
+        "title": "File:Johnson and Yuki howl in the Oval Office.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-22T22:55:41Z",
+            "size": 11594,
+            "width": 317,
+            "height": 326,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1028,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1028
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Johnson_and_Yuki_howl_in_the_Oval_Office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johnson_and_Yuki_howl_in_the_Oval_Office.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67593998",
+            "sha1": "146ad6a79f15a2a605ee8208eca088ef6a7fa86b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-03-22 22:55:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Johnson and Yuki howl in the Oval Office",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|Lyndon B. Johnson in 1968|Dogs howling|Lyndon B. Johnson in the Oval Office|Pets in the Oval Office|Yuki (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Lyndon Johnson and his beloved Yuki liked to perform in the Oval Office. Yuki was found at a Texas gas station by Johnson's daughter Luci. He was one of the President's favorite dogs. President Johnson also had two beagles which he named Him and Her!",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1968-01-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20000304170644/http://www.whitehouse.gov:80/WH/kids/html/pets.html\">https://web.archive.org/web/20000304170644/http://www.whitehouse.gov:80/WH/kids/html/pets.html</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Yoichi R. Okamoto",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255707034,
+            "parentid": 1254469471
+          }
+        ]
+      },
+      "24390342": {
+        "pageid": 24390342,
+        "ns": 6,
+        "title": "File:LBJ Lifts Dog By Ears-C311-7-64.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-02-01T17:41:32Z",
+            "size": 2499994,
+            "width": 1389,
+            "height": 1670,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/LBJ_Lifts_Dog_By_Ears-C311-7-64.jpg/1280px-LBJ_Lifts_Dog_By_Ears-C311-7-64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1202,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/9c/LBJ_Lifts_Dog_By_Ears-C311-7-64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/LBJ_Lifts_Dog_By_Ears-C311-7-64.jpg/1280px-LBJ_Lifts_Dog_By_Ears-C311-7-64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1202,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/9c/LBJ_Lifts_Dog_By_Ears-C311-7-64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/LBJ_Lifts_Dog_By_Ears-C311-7-64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:LBJ_Lifts_Dog_By_Ears-C311-7-64.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24390342",
+            "sha1": "2903dd78c8f0ab5eb01c4f217513f6d793bd6b46",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-02-01 17:41:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "LBJ Lifts Dog By Ears-C311-7-64",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Beagle (dog)|Executive Office of the President files|Lyndon B. Johnson in 1964|Photographs taken on 1964-05-04|May 1964 United States photographs|Images from the Lyndon Baines Johnson Library and Museum|Photographs by Yoichi Okamoto|Clothing in 1964|Male people with dogs|Him (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "U.S. President Lyndon Johnson caused a storm of protest when he lifted his dog \"Him\" by his ears.\nMay 4, 1964",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1964-05-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "LBJ Library website <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.lbjlib.utexas.edu/Johnson/archives.hom/FAQs/dog/pet_image_index.asp#ear\">[1]</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160823030332/http://www.lbjlib.utexas.edu/Johnson/archives.hom/FAQs/dog/pet_image_index.asp#ear\">archived link</a> from the Wayback Machine), high-res TIF cropped and converted to jpg",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Yoichi_Okamoto\" class=\"extiw\" title=\"w:en:Yoichi Okamoto\"><span title=\"American photographer (1915\u20131985)\">Yoichi Okamoto</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This file is a work of an employee of the <a href=\"https://en.wikipedia.org/wiki/Executive_Office_of_the_President_of_the_United_States\" class=\"extiw\" title=\"w:Executive Office of the President of the United States\">Executive Office of the President of the United States</a>, taken or made as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"w:Federal Government of the United States\">U.S. federal government</a>, it is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254470560,
+            "parentid": 1087703253
+          }
+        ]
+      },
+      "104823703": {
+        "pageid": 104823703,
+        "ns": 6,
+        "title": "File:President Lyndon B. Johnson (1963-68) receives a greeting from his beagles (6314099419).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-04-09T10:53:40Z",
+            "size": 2955634,
+            "width": 3000,
+            "height": 2026,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/President_Lyndon_B._Johnson_%281963-68%29_receives_a_greeting_from_his_beagles_%286314099419%29.jpg/1280px-President_Lyndon_B._Johnson_%281963-68%29_receives_a_greeting_from_his_beagles_%286314099419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 675,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/c0/President_Lyndon_B._Johnson_%281963-68%29_receives_a_greeting_from_his_beagles_%286314099419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/President_Lyndon_B._Johnson_%281963-68%29_receives_a_greeting_from_his_beagles_%286314099419%29.jpg/1280px-President_Lyndon_B._Johnson_%281963-68%29_receives_a_greeting_from_his_beagles_%286314099419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 675,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c0/President_Lyndon_B._Johnson_%281963-68%29_receives_a_greeting_from_his_beagles_%286314099419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/President_Lyndon_B._Johnson_%281963-68%29_receives_a_greeting_from_his_beagles_%286314099419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_Lyndon_B._Johnson_(1963-68)_receives_a_greeting_from_his_beagles_(6314099419).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=104823703",
+            "sha1": "6c2710f71c024b2447b06cabc444a574b0df5140",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-04-09 10:53:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "President Lyndon B. Johnson (1963-68) receives a greeting from his beagles (6314099419)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US DOS|Lyndon B. Johnson in 1966|White House in 1966|Flickr images reviewed by FlickreviewR 2|Files uploaded by Orizan|Lyndon B. Johnson in the Oval Office|Pets in the Oval Office|Files from the United States Embassy in Jakarta Flickr stream|Him (dog)|Her (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Lyndon B. Johnson receives a greeting from his beagles, Him and Her. Johnson's beagles made the cover of Life magazine.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1966-03-18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"https://www.lbjlibrary.org/object/photo/lbj-plays-two-beagles-oval-office-march-18-1966\">LBJ Library A2142-10</a></li>\n<li><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/usembassyjakarta/6314099419/\">President Lyndon B. Johnson (1963-68) receives a greeting from his beagles</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Yoichi Okamoto",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/39809323@N03\">U.S. Embassy, Jakarta</a> from Jakarta, Indonesia",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255706845,
+            "parentid": 1254470419
+          }
+        ]
+      },
+      "93140471": {
+        "pageid": 93140471,
+        "ns": 6,
+        "title": "File:President Lyndon B. Johnson Walks with the Press - DPLA - 80f388e87ae9aaf1b74fec785d05b1b7.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-08-14T15:31:09Z",
+            "size": 3291616,
+            "width": 3142,
+            "height": 3150,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/President_Lyndon_B._Johnson_Walks_with_the_Press_-_DPLA_-_80f388e87ae9aaf1b74fec785d05b1b7.jpg/1280px-President_Lyndon_B._Johnson_Walks_with_the_Press_-_DPLA_-_80f388e87ae9aaf1b74fec785d05b1b7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1003,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/5c/President_Lyndon_B._Johnson_Walks_with_the_Press_-_DPLA_-_80f388e87ae9aaf1b74fec785d05b1b7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/President_Lyndon_B._Johnson_Walks_with_the_Press_-_DPLA_-_80f388e87ae9aaf1b74fec785d05b1b7.jpg/1280px-President_Lyndon_B._Johnson_Walks_with_the_Press_-_DPLA_-_80f388e87ae9aaf1b74fec785d05b1b7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1003,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/5c/President_Lyndon_B._Johnson_Walks_with_the_Press_-_DPLA_-_80f388e87ae9aaf1b74fec785d05b1b7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/President_Lyndon_B._Johnson_Walks_with_the_Press_-_DPLA_-_80f388e87ae9aaf1b74fec785d05b1b7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_Lyndon_B._Johnson_Walks_with_the_Press_-_DPLA_-_80f388e87ae9aaf1b74fec785d05b1b7.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93140471",
+            "sha1": "b2f88b8513fc97923c1a3d5be20710e3550f204d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-14 15:31:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "President Lyndon B. Johnson Walks with the Press - DPLA - 80f388e87ae9aaf1b74fec785d05b1b7",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Journalists from the United States|PD US|PD US Government|Media contributed by the National Archives and Records Administration|Media contributed by the Digital Public Library of America|Media contributed by Lyndon Baines Johnson Library and Museum|Lyndon B. Johnson in 1964|CC-PD-Mark|White House in 1964|Files uploaded by RandomUserGuy1738|Dog walking in the United States|Him (dog)|Her (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "President (1963-1969\u00a0: Johnson). White House Photograph Office. 1963-1969",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "Original caption: Location: White House grounds, Washington, DC. Depicted: President Lyndon B. Johnson walks his two beagles as a large group of press members follow.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "18 August 1964",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span style=\"display:inline-block; padding: 4px 16px; vertical-align: middle;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Codex_icon_download_color-progressive.svg/40px-Codex_icon_download_color-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Codex_icon_download_color-progressive.svg/60px-Codex_icon_download_color-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"20\" data-file-height=\"20\"></span></span>\u00a0<a rel=\"nofollow\" class=\"external text\" href=\"https://nara-media-001.s3.amazonaws.com/arcmedia/presidential-libraries/johnson/gallery/336-2-wh64_med_a.jpg\">File URL</a></span><span style=\"display:inline-block; padding: 4px 16px; vertical-align: middle; border-left: 2px solid #a2a9b1;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breezeicons-actions-22-database-index.svg/40px-Breezeicons-actions-22-database-index.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breezeicons-actions-22-database-index.svg/60px-Breezeicons-actions-22-database-index.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\u00a0<a href=\"https://catalog.archives.gov/id/6801622\" class=\"extiw\" title=\"nara:6801622\">Catalog record</a></span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image might not be in the public domain outside of the United States; this especially applies in the countries and areas that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada, Mainland China (not Hong Kong or Macao), Germany, Mexico, and Switzerland. The creator and year of publication are essential information and must be provided. See <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Public_domain\" class=\"extiw\" title=\"w:Wikipedia:Public domain\">Wikipedia:Public domain</a> and <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Copyrights\" class=\"extiw\" title=\"w:Wikipedia:Copyrights\">Wikipedia:Copyrights</a> for more details.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255717971,
+            "parentid": 1254470610
+          }
+        ]
+      }
+    }
+  }
+}

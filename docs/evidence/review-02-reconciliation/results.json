@@ -1,0 +1,347 @@
+{
+  "purpose": "Reanalysis of existing evidence following independent review; no inference or policy promotion.",
+  "whole_photo_followup_counts": [
+    {
+      "source": "docs/evidence/paired-development-forced-v2.json",
+      "opportunities": 3,
+      "whole_photo_classifications": 0
+    },
+    {
+      "source": "docs/evidence/paired-reserved-forced-v2.json",
+      "opportunities": 4,
+      "whole_photo_classifications": 0
+    },
+    {
+      "source": "docs/evidence/controller-comparison/development-forced.json",
+      "opportunities": 3,
+      "whole_photo_classifications": 0
+    },
+    {
+      "source": "docs/evidence/controller-comparison/reserved-forced.json",
+      "opportunities": 4,
+      "whole_photo_classifications": 0
+    },
+    {
+      "source": "docs/evidence/cli-demo-v2.json",
+      "opportunities": 1,
+      "whole_photo_classifications": 0,
+      "explicit_region_classifications": 0
+    },
+    {
+      "source": "docs/evidence/browser-comparison-v2.json",
+      "opportunities": 1,
+      "whole_photo_classifications": 0,
+      "explicit_region_classifications": 1
+    }
+  ],
+  "paired_gate_replay": [
+    {
+      "score": 0,
+      "margin": 0,
+      "scenario": "paired_evidence",
+      "cohorts": {
+        "supported_breed": {
+          "denominator": 6,
+          "eligible": 3,
+          "abstained": 3,
+          "correct": 3,
+          "incorrect": 0
+        },
+        "unsupported_breed": {
+          "denominator": 1,
+          "eligible": 0,
+          "abstained": 1,
+          "correct": 0,
+          "incorrect": 0
+        }
+      },
+      "outcomes": [
+        {
+          "id": "barney",
+          "eligible": true,
+          "blockers": [],
+          "label": "scotch_terrier"
+        },
+        {
+          "id": "buddy",
+          "eligible": false,
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons."
+          ],
+          "label": null
+        },
+        {
+          "id": "bo",
+          "eligible": false,
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons."
+          ],
+          "label": null
+        },
+        {
+          "id": "sully",
+          "eligible": true,
+          "blockers": [],
+          "label": "labrador_retriever"
+        },
+        {
+          "id": "champ",
+          "eligible": true,
+          "blockers": [],
+          "label": "german_shepherd"
+        },
+        {
+          "id": "millie",
+          "eligible": false,
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons.",
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "label": null
+        },
+        {
+          "id": "conan",
+          "eligible": false,
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons."
+          ],
+          "label": null
+        }
+      ]
+    },
+    {
+      "score": 0,
+      "margin": 0.15,
+      "scenario": "paired_evidence",
+      "cohorts": {
+        "supported_breed": {
+          "denominator": 6,
+          "eligible": 1,
+          "abstained": 5,
+          "correct": 1,
+          "incorrect": 0
+        },
+        "unsupported_breed": {
+          "denominator": 1,
+          "eligible": 0,
+          "abstained": 1,
+          "correct": 0,
+          "incorrect": 0
+        }
+      },
+      "outcomes": [
+        {
+          "id": "barney",
+          "eligible": true,
+          "blockers": [],
+          "label": "scotch_terrier"
+        },
+        {
+          "id": "buddy",
+          "eligible": false,
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons.",
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "label": null
+        },
+        {
+          "id": "bo",
+          "eligible": false,
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons.",
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "label": null
+        },
+        {
+          "id": "sully",
+          "eligible": false,
+          "blockers": [
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "label": null
+        },
+        {
+          "id": "champ",
+          "eligible": false,
+          "blockers": [
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "label": null
+        },
+        {
+          "id": "millie",
+          "eligible": false,
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons.",
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "label": null
+        },
+        {
+          "id": "conan",
+          "eligible": false,
+          "blockers": [
+            "Recorded rankings disagree on the leading class, including any region comparisons.",
+            "Current results have quality concerns, weak scores, or an unresolved published label."
+          ],
+          "label": null
+        }
+      ]
+    }
+  ],
+  "policy_comparison": [
+    {
+      "source": "docs/evidence/paired-development-v2.json",
+      "labeled_cases": 2,
+      "all_cases": 6,
+      "raw_direct_correct": 1,
+      "gated_direct_correct": 0,
+      "gated_direct_reports": 0,
+      "method": "Score and margin applied to cached initial direct outputs. All scores fail. No new workflow or timing measured."
+    },
+    {
+      "source": "docs/evidence/paired-reserved-policy-v2.json",
+      "labeled_cases": 4,
+      "all_cases": 7,
+      "raw_direct_correct": 3,
+      "gated_direct_correct": 0,
+      "gated_direct_reports": 0,
+      "method": "Score and margin applied to cached initial direct outputs. All scores fail. No new workflow or timing measured."
+    }
+  ],
+  "resnet_scope_sensitivity": [
+    {
+      "score": 0.8,
+      "margin": 0,
+      "cohorts": {
+        "multiple_dogs": {
+          "total": 2,
+          "reports": 2,
+          "wrong_supported": null
+        },
+        "non_dog": {
+          "total": 3,
+          "reports": 0,
+          "wrong_supported": null
+        },
+        "supported_breed": {
+          "total": 12,
+          "reports": 8,
+          "wrong_supported": 0
+        },
+        "unknown_ancestry": {
+          "total": 1,
+          "reports": 1,
+          "wrong_supported": null
+        },
+        "unsupported_breed": {
+          "total": 2,
+          "reports": 0,
+          "wrong_supported": null
+        }
+      }
+    },
+    {
+      "score": 0.9,
+      "margin": 0,
+      "cohorts": {
+        "multiple_dogs": {
+          "total": 2,
+          "reports": 1,
+          "wrong_supported": null
+        },
+        "non_dog": {
+          "total": 3,
+          "reports": 0,
+          "wrong_supported": null
+        },
+        "supported_breed": {
+          "total": 12,
+          "reports": 6,
+          "wrong_supported": 0
+        },
+        "unknown_ancestry": {
+          "total": 1,
+          "reports": 1,
+          "wrong_supported": null
+        },
+        "unsupported_breed": {
+          "total": 2,
+          "reports": 0,
+          "wrong_supported": null
+        }
+      }
+    }
+  ],
+  "resnet_all_threshold_maxima": [
+    {
+      "scope": "original",
+      "excluded_cohorts": [
+        "multiple_dogs",
+        "non_dog",
+        "unknown_ancestry",
+        "unsupported_breed"
+      ],
+      "max_supported_reports": 0,
+      "labeled_denominator": 12
+    },
+    {
+      "scope": "non_dog_only",
+      "excluded_cohorts": [
+        "non_dog"
+      ],
+      "max_supported_reports": 9,
+      "labeled_denominator": 12
+    },
+    {
+      "scope": "non_dog_and_multiple",
+      "excluded_cohorts": [
+        "multiple_dogs",
+        "non_dog"
+      ],
+      "max_supported_reports": 0,
+      "labeled_denominator": 12
+    },
+    {
+      "scope": "non_dog_and_unknown_ancestry",
+      "excluded_cohorts": [
+        "non_dog",
+        "unknown_ancestry"
+      ],
+      "max_supported_reports": 5,
+      "labeled_denominator": 12
+    }
+  ],
+  "frontier_method": "Enumerate all distinct acceptance sets for inclusive minimum score/margin gates using zero and nextafter each observed value. Preserve native-class restriction and error criterion.",
+  "multi02_dominates_all_supported": true,
+  "source_hashes": {
+    "docs/evidence/paired-development-forced-v2.json": "4f9d6b9451f07574374a0fc70a4c6d56178c5da424c9ceab1402b278a0b61cd0",
+    "docs/evidence/paired-reserved-forced-v2.json": "3dcebd43fb9eaa513e451f120c082fd4a38937d7706946314a5d707c2543c79c",
+    "docs/evidence/controller-comparison/development-forced.json": "d7cd7440dc95ac8e060cce91dce7e0aef0dd0f5ea7811ab9761523b634caf4d8",
+    "docs/evidence/controller-comparison/reserved-forced.json": "404f62cf73810f193dfd739d872da2fc90bf56474939fdce4911e0731d8c60da",
+    "docs/evidence/cli-demo-v2.json": "1d52b4ffc56d4cf48912eef731076b6751de936cbd27b27068a1f5dc61600317",
+    "docs/evidence/browser-comparison-v2.json": "9fa55f867092ae5c7de3a1bc518a3728f6cbbf25dff5d56fb15f542726a51ffc",
+    "docs/evidence/classifier-screen/development-results.json": "15c277218c112359ee3579ea5b67f2a26e90a91b5565c93b414258713075800c",
+    "docs/evidence/classifier-audit/threshold-replay.json": "7016cdc8c3ec7ba0d61d5cbe0a25fcb5a131471370baf07f80999789c07bff58",
+    "docs/evidence/paired-development-v2.json": "65ae7a73cdde79dd15071b9207f1851f9289e6e375053c1cff647079bf56da9f",
+    "docs/evidence/paired-reserved-policy-v2.json": "6ed5368db532cfeea1bf3846652cb6743d523ed03631283c14db9cf35e21e4c8",
+    "docs/evidence/evaluation-results.json": "746d5b140b888d7ccf872685a425fde80f1256ea8a71e0022dd26c1e3141bbf9"
+  },
+  "owner_scope_decision": {
+    "unknown_ancestry": "Cautious visual-match reports allowed for real dogs; no ancestry claim.",
+    "same_breed_multiple_dogs": "Clearly labeled scene-level matches allowed.",
+    "individual_dog_report": "Requires a selected subject in a multiple-dog scene.",
+    "implementation_status": "Accepted direction; current report schema has no scene/individual scope distinction."
+  },
+  "tests_reviewed_or_run": false,
+  "recorded_vit_leading_score_maximum": {
+    "score": 0.476691,
+    "label": "pug",
+    "source": "docs/evidence/evaluation-results.json",
+    "json_path": "$.rows[1].baseline.result.candidates[0]",
+    "scope": "Serialized leading candidate records under docs/evidence excluding classifier-screen; repeated representations are not independent samples.",
+    "at_or_above_point_five": 0
+  }
+}

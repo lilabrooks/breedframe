@@ -1,0 +1,263 @@
+{
+  "external_network_blocked": true,
+  "policy": "scripts/offline.sb on Ollama and this process",
+  "memory": {
+    "peak_combined_rss_bytes": 4348035072,
+    "peak_process_footprint_bytes": 2283411600,
+    "footprint_pids": {
+      "54043": "Python",
+      "54004": "ollama",
+      "54045": "llama-server",
+      "54071": "Python",
+      "54072": "Python"
+    },
+    "samples": 68,
+    "ollama_reported_resident_bytes": 3856589127,
+    "errors": [],
+    "method": "200ms RSS sampling: evaluation process, classifier child, project-local Ollama and its children, deduplicated by PID. macOS physical footprint uses proc_pid_rusage v0 physical-memory ledger. Per-process totals are an estimate, not a whole-system memory delta. RSS includes shared pages; not a unique physical-memory measurement. Ollama residency and MPS allocation reported separately, never added to RSS."
+  },
+  "case": {
+    "id": "dd34dc344b5d452b874452498a68de0e",
+    "status": "complete",
+    "photos": [
+      {
+        "id": "photo-1",
+        "width": 600,
+        "height": 480,
+        "sha256": "7234706a2e52f3d01d6d713380609646f0fd855ea7a2aa9770a5c2cd12f1e463"
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "kind": "tool",
+        "tool": "inspect_image",
+        "input": {
+          "photo_id": "photo-1"
+        },
+        "photo_id": "photo-1",
+        "status": "ok",
+        "output": {
+          "width": 600,
+          "height": 480,
+          "mean_luminance": 116.22,
+          "laplacian_variance": 1452.9,
+          "quality_flags": [],
+          "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+        },
+        "controller_seconds": 3.817,
+        "controller": {
+          "model": "qwen3:4b",
+          "eval_count": 25,
+          "total_duration_ns": 3811022625
+        },
+        "seconds": 0.008
+      },
+      {
+        "id": 2,
+        "kind": "tool",
+        "tool": "classify_breed",
+        "input": {
+          "photo_id": "photo-1"
+        },
+        "photo_id": "photo-1",
+        "status": "ok",
+        "output": {
+          "candidates": [
+            {
+              "class_id": 30,
+              "label": "beagle",
+              "score": 0.175492,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 23,
+              "label": "english_foxhound",
+              "score": 0.11238,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 19,
+              "label": "walker_hound",
+              "score": 0.098788,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 41,
+              "label": "basset",
+              "score": 0.035255,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 50,
+              "label": "bluetick",
+              "score": 0.010063,
+              "unresolved_label": false
+            }
+          ],
+          "margin": 0.063112,
+          "device": "mps",
+          "inference_seconds": 0.4152,
+          "fallback": null,
+          "mps_allocated_bytes": 348282880,
+          "mps_driver_bytes": 382435328
+        },
+        "controller_seconds": 1.584,
+        "controller": {
+          "model": "qwen3:4b",
+          "eval_count": 37,
+          "total_duration_ns": 1578714334
+        },
+        "seconds": 3.565
+      },
+      {
+        "id": 3,
+        "kind": "tool",
+        "tool": "request_another_photo",
+        "input": {
+          "reason": "low_resolution",
+          "view": "closer_full_body"
+        },
+        "photo_id": "photo-1",
+        "status": "error",
+        "output": {
+          "error": "ValueError: That quality concern is not present in the cited diagnostics."
+        },
+        "controller_seconds": 2.904,
+        "controller": {
+          "model": "qwen3:4b",
+          "eval_count": 48,
+          "total_duration_ns": 2897782000
+        },
+        "seconds": 0.0
+      },
+      {
+        "id": 4,
+        "kind": "tool",
+        "tool": "finish_assessment",
+        "input": {
+          "outcome": "visual_matches",
+          "selected_result_id": 2
+        },
+        "photo_id": "photo-1",
+        "status": "ok",
+        "output": {
+          "outcome": "visual_matches",
+          "selected_result_id": 2,
+          "evidence_ids": [
+            1,
+            2
+          ],
+          "candidates": [
+            {
+              "class_id": 30,
+              "label": "beagle",
+              "score": 0.175492,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 23,
+              "label": "english_foxhound",
+              "score": 0.11238,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 19,
+              "label": "walker_hound",
+              "score": 0.098788,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 41,
+              "label": "basset",
+              "score": 0.035255,
+              "unresolved_label": false
+            },
+            {
+              "class_id": 50,
+              "label": "bluetick",
+              "score": 0.010063,
+              "unresolved_label": false
+            }
+          ],
+          "change": "One photo so far; no comparison across photos.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity remains unverified by independent evidence."
+        },
+        "controller_seconds": 2.894,
+        "controller": {
+          "model": "qwen3:4b",
+          "eval_count": 44,
+          "total_duration_ns": 2886422750
+        },
+        "seconds": 0.0
+      }
+    ],
+    "attempts": {
+      "photo-1": 4
+    },
+    "report": {
+      "outcome": "visual_matches",
+      "selected_result_id": 2,
+      "evidence_ids": [
+        1,
+        2
+      ],
+      "candidates": [
+        {
+          "class_id": 30,
+          "label": "beagle",
+          "score": 0.175492,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 23,
+          "label": "english_foxhound",
+          "score": 0.11238,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 19,
+          "label": "walker_hound",
+          "score": 0.098788,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 41,
+          "label": "basset",
+          "score": 0.035255,
+          "unresolved_label": false
+        },
+        {
+          "class_id": 50,
+          "label": "bluetick",
+          "score": 0.010063,
+          "unresolved_label": false
+        }
+      ],
+      "change": "One photo so far; no comparison across photos.",
+      "limitations": [
+        "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+        "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+        "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+      ],
+      "quality_flags": [],
+      "uncertainty": "Breed identity remains unverified by independent evidence."
+    },
+    "request": null,
+    "runs": [
+      {
+        "photo_id": "photo-1",
+        "seconds": 14.779,
+        "attempts": 4,
+        "status": "complete"
+      }
+    ],
+    "mode": "agent"
+  }
+}

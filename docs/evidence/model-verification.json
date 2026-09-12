@@ -1,0 +1,68 @@
+{
+  "classifier": {
+    "repository": "wesleyacheng/dog-breeds-multiclass-image-classification-with-vit",
+    "revision": "160ee8611d7974c550bbaaa108378fbe8be9ef9c",
+    "license_evidence": "MIT metadata in the model card; underlying training-image rights are separate.",
+    "classes": 120,
+    "class_mapping": "Exact config.json id2label and label2id inverse; no replacement by alphabetically sorted Stanford labels.",
+    "unresolved_indices": [
+      29,
+      57,
+      59,
+      85,
+      87,
+      90,
+      113
+    ],
+    "unresolved_names": [
+      "curly",
+      "wire",
+      "soft",
+      "flat",
+      "shih",
+      "black",
+      "german_short"
+    ],
+    "mapping_limit": "Published model indices verified; original training notebook's full pre-truncation mapping could not be retrieved from Kaggle. No expansions inferred.",
+    "processor": {
+      "resize": [
+        224,
+        224
+      ],
+      "resample": 2,
+      "rescale_factor": 0.00392156862745098,
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "runtime": "AutoImageProcessor use_fast=False from pinned local files; EXIF orientation and RGB conversion before processor. Safetensors only."
+  },
+  "controller": {
+    "name": "qwen3:4b",
+    "runtime": "Ollama 0.34.0",
+    "quantization": "Q4_K_M",
+    "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "license": "Apache-2.0",
+    "advertised_capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ],
+    "native_tool_trial": "First slice failed one-call contract twice; successful inspection retained. See first-slice-native-failed.json.",
+    "selected_protocol": "Ollama schema-constrained structured output with a Pydantic Decision action envelope. Lifecycle constraints remove completed photo tools; the local model chooses among remaining actions.",
+    "verified_evidence": [
+      "first-slice.json",
+      "demo-paused.json",
+      "demo-resumed.json",
+      "browser-resumed.json",
+      "offline-smoke.json"
+    ]
+  }
+}

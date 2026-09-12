@@ -1,0 +1,906 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "25703189": {
+        "pageid": 25703189,
+        "ns": 6,
+        "title": "File:Laddie Boy portrait crop.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-04-21T23:21:18Z",
+            "size": 75366,
+            "width": 434,
+            "height": 570,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Laddie_Boy_portrait_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1313,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Laddie_Boy_portrait_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1313
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Laddie_Boy_portrait_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Laddie_Boy_portrait_crop.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25703189",
+            "sha1": "484f3890948be2ebe1cb8ac10860d65bb73d489b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-04-21 23:21:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Laddie Boy portrait crop",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-Harris-Ewing|Laddie Boy|Derivative versions|Uploaded with derivativeFX|Library of Congress-no known copyright restrictions",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Laddie Boy.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1905 and 1945<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1905-00-00T00:00:00Z/9,P1326,+1945-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Laddie_Boy_portrait.jpg\" title=\"File:Laddie Boy portrait.jpg\">Laddie Boy portrait.jpg</a>:\u00a0<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Laddie_Boy_portrait.jpg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Laddie_Boy_portrait.jpg/60px-Laddie_Boy_portrait.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"63\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Laddie_Boy_portrait.jpg/120px-Laddie_Boy_portrait.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"4078\" data-file-height=\"5148\"></a></span><br>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Laddie_Boy_portrait.jpg\" title=\"File:Laddie Boy portrait.jpg\">Laddie_Boy_portrait.jpg</a>: Harris &amp; Ewing, photographer</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Kelly\" title=\"User:Kelly\">Kelly</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 681724018,
+            "parentid": 310743236
+          }
+        ]
+      },
+      "25659677": {
+        "pageid": 25659677,
+        "ns": 6,
+        "title": "File:Laddie Boy with portrait.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2013-04-18T23:26:52Z",
+            "size": 159252,
+            "width": 1024,
+            "height": 827,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Laddie_Boy_with_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 808,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Laddie_Boy_with_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 808
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Laddie_Boy_with_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Laddie_Boy_with_portrait.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25659677",
+            "sha1": "c420b29daf2b59fc4596d420149291856445d1e0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-04-18 23:26:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Laddie Boy with portrait",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|Laddie Boy|PD-National Photo Company|Library of Congress-no known copyright restrictions",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Laddie Boy and his portrait in silver, a radiotone presented to Mrs. Harding today by Alfred H. Retler.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1922-07-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/npcc.06795\">npcc.06795</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "National Photo Company",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1253445523,
+            "parentid": 681724129
+          }
+        ]
+      },
+      "67882639": {
+        "pageid": 67882639,
+        "ns": 6,
+        "title": "File:Laddie Boy with telegram to Cleveland dog show LCCN2016892057.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-07-12T05:41:29Z",
+            "size": 10753348,
+            "width": 10008,
+            "height": 7752,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg/1280px-Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 775,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg/3840px-Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg/1280px-Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 775,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg/3840px-Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Laddie_Boy_with_telegram_to_Cleveland_dog_show_LCCN2016892057.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67882639",
+            "sha1": "1b167c377efbda7bf5b66d364243c97f272ccf77",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-07-12 05:41:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Laddie Boy with telegram to Cleveland dog show LCCN2016892057",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|PD-Harris-Ewing|Images uploaded by F\u00e6|Laddie Boy|Harris & Ewing Collection|PD US no notice|Library of Congress-no known copyright restrictions",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<i>Title:</i> Laddie Boy with telegram to Cleveland dog show\n<i>Abstract/medium:</i> 1 negative\u00a0: glass\u00a0; 4 x 5 in. or smaller",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1923",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://lccn.loc.gov/2016892057\">https://lccn.loc.gov/2016892057</a></li>\n<li><i>Image download:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://cdn.loc.gov/service/pnp/hec/42800/42811v.jpg\">https://cdn.loc.gov/service/pnp/hec/42800/42811v.jpg</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2016892057/\">https://www.loc.gov/pictures/item/2016892057/</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harris &amp; Ewing, photographer",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/hec.42811\">hec.42811</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1170003790,
+            "parentid": 1052243692
+          }
+        ]
+      },
+      "67882707": {
+        "pageid": 67882707,
+        "ns": 6,
+        "title": "File:Laddie Boy with telegraph to Cleveland dog show LCCN2016892058.tif",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-03-31T17:13:54Z",
+            "size": 155165012,
+            "width": 10008,
+            "height": 7752,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif/lossy-page1-1280px-Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 775,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif/lossy-page1-3840px-Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif/lossy-page1-1280px-Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 775,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif/lossy-page1-3840px-Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Laddie_Boy_with_telegraph_to_Cleveland_dog_show_LCCN2016892058.tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67882707",
+            "sha1": "8d6334bcf0d4e82f13f91ed848a20257c1bd6d4c",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-03-31 17:13:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Laddie Boy with telegraph to Cleveland dog show LCCN2016892058",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|PD-Harris-Ewing|Images uploaded by F\u00e6|Harris & Ewing Collection|PD US no notice|Library of Congress-no known copyright restrictions|PD-US missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<i>Title:</i> Laddie Boy with telegraph to Cleveland dog show\n<i>Abstract/medium:</i> 1 negative\u00a0: glass\u00a0; 4 x 5 in. or smaller",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1923",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://lccn.loc.gov/2016892058\">https://lccn.loc.gov/2016892058</a></li>\n<li><i>Image download:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://cdn.loc.gov/master/pnp/hec/42800/42812a.tif\">https://cdn.loc.gov/master/pnp/hec/42800/42812a.tif</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2016892058/\">https://www.loc.gov/pictures/item/2016892058/</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harris &amp; Ewing, photographer",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/hec.42812\">hec.42812</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255704628,
+            "parentid": 681724225
+          }
+        ]
+      },
+      "67232208": {
+        "pageid": 67232208,
+        "ns": 6,
+        "title": "File:Laddie Buck & Peter Pan LOC npcc.09560.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-07-12T05:44:36Z",
+            "size": 2893275,
+            "width": 5270,
+            "height": 4233,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg/1280px-Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 803,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg/3840px-Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg/1280px-Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 803,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg/3840px-Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Laddie_Buck_%26_Peter_Pan_LOC_npcc.09560.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67232208",
+            "sha1": "c0b435451a9c4649e101ae3e645cfec5a6a0e77d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-07-12 05:44:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Laddie Buck & Peter Pan LOC npcc.09560",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|Images uploaded by F\u00e6|PD US no notice|PD-National Photo Company|National Photo Company Collection|Library of Congress-no known copyright restrictions",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<i>Title:</i> Laddie Buck &amp; Peter Pan\n<ul><li><i>Abstract/medium:</i> National Photo Company Collection (Library of Congress)</li>\n<li><i>Physical description:</i> 1 negative\u00a0:</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1923",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2016835835\">https://www.loc.gov/pictures/item/2016835835</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://hdl.loc.gov/loc.pnp/npcc.09560\">https://hdl.loc.gov/loc.pnp/npcc.09560</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "National Photo Company Collection",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/npcc.09560\">npcc.09560</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254779205,
+            "parentid": 1254773765
+          }
+        ]
+      },
+      "52519052": {
+        "pageid": 52519052,
+        "ns": 6,
+        "title": "File:Laddie boy.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-10-26T06:11:06Z",
+            "size": 58635,
+            "width": 300,
+            "height": 399,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Laddie_boy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1330,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Laddie_boy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1330
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Laddie_boy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Laddie_boy.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52519052",
+            "sha1": "be3eab8b9a5a25a9e3c02607c480a514d20604a0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-10-26 06:11:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Laddie boy",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|Warren G. Harding|Laddie Boy|PD-US missing SDC copyright status|Files uploaded with For the Common Good",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Laddie_Boy\" class=\"extiw\" title=\"en:Laddie Boy\">Laddie Boy</a> (dog) with President <a href=\"https://en.wikipedia.org/wiki/Warren_G._Harding\" class=\"extiw\" title=\"en:Warren G. Harding\">Warren G. Harding</a>, and two children.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "before 1923<div style=\"display: none;\">date QS:P,+1923-00-00T00:00:00Z/7,P1326,+1923-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "US Library of Congress; photo source <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://web.archive.org/web/20090118132206/http://www.whitehouse.gov/president/holiday/historicalpets2/01.html\">[1]</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Herbert E. French",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 685717483,
+            "parentid": 681724135
+          }
+        ]
+      },
+      "66905686": {
+        "pageid": 66905686,
+        "ns": 6,
+        "title": "File:Laddie boy LOC npcc.03630.tif",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-02-28T18:39:41Z",
+            "size": 23368906,
+            "width": 5364,
+            "height": 4356,
+            "pagecount": 1,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Laddie_boy_LOC_npcc.03630.tif/lossy-page1-1280px-Laddie_boy_LOC_npcc.03630.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 812,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Laddie_boy_LOC_npcc.03630.tif/lossy-page1-3840px-Laddie_boy_LOC_npcc.03630.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Laddie_boy_LOC_npcc.03630.tif/lossy-page1-1280px-Laddie_boy_LOC_npcc.03630.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 812,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Laddie_boy_LOC_npcc.03630.tif/lossy-page1-3840px-Laddie_boy_LOC_npcc.03630.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Laddie_boy_LOC_npcc.03630.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Laddie_boy_LOC_npcc.03630.tif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66905686",
+            "sha1": "6f2f6e1ea210741d12a3f4b2f1e5400915bb492f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-02-28 18:39:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Laddie boy LOC npcc.03630",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|PD-old-70-expired|Images uploaded by F\u00e6|PD-National Photo Company|National Photo Company Collection|CC-PD-Mark|Library of Congress-no known copyright restrictions",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<i>Title:</i> Laddie boy\n<p><i>Abstract/medium:</i> National Photo Company Collection (Library of Congress)\n</p>\n<i>Physical description:</i> 1 negative\u00a0:",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1921",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2016829861\">https://www.loc.gov/pictures/item/2016829861</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://hdl.loc.gov/loc.pnp/npcc.03630\">https://hdl.loc.gov/loc.pnp/npcc.03630</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "National Photo Company Collection",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/npcc.03630\">npcc.03630</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255705557,
+            "parentid": 1175592912
+          }
+        ]
+      },
+      "67857989": {
+        "pageid": 67857989,
+        "ns": 6,
+        "title": "File:Man with Laddie Boy? White House, Washington, D.C. LCCN2016890907.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2018-08-04T00:10:33Z",
+            "size": 11107395,
+            "width": 10008,
+            "height": 7752,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg/1280px-Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 775,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg/3840px-Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg/1280px-Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 775,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg/3840px-Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Man_with_Laddie_Boy%3F_White_House%2C_Washington%2C_D.C._LCCN2016890907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Man_with_Laddie_Boy%3F_White_House,_Washington,_D.C._LCCN2016890907.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67857989",
+            "sha1": "3f3b694cb65c613573b8b17706e0d59cdb2c5b20",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-08-04 00:10:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Man with Laddie Boy? White House, Washington, D.C. LCCN2016890907",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from the Library of Congress|PD-Harris-Ewing|PD-old-70-expired|Images uploaded by F\u00e6|Laddie Boy|Harris & Ewing Collection|CC-PD-Mark|White House in 1921|Library of Congress-no known copyright restrictions|PD-old missing SDC copyright status",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<i>Title:</i> Man with Laddie Boy? White House, Washington, D.C.\n<i>Abstract/medium:</i> 1 negative\u00a0: glass\u00a0; 4 x 5 in. or smaller",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1921",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://lccn.loc.gov/2016890907\">https://lccn.loc.gov/2016890907</a></li>\n<li><i>Image download:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://cdn.loc.gov/service/pnp/hec/41600/41661v.jpg\">https://cdn.loc.gov/service/pnp/hec/41600/41661v.jpg</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2016890907/\">https://www.loc.gov/pictures/item/2016890907/</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Harris &amp; Ewing, photographer",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/hec.41661\">hec.41661</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 710928323,
+            "parentid": 681724187
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,900 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "351157": {
+        "pageid": 351157,
+        "ns": 6,
+        "title": "File:Kabosu.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2005-10-02T12:06:14Z",
+            "size": 1303381,
+            "width": 2304,
+            "height": 1728,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Kabosu.jpg/1280px-Kabosu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kabosu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Kabosu.jpg/1280px-Kabosu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kabosu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kabosu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kabosu.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=351157",
+            "sha1": "5cbd3db2a91c0a8ba2b89e4b4f350807cf94bd8d",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2005-10-02 12:06:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kabosu",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Citrus sphaerocarpa|Files with no machine-readable source|Self-published work|PD-self|Assumed own work|Citrus in Japan|Japan photographs taken on 2005-10-02|Cuisine of Oita prefecture",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Kabosu, <i>Citrus sphaerocarpa</i>\n</p>\nAuthor:B.K. Bullock.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2 October 2005\u00a0(according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Danny_Wilde\" title=\"User:Danny Wilde\">Danny Wilde</a> assumed (based on copyright claims).",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1204374414,
+            "parentid": 804842498
+          }
+        ]
+      },
+      "50925889": {
+        "pageid": 50925889,
+        "ns": 6,
+        "title": "File:Kabosu 27 aout 2016.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-08-27T21:39:44Z",
+            "size": 119066,
+            "width": 1230,
+            "height": 861,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kabosu_27_aout_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 700,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kabosu_27_aout_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 700
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kabosu_27_aout_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kabosu_27_aout_2016.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=50925889",
+            "sha1": "1f886f7f153ba87483f5a4cd0fdcc7c1c81dc5ae",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-08-27 21:39:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kabosu 27 aout 2016",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Citrus sphaerocarpa|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "kabosu fin aout, bon \u00e0 r\u00e9colter",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-08-27 15:27:15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jpbrigand&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jpbrigand (page does not exist)\">Jpbrigand</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1223535830,
+            "parentid": 1031654825
+          }
+        ]
+      },
+      "139984259": {
+        "pageid": 139984259,
+        "ns": 6,
+        "title": "File:Kabosu and Atsuko Sato 2023-11-02 (1).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-11-02T12:51:17Z",
+            "size": 764348,
+            "width": 2281,
+            "height": 2281,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg/1280px-Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1000,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg/1280px-Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1000,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kabosu_and_Atsuko_Sato_2023-11-02_(1).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139984259",
+            "sha1": "5f1987932bdf973537bf7e75a80eb54fc9a88047",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-02 12:51:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kabosu and Atsuko Sato 2023-11-02 (1)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Self-published work|Images with extracted images|Kabosu (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kabosu held by her master Atsuko Sato\n<ul><li>At the Doge Day event for Kabosu celebrating her 18th birthday in Furusato Square Park (Sakura, Chiba, Japan)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-02 13:31:15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asanagi\" title=\"User:Asanagi\">Asanagi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 880106480,
+            "parentid": 879576365
+          }
+        ]
+      },
+      "148761442": {
+        "pageid": 148761442,
+        "ns": 6,
+        "title": "File:Kabosu and Atsuko Sato 2023-11-02 (1) (cropped).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-05-27T05:42:02Z",
+            "size": 545578,
+            "width": 1037,
+            "height": 1702,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1641,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1641
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Kabosu_and_Atsuko_Sato_2023-11-02_%281%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kabosu_and_Atsuko_Sato_2023-11-02_(1)_(cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148761442",
+            "sha1": "63eda2f1d61eda2c1c83bc92bb3db051681e21f4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-05-27 05:42:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kabosu and Atsuko Sato 2023-11-02 (1) (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Self-published work|Extracted images|Kabosu (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kabosu held by her master Atsuko Sato\n<ul><li>At the Doge Day event for Kabosu celebrating her 18th birthday in Furusato Square Park (Sakura, Chiba, Japan)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-02 13:31:15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asanagi\" title=\"User:Asanagi\">Asanagi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1104009993,
+            "parentid": 1037219521
+          }
+        ]
+      },
+      "139984279": {
+        "pageid": 139984279,
+        "ns": 6,
+        "title": "File:Kabosu and Atsuko Sato 2023-11-02 (2).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-11-02T12:51:56Z",
+            "size": 789457,
+            "width": 2592,
+            "height": 2592,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Kabosu_and_Atsuko_Sato_2023-11-02_%282%29.jpg/1280px-Kabosu_and_Atsuko_Sato_2023-11-02_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1000,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kabosu_and_Atsuko_Sato_2023-11-02_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Kabosu_and_Atsuko_Sato_2023-11-02_%282%29.jpg/1280px-Kabosu_and_Atsuko_Sato_2023-11-02_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1000,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kabosu_and_Atsuko_Sato_2023-11-02_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kabosu_and_Atsuko_Sato_2023-11-02_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kabosu_and_Atsuko_Sato_2023-11-02_(2).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139984279",
+            "sha1": "5c713befa22e6b9df63296b6e71294fb84c563c1",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-02 12:51:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kabosu and Atsuko Sato 2023-11-02 (2)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Self-published work|Kabosu (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kabosu held by her master Atsuko Sato\n<ul><li>At the Doge Day event for Kabosu cerebrating her 18th birthday in Furusato Square Park (Sakura, Chiba, Japan)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-02 13:31:45",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asanagi\" title=\"User:Asanagi\">Asanagi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1255411135,
+            "parentid": 821990442
+          }
+        ]
+      },
+      "139984287": {
+        "pageid": 139984287,
+        "ns": 6,
+        "title": "File:Kabosu and Atsuko Sato 2023-11-02 (3).jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-11-02T12:52:29Z",
+            "size": 809597,
+            "width": 2592,
+            "height": 2592,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Kabosu_and_Atsuko_Sato_2023-11-02_%283%29.jpg/1280px-Kabosu_and_Atsuko_Sato_2023-11-02_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1000,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Kabosu_and_Atsuko_Sato_2023-11-02_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Kabosu_and_Atsuko_Sato_2023-11-02_%283%29.jpg/1280px-Kabosu_and_Atsuko_Sato_2023-11-02_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1000,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Kabosu_and_Atsuko_Sato_2023-11-02_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Kabosu_and_Atsuko_Sato_2023-11-02_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kabosu_and_Atsuko_Sato_2023-11-02_(3).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139984287",
+            "sha1": "115c7c448f0846f53252ea929324055789acb0bc",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-02 12:52:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kabosu and Atsuko Sato 2023-11-02 (3)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Self-published work|Kabosu (dog)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Kabosu held by her master Atsuko Sato\n<ul><li>At the Doge Day event for Kabosu cerebrating her 18th birthday in Furusato Square Park (Sakura, Chiba, Japan)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-02 13:32:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Asanagi\" title=\"User:Asanagi\">Asanagi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1005039103,
+            "parentid": 821990426
+          }
+        ]
+      },
+      "41732343": {
+        "pageid": 41732343,
+        "ns": 6,
+        "title": "File:Naturalis Biodiversity Center - RMNH.ART.634 - Citrus sphaerocarpa - Y\u016bshi Ishizaki - Cock Blomhoff Collection - pencil drawing - water colour.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-07-21T05:08:36Z",
+            "size": 148326,
+            "width": 1599,
+            "height": 1920,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Naturalis_Biodiversity_Center_-_RMNH.ART.634_-_Citrus_sphaerocarpa_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg/1280px-Naturalis_Biodiversity_Center_-_RMNH.ART.634_-_Citrus_sphaerocarpa_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1201,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Naturalis_Biodiversity_Center_-_RMNH.ART.634_-_Citrus_sphaerocarpa_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Naturalis_Biodiversity_Center_-_RMNH.ART.634_-_Citrus_sphaerocarpa_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg/1280px-Naturalis_Biodiversity_Center_-_RMNH.ART.634_-_Citrus_sphaerocarpa_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1201,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Naturalis_Biodiversity_Center_-_RMNH.ART.634_-_Citrus_sphaerocarpa_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Naturalis_Biodiversity_Center_-_RMNH.ART.634_-_Citrus_sphaerocarpa_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.ART.634_-_Citrus_sphaerocarpa_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41732343",
+            "sha1": "f7ef944955d11953656a40b64487bea8bb6b9ad7",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-07-21 05:08:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Naturalis Biodiversity Center - RMNH.ART.634 - Citrus sphaerocarpa - Y\u016bshi Ishizaki - Cock Blomhoff Collection - pencil drawing - water colour",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Citrus sphaerocarpa|Media donated by Naturalis Biodiversity Center|PD-old-100-expired|PD-Art (PD-old-100-expired)|Information field template with formatting|Pages with complex technique templates|CC-PD-Mark|GWToolset Batch Upload|Citrus - botanical illustrations|Y\u016bshi Ishizaki Collection at Naturalis Biodiversity Center",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Citrus sphaerocarpa",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Naturalis_Biodiversity_Center\" class=\"extiw\" title=\"w:en:Naturalis Biodiversity Center\"><span title=\"natural history museum and research center in the Leiden, The Netherlands\">Naturalis Biodiversity Center</span></a>\n</bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q11585613\" class=\"extiw\" title=\"d:Q11585613\"><span title=\"poet and illustrator (1768\u20131846)\">Ishizaki Y\u016bshi</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1254248356,
+            "parentid": 1136003656
+          }
+        ]
+      },
+      "96192606": {
+        "pageid": 96192606,
+        "ns": 6,
+        "title": "File:W kabosu1111.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2005-02-17T15:57:53Z",
+            "size": 63931,
+            "width": 800,
+            "height": 600,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/29/W_kabosu1111.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 750,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/W_kabosu1111.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 750
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/W_kabosu1111.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:W_kabosu1111.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96192606",
+            "sha1": "5db310c6b15081ed5ff9b0bc4775be52e3205e77",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2005-02-17 15:57:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "W kabosu1111",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Citrus sphaerocarpa|GFDL|License migration completed|Files from Kusabana Photo Studio|Grandfathered old files|Plants in Kihoku, Ehime",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "\u30ab\u30dc\u30b9\n<p>\u64ae\u5f71\u5834\u6240\uff1a\u5e83\u898b\u753a\n</p>\n\u64ae\u5f71\u65e5\uff1a\uff12\uff10\uff10\uff11\u5e74\uff11\uff11\u6708\uff12\uff15\u65e5",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "\u2018Kusabana Photo Studio\u2019 (\u8349\u82b1\u5199\u771f\u9928) / <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160707054822/http://kusabanaph.web.fc2.com/\">kusabanaph.web.fc2.com</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "\u2018Uncle Carl\u2019 (\u30ab\u30fc\u30eb\u304a\u3058\u3055\u3093).",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"layouttemplate sourcetemplate\" style=\"background-color: #f6f7f5; background-color: var(--background-color-neutral-subtle, #f6f7f5); color: var(--color-base, #202122); border: var(--border-subtle, 1px solid #555555); border-spacing: 8px; padding:0; box-sizing: border-box; clear: both; margin: .5em auto; text-align: center; width: 100%;\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Japan.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/60px-Flag_of_Japan.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/120px-Flag_of_Japan.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"900\" data-file-height=\"600\"></a></span>\n</td>\n<td style=\"text-align: left;\">\n<p>This file was copied from \"Kusabana Photo Studio\" (\u8349\u82b1\u5199\u771f\u9928) / <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20160707054822/http://kusabanaph.web.fc2.com/\">kusabanaph.web.fc2.com</a> \n</p><p>Photographer \"Uncle Carl\" (\u30ab\u30fc\u30eb\u304a\u3058\u3055\u3093).\n</p><p>Permission: <a href=\"//commons.wikimedia.org/wiki/Template:Copyrighted_free_use\" title=\"Template:Copyrighted free use\"><span style=\"font-family:monospace,monospace;\">{{Copyrighted free use}}</span></a> because the website says \"The photos are provided as free material, so feel free to use them.\" (\u5199\u771f\u306f\u30d5\u30ea\u30fc\u7d20\u6750\u3068\u3057\u3066\u63d0\u4f9b\u3057\u3066\u307e\u3059\u306e\u3067\u3001\u5fa1\u81ea\u7531\u306b\u304a\u4f7f\u3044\u4e0b\u3055\u3044\u3002). In 2005 Japanese Wikipedia was given a permission via the BBS on the website and <a href=\"//commons.wikimedia.org/wiki/Template:GFDL\" title=\"Template:GFDL\"><span style=\"font-family:monospace,monospace;\">{{GFDL}}</span></a> was added to match the license requirements on Japanese Wikipedia. See <a href=\"https://ja.wikipedia.org/wiki/Category:%E8%8D%89%E8%8A%B1%E5%86%99%E7%9C%9F%E9%A4%A8%E7%94%BB%E5%83%8F\" class=\"extiw\" title=\"ja:Category:\u8349\u82b1\u5199\u771f\u9928\u753b\u50cf\">ja:Category:\u8349\u82b1\u5199\u771f\u9928\u753b\u50cf</a> for details.\n<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>\n</p>\n</td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1254222110\">.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}</style><table class=\"plainlinks messagebox mbox-message\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Mailbox.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mailbox.svg/40px-Mailbox.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"29\" height=\"31\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mailbox.svg/60px-Mailbox.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"772\"></a></span></td><td class=\"mbox-text\">This file was uploaded with e-mail permission <b>before the introduction of OTRS (now <a href=\"//commons.wikimedia.org/wiki/Commons:VRT\" class=\"mw-redirect\" title=\"Commons:VRT\">VRT</a>)</b> in 2006; it is a <b><a href=\"//commons.wikimedia.org/wiki/Commons:Grandfathered_old_files\" title=\"Commons:Grandfathered old files\">grandfathered old file</a></b>.</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1031655910,
+            "parentid": 950198861
+          }
+        ]
+      }
+    }
+  }
+}

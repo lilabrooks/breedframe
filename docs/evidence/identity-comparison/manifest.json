@@ -1,0 +1,884 @@
+{
+  "created_at_utc": "2026-09-12T04:06:01.953105+00:00",
+  "cases": [
+    {
+      "id": "liberty",
+      "photo_ids": [
+        "liberty-02",
+        "liberty-01"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "liberty"
+      ],
+      "expected_label": "golden_retriever",
+      "expected_native_id": 207,
+      "source_reported_breed": "Golden Retriever",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source captions in liberty-01-source.json and liberty-02-source.json",
+      "initial_photo_id": "liberty-02",
+      "followup_photo_id": "liberty-01"
+    },
+    {
+      "id": "robroy",
+      "photo_ids": [
+        "robroy-02",
+        "robroy-01"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "robroy"
+      ],
+      "expected_label": "collie",
+      "expected_native_id": 231,
+      "source_reported_breed": "Collie",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.whitehousehistory.org/white-house-pets/top-dogs-at-the-white-house",
+      "initial_photo_id": "robroy-02",
+      "followup_photo_id": "robroy-01"
+    },
+    {
+      "id": "laddie",
+      "photo_ids": [
+        "laddie-01",
+        "laddie-02"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "laddie"
+      ],
+      "expected_label": "airedale",
+      "expected_native_id": 191,
+      "source_reported_breed": "Airedale Terrier",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.whitehousehistory.org/photos/photo-2-3",
+      "initial_photo_id": "laddie-01",
+      "followup_photo_id": "laddie-02"
+    },
+    {
+      "id": "koni",
+      "photo_ids": [
+        "koni-02",
+        "koni-01"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "koni"
+      ],
+      "expected_label": "labrador_retriever",
+      "expected_native_id": 208,
+      "source_reported_breed": "Labrador Retriever",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source captions in koni-01-source.json and koni-02-source.json",
+      "initial_photo_id": "koni-02",
+      "followup_photo_id": "koni-01"
+    },
+    {
+      "id": "blanco",
+      "photo_ids": [
+        "blanco-02",
+        "blanco-01"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "blanco"
+      ],
+      "expected_label": "collie",
+      "expected_native_id": 231,
+      "source_reported_breed": "Collie",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.lbjlibrary.org/life-and-legacy/the-man-himself/lbjs-dogs",
+      "initial_photo_id": "blanco-02",
+      "followup_photo_id": "blanco-01"
+    },
+    {
+      "id": "fala",
+      "photo_ids": [
+        "fala-live-02",
+        "fala-live-01"
+      ],
+      "cohort": "supported_breed",
+      "subject_ids": [
+        "fala"
+      ],
+      "expected_label": "scotch_terrier",
+      "expected_native_id": 199,
+      "source_reported_breed": "Scottish Terrier",
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.nps.gov/articles/fala.htm",
+      "initial_photo_id": "fala-live-02",
+      "followup_photo_id": "fala-live-01"
+    },
+    {
+      "id": "larry",
+      "photo_ids": [
+        "larry-02",
+        "larry-01"
+      ],
+      "cohort": "non_dog",
+      "subject_ids": [
+        "larry-cat-auderghem"
+      ],
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": false,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source file metadata and human visual inspection",
+      "initial_photo_id": "larry-02",
+      "followup_photo_id": "larry-01"
+    },
+    {
+      "id": "frankel",
+      "photo_ids": [
+        "frankel-02",
+        "frankel-01"
+      ],
+      "cohort": "non_dog",
+      "subject_ids": [
+        "frankel-horse"
+      ],
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": false,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source file metadata and human visual inspection",
+      "initial_photo_id": "frankel-02",
+      "followup_photo_id": "frankel-01"
+    },
+    {
+      "id": "hachiko-statue",
+      "photo_ids": [
+        "hachiko-statue-05",
+        "hachiko-statue-01"
+      ],
+      "cohort": "non_dog",
+      "subject_ids": [
+        "hachiko-modern-shibuya-sculpture"
+      ],
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": false,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Source file metadata and human visual inspection",
+      "initial_photo_id": "hachiko-statue-05",
+      "followup_photo_id": "hachiko-statue-01"
+    },
+    {
+      "id": "kabosu",
+      "photo_ids": [
+        "kabosu-02",
+        "kabosu-01"
+      ],
+      "cohort": "unsupported_breed",
+      "subject_ids": [
+        "kabosu"
+      ],
+      "source_reported_breed": "Shiba Inu",
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://foundation.dogecoin.com/blog/2024-05-24-kabosu-obituary/",
+      "initial_photo_id": "kabosu-02",
+      "followup_photo_id": "kabosu-01"
+    },
+    {
+      "id": "yuki",
+      "photo_ids": [
+        "yuki-02",
+        "yuki-01"
+      ],
+      "cohort": "unknown_ancestry",
+      "subject_ids": [
+        "yuki-lbj"
+      ],
+      "source_reported_breed": "Mixed breed; components unverified",
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "https://www.lbjlibrary.org/life-and-legacy/the-man-himself/lbjs-dogs",
+      "initial_photo_id": "yuki-02",
+      "followup_photo_id": "yuki-01"
+    },
+    {
+      "id": "collies",
+      "photo_ids": [
+        "collies-01",
+        "collies-02"
+      ],
+      "cohort": "shared_description_group",
+      "subject_ids": [
+        "susie-conall",
+        "shay-conall"
+      ],
+      "source_reported_breed": "Both described as collies by owner; exact subtype unverified",
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Owner titles and descriptions in collies-01-source.json and collies-02-source.json",
+      "initial_photo_id": "collies-01",
+      "followup_photo_id": "collies-02"
+    },
+    {
+      "id": "buffy-yume",
+      "photo_ids": [
+        "buffy-yume-02",
+        "buffy-yume-01"
+      ],
+      "cohort": "different_breed_group",
+      "subject_ids": [
+        "buffy",
+        "yume"
+      ],
+      "source_reported_breed": [
+        "Bulgarian shepherd",
+        "Akita Inu"
+      ],
+      "expected_label": null,
+      "expected_native_id": null,
+      "live_dog_present": true,
+      "identity_basis": "Named source captions and human visual inspection of separate exposures; no independent genetic verification.",
+      "label_evidence": "Official source captions in buffy-yume-01-source.json and buffy-yume-02-source.json",
+      "initial_photo_id": "buffy-yume-02",
+      "followup_photo_id": "buffy-yume-01"
+    }
+  ],
+  "images": [
+    {
+      "id": "blanco-02",
+      "case_id": "blanco",
+      "path": "data/identity-comparison/images/blanco-02.jpg",
+      "sha256": "6295e36427b50cb9072837f47a8bd324253b1b2aebdcc5b46aa4d829d65c9b82",
+      "normalized_path": "data/identity-comparison/normalized/blanco-02.png",
+      "normalized_sha256": "c7f553390f28f8c7ee393397dd3a8ee1cf7ba260fbec94731281b3d1583d0558",
+      "normalized_metadata": {
+        "width": 2000,
+        "height": 1335,
+        "sha256": "7f8ed32b7945e47db067a35d0571a011eaff713cb50dc8c2530f072c8ddce506"
+      },
+      "inspection": {
+        "width": 2000,
+        "height": 1335,
+        "mean_luminance": 127.26,
+        "laplacian_variance": 1931.22,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/blanco-02-source.json",
+      "visual_review": "Single white dog closer to camera outdoors with a seated person; distinct dated archive exposure."
+    },
+    {
+      "id": "blanco-01",
+      "case_id": "blanco",
+      "path": "data/identity-comparison/images/blanco-01.jpg",
+      "sha256": "5c5d28cc646687fb3c6f0ef1b26ce5e5b0ae69fff8bffa52db1b1addb6005297",
+      "normalized_path": "data/identity-comparison/normalized/blanco-01.png",
+      "normalized_sha256": "350ef44f74a90ffe55a8d08e82c51647954487d29af0d0fcaf05168f9a62af3c",
+      "normalized_metadata": {
+        "width": 1500,
+        "height": 1102,
+        "sha256": "e2cb3f1ab0e20bc11cca64187b891bfc9a50aeb5611799452ca48ab7f81e16f2"
+      },
+      "inspection": {
+        "width": 1500,
+        "height": 1102,
+        "mean_luminance": 125.85,
+        "laplacian_variance": 817.53,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/blanco-01-source.json",
+      "visual_review": "Single white dog seen at a distance, holding a seated person's hand in the Oval Office."
+    },
+    {
+      "id": "buffy-yume-02",
+      "case_id": "buffy-yume",
+      "path": "data/identity-comparison/images/buffy-yume-02.jpg",
+      "sha256": "b0c5efca1a9f703ff74b45e356b4f52ab499cdaccb1c021030be5862c3569c5a",
+      "normalized_path": "data/identity-comparison/normalized/buffy-yume-02.png",
+      "normalized_sha256": "0ef9482777069265a6ef94fb31cb539baac41e06f1b448e17b788a74cd07525d",
+      "normalized_metadata": {
+        "width": 1100,
+        "height": 735,
+        "sha256": "1cf6c2b59e81445e663949d3b5b93451368c8683a1cc19a5d01f3f8221290138"
+      },
+      "inspection": {
+        "width": 1100,
+        "height": 735,
+        "mean_luminance": 161.9,
+        "laplacian_variance": 3398.54,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/buffy-yume-02-source.json",
+      "visual_review": "Both same named dogs interact with a seated person in snow; a separate exposure in the same session."
+    },
+    {
+      "id": "buffy-yume-01",
+      "case_id": "buffy-yume",
+      "path": "data/identity-comparison/images/buffy-yume-01.jpg",
+      "sha256": "eb26392934a5e09f84de303da9348236b7844624d7bdf607ff7c15517b486a17",
+      "normalized_path": "data/identity-comparison/normalized/buffy-yume-01.png",
+      "normalized_sha256": "de3f621fa2fc12621f35799f0055c894c796aaf450dd122f3aac20b1b6407aca",
+      "normalized_metadata": {
+        "width": 1100,
+        "height": 735,
+        "sha256": "05bc2449add78a17f9565ea561dc7687395fa177d9fb578a7ce8e2734f6f80fd"
+      },
+      "inspection": {
+        "width": 1100,
+        "height": 735,
+        "mean_luminance": 169.21,
+        "laplacian_variance": 169.12,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/buffy-yume-01-source.json",
+      "visual_review": "Two dogs in snow, one reddish and one long-coated multicolored dog; caption names Buffy and Yume and their different breeds."
+    },
+    {
+      "id": "collies-01",
+      "case_id": "collies",
+      "path": "data/identity-comparison/images/collies-01.jpg",
+      "sha256": "067ae9ae84eb6478050ac85cd138e9e8988644f4cd7fe03a6b9ff543e688d722",
+      "normalized_path": "data/identity-comparison/normalized/collies-01.png",
+      "normalized_sha256": "74968daa11e808ce5b4b19a259839bdc235075c8e2bfee6a240cd44ecf17ec0a",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 923,
+        "sha256": "15e0d0a9f6628c5f91dfa8a76a8b8b90fb05385d0138c3c0a73d6b121600d992"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 923,
+        "mean_luminance": 107.89,
+        "laplacian_variance": 1376.18,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/collies-01-source.json",
+      "visual_review": "Two owner-named black and white dogs, one seated and one resting on grass; exact breed subtype unverified."
+    },
+    {
+      "id": "collies-02",
+      "case_id": "collies",
+      "path": "data/identity-comparison/images/collies-02.jpg",
+      "sha256": "199c2856b871d5c3e5b7213126d6d236fedcf5702b51b60558dbb9d5e32c4eaf",
+      "normalized_path": "data/identity-comparison/normalized/collies-02.png",
+      "normalized_sha256": "f33c89104d192d685414b940738934e796a00721011be0e489674cffeed121be",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 960,
+        "sha256": "ef13358a8d37393077af756704ab7be25ec66c66d5f9002bc7a0232d3cd0680f"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 960,
+        "mean_luminance": 101.75,
+        "laplacian_variance": 6876.36,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/collies-02-source.json",
+      "visual_review": "Same owner-named pair on a wooded path in a later photograph; one seated and one resting."
+    },
+    {
+      "id": "fala-live-02",
+      "case_id": "fala",
+      "path": "data/identity-comparison/images/fala-live-02.jpg",
+      "sha256": "93ec05370747fc17c54f778ce6e1ec60018d5dc70bfd623ef8706d6eba5632f5",
+      "normalized_path": "data/identity-comparison/normalized/fala-live-02.png",
+      "normalized_sha256": "7bfd9e0ebdacee8907ece04308b1f31b5d31497c9b62b67f3a918713b214ab94",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 929,
+        "sha256": "5728164a4f9ba6d039e9b2c7fc18729db0bb0f7e3f478ac29aeb91dbe160f3c0"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 929,
+        "mean_luminance": 179.29,
+        "laplacian_variance": 331.89,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/fala-live-02-source.json",
+      "visual_review": "Single small dog on a seated person's lap outdoors; source names Fala as a puppy in 1940."
+    },
+    {
+      "id": "fala-live-01",
+      "case_id": "fala",
+      "path": "data/identity-comparison/images/fala-live-01.jpg",
+      "sha256": "a4c718ca5c6f61ae2b6ed1dcb3e5728e14c1dbadb784160a98cf14a4ed72f7cb",
+      "normalized_path": "data/identity-comparison/normalized/fala-live-01.png",
+      "normalized_sha256": "1e42e87f9d60b115ac526a240725984c30fa5df84af44fb85943295d0e7a05b0",
+      "normalized_metadata": {
+        "width": 819,
+        "height": 1062,
+        "sha256": "7007c5d7a3d76f52179bf486219896e1986e251b50ce0d05ac4a5cf21363d750"
+      },
+      "inspection": {
+        "width": 819,
+        "height": 1062,
+        "mean_luminance": 78.69,
+        "laplacian_variance": 149.09,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/fala-live-01-source.json",
+      "visual_review": "Single small dark dog held by a seated person; dark archival image, dog partially obscured by arms."
+    },
+    {
+      "id": "frankel-02",
+      "case_id": "frankel",
+      "path": "data/identity-comparison/images/frankel-02.jpg",
+      "sha256": "cca916a340924f0008981340d60991755769b6bfbeac3ed9c86961c600fb9caf",
+      "normalized_path": "data/identity-comparison/normalized/frankel-02.png",
+      "normalized_sha256": "626cba22e37ccebe6c792758c61001c25bd7fbf313cd47e41609442ba0b555af",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 890,
+        "sha256": "ad2a4846efc9d472a17a279a1b16212a44abbb07a1237fcc17290c865ce03ba4"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 890,
+        "mean_luminance": 141.23,
+        "laplacian_variance": 1519.53,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/frankel-02-source.json",
+      "visual_review": "Same named horse and rider in side view on a racetrack; separate exposure, no visible live dog."
+    },
+    {
+      "id": "frankel-01",
+      "case_id": "frankel",
+      "path": "data/identity-comparison/images/frankel-01.jpg",
+      "sha256": "1d1e620f2c07ff4a39b3968aa898b67c92dd837c7d21a7a3b95b875fd445cda6",
+      "normalized_path": "data/identity-comparison/normalized/frankel-01.png",
+      "normalized_sha256": "55aebce502a6d47028fad7a0e1a6186c320cf578926ca68c2be1aef1b96d9ff1",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 895,
+        "sha256": "ff7c663c4fb837df012ebf4a28a4d2a59ab242611c80fb412f4e5bb9a6ae31d0"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 895,
+        "mean_luminance": 87.56,
+        "laplacian_variance": 2415.9,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/frankel-01-source.json",
+      "visual_review": "Named horse and rider among people after a race; no visible live dog."
+    },
+    {
+      "id": "hachiko-statue-05",
+      "case_id": "hachiko-statue",
+      "path": "data/identity-comparison/images/hachiko-statue-05.jpg",
+      "sha256": "1350662b9e70bfcb6235b02813f5cd3626d2af9de5d28768f64b39e2482ae0aa",
+      "normalized_path": "data/identity-comparison/normalized/hachiko-statue-05.png",
+      "normalized_sha256": "96bbbf40b3628f24ffa366543f5cf9c3d21d9fc8cb5e480475627c60cbe746c7",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1918,
+        "sha256": "6e0c383c7db63a1f0f8aef1c3974e2713c956d6124ca875f5792e9e8e6d68f96"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 1918,
+        "mean_luminance": 138.9,
+        "laplacian_variance": 590.25,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/hachiko-statue-05-source.json",
+      "visual_review": "Closer view of same modern sculpture; a person measures its partly occluded muzzle, body remains visible. No visible live dog."
+    },
+    {
+      "id": "hachiko-statue-01",
+      "case_id": "hachiko-statue",
+      "path": "data/identity-comparison/images/hachiko-statue-01.jpg",
+      "sha256": "17d1eb66d1742900787c8caa7a62675c898e82eb57c9561d01fc0c8190758a2d",
+      "normalized_path": "data/identity-comparison/normalized/hachiko-statue-01.png",
+      "normalized_sha256": "d1d4d2262f5e6b6a7297ce6101922420a63476fa61b4a793ec7320b006a39c09",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 720,
+        "sha256": "e71b369af737d06af974eed06a119a4e7055b5b7be035c00028c38efea55b4a3"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 720,
+        "mean_luminance": 121.3,
+        "laplacian_variance": 5739.83,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/hachiko-statue-01-source.json",
+      "visual_review": "Modern Shibuya dog sculpture visible in a wide street scene with people; no visible live dog."
+    },
+    {
+      "id": "kabosu-02",
+      "case_id": "kabosu",
+      "path": "data/identity-comparison/images/kabosu-02.jpg",
+      "sha256": "6fa9a7ff91e89694e0b38debfdd9843c57a17f59bf6f5ced4574b4fe2dfb0e6a",
+      "normalized_path": "data/identity-comparison/normalized/kabosu-02.png",
+      "normalized_sha256": "fdd43e20668fd29891166202eaf57d9bee9a3d14eecb139b54fc31672860443f",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1280,
+        "sha256": "ed7aa141f187fd34431e7e38c694c49abc7ce4004474f45fb382356b8ce7b158"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 1280,
+        "mean_luminance": 120.82,
+        "laplacian_variance": 1093.97,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/kabosu-02-source.json",
+      "visual_review": "Same dog and owner 30 seconds later, changed head and body position. Separate exposure, strongly dependent event context."
+    },
+    {
+      "id": "kabosu-01",
+      "case_id": "kabosu",
+      "path": "data/identity-comparison/images/kabosu-01.jpg",
+      "sha256": "ea9783aaa17f69816d5e94634a8d3e8b73b59f19455c860d956b59ab2832ce01",
+      "normalized_path": "data/identity-comparison/normalized/kabosu-01.png",
+      "normalized_sha256": "636af3349718f36af93a711677aae9bfe8e978cf08c93a7f8a0b03f73e5ed03d",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1280,
+        "sha256": "e77db1459090ea83585eca9db3cf94a1c921447d60c7472e03f0d5acbf498a60"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 1280,
+        "mean_luminance": 119.32,
+        "laplacian_variance": 997.22,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/kabosu-01-source.json",
+      "visual_review": "Single source-named dog held by owner at an event, looking toward camera."
+    },
+    {
+      "id": "koni-02",
+      "case_id": "koni",
+      "path": "data/identity-comparison/images/koni-02.jpg",
+      "sha256": "368c34915b2a8368bd41aa9ffbf747581311f10aeec8d395dce07e56c6340c21",
+      "normalized_path": "data/identity-comparison/normalized/koni-02.png",
+      "normalized_sha256": "06befc00c1d779e8d8669e493807eee4ee6baee907fcad54ca20ba8da449dd6f",
+      "normalized_metadata": {
+        "width": 500,
+        "height": 334,
+        "sha256": "b3aaee94c69f2acfcd31a22fa1ffbf10b08d24259d8b090c868d8c2694474ec6"
+      },
+      "inspection": {
+        "width": 500,
+        "height": 334,
+        "mean_luminance": 82.47,
+        "laplacian_variance": 636.18,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/koni-02-source.json",
+      "visual_review": "Single black dog interacting with a seated person outdoors; source names Koni and Labrador."
+    },
+    {
+      "id": "koni-01",
+      "case_id": "koni",
+      "path": "data/identity-comparison/images/koni-01.jpg",
+      "sha256": "aa4cb3893013324c7e1c35306256fd96ea4634867899c591adbfa675143b8b95",
+      "normalized_path": "data/identity-comparison/normalized/koni-01.png",
+      "normalized_sha256": "9920957e041bb5117777c779308786603677d5ed4f69fc06638dcd298c247fd4",
+      "normalized_metadata": {
+        "width": 500,
+        "height": 550,
+        "sha256": "bbf4b1fe173d36faf5960ab2d7a3bfc0a4d10fefd5d2e4bc0b1d143a39019dbe"
+      },
+      "inspection": {
+        "width": 500,
+        "height": 550,
+        "mean_luminance": 108.22,
+        "laplacian_variance": 1313.02,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/koni-01-source.json",
+      "visual_review": "Single black dog in front of a group of people indoors."
+    },
+    {
+      "id": "laddie-01",
+      "case_id": "laddie",
+      "path": "data/identity-comparison/images/laddie-01.jpg",
+      "sha256": "43d93818a8dddb1576a714e5519fb5f625811c70dd9cf9fe999cb77c6e318347",
+      "normalized_path": "data/identity-comparison/normalized/laddie-01.png",
+      "normalized_sha256": "3726ace8269f0094b4247adf3179bd7ff7a46d58ed4f781f0ddc4a2e2966a739",
+      "normalized_metadata": {
+        "width": 434,
+        "height": 570,
+        "sha256": "51c81923789d096e7e9d9d1398c39af6d85d6a2a1d0b7ff61c1e606bf4a69949"
+      },
+      "inspection": {
+        "width": 434,
+        "height": 570,
+        "mean_luminance": 150.79,
+        "laplacian_variance": 104.41,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/laddie-01-source.json",
+      "visual_review": "Single dog seated in portrait; source is a published portrait crop."
+    },
+    {
+      "id": "laddie-02",
+      "case_id": "laddie",
+      "path": "data/identity-comparison/images/laddie-02.jpg",
+      "sha256": "a9ddfedddbe7b7602d4445e2d48a3b2c3ff9d151cdfd5c26d6c89fa0c1677c84",
+      "normalized_path": "data/identity-comparison/normalized/laddie-02.png",
+      "normalized_sha256": "097d295c69764f280f1e3929797a19a76c3a5158c4646c6283eda5aa55744aa1",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 991,
+        "sha256": "2571b3717057acf64956eee731ad59c6df3cf5c7ece4d74554ca8ef702ee3db9"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 991,
+        "mean_luminance": 82.65,
+        "laplacian_variance": 1467.46,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/laddie-02-source.json",
+      "visual_review": "Single dog outdoors holding an envelope; separate exposure and pose from portrait."
+    },
+    {
+      "id": "larry-02",
+      "case_id": "larry",
+      "path": "data/identity-comparison/images/larry-02.jpg",
+      "sha256": "70f7e0a1ae9cf1c0420df1f414d3dce3bea805d90ef56485b774296f6ccee336",
+      "normalized_path": "data/identity-comparison/normalized/larry-02.png",
+      "normalized_sha256": "e70b4430c1a88c46cbc8ec3ba94df0648b697fe0b45553d776a3f36f09be9c28",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 626,
+        "sha256": "f03349fe4f34d2fc7eb3563c3b3589bc73af3628492f22762343a8690934e38c"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 626,
+        "mean_luminance": 101.41,
+        "laplacian_variance": 1489.36,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/larry-02-source.json",
+      "visual_review": "Same source-named orange cat outdoors on grass; no visible live dog."
+    },
+    {
+      "id": "larry-01",
+      "case_id": "larry",
+      "path": "data/identity-comparison/images/larry-01.jpg",
+      "sha256": "8f50fd34708ebf31b3f8b9767879a37e1dea6492a9d1cd6a5cda84b17dd617fc",
+      "normalized_path": "data/identity-comparison/normalized/larry-01.png",
+      "normalized_sha256": "01a04fbf2aa8b895c53279f5502271759f3bfa192690075b4708f2610464b8de",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 890,
+        "sha256": "2fe873a565cfeb79ec6ee7934c619c11a2b46ca90de0160c188880eef0874838"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 890,
+        "mean_luminance": 123.64,
+        "laplacian_variance": 297.28,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/larry-01-source.json",
+      "visual_review": "Single orange cat indoors beside a mug; no visible live dog."
+    },
+    {
+      "id": "liberty-02",
+      "case_id": "liberty",
+      "path": "data/identity-comparison/images/liberty-02.jpg",
+      "sha256": "e422f33c5d947eaaed087c476c71d384e5fa3a6893fbc4399a3b13dee54b129b",
+      "normalized_path": "data/identity-comparison/normalized/liberty-02.png",
+      "normalized_sha256": "866f6b7f04bdd05d07d95b1653c8c667e5700fb9b91795a6fe1ec59922c5c47a",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 1184,
+        "sha256": "bda56e95ea3667e30809aa71ab4a0bd1bc74129118a28ee2664ce0e18b1b3a1d"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 1184,
+        "mean_luminance": 99.42,
+        "laplacian_variance": 1139.55,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/liberty-02-source.json",
+      "visual_review": "Single dog walking outdoors with three people. Source is an existing crop of a separate Camp David exposure."
+    },
+    {
+      "id": "liberty-01",
+      "case_id": "liberty",
+      "path": "data/identity-comparison/images/liberty-01.jpg",
+      "sha256": "ae3843a483c56c514aeb9bd5707a4b3fb3329c73479cf904702b45dc684d4458",
+      "normalized_path": "data/identity-comparison/normalized/liberty-01.png",
+      "normalized_sha256": "e9287805eb5fd44d77fcb3479371b4401c3a68eb3f75bfb916d175d229bbaef2",
+      "normalized_metadata": {
+        "width": 776,
+        "height": 436,
+        "sha256": "ecc5c8f82923cbf3ed30192a18d5c3567a77790c7d6513efdd35150a2dda23b0"
+      },
+      "inspection": {
+        "width": 776,
+        "height": 436,
+        "mean_luminance": 116.35,
+        "laplacian_variance": 859.61,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/liberty-01-source.json",
+      "visual_review": "Single dog standing beside a seated person in an office; dark archival image."
+    },
+    {
+      "id": "robroy-02",
+      "case_id": "robroy",
+      "path": "data/identity-comparison/images/robroy-02.jpg",
+      "sha256": "d3bc1e85220ee6f386984ae23cc6e890c36a8e9a7971d30fdbe4522701b17352",
+      "normalized_path": "data/identity-comparison/normalized/robroy-02.png",
+      "normalized_sha256": "88983116e742cd8674d7639c0e9b598945c4ee8b3a2a140c9e25c03ec1634fcc",
+      "normalized_metadata": {
+        "width": 1024,
+        "height": 743,
+        "sha256": "29b9cc9f22df87d8e3d93fa35a249fe36aec1392560490e751a2c277c84d4522"
+      },
+      "inspection": {
+        "width": 1024,
+        "height": 743,
+        "mean_luminance": 97.26,
+        "laplacian_variance": 378.02,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/robroy-02-source.json",
+      "visual_review": "Single white dog indoors beside an artist. Source caption names Rob Roy; framed archival photograph."
+    },
+    {
+      "id": "robroy-01",
+      "case_id": "robroy",
+      "path": "data/identity-comparison/images/robroy-01.jpg",
+      "sha256": "5048abff8c7c17c45bfee0afc16187c28c4eb4b154dcb2768f272ef90524f79c",
+      "normalized_path": "data/identity-comparison/normalized/robroy-01.png",
+      "normalized_sha256": "cf770c081465ccf19d753e14dc8684fc5e90ba9df478b539ef88114e18974424",
+      "normalized_metadata": {
+        "width": 272,
+        "height": 336,
+        "sha256": "ebcf9d498c30d35edb8f885280e281e636530eef756372484dbf4b7b6e1bf7e7"
+      },
+      "inspection": {
+        "width": 272,
+        "height": 336,
+        "mean_luminance": 170.12,
+        "laplacian_variance": 826.56,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/robroy-01-source.json",
+      "visual_review": "Single white dog, close side view, partial human hand at muzzle; small native source."
+    },
+    {
+      "id": "yuki-02",
+      "case_id": "yuki",
+      "path": "data/identity-comparison/images/yuki-02.jpg",
+      "sha256": "7eccd810535445d2585b2b37beb4875297badf1c5c4b128c99d903fd424b3b80",
+      "normalized_path": "data/identity-comparison/normalized/yuki-02.png",
+      "normalized_sha256": "501edfd2bea9801da167605da4d70b9c47eb96c397333813da42072592ea5ac6",
+      "normalized_metadata": {
+        "width": 1280,
+        "height": 849,
+        "sha256": "74e16a1cf6c85c73ec526f237028155531d7f3c23ea21efb9f86d7a74647206e"
+      },
+      "inspection": {
+        "width": 1280,
+        "height": 849,
+        "mean_luminance": 100.38,
+        "laplacian_variance": 434.57,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/yuki-02-source.json",
+      "visual_review": "Same named dog held by a person in a pool; separate exposure with another person and float nearby."
+    },
+    {
+      "id": "yuki-01",
+      "case_id": "yuki",
+      "path": "data/identity-comparison/images/yuki-01.jpg",
+      "sha256": "621bab3e77283d94b82d88e6dfd999ba4699a561ea263cf346d3920b4385fd0d",
+      "normalized_path": "data/identity-comparison/normalized/yuki-01.png",
+      "normalized_sha256": "4d090d700e34def03db97a843382304a109b49aaa0b64e4f9d226d6dd9982f3b",
+      "normalized_metadata": {
+        "width": 317,
+        "height": 326,
+        "sha256": "1e01de24e06bb5cdddfedb4409f9366b051b9c87457574965822cf0cedef63c3"
+      },
+      "inspection": {
+        "width": 317,
+        "height": 326,
+        "mean_luminance": 104.35,
+        "laplacian_variance": 645.9,
+        "quality_flags": [],
+        "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+      },
+      "source_metadata": "docs/evidence/identity-comparison/yuki-01-source.json",
+      "visual_review": "Single small dog lying across a seated person's lap, mouth raised; small archival source."
+    }
+  ],
+  "first_photo_assignment": "Python Random(42), shuffle each pair in sorted case-id order",
+  "exposure": "No selected photograph has received BreedFrame classifier inference before this registration. Identity-disjoint from prior evaluated cases. Public-image training overlap unknown. Excluded Fala sculpture images were visually reviewed in earlier curation without inference. Archive-heavy convenience selection; no population estimate.",
+  "exclusions": {
+    "Rex": "Source identifies Cavalier King Charles Spaniel; exact correspondence to the published label taxonomy was not assumed.",
+    "Heidi": "Available images appear to derive from the same dated press-conference photograph; independent exposures not established.",
+    "Doug the Pug": "Search returned one exposure and its crop; no pair established.",
+    "Him and Her": "The candidate greeting image is dated 1966-03-18 but names Her, whose death the LBJ Library dates to 1964. Group identity is inconsistent.",
+    "Sunny": "Retrieved images also contain previously evaluated Bo; excluded to preserve identity separation.",
+    "hachiko-statue-02": "Cats at the sculpture feet; insufficient view of the dog depiction for the intended paired control.",
+    "hachiko-statue-03": "Crowd obscures the dog sculpture.",
+    "hachiko-statue-04": "Another distant crowded view; the selected measuring photograph supplies a closer distinct view."
+  },
+  "previous_subjects": [
+    "barney",
+    "barney-missbeazley-sculptures",
+    "bo",
+    "buddy",
+    "champ",
+    "conan",
+    "greyfriars-bobby-sculpture",
+    "major",
+    "millie",
+    "miss-beazley",
+    "original-horse",
+    "socks",
+    "sully",
+    "topper",
+    "unnamed-pug-demo",
+    "valegro"
+  ]
+}

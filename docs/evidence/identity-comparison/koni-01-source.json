@@ -1,0 +1,115 @@
+{
+  "pageid": 5540009,
+  "ns": 6,
+  "title": "File:Vladimir Putin and Koni-3.jpg",
+  "index": 1,
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "timestamp": "2008-12-21T03:25:11Z",
+      "size": 83947,
+      "width": 500,
+      "height": 550,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vladimir_Putin_and_Koni-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 1000,
+      "thumbheight": 1100,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vladimir_Putin_and_Koni-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1000,
+        "height": 1100
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vladimir_Putin_and_Koni-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Koni-3.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5540009",
+      "sha1": "a08cbe66203ffccc456273d97b313318e1cd7080",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2008-12-21 03:25:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vladimir Putin and Koni-3",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Margot Klestil-L\u00f6ffler|Koni|Novo-Ogaryovo|Vladimir Putin with animals|Fur trimmings|Vladimir Putin in February 2004|Fox (clothing)|Old men of Austria|Thomas Klestil and Vladimir Putin|Fur fashion in 2004|Russia photographs taken on 2004-02-14|Files from Kremlin.ru, 2004|Vladimir Putin with Lyudmila Putina in 2004",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Novo-Ogaryovo. With Labrador Koni. From left to right: Lyudmila Putina, Austrian President Thomas Klestil, Margot Klestil-Loffler.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on\u00a014 February 2004",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.kremlin.ru/text/images/61480.shtml\">http://www.kremlin.ru/text/images/61480.shtml</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Presidential Press and Information Office",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kremlin.ru\">Kremlin.ru</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "revisions": [
+    {
+      "revid": 1187737659,
+      "parentid": 1063739244
+    }
+  ]
+}

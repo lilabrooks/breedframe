@@ -1,0 +1,16 @@
+.venv/
+.runtime/
+models/
+data/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env*
+!.env.example
+.DS_Store
+*.egg-info/
+.coverage
+htmlcov/
+.codegraph/
+.token-savior-cache.json

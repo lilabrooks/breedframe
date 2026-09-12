@@ -1,0 +1,5528 @@
+{
+  "protocol_version": 2,
+  "controller": "qwen3.5:4b",
+  "controller_identity": {
+    "model": "qwen3.5:4b",
+    "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen35",
+      "families": [
+        "qwen35"
+      ],
+      "parameter_size": "4.7B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 262144,
+      "embedding_length": 2560
+    }
+  },
+  "runtime": {
+    "version": "0.34.0"
+  },
+  "split": "reserved_evaluation",
+  "mode": "forced_pair",
+  "source_hashes": {
+    "breedframe/__init__.py": "83a2148f12df414fbbbcf72f1e137a235ade1d5aae3851abbe71a8ec42ea0cd6",
+    "breedframe/agent.py": "1d28c9630c86a505fec2614d6837b8988388d974b3e0bba43fed98589742f28b",
+    "breedframe/app.py": "b4ca0e35b3ff7fd0afc747542ae5191c092c019d5f2ed8d2d4a4b5d6f1ed22ac",
+    "breedframe/classifier.py": "634bc03a9ed67f649d35bc6b3c03634ef2f83f8036863f95b6094e039a9480c1",
+    "breedframe/config.py": "ed2033b4e4e20f6e02d52faada00387cb049b07465b89ff123c93d3846bbf7de",
+    "breedframe/contracts.py": "822a6a17957e609b0468a157bdae9745537ef712456f1d6615a34344d9bff5db",
+    "breedframe/controller.py": "9d493a0b93128466526cb519d84a3890185fd0654146e9d5d0bd2140923b98fe",
+    "breedframe/evidence.py": "9fc7f5b55d09cd584fb1e30d304f1aa3a38bf7027a6a03559383d983131f8ce9",
+    "breedframe/footprint.py": "d366f13553a79b03a62542a11f21cccd90aaaa0321db32b55379dc18c10b880b",
+    "breedframe/images.py": "55abc592ba100fbe47d63720839a5f92fa87888f8af008efcf446bdd07907a6c",
+    "breedframe/metrics.py": "b51ce861a8b734a512da3218f7f31c7c8f8cd2062e7f4eb9db2d89f83c9a10f7",
+    "breedframe/model_identity.py": "3fe6f4ba9f268c767e09c15ea9abaf50b41e182d3aa9039dd38e44dfa455d071",
+    "breedframe/policies.py": "63732245e8bb96fe704c926550ff7a95611a4725326c6dbded359523ce543212",
+    "breedframe/store.py": "adc2231751e1dd9f713d4e2ed443480123d14ca99ed932f8b5c4117eb9345874",
+    "scripts/evaluate_pairs.py": "ea917ba34576025cb9b39939c4da35d4e0ee1d8ff46e000ff9947a8b83103b59",
+    "docs/evidence/photo-set-v2/manifest.json": "9e71d544417fdfacf59a2a3fbe6d83efa55faf54c0769c5d4c94d8180d1e50b3"
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "started_at": "2026-09-11T22:07:53-0400",
+  "protocol": "One run per method and fixed case; rotating method order. Label and source metadata never enter the controller. Policy mode supplies follow-ups only on request. Forced-pair mode supplies both photos even after completion, except after a system failure. A request beyond supplied photographs is closed by a simulated user partial-report action. All errors and abstentions remain in denominators. Warm model timing; cold warmup reported separately. No memory sampler.",
+  "rows": [
+    {
+      "id": "sully",
+      "kind": "same_dog_pair",
+      "breed_accuracy_eligible": true,
+      "live_dog_present": true,
+      "leakage_group": "sully",
+      "label": "labrador_retriever",
+      "method_order": [
+        "direct",
+        "rules",
+        "agent"
+      ],
+      "direct": {
+        "status": "complete",
+        "cutoff_status": "complete",
+        "case_id": "bac3b800ef6442d68ab144ffa189ac65",
+        "seconds": 0.274,
+        "candidates": [
+          {
+            "class_id": 80,
+            "label": "labrador_retriever",
+            "score": 0.083061,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 15,
+            "label": "pug",
+            "score": 0.034519,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 8,
+            "label": "golden_retriever",
+            "score": 0.017891,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 48,
+            "label": "weimaraner",
+            "score": 0.017299,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 51,
+            "label": "boston_bull",
+            "score": 0.014304,
+            "unresolved_label": false
+          }
+        ],
+        "initial_candidates": [
+          {
+            "class_id": 80,
+            "label": "labrador_retriever",
+            "score": 0.055967,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 50,
+            "label": "bluetick",
+            "score": 0.032064,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 19,
+            "label": "walker_hound",
+            "score": 0.025412,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 49,
+            "label": "english_setter",
+            "score": 0.020146,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 23,
+            "label": "english_foxhound",
+            "score": 0.019211,
+            "unresolved_label": false
+          }
+        ],
+        "initial_correct": true,
+        "requests": 0,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 1,
+        "unavailable_requests": 0,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 0,
+        "relation": "no_ranking",
+        "report": null,
+        "direct_results": [
+          {
+            "photo_id": "photo-1",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 80,
+                  "label": "labrador_retriever",
+                  "score": 0.055967,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 50,
+                  "label": "bluetick",
+                  "score": 0.032064,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 19,
+                  "label": "walker_hound",
+                  "score": 0.025412,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.020146,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 23,
+                  "label": "english_foxhound",
+                  "score": 0.019211,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.023903,
+              "device": "mps",
+              "inference_seconds": 0.0762,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            }
+          },
+          {
+            "photo_id": "photo-2",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 80,
+                  "label": "labrador_retriever",
+                  "score": 0.083061,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "score": 0.034519,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 8,
+                  "label": "golden_retriever",
+                  "score": 0.017891,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 48,
+                  "label": "weimaraner",
+                  "score": 0.017299,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 51,
+                  "label": "boston_bull",
+                  "score": 0.014304,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.048542,
+              "device": "mps",
+              "inference_seconds": 0.0463,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            }
+          }
+        ],
+        "events": [],
+        "stop_reason": null
+      },
+      "rules": {
+        "status": "complete",
+        "cutoff_status": "awaiting_photo",
+        "case_id": "9364d2e5ec3c41ae9bacd2af35510aa3",
+        "seconds": 0.286,
+        "candidates": [],
+        "initial_candidates": [],
+        "initial_correct": false,
+        "requests": 2,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 1,
+        "unavailable_requests": 1,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 6,
+        "relation": "agreement",
+        "report": {
+          "version": 2,
+          "outcome": "inconclusive",
+          "selected_result_id": null,
+          "completed_by": "user",
+          "evidence_ids": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "candidates": [],
+          "comparison": {
+            "version": 2,
+            "relation": "agreement",
+            "summary": "The leading class agrees across 2 photographs. This does not verify breed identity.",
+            "views": [
+              {
+                "photo_id": "photo-1",
+                "inspection_event_id": 1,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 2,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 80,
+                        "label": "labrador_retriever",
+                        "score": 0.055967,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 50,
+                        "label": "bluetick",
+                        "score": 0.032064,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 19,
+                        "label": "walker_hound",
+                        "score": 0.025412,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 49,
+                        "label": "english_setter",
+                        "score": 0.020146,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 23,
+                        "label": "english_foxhound",
+                        "score": 0.019211,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  80
+                ]
+              },
+              {
+                "photo_id": "photo-2",
+                "inspection_event_id": 4,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 5,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 80,
+                        "label": "labrador_retriever",
+                        "score": 0.083061,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 15,
+                        "label": "pug",
+                        "score": 0.034519,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 8,
+                        "label": "golden_retriever",
+                        "score": 0.017891,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 48,
+                        "label": "weimaraner",
+                        "score": 0.017299,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 51,
+                        "label": "boston_bull",
+                        "score": 0.014304,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  80
+                ]
+              }
+            ],
+            "ranked_photo_count": 2,
+            "candidates": [
+              {
+                "class_id": 80,
+                "label": "labrador_retriever",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.055967
+                  },
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.083061
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-1",
+                  "photo-2"
+                ],
+                "top5_photo_ids": [
+                  "photo-1",
+                  "photo-2"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 15,
+                "label": "pug",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.034519
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-2"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 50,
+                "label": "bluetick",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.032064
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 8,
+                "label": "golden_retriever",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.017891
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-2"
+                ],
+                "rank_sum": 3
+              },
+              {
+                "class_id": 19,
+                "label": "walker_hound",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.025412
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 3
+              }
+            ],
+            "blockers": [
+              "Current results have quality concerns, weak scores, or an unresolved published label."
+            ],
+            "report_eligible_ids": [],
+            "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+            "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+          },
+          "change": "The leading class agrees across 2 photographs. This does not verify breed identity.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+        },
+        "direct_results": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 1280,
+              "height": 1110,
+              "mean_luminance": 83.65,
+              "laplacian_variance": 391.81,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.019
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 80,
+                  "label": "labrador_retriever",
+                  "score": 0.055967,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 50,
+                  "label": "bluetick",
+                  "score": 0.032064,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 19,
+                  "label": "walker_hound",
+                  "score": 0.025412,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.020146,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 23,
+                  "label": "english_foxhound",
+                  "score": 0.019211,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.023903,
+              "device": "mps",
+              "inference_seconds": 0.0512,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.051
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body",
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "message": "Add a sharp photo of the same dog with the face and body in focus.",
+              "why": "The leading classifier scores are close or weak."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "width": 1280,
+              "height": 853,
+              "mean_luminance": 93.47,
+              "laplacian_variance": 1106.52,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.016
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 80,
+                  "label": "labrador_retriever",
+                  "score": 0.083061,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "score": 0.034519,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 8,
+                  "label": "golden_retriever",
+                  "score": 0.017891,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 48,
+                  "label": "weimaraner",
+                  "score": 0.017299,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 51,
+                  "label": "boston_bull",
+                  "score": 0.014304,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.048542,
+              "device": "mps",
+              "inference_seconds": 0.0465,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.047
+          },
+          {
+            "id": 6,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body",
+              "evidence_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "message": "Add a sharp photo of the same dog with the face and body in focus.",
+              "why": "The leading classifier scores are close or weak."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 7,
+            "kind": "user_action",
+            "status": "ok",
+            "photo_id": "photo-2",
+            "output": {
+              "action": "finish_partial",
+              "reason": "No additional photo supplied."
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "agent": {
+        "status": "complete",
+        "cutoff_status": "awaiting_photo",
+        "case_id": "99e2b66933f7438ba3aac216af7b48ae",
+        "seconds": 29.793,
+        "candidates": [],
+        "initial_candidates": [],
+        "initial_correct": false,
+        "requests": 1,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 0,
+        "unavailable_requests": 1,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 5,
+        "relation": "single_photo",
+        "report": {
+          "version": 2,
+          "outcome": "inconclusive",
+          "selected_result_id": null,
+          "completed_by": "user",
+          "evidence_ids": [
+            1,
+            2,
+            4
+          ],
+          "candidates": [],
+          "comparison": {
+            "version": 2,
+            "relation": "single_photo",
+            "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+            "views": [
+              {
+                "photo_id": "photo-1",
+                "inspection_event_id": 1,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 2,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 80,
+                        "label": "labrador_retriever",
+                        "score": 0.055967,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 50,
+                        "label": "bluetick",
+                        "score": 0.032064,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 19,
+                        "label": "walker_hound",
+                        "score": 0.025412,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 49,
+                        "label": "english_setter",
+                        "score": 0.020146,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 23,
+                        "label": "english_foxhound",
+                        "score": 0.019211,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  80
+                ]
+              },
+              {
+                "photo_id": "photo-2",
+                "inspection_event_id": 4,
+                "quality_flags": [],
+                "rankings": [],
+                "leading_class_ids": []
+              }
+            ],
+            "ranked_photo_count": 1,
+            "candidates": [
+              {
+                "class_id": 80,
+                "label": "labrador_retriever",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.055967
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-1"
+                ],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 1
+              },
+              {
+                "class_id": 50,
+                "label": "bluetick",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.032064
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 19,
+                "label": "walker_hound",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.025412
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 3
+              },
+              {
+                "class_id": 49,
+                "label": "english_setter",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 4,
+                    "score": 0.020146
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 4
+              },
+              {
+                "class_id": 23,
+                "label": "english_foxhound",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 5,
+                    "score": 0.019211
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 5
+              }
+            ],
+            "blockers": [
+              "The current photo has no classifier result."
+            ],
+            "report_eligible_ids": [],
+            "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+            "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+          },
+          "change": "One photo has classifier evidence; agreement across photographs is untested.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+        },
+        "direct_results": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 1280,
+              "height": 1110,
+              "mean_luminance": 83.65,
+              "laplacian_variance": 391.81,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 2.021,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "cd2c063391cb0d1bd39546952be9e1773eee0384b27ad0b168ecb30d159ffb2b",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 26,
+              "prompt_eval_count": 610,
+              "load_duration_ns": 2137166,
+              "total_duration_ns": 2010916458
+            },
+            "seconds": 0.033
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 80,
+                  "label": "labrador_retriever",
+                  "score": 0.055967,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 50,
+                  "label": "bluetick",
+                  "score": 0.032064,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 19,
+                  "label": "walker_hound",
+                  "score": 0.025412,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.020146,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 23,
+                  "label": "english_foxhound",
+                  "score": 0.019211,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.023903,
+              "device": "mps",
+              "inference_seconds": 0.0739,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 3.952,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "012bdc6167cdc2018b6dff29ddfcefcf2075b13c69aa3692c8e9451e591971d3",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 27,
+              "prompt_eval_count": 619,
+              "load_duration_ns": 1885417,
+              "total_duration_ns": 3932761542
+            },
+            "seconds": 0.074
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "inconclusive",
+              "selected_result_id": null
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "version": 2,
+              "outcome": "inconclusive",
+              "selected_result_id": null,
+              "completed_by": "agent",
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "candidates": [],
+              "comparison": {
+                "version": 2,
+                "relation": "single_photo",
+                "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+                "views": [
+                  {
+                    "photo_id": "photo-1",
+                    "inspection_event_id": 1,
+                    "quality_flags": [],
+                    "rankings": [
+                      {
+                        "event_id": 2,
+                        "region_id": null,
+                        "candidates": [
+                          {
+                            "class_id": 80,
+                            "label": "labrador_retriever",
+                            "score": 0.055967,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 50,
+                            "label": "bluetick",
+                            "score": 0.032064,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 19,
+                            "label": "walker_hound",
+                            "score": 0.025412,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 49,
+                            "label": "english_setter",
+                            "score": 0.020146,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 23,
+                            "label": "english_foxhound",
+                            "score": 0.019211,
+                            "unresolved_label": false
+                          }
+                        ],
+                        "weak_scores": true,
+                        "quality_flags": []
+                      }
+                    ],
+                    "leading_class_ids": [
+                      80
+                    ]
+                  }
+                ],
+                "ranked_photo_count": 1,
+                "candidates": [
+                  {
+                    "class_id": 80,
+                    "label": "labrador_retriever",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 1,
+                        "score": 0.055967
+                      }
+                    ],
+                    "supporting_photo_ids": [
+                      "photo-1"
+                    ],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 1
+                  },
+                  {
+                    "class_id": 50,
+                    "label": "bluetick",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 2,
+                        "score": 0.032064
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 2
+                  },
+                  {
+                    "class_id": 19,
+                    "label": "walker_hound",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 3,
+                        "score": 0.025412
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 3
+                  },
+                  {
+                    "class_id": 49,
+                    "label": "english_setter",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 4,
+                        "score": 0.020146
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 4
+                  },
+                  {
+                    "class_id": 23,
+                    "label": "english_foxhound",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 5,
+                        "score": 0.019211
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 5
+                  }
+                ],
+                "blockers": [
+                  "Current results have quality concerns, weak scores, or an unresolved published label."
+                ],
+                "report_eligible_ids": [],
+                "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+                "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+              },
+              "change": "One photo has classifier evidence; agreement across photographs is untested.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+            },
+            "controller_seconds": 7.664,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "18eaaf386b7d489f1ab2ed922745b9ef15cbaaeeea6222897adb36acfab80562",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 32,
+              "prompt_eval_count": 1309,
+              "load_duration_ns": 1406125,
+              "total_duration_ns": 7657407334
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "width": 1280,
+              "height": 853,
+              "mean_luminance": 93.47,
+              "laplacian_variance": 1106.52,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 7.63,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "18653f694f11528d3166a3bbd1ae96e0b1d616689338ccae52249e457a11b16b",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 25,
+              "prompt_eval_count": 1327,
+              "load_duration_ns": 1749375,
+              "total_duration_ns": 7622920875
+            },
+            "seconds": 0.03
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "insufficient_evidence",
+              "view": "closer_full_body"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "reason": "insufficient_evidence",
+              "view": "closer_full_body",
+              "evidence_ids": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "message": "Move closer and include the same dog's full body and face in the frame.",
+              "why": "The available measurements do not establish a reliable visual match."
+            },
+            "controller_seconds": 8.207,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "7f8b61c85a69db9a59188064134e0beda962e82181727636bdf8a8385a00d9e7",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 39,
+              "prompt_eval_count": 1336,
+              "load_duration_ns": 2004542,
+              "total_duration_ns": 8184208334
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 6,
+            "kind": "user_action",
+            "status": "ok",
+            "photo_id": "photo-2",
+            "output": {
+              "action": "finish_partial",
+              "reason": "No additional photo supplied."
+            }
+          }
+        ],
+        "stop_reason": null
+      }
+    },
+    {
+      "id": "champ",
+      "kind": "same_dog_pair",
+      "breed_accuracy_eligible": true,
+      "live_dog_present": true,
+      "leakage_group": "champ",
+      "label": "german_shepherd",
+      "method_order": [
+        "rules",
+        "agent",
+        "direct"
+      ],
+      "rules": {
+        "status": "complete",
+        "cutoff_status": "awaiting_photo",
+        "case_id": "f4c065613c604ec6be8565837eac91df",
+        "seconds": 1.287,
+        "candidates": [],
+        "initial_candidates": [],
+        "initial_correct": false,
+        "requests": 2,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 1,
+        "unavailable_requests": 1,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 6,
+        "relation": "agreement",
+        "report": {
+          "version": 2,
+          "outcome": "inconclusive",
+          "selected_result_id": null,
+          "completed_by": "user",
+          "evidence_ids": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "candidates": [],
+          "comparison": {
+            "version": 2,
+            "relation": "agreement",
+            "summary": "The leading class agrees across 2 photographs. This does not verify breed identity.",
+            "views": [
+              {
+                "photo_id": "photo-1",
+                "inspection_event_id": 1,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 2,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 79,
+                        "label": "german_shepherd",
+                        "score": 0.216468,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 95,
+                        "label": "malinois",
+                        "score": 0.027591,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 70,
+                        "label": "norwegian_elkhound",
+                        "score": 0.021954,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 16,
+                        "label": "kelpie",
+                        "score": 0.01163,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 21,
+                        "label": "cardigan",
+                        "score": 0.010741,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  79
+                ]
+              },
+              {
+                "photo_id": "photo-2",
+                "inspection_event_id": 4,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 5,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 79,
+                        "label": "german_shepherd",
+                        "score": 0.184269,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 95,
+                        "label": "malinois",
+                        "score": 0.053333,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 70,
+                        "label": "norwegian_elkhound",
+                        "score": 0.011739,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 58,
+                        "label": "french_bulldog",
+                        "score": 0.010805,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 16,
+                        "label": "kelpie",
+                        "score": 0.010641,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  79
+                ]
+              }
+            ],
+            "ranked_photo_count": 2,
+            "candidates": [
+              {
+                "class_id": 79,
+                "label": "german_shepherd",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.216468
+                  },
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.184269
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-1",
+                  "photo-2"
+                ],
+                "top5_photo_ids": [
+                  "photo-1",
+                  "photo-2"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 95,
+                "label": "malinois",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.027591
+                  },
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.053333
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1",
+                  "photo-2"
+                ],
+                "rank_sum": 4
+              },
+              {
+                "class_id": 70,
+                "label": "norwegian_elkhound",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.021954
+                  },
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.011739
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1",
+                  "photo-2"
+                ],
+                "rank_sum": 6
+              },
+              {
+                "class_id": 16,
+                "label": "kelpie",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 4,
+                    "score": 0.01163
+                  },
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 5,
+                    "score": 0.010641
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1",
+                  "photo-2"
+                ],
+                "rank_sum": 9
+              },
+              {
+                "class_id": 58,
+                "label": "french_bulldog",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 4,
+                    "score": 0.010805
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-2"
+                ],
+                "rank_sum": 4
+              }
+            ],
+            "blockers": [
+              "Current results have quality concerns, weak scores, or an unresolved published label."
+            ],
+            "report_eligible_ids": [],
+            "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+            "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+          },
+          "change": "The leading class agrees across 2 photographs. This does not verify breed identity.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+        },
+        "direct_results": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 960,
+              "height": 960,
+              "mean_luminance": 82.05,
+              "laplacian_variance": 896.33,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 0.007,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.052
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 79,
+                  "label": "german_shepherd",
+                  "score": 0.216468,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 95,
+                  "label": "malinois",
+                  "score": 0.027591,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.021954,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 16,
+                  "label": "kelpie",
+                  "score": 0.01163,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 21,
+                  "label": "cardigan",
+                  "score": 0.010741,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.188877,
+              "device": "mps",
+              "inference_seconds": 0.6337,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 0.004,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.636
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body",
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "message": "Add a sharp photo of the same dog with the face and body in focus.",
+              "why": "The leading classifier scores are close or weak."
+            },
+            "controller_seconds": 0.004,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "width": 960,
+              "height": 639,
+              "mean_luminance": 127.66,
+              "laplacian_variance": 2366.64,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 0.004,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.042
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 79,
+                  "label": "german_shepherd",
+                  "score": 0.184269,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 95,
+                  "label": "malinois",
+                  "score": 0.053333,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.011739,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 58,
+                  "label": "french_bulldog",
+                  "score": 0.010805,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 16,
+                  "label": "kelpie",
+                  "score": 0.010641,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.130936,
+              "device": "mps",
+              "inference_seconds": 0.1266,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 0.005,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.141
+          },
+          {
+            "id": 6,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body",
+              "evidence_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "message": "Add a sharp photo of the same dog with the face and body in focus.",
+              "why": "The leading classifier scores are close or weak."
+            },
+            "controller_seconds": 0.024,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.003
+          },
+          {
+            "id": 7,
+            "kind": "user_action",
+            "status": "ok",
+            "photo_id": "photo-2",
+            "output": {
+              "action": "finish_partial",
+              "reason": "No additional photo supplied."
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "agent": {
+        "status": "complete",
+        "cutoff_status": "complete",
+        "case_id": "a8d5e7a0b7b140aa8f1d619ba15762c0",
+        "seconds": 33.108,
+        "candidates": [],
+        "initial_candidates": [],
+        "initial_correct": false,
+        "requests": 0,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 0,
+        "unavailable_requests": 0,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 5,
+        "relation": "single_photo",
+        "report": {
+          "version": 2,
+          "outcome": "inconclusive",
+          "selected_result_id": null,
+          "completed_by": "agent",
+          "evidence_ids": [
+            1,
+            2,
+            4
+          ],
+          "candidates": [],
+          "comparison": {
+            "version": 2,
+            "relation": "single_photo",
+            "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+            "views": [
+              {
+                "photo_id": "photo-1",
+                "inspection_event_id": 1,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 2,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 79,
+                        "label": "german_shepherd",
+                        "score": 0.216468,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 95,
+                        "label": "malinois",
+                        "score": 0.027591,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 70,
+                        "label": "norwegian_elkhound",
+                        "score": 0.021954,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 16,
+                        "label": "kelpie",
+                        "score": 0.01163,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 21,
+                        "label": "cardigan",
+                        "score": 0.010741,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  79
+                ]
+              },
+              {
+                "photo_id": "photo-2",
+                "inspection_event_id": 4,
+                "quality_flags": [],
+                "rankings": [],
+                "leading_class_ids": []
+              }
+            ],
+            "ranked_photo_count": 1,
+            "candidates": [
+              {
+                "class_id": 79,
+                "label": "german_shepherd",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.216468
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-1"
+                ],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 1
+              },
+              {
+                "class_id": 95,
+                "label": "malinois",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.027591
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 70,
+                "label": "norwegian_elkhound",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.021954
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 3
+              },
+              {
+                "class_id": 16,
+                "label": "kelpie",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 4,
+                    "score": 0.01163
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 4
+              },
+              {
+                "class_id": 21,
+                "label": "cardigan",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 5,
+                    "score": 0.010741
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 5
+              }
+            ],
+            "blockers": [
+              "The current photo has no classifier result."
+            ],
+            "report_eligible_ids": [],
+            "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+            "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+          },
+          "change": "One photo has classifier evidence; agreement across photographs is untested.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+        },
+        "direct_results": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 960,
+              "height": 960,
+              "mean_luminance": 82.05,
+              "laplacian_variance": 896.33,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 4.437,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "cd2c063391cb0d1bd39546952be9e1773eee0384b27ad0b168ecb30d159ffb2b",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 26,
+              "prompt_eval_count": 610,
+              "load_duration_ns": 15620500,
+              "total_duration_ns": 4370935917
+            },
+            "seconds": 0.035
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 79,
+                  "label": "german_shepherd",
+                  "score": 0.216468,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 95,
+                  "label": "malinois",
+                  "score": 0.027591,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.021954,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 16,
+                  "label": "kelpie",
+                  "score": 0.01163,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 21,
+                  "label": "cardigan",
+                  "score": 0.010741,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.188877,
+              "device": "mps",
+              "inference_seconds": 0.1425,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 4.153,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "012bdc6167cdc2018b6dff29ddfcefcf2075b13c69aa3692c8e9451e591971d3",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 27,
+              "prompt_eval_count": 619,
+              "load_duration_ns": 13536209,
+              "total_duration_ns": 4139506917
+            },
+            "seconds": 0.144
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "inconclusive",
+              "selected_result_id": null
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "version": 2,
+              "outcome": "inconclusive",
+              "selected_result_id": null,
+              "completed_by": "agent",
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "candidates": [],
+              "comparison": {
+                "version": 2,
+                "relation": "single_photo",
+                "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+                "views": [
+                  {
+                    "photo_id": "photo-1",
+                    "inspection_event_id": 1,
+                    "quality_flags": [],
+                    "rankings": [
+                      {
+                        "event_id": 2,
+                        "region_id": null,
+                        "candidates": [
+                          {
+                            "class_id": 79,
+                            "label": "german_shepherd",
+                            "score": 0.216468,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 95,
+                            "label": "malinois",
+                            "score": 0.027591,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 70,
+                            "label": "norwegian_elkhound",
+                            "score": 0.021954,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 16,
+                            "label": "kelpie",
+                            "score": 0.01163,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 21,
+                            "label": "cardigan",
+                            "score": 0.010741,
+                            "unresolved_label": false
+                          }
+                        ],
+                        "weak_scores": true,
+                        "quality_flags": []
+                      }
+                    ],
+                    "leading_class_ids": [
+                      79
+                    ]
+                  }
+                ],
+                "ranked_photo_count": 1,
+                "candidates": [
+                  {
+                    "class_id": 79,
+                    "label": "german_shepherd",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 1,
+                        "score": 0.216468
+                      }
+                    ],
+                    "supporting_photo_ids": [
+                      "photo-1"
+                    ],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 1
+                  },
+                  {
+                    "class_id": 95,
+                    "label": "malinois",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 2,
+                        "score": 0.027591
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 2
+                  },
+                  {
+                    "class_id": 70,
+                    "label": "norwegian_elkhound",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 3,
+                        "score": 0.021954
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 3
+                  },
+                  {
+                    "class_id": 16,
+                    "label": "kelpie",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 4,
+                        "score": 0.01163
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 4
+                  },
+                  {
+                    "class_id": 21,
+                    "label": "cardigan",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 5,
+                        "score": 0.010741
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 5
+                  }
+                ],
+                "blockers": [
+                  "Current results have quality concerns, weak scores, or an unresolved published label."
+                ],
+                "report_eligible_ids": [],
+                "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+                "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+              },
+              "change": "One photo has classifier evidence; agreement across photographs is untested.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+            },
+            "controller_seconds": 8.33,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "6e9a71c3e2e436b5ca4d7594540f9b7b57add6c1f929283f3aba59b71694793b",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 32,
+              "prompt_eval_count": 1305,
+              "load_duration_ns": 1950459,
+              "total_duration_ns": 8322346584
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "width": 960,
+              "height": 639,
+              "mean_luminance": 127.66,
+              "laplacian_variance": 2366.64,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 7.86,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "8fbc24a6cc466bad4ef1320983b4ab7cede7a6b249162453f18a6632c8dcb844",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 25,
+              "prompt_eval_count": 1323,
+              "load_duration_ns": 1992958,
+              "total_duration_ns": 7851445792
+            },
+            "seconds": 0.023
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "inconclusive",
+              "selected_result_id": null
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "version": 2,
+              "outcome": "inconclusive",
+              "selected_result_id": null,
+              "completed_by": "agent",
+              "evidence_ids": [
+                1,
+                2,
+                4
+              ],
+              "candidates": [],
+              "comparison": {
+                "version": 2,
+                "relation": "single_photo",
+                "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+                "views": [
+                  {
+                    "photo_id": "photo-1",
+                    "inspection_event_id": 1,
+                    "quality_flags": [],
+                    "rankings": [
+                      {
+                        "event_id": 2,
+                        "region_id": null,
+                        "candidates": [
+                          {
+                            "class_id": 79,
+                            "label": "german_shepherd",
+                            "score": 0.216468,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 95,
+                            "label": "malinois",
+                            "score": 0.027591,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 70,
+                            "label": "norwegian_elkhound",
+                            "score": 0.021954,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 16,
+                            "label": "kelpie",
+                            "score": 0.01163,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 21,
+                            "label": "cardigan",
+                            "score": 0.010741,
+                            "unresolved_label": false
+                          }
+                        ],
+                        "weak_scores": true,
+                        "quality_flags": []
+                      }
+                    ],
+                    "leading_class_ids": [
+                      79
+                    ]
+                  },
+                  {
+                    "photo_id": "photo-2",
+                    "inspection_event_id": 4,
+                    "quality_flags": [],
+                    "rankings": [],
+                    "leading_class_ids": []
+                  }
+                ],
+                "ranked_photo_count": 1,
+                "candidates": [
+                  {
+                    "class_id": 79,
+                    "label": "german_shepherd",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 1,
+                        "score": 0.216468
+                      }
+                    ],
+                    "supporting_photo_ids": [
+                      "photo-1"
+                    ],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 1
+                  },
+                  {
+                    "class_id": 95,
+                    "label": "malinois",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 2,
+                        "score": 0.027591
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 2
+                  },
+                  {
+                    "class_id": 70,
+                    "label": "norwegian_elkhound",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 3,
+                        "score": 0.021954
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 3
+                  },
+                  {
+                    "class_id": 16,
+                    "label": "kelpie",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 4,
+                        "score": 0.01163
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 4
+                  },
+                  {
+                    "class_id": 21,
+                    "label": "cardigan",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 5,
+                        "score": 0.010741
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 5
+                  }
+                ],
+                "blockers": [
+                  "The current photo has no classifier result."
+                ],
+                "report_eligible_ids": [],
+                "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+                "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+              },
+              "change": "One photo has classifier evidence; agreement across photographs is untested.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+            },
+            "controller_seconds": 7.924,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "773b3e46e243ece7d54f465a9dc6352c185c2aafe8608dc7aa15c0db39f5eba6",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 32,
+              "prompt_eval_count": 1332,
+              "load_duration_ns": 1523208,
+              "total_duration_ns": 7915306750
+            },
+            "seconds": 0.0
+          }
+        ],
+        "stop_reason": null
+      },
+      "direct": {
+        "status": "complete",
+        "cutoff_status": "complete",
+        "case_id": "7d0aab63156a4d3bb0cfecb2b77ad072",
+        "seconds": 0.265,
+        "candidates": [
+          {
+            "class_id": 79,
+            "label": "german_shepherd",
+            "score": 0.184269,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 95,
+            "label": "malinois",
+            "score": 0.053333,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 70,
+            "label": "norwegian_elkhound",
+            "score": 0.011739,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 58,
+            "label": "french_bulldog",
+            "score": 0.010805,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 16,
+            "label": "kelpie",
+            "score": 0.010641,
+            "unresolved_label": false
+          }
+        ],
+        "initial_candidates": [
+          {
+            "class_id": 79,
+            "label": "german_shepherd",
+            "score": 0.216468,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 95,
+            "label": "malinois",
+            "score": 0.027591,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 70,
+            "label": "norwegian_elkhound",
+            "score": 0.021954,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 16,
+            "label": "kelpie",
+            "score": 0.01163,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 21,
+            "label": "cardigan",
+            "score": 0.010741,
+            "unresolved_label": false
+          }
+        ],
+        "initial_correct": true,
+        "requests": 0,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 1,
+        "unavailable_requests": 0,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 0,
+        "relation": "no_ranking",
+        "report": null,
+        "direct_results": [
+          {
+            "photo_id": "photo-1",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 79,
+                  "label": "german_shepherd",
+                  "score": 0.216468,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 95,
+                  "label": "malinois",
+                  "score": 0.027591,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.021954,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 16,
+                  "label": "kelpie",
+                  "score": 0.01163,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 21,
+                  "label": "cardigan",
+                  "score": 0.010741,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.188877,
+              "device": "mps",
+              "inference_seconds": 0.1271,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            }
+          },
+          {
+            "photo_id": "photo-2",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 79,
+                  "label": "german_shepherd",
+                  "score": 0.184269,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 95,
+                  "label": "malinois",
+                  "score": 0.053333,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.011739,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 58,
+                  "label": "french_bulldog",
+                  "score": 0.010805,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 16,
+                  "label": "kelpie",
+                  "score": 0.010641,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.130936,
+              "device": "mps",
+              "inference_seconds": 0.0401,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            }
+          }
+        ],
+        "events": [],
+        "stop_reason": null
+      }
+    },
+    {
+      "id": "millie",
+      "kind": "same_dog_pair",
+      "breed_accuracy_eligible": true,
+      "live_dog_present": true,
+      "leakage_group": "millie",
+      "label": "english_springer",
+      "method_order": [
+        "agent",
+        "direct",
+        "rules"
+      ],
+      "agent": {
+        "status": "complete",
+        "cutoff_status": "complete",
+        "case_id": "cbee4d2b345e490f9fde4b4e0986b62d",
+        "seconds": 30.812,
+        "candidates": [],
+        "initial_candidates": [],
+        "initial_correct": false,
+        "requests": 0,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 0,
+        "unavailable_requests": 0,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 5,
+        "relation": "single_photo",
+        "report": {
+          "version": 2,
+          "outcome": "inconclusive",
+          "selected_result_id": null,
+          "completed_by": "agent",
+          "evidence_ids": [
+            1,
+            2,
+            4
+          ],
+          "candidates": [],
+          "comparison": {
+            "version": 2,
+            "relation": "single_photo",
+            "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+            "views": [
+              {
+                "photo_id": "photo-1",
+                "inspection_event_id": 1,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 2,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 22,
+                        "label": "english_springer",
+                        "score": 0.122199,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 113,
+                        "label": "german_short",
+                        "score": 0.020238,
+                        "unresolved_label": true
+                      },
+                      {
+                        "class_id": 49,
+                        "label": "english_setter",
+                        "score": 0.017873,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 10,
+                        "label": "welsh_springer_spaniel",
+                        "score": 0.016764,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 81,
+                        "label": "blenheim_spaniel",
+                        "score": 0.015904,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  22
+                ]
+              },
+              {
+                "photo_id": "photo-2",
+                "inspection_event_id": 4,
+                "quality_flags": [],
+                "rankings": [],
+                "leading_class_ids": []
+              }
+            ],
+            "ranked_photo_count": 1,
+            "candidates": [
+              {
+                "class_id": 22,
+                "label": "english_springer",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.122199
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-1"
+                ],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 1
+              },
+              {
+                "class_id": 113,
+                "label": "german_short",
+                "unresolved_label": true,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.020238
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 49,
+                "label": "english_setter",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.017873
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 3
+              },
+              {
+                "class_id": 10,
+                "label": "welsh_springer_spaniel",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 4,
+                    "score": 0.016764
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 4
+              },
+              {
+                "class_id": 81,
+                "label": "blenheim_spaniel",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 5,
+                    "score": 0.015904
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 5
+              }
+            ],
+            "blockers": [
+              "The current photo has no classifier result."
+            ],
+            "report_eligible_ids": [],
+            "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+            "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+          },
+          "change": "One photo has classifier evidence; agreement across photographs is untested.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+        },
+        "direct_results": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 500,
+              "height": 348,
+              "mean_luminance": 121.62,
+              "laplacian_variance": 2712.01,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 3.864,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "cd2c063391cb0d1bd39546952be9e1773eee0384b27ad0b168ecb30d159ffb2b",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 26,
+              "prompt_eval_count": 610,
+              "load_duration_ns": 1517917,
+              "total_duration_ns": 3855269125
+            },
+            "seconds": 0.008
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 22,
+                  "label": "english_springer",
+                  "score": 0.122199,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 113,
+                  "label": "german_short",
+                  "score": 0.020238,
+                  "unresolved_label": true
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.017873,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 10,
+                  "label": "welsh_springer_spaniel",
+                  "score": 0.016764,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 81,
+                  "label": "blenheim_spaniel",
+                  "score": 0.015904,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.10196,
+              "device": "mps",
+              "inference_seconds": 0.0672,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 3.587,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "012bdc6167cdc2018b6dff29ddfcefcf2075b13c69aa3692c8e9451e591971d3",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 27,
+              "prompt_eval_count": 619,
+              "load_duration_ns": 2057375,
+              "total_duration_ns": 3576138917
+            },
+            "seconds": 0.067
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "inconclusive",
+              "selected_result_id": null
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "version": 2,
+              "outcome": "inconclusive",
+              "selected_result_id": null,
+              "completed_by": "agent",
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "candidates": [],
+              "comparison": {
+                "version": 2,
+                "relation": "single_photo",
+                "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+                "views": [
+                  {
+                    "photo_id": "photo-1",
+                    "inspection_event_id": 1,
+                    "quality_flags": [],
+                    "rankings": [
+                      {
+                        "event_id": 2,
+                        "region_id": null,
+                        "candidates": [
+                          {
+                            "class_id": 22,
+                            "label": "english_springer",
+                            "score": 0.122199,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 113,
+                            "label": "german_short",
+                            "score": 0.020238,
+                            "unresolved_label": true
+                          },
+                          {
+                            "class_id": 49,
+                            "label": "english_setter",
+                            "score": 0.017873,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 10,
+                            "label": "welsh_springer_spaniel",
+                            "score": 0.016764,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 81,
+                            "label": "blenheim_spaniel",
+                            "score": 0.015904,
+                            "unresolved_label": false
+                          }
+                        ],
+                        "weak_scores": true,
+                        "quality_flags": []
+                      }
+                    ],
+                    "leading_class_ids": [
+                      22
+                    ]
+                  }
+                ],
+                "ranked_photo_count": 1,
+                "candidates": [
+                  {
+                    "class_id": 22,
+                    "label": "english_springer",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 1,
+                        "score": 0.122199
+                      }
+                    ],
+                    "supporting_photo_ids": [
+                      "photo-1"
+                    ],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 1
+                  },
+                  {
+                    "class_id": 113,
+                    "label": "german_short",
+                    "unresolved_label": true,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 2,
+                        "score": 0.020238
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 2
+                  },
+                  {
+                    "class_id": 49,
+                    "label": "english_setter",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 3,
+                        "score": 0.017873
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 3
+                  },
+                  {
+                    "class_id": 10,
+                    "label": "welsh_springer_spaniel",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 4,
+                        "score": 0.016764
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 4
+                  },
+                  {
+                    "class_id": 81,
+                    "label": "blenheim_spaniel",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 5,
+                        "score": 0.015904
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 5
+                  }
+                ],
+                "blockers": [
+                  "Current results have quality concerns, weak scores, or an unresolved published label."
+                ],
+                "report_eligible_ids": [],
+                "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+                "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+              },
+              "change": "One photo has classifier evidence; agreement across photographs is untested.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+            },
+            "controller_seconds": 7.76,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "101ac160c699a168e0f81c482005a6038868254a41c24f5585908ff482154383",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 32,
+              "prompt_eval_count": 1317,
+              "load_duration_ns": 2112250,
+              "total_duration_ns": 7753591041
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "width": 500,
+              "height": 395,
+              "mean_luminance": 98.36,
+              "laplacian_variance": 6540.41,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 7.634,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "9fc53a8b83aa6529add9bc92094326022a74ebadb0c4cf1ff29f6cdf8eabf67b",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 25,
+              "prompt_eval_count": 1335,
+              "load_duration_ns": 1533167,
+              "total_duration_ns": 7627352292
+            },
+            "seconds": 0.009
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "inconclusive",
+              "selected_result_id": null
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "version": 2,
+              "outcome": "inconclusive",
+              "selected_result_id": null,
+              "completed_by": "agent",
+              "evidence_ids": [
+                1,
+                2,
+                4
+              ],
+              "candidates": [],
+              "comparison": {
+                "version": 2,
+                "relation": "single_photo",
+                "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+                "views": [
+                  {
+                    "photo_id": "photo-1",
+                    "inspection_event_id": 1,
+                    "quality_flags": [],
+                    "rankings": [
+                      {
+                        "event_id": 2,
+                        "region_id": null,
+                        "candidates": [
+                          {
+                            "class_id": 22,
+                            "label": "english_springer",
+                            "score": 0.122199,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 113,
+                            "label": "german_short",
+                            "score": 0.020238,
+                            "unresolved_label": true
+                          },
+                          {
+                            "class_id": 49,
+                            "label": "english_setter",
+                            "score": 0.017873,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 10,
+                            "label": "welsh_springer_spaniel",
+                            "score": 0.016764,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 81,
+                            "label": "blenheim_spaniel",
+                            "score": 0.015904,
+                            "unresolved_label": false
+                          }
+                        ],
+                        "weak_scores": true,
+                        "quality_flags": []
+                      }
+                    ],
+                    "leading_class_ids": [
+                      22
+                    ]
+                  },
+                  {
+                    "photo_id": "photo-2",
+                    "inspection_event_id": 4,
+                    "quality_flags": [],
+                    "rankings": [],
+                    "leading_class_ids": []
+                  }
+                ],
+                "ranked_photo_count": 1,
+                "candidates": [
+                  {
+                    "class_id": 22,
+                    "label": "english_springer",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 1,
+                        "score": 0.122199
+                      }
+                    ],
+                    "supporting_photo_ids": [
+                      "photo-1"
+                    ],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 1
+                  },
+                  {
+                    "class_id": 113,
+                    "label": "german_short",
+                    "unresolved_label": true,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 2,
+                        "score": 0.020238
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 2
+                  },
+                  {
+                    "class_id": 49,
+                    "label": "english_setter",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 3,
+                        "score": 0.017873
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 3
+                  },
+                  {
+                    "class_id": 10,
+                    "label": "welsh_springer_spaniel",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 4,
+                        "score": 0.016764
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 4
+                  },
+                  {
+                    "class_id": 81,
+                    "label": "blenheim_spaniel",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 5,
+                        "score": 0.015904
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 5
+                  }
+                ],
+                "blockers": [
+                  "The current photo has no classifier result."
+                ],
+                "report_eligible_ids": [],
+                "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+                "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+              },
+              "change": "One photo has classifier evidence; agreement across photographs is untested.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+            },
+            "controller_seconds": 7.833,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "145a0925e8757d5f464e791b14b7f4d7a4d00a49660be2b0e17e5f56df2067e2",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 32,
+              "prompt_eval_count": 1344,
+              "load_duration_ns": 1797125,
+              "total_duration_ns": 7824499000
+            },
+            "seconds": 0.0
+          }
+        ],
+        "stop_reason": null
+      },
+      "direct": {
+        "status": "complete",
+        "cutoff_status": "complete",
+        "case_id": "b34383404a2e4a10804e09c60d9e5bcf",
+        "seconds": 0.125,
+        "candidates": [
+          {
+            "class_id": 87,
+            "label": "shih",
+            "score": 0.030121,
+            "unresolved_label": true
+          },
+          {
+            "class_id": 63,
+            "label": "newfoundland",
+            "score": 0.023995,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 7,
+            "label": "pekinese",
+            "score": 0.023013,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 22,
+            "label": "english_springer",
+            "score": 0.02082,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 18,
+            "label": "tibetan_terrier",
+            "score": 0.01999,
+            "unresolved_label": false
+          }
+        ],
+        "initial_candidates": [
+          {
+            "class_id": 22,
+            "label": "english_springer",
+            "score": 0.122199,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 113,
+            "label": "german_short",
+            "score": 0.020238,
+            "unresolved_label": true
+          },
+          {
+            "class_id": 49,
+            "label": "english_setter",
+            "score": 0.017873,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 10,
+            "label": "welsh_springer_spaniel",
+            "score": 0.016764,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 81,
+            "label": "blenheim_spaniel",
+            "score": 0.015904,
+            "unresolved_label": false
+          }
+        ],
+        "initial_correct": true,
+        "requests": 0,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 1,
+        "unavailable_requests": 0,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 0,
+        "relation": "no_ranking",
+        "report": null,
+        "direct_results": [
+          {
+            "photo_id": "photo-1",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 22,
+                  "label": "english_springer",
+                  "score": 0.122199,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 113,
+                  "label": "german_short",
+                  "score": 0.020238,
+                  "unresolved_label": true
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.017873,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 10,
+                  "label": "welsh_springer_spaniel",
+                  "score": 0.016764,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 81,
+                  "label": "blenheim_spaniel",
+                  "score": 0.015904,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.10196,
+              "device": "mps",
+              "inference_seconds": 0.0573,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            }
+          },
+          {
+            "photo_id": "photo-2",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 87,
+                  "label": "shih",
+                  "score": 0.030121,
+                  "unresolved_label": true
+                },
+                {
+                  "class_id": 63,
+                  "label": "newfoundland",
+                  "score": 0.023995,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 7,
+                  "label": "pekinese",
+                  "score": 0.023013,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 22,
+                  "label": "english_springer",
+                  "score": 0.02082,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 18,
+                  "label": "tibetan_terrier",
+                  "score": 0.01999,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.006126,
+              "device": "mps",
+              "inference_seconds": 0.0371,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            }
+          }
+        ],
+        "events": [],
+        "stop_reason": null
+      },
+      "rules": {
+        "status": "complete",
+        "cutoff_status": "awaiting_photo",
+        "case_id": "3aac56a531204967b14f441f4e27fe8c",
+        "seconds": 0.116,
+        "candidates": [],
+        "initial_candidates": [],
+        "initial_correct": false,
+        "requests": 2,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 1,
+        "unavailable_requests": 1,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 6,
+        "relation": "disagreement",
+        "report": {
+          "version": 2,
+          "outcome": "inconclusive",
+          "selected_result_id": null,
+          "completed_by": "user",
+          "evidence_ids": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "candidates": [],
+          "comparison": {
+            "version": 2,
+            "relation": "disagreement",
+            "summary": "The leading class changes across recorded views. The assessment remains inconclusive.",
+            "views": [
+              {
+                "photo_id": "photo-1",
+                "inspection_event_id": 1,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 2,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 22,
+                        "label": "english_springer",
+                        "score": 0.122199,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 113,
+                        "label": "german_short",
+                        "score": 0.020238,
+                        "unresolved_label": true
+                      },
+                      {
+                        "class_id": 49,
+                        "label": "english_setter",
+                        "score": 0.017873,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 10,
+                        "label": "welsh_springer_spaniel",
+                        "score": 0.016764,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 81,
+                        "label": "blenheim_spaniel",
+                        "score": 0.015904,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  22
+                ]
+              },
+              {
+                "photo_id": "photo-2",
+                "inspection_event_id": 4,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 5,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 87,
+                        "label": "shih",
+                        "score": 0.030121,
+                        "unresolved_label": true
+                      },
+                      {
+                        "class_id": 63,
+                        "label": "newfoundland",
+                        "score": 0.023995,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 7,
+                        "label": "pekinese",
+                        "score": 0.023013,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 22,
+                        "label": "english_springer",
+                        "score": 0.02082,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 18,
+                        "label": "tibetan_terrier",
+                        "score": 0.01999,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  87
+                ]
+              }
+            ],
+            "ranked_photo_count": 2,
+            "candidates": [
+              {
+                "class_id": 22,
+                "label": "english_springer",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.122199
+                  },
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 4,
+                    "score": 0.02082
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-1"
+                ],
+                "top5_photo_ids": [
+                  "photo-1",
+                  "photo-2"
+                ],
+                "rank_sum": 5
+              },
+              {
+                "class_id": 87,
+                "label": "shih",
+                "unresolved_label": true,
+                "observations": [
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.030121
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-2"
+                ],
+                "top5_photo_ids": [
+                  "photo-2"
+                ],
+                "rank_sum": 1
+              },
+              {
+                "class_id": 63,
+                "label": "newfoundland",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.023995
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-2"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 113,
+                "label": "german_short",
+                "unresolved_label": true,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.020238
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 7,
+                "label": "pekinese",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.023013
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-2"
+                ],
+                "rank_sum": 3
+              }
+            ],
+            "blockers": [
+              "Recorded rankings disagree on the leading class, including any region comparisons.",
+              "Current results have quality concerns, weak scores, or an unresolved published label."
+            ],
+            "report_eligible_ids": [],
+            "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+            "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+          },
+          "change": "The leading class changes across recorded views. The assessment remains inconclusive.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+        },
+        "direct_results": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 500,
+              "height": 348,
+              "mean_luminance": 121.62,
+              "laplacian_variance": 2712.01,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.003
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 22,
+                  "label": "english_springer",
+                  "score": 0.122199,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 113,
+                  "label": "german_short",
+                  "score": 0.020238,
+                  "unresolved_label": true
+                },
+                {
+                  "class_id": 49,
+                  "label": "english_setter",
+                  "score": 0.017873,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 10,
+                  "label": "welsh_springer_spaniel",
+                  "score": 0.016764,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 81,
+                  "label": "blenheim_spaniel",
+                  "score": 0.015904,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.10196,
+              "device": "mps",
+              "inference_seconds": 0.0376,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.038
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body",
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "message": "Add a sharp photo of the same dog with the face and body in focus.",
+              "why": "The leading classifier scores are close or weak."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "width": 500,
+              "height": 395,
+              "mean_luminance": 98.36,
+              "laplacian_variance": 6540.41,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.004
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 87,
+                  "label": "shih",
+                  "score": 0.030121,
+                  "unresolved_label": true
+                },
+                {
+                  "class_id": 63,
+                  "label": "newfoundland",
+                  "score": 0.023995,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 7,
+                  "label": "pekinese",
+                  "score": 0.023013,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 22,
+                  "label": "english_springer",
+                  "score": 0.02082,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 18,
+                  "label": "tibetan_terrier",
+                  "score": 0.01999,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.006126,
+              "device": "mps",
+              "inference_seconds": 0.0361,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.036
+          },
+          {
+            "id": 6,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body",
+              "evidence_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "message": "Add a sharp photo of the same dog with the face and body in focus.",
+              "why": "The leading classifier scores are close or weak."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 7,
+            "kind": "user_action",
+            "status": "ok",
+            "photo_id": "photo-2",
+            "output": {
+              "action": "finish_partial",
+              "reason": "No additional photo supplied."
+            }
+          }
+        ],
+        "stop_reason": null
+      }
+    },
+    {
+      "id": "conan",
+      "kind": "same_dog_pair",
+      "breed_accuracy_eligible": true,
+      "live_dog_present": true,
+      "leakage_group": "conan",
+      "label": "malinois",
+      "method_order": [
+        "direct",
+        "rules",
+        "agent"
+      ],
+      "direct": {
+        "status": "complete",
+        "cutoff_status": "complete",
+        "case_id": "539f55728af04a898651f962bd2b7736",
+        "seconds": 0.227,
+        "candidates": [
+          {
+            "class_id": 95,
+            "label": "malinois",
+            "score": 0.118288,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 79,
+            "label": "german_shepherd",
+            "score": 0.104922,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 70,
+            "label": "norwegian_elkhound",
+            "score": 0.021507,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 16,
+            "label": "kelpie",
+            "score": 0.014228,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 15,
+            "label": "pug",
+            "score": 0.011642,
+            "unresolved_label": false
+          }
+        ],
+        "initial_candidates": [
+          {
+            "class_id": 94,
+            "label": "keeshond",
+            "score": 0.023798,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 110,
+            "label": "chow",
+            "score": 0.01868,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 31,
+            "label": "tibetan_mastiff",
+            "score": 0.018041,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 66,
+            "label": "shetland_sheepdog",
+            "score": 0.015824,
+            "unresolved_label": false
+          },
+          {
+            "class_id": 67,
+            "label": "collie",
+            "score": 0.015463,
+            "unresolved_label": false
+          }
+        ],
+        "initial_correct": false,
+        "requests": 0,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 1,
+        "unavailable_requests": 0,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 0,
+        "relation": "no_ranking",
+        "report": null,
+        "direct_results": [
+          {
+            "photo_id": "photo-1",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 94,
+                  "label": "keeshond",
+                  "score": 0.023798,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 110,
+                  "label": "chow",
+                  "score": 0.01868,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 31,
+                  "label": "tibetan_mastiff",
+                  "score": 0.018041,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 66,
+                  "label": "shetland_sheepdog",
+                  "score": 0.015824,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 67,
+                  "label": "collie",
+                  "score": 0.015463,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.005119,
+              "device": "mps",
+              "inference_seconds": 0.0456,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            }
+          },
+          {
+            "photo_id": "photo-2",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 95,
+                  "label": "malinois",
+                  "score": 0.118288,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 79,
+                  "label": "german_shepherd",
+                  "score": 0.104922,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.021507,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 16,
+                  "label": "kelpie",
+                  "score": 0.014228,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "score": 0.011642,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.013366,
+              "device": "mps",
+              "inference_seconds": 0.0571,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            }
+          }
+        ],
+        "events": [],
+        "stop_reason": null
+      },
+      "rules": {
+        "status": "complete",
+        "cutoff_status": "awaiting_photo",
+        "case_id": "3d7a51cd00184c4e954087f6b3fccd38",
+        "seconds": 0.269,
+        "candidates": [],
+        "initial_candidates": [],
+        "initial_correct": false,
+        "requests": 2,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 1,
+        "unavailable_requests": 1,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 6,
+        "relation": "disagreement",
+        "report": {
+          "version": 2,
+          "outcome": "inconclusive",
+          "selected_result_id": null,
+          "completed_by": "user",
+          "evidence_ids": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "candidates": [],
+          "comparison": {
+            "version": 2,
+            "relation": "disagreement",
+            "summary": "The leading class changes across recorded views. The assessment remains inconclusive.",
+            "views": [
+              {
+                "photo_id": "photo-1",
+                "inspection_event_id": 1,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 2,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 94,
+                        "label": "keeshond",
+                        "score": 0.023798,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 110,
+                        "label": "chow",
+                        "score": 0.01868,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 31,
+                        "label": "tibetan_mastiff",
+                        "score": 0.018041,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 66,
+                        "label": "shetland_sheepdog",
+                        "score": 0.015824,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 67,
+                        "label": "collie",
+                        "score": 0.015463,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  94
+                ]
+              },
+              {
+                "photo_id": "photo-2",
+                "inspection_event_id": 4,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 5,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 95,
+                        "label": "malinois",
+                        "score": 0.118288,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 79,
+                        "label": "german_shepherd",
+                        "score": 0.104922,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 70,
+                        "label": "norwegian_elkhound",
+                        "score": 0.021507,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 16,
+                        "label": "kelpie",
+                        "score": 0.014228,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 15,
+                        "label": "pug",
+                        "score": 0.011642,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  95
+                ]
+              }
+            ],
+            "ranked_photo_count": 2,
+            "candidates": [
+              {
+                "class_id": 94,
+                "label": "keeshond",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.023798
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-1"
+                ],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 1
+              },
+              {
+                "class_id": 95,
+                "label": "malinois",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.118288
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-2"
+                ],
+                "top5_photo_ids": [
+                  "photo-2"
+                ],
+                "rank_sum": 1
+              },
+              {
+                "class_id": 79,
+                "label": "german_shepherd",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-2",
+                    "event_id": 5,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.104922
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-2"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 110,
+                "label": "chow",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.01868
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 31,
+                "label": "tibetan_mastiff",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.018041
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 3
+              }
+            ],
+            "blockers": [
+              "Recorded rankings disagree on the leading class, including any region comparisons.",
+              "Current results have quality concerns, weak scores, or an unresolved published label."
+            ],
+            "report_eligible_ids": [],
+            "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+            "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+          },
+          "change": "The leading class changes across recorded views. The assessment remains inconclusive.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+        },
+        "direct_results": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 1280,
+              "height": 853,
+              "mean_luminance": 144.86,
+              "laplacian_variance": 1623.15,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.014
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 94,
+                  "label": "keeshond",
+                  "score": 0.023798,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 110,
+                  "label": "chow",
+                  "score": 0.01868,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 31,
+                  "label": "tibetan_mastiff",
+                  "score": 0.018041,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 66,
+                  "label": "shetland_sheepdog",
+                  "score": 0.015824,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 67,
+                  "label": "collie",
+                  "score": 0.015463,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.005119,
+              "device": "mps",
+              "inference_seconds": 0.0454,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.046
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body",
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "message": "Add a sharp photo of the same dog with the face and body in focus.",
+              "why": "The leading classifier scores are close or weak."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "width": 1280,
+              "height": 1600,
+              "mean_luminance": 177.17,
+              "laplacian_variance": 295.38,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.023
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 95,
+                  "label": "malinois",
+                  "score": 0.118288,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 79,
+                  "label": "german_shepherd",
+                  "score": 0.104922,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 70,
+                  "label": "norwegian_elkhound",
+                  "score": 0.021507,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 16,
+                  "label": "kelpie",
+                  "score": 0.014228,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 15,
+                  "label": "pug",
+                  "score": 0.011642,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.013366,
+              "device": "mps",
+              "inference_seconds": 0.0518,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.052
+          },
+          {
+            "id": 6,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "reason": "ambiguous_scores",
+              "view": "sharp_face_and_body",
+              "evidence_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "message": "Add a sharp photo of the same dog with the face and body in focus.",
+              "why": "The leading classifier scores are close or weak."
+            },
+            "controller_seconds": 0.001,
+            "controller": {
+              "model": "deterministic-policy-v2",
+              "generated": false
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 7,
+            "kind": "user_action",
+            "status": "ok",
+            "photo_id": "photo-2",
+            "output": {
+              "action": "finish_partial",
+              "reason": "No additional photo supplied."
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "agent": {
+        "status": "complete",
+        "cutoff_status": "awaiting_photo",
+        "case_id": "b1da571439884edc91a21d32e4b30bde",
+        "seconds": 31.613,
+        "candidates": [],
+        "initial_candidates": [],
+        "initial_correct": false,
+        "requests": 1,
+        "supplied_followups": 1,
+        "initial_photo_classified": true,
+        "followup_photos_classified": 0,
+        "unavailable_requests": 1,
+        "tool_errors": 0,
+        "controller_errors": 0,
+        "attempts": 5,
+        "relation": "single_photo",
+        "report": {
+          "version": 2,
+          "outcome": "inconclusive",
+          "selected_result_id": null,
+          "completed_by": "user",
+          "evidence_ids": [
+            1,
+            2,
+            4
+          ],
+          "candidates": [],
+          "comparison": {
+            "version": 2,
+            "relation": "single_photo",
+            "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+            "views": [
+              {
+                "photo_id": "photo-1",
+                "inspection_event_id": 1,
+                "quality_flags": [],
+                "rankings": [
+                  {
+                    "event_id": 2,
+                    "region_id": null,
+                    "candidates": [
+                      {
+                        "class_id": 94,
+                        "label": "keeshond",
+                        "score": 0.023798,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 110,
+                        "label": "chow",
+                        "score": 0.01868,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 31,
+                        "label": "tibetan_mastiff",
+                        "score": 0.018041,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 66,
+                        "label": "shetland_sheepdog",
+                        "score": 0.015824,
+                        "unresolved_label": false
+                      },
+                      {
+                        "class_id": 67,
+                        "label": "collie",
+                        "score": 0.015463,
+                        "unresolved_label": false
+                      }
+                    ],
+                    "weak_scores": true,
+                    "quality_flags": []
+                  }
+                ],
+                "leading_class_ids": [
+                  94
+                ]
+              },
+              {
+                "photo_id": "photo-2",
+                "inspection_event_id": 4,
+                "quality_flags": [],
+                "rankings": [],
+                "leading_class_ids": []
+              }
+            ],
+            "ranked_photo_count": 1,
+            "candidates": [
+              {
+                "class_id": 94,
+                "label": "keeshond",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 1,
+                    "score": 0.023798
+                  }
+                ],
+                "supporting_photo_ids": [
+                  "photo-1"
+                ],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 1
+              },
+              {
+                "class_id": 110,
+                "label": "chow",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 2,
+                    "score": 0.01868
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 2
+              },
+              {
+                "class_id": 31,
+                "label": "tibetan_mastiff",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 3,
+                    "score": 0.018041
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 3
+              },
+              {
+                "class_id": 66,
+                "label": "shetland_sheepdog",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 4,
+                    "score": 0.015824
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 4
+              },
+              {
+                "class_id": 67,
+                "label": "collie",
+                "unresolved_label": false,
+                "observations": [
+                  {
+                    "photo_id": "photo-1",
+                    "event_id": 2,
+                    "region_id": null,
+                    "rank": 5,
+                    "score": 0.015463
+                  }
+                ],
+                "supporting_photo_ids": [],
+                "top5_photo_ids": [
+                  "photo-1"
+                ],
+                "rank_sum": 5
+              }
+            ],
+            "blockers": [
+              "The current photo has no classifier result."
+            ],
+            "report_eligible_ids": [],
+            "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+            "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+          },
+          "change": "One photo has classifier evidence; agreement across photographs is untested.",
+          "limitations": [
+            "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+            "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+            "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+          ],
+          "quality_flags": [],
+          "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+        },
+        "direct_results": [],
+        "events": [
+          {
+            "id": 1,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "width": 1280,
+              "height": 853,
+              "mean_luminance": 144.86,
+              "laplacian_variance": 1623.15,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 3.927,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "cd2c063391cb0d1bd39546952be9e1773eee0384b27ad0b168ecb30d159ffb2b",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 26,
+              "prompt_eval_count": 610,
+              "load_duration_ns": 1266917,
+              "total_duration_ns": 3919198834
+            },
+            "seconds": 0.027
+          },
+          {
+            "id": 2,
+            "kind": "tool",
+            "tool": "classify_breed",
+            "input": {
+              "photo_id": "photo-1"
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "candidates": [
+                {
+                  "class_id": 94,
+                  "label": "keeshond",
+                  "score": 0.023798,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 110,
+                  "label": "chow",
+                  "score": 0.01868,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 31,
+                  "label": "tibetan_mastiff",
+                  "score": 0.018041,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 66,
+                  "label": "shetland_sheepdog",
+                  "score": 0.015824,
+                  "unresolved_label": false
+                },
+                {
+                  "class_id": 67,
+                  "label": "collie",
+                  "score": 0.015463,
+                  "unresolved_label": false
+                }
+              ],
+              "margin": 0.005119,
+              "device": "mps",
+              "inference_seconds": 0.1277,
+              "fallback": null,
+              "mps_allocated_bytes": 348282880,
+              "mps_driver_bytes": 382418944
+            },
+            "controller_seconds": 3.655,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "012bdc6167cdc2018b6dff29ddfcefcf2075b13c69aa3692c8e9451e591971d3",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 27,
+              "prompt_eval_count": 619,
+              "load_duration_ns": 1590333,
+              "total_duration_ns": 3647258208
+            },
+            "seconds": 0.128
+          },
+          {
+            "id": 3,
+            "kind": "tool",
+            "tool": "finish_assessment",
+            "input": {
+              "outcome": "inconclusive",
+              "selected_result_id": null
+            },
+            "photo_id": "photo-1",
+            "status": "ok",
+            "output": {
+              "version": 2,
+              "outcome": "inconclusive",
+              "selected_result_id": null,
+              "completed_by": "agent",
+              "evidence_ids": [
+                1,
+                2
+              ],
+              "candidates": [],
+              "comparison": {
+                "version": 2,
+                "relation": "single_photo",
+                "summary": "One photo has classifier evidence; agreement across photographs is untested.",
+                "views": [
+                  {
+                    "photo_id": "photo-1",
+                    "inspection_event_id": 1,
+                    "quality_flags": [],
+                    "rankings": [
+                      {
+                        "event_id": 2,
+                        "region_id": null,
+                        "candidates": [
+                          {
+                            "class_id": 94,
+                            "label": "keeshond",
+                            "score": 0.023798,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 110,
+                            "label": "chow",
+                            "score": 0.01868,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 31,
+                            "label": "tibetan_mastiff",
+                            "score": 0.018041,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 66,
+                            "label": "shetland_sheepdog",
+                            "score": 0.015824,
+                            "unresolved_label": false
+                          },
+                          {
+                            "class_id": 67,
+                            "label": "collie",
+                            "score": 0.015463,
+                            "unresolved_label": false
+                          }
+                        ],
+                        "weak_scores": true,
+                        "quality_flags": []
+                      }
+                    ],
+                    "leading_class_ids": [
+                      94
+                    ]
+                  }
+                ],
+                "ranked_photo_count": 1,
+                "candidates": [
+                  {
+                    "class_id": 94,
+                    "label": "keeshond",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 1,
+                        "score": 0.023798
+                      }
+                    ],
+                    "supporting_photo_ids": [
+                      "photo-1"
+                    ],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 1
+                  },
+                  {
+                    "class_id": 110,
+                    "label": "chow",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 2,
+                        "score": 0.01868
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 2
+                  },
+                  {
+                    "class_id": 31,
+                    "label": "tibetan_mastiff",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 3,
+                        "score": 0.018041
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 3
+                  },
+                  {
+                    "class_id": 66,
+                    "label": "shetland_sheepdog",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 4,
+                        "score": 0.015824
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 4
+                  },
+                  {
+                    "class_id": 67,
+                    "label": "collie",
+                    "unresolved_label": false,
+                    "observations": [
+                      {
+                        "photo_id": "photo-1",
+                        "event_id": 2,
+                        "region_id": null,
+                        "rank": 5,
+                        "score": 0.015463
+                      }
+                    ],
+                    "supporting_photo_ids": [],
+                    "top5_photo_ids": [
+                      "photo-1"
+                    ],
+                    "rank_sum": 5
+                  }
+                ],
+                "blockers": [
+                  "Current results have quality concerns, weak scores, or an unresolved published label."
+                ],
+                "report_eligible_ids": [],
+                "policy_note": "Score \u2265 0.5 and margin \u2265 0.15 are conservative, uncalibrated reporting heuristics. They do not detect dogs.",
+                "aggregation": "Order by distinct-photo leading votes, then top-five appearances, then summed best ranks. Never average raw scores. Crops share their parent photo's vote."
+              },
+              "change": "One photo has classifier evidence; agreement across photographs is untested.",
+              "limitations": [
+                "Likely visual breed matches only. Scores are uncalibrated model outputs, not genetic ancestry percentages.",
+                "Candidates are alternative classifications across 120 known classes. This model cannot reliably reject non-dogs or unfamiliar breeds.",
+                "The text-only controller cannot see coat, ears, body shape, or other visual features. It uses numerical tool observations."
+              ],
+              "quality_flags": [],
+              "uncertainty": "Breed identity and dog presence remain unverified by independent evidence."
+            },
+            "controller_seconds": 8.069,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "d93aea0b194ddb89f2606b3d1c31bf28ae9a31c69248c35f7952d3545caa7efc",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 32,
+              "prompt_eval_count": 1309,
+              "load_duration_ns": 3535958,
+              "total_duration_ns": 8034480042
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 4,
+            "kind": "tool",
+            "tool": "inspect_image",
+            "input": {
+              "photo_id": "photo-2"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "width": 1280,
+              "height": 1600,
+              "mean_luminance": 177.17,
+              "laplacian_variance": 295.38,
+              "quality_flags": [],
+              "diagnostic_note": "Heuristic pixel diagnostics, not calibrated quality or dog detection."
+            },
+            "controller_seconds": 7.359,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "45ee17340ac304cdeb615db2d15e09a8a71fb4983f2b0461db77aa250af28d55",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 25,
+              "prompt_eval_count": 1327,
+              "load_duration_ns": 1396250,
+              "total_duration_ns": 7352884166
+            },
+            "seconds": 0.04
+          },
+          {
+            "id": 5,
+            "kind": "tool",
+            "tool": "request_another_photo",
+            "input": {
+              "reason": "insufficient_evidence",
+              "view": "closer_full_body"
+            },
+            "photo_id": "photo-2",
+            "status": "ok",
+            "output": {
+              "reason": "insufficient_evidence",
+              "view": "closer_full_body",
+              "evidence_ids": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "message": "Move closer and include the same dog's full body and face in the frame.",
+              "why": "The available measurements do not establish a reliable visual match."
+            },
+            "controller_seconds": 8.253,
+            "controller": {
+              "model": "qwen3.5:4b",
+              "returned_model": "qwen3.5:4b",
+              "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+              "request_sha256": "ca1522964f5688fe2719f535f48e665845801798f94a11396030bc9059c5a702",
+              "image_count": 0,
+              "think": false,
+              "eval_count": 39,
+              "prompt_eval_count": 1336,
+              "load_duration_ns": 1339833,
+              "total_duration_ns": 8246628041
+            },
+            "seconds": 0.0
+          },
+          {
+            "id": 6,
+            "kind": "user_action",
+            "status": "ok",
+            "photo_id": "photo-2",
+            "output": {
+              "action": "finish_partial",
+              "reason": "No additional photo supplied."
+            }
+          }
+        ],
+        "stop_reason": null
+      }
+    }
+  ],
+  "warmup_seconds": 6.882,
+  "summary": {
+    "direct": {
+      "cases": 4,
+      "labeled_denominator": 4,
+      "correct_reports": 3,
+      "labeled_reports": 4,
+      "incorrect_labeled_reports": 1,
+      "abstentions": 0,
+      "incomplete": 0,
+      "mean_seconds": 0.223,
+      "requests": 0,
+      "supplied_followups": 4,
+      "initial_photos_classified": 4,
+      "followup_photos_classified": 4,
+      "cases_requesting_followup": 0,
+      "unavailable_requests": 0,
+      "tool_errors": 0,
+      "failed_operations": 0,
+      "controller_errors": 0,
+      "non_dog_reports": 0,
+      "unsupported_breed_reports": 0,
+      "multi_dog_reports_without_selection": 0,
+      "disagreements": 0,
+      "labeled_first_to_final_improvements": 1,
+      "labeled_first_to_final_regressions": 1
+    },
+    "rules": {
+      "cases": 4,
+      "labeled_denominator": 4,
+      "correct_reports": 0,
+      "labeled_reports": 0,
+      "incorrect_labeled_reports": 0,
+      "abstentions": 4,
+      "incomplete": 0,
+      "mean_seconds": 0.489,
+      "requests": 8,
+      "supplied_followups": 4,
+      "initial_photos_classified": 4,
+      "followup_photos_classified": 4,
+      "cases_requesting_followup": 4,
+      "unavailable_requests": 4,
+      "tool_errors": 0,
+      "failed_operations": 0,
+      "controller_errors": 0,
+      "non_dog_reports": 0,
+      "unsupported_breed_reports": 0,
+      "multi_dog_reports_without_selection": 0,
+      "disagreements": 2,
+      "labeled_first_to_final_improvements": 0,
+      "labeled_first_to_final_regressions": 0
+    },
+    "agent": {
+      "cases": 4,
+      "labeled_denominator": 4,
+      "correct_reports": 0,
+      "labeled_reports": 0,
+      "incorrect_labeled_reports": 0,
+      "abstentions": 4,
+      "incomplete": 0,
+      "mean_seconds": 31.331,
+      "requests": 2,
+      "supplied_followups": 4,
+      "initial_photos_classified": 4,
+      "followup_photos_classified": 0,
+      "cases_requesting_followup": 2,
+      "unavailable_requests": 2,
+      "tool_errors": 0,
+      "failed_operations": 0,
+      "controller_errors": 0,
+      "non_dog_reports": 0,
+      "unsupported_breed_reports": 0,
+      "multi_dog_reports_without_selection": 0,
+      "disagreements": 0,
+      "labeled_first_to_final_improvements": 0,
+      "labeled_first_to_final_regressions": 0
+    }
+  },
+  "source_hashes_unchanged": true,
+  "complete": true
+}

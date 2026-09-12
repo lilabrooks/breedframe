@@ -1,0 +1,1212 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 10,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "131226164": {
+        "pageid": 131226164,
+        "ns": 6,
+        "title": "File:Buttercups Sanctuary for Goats Valegro (back) and Annie (front) (33164470750).jpg",
+        "index": 9,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-04-27T10:37:06Z",
+            "size": 7655137,
+            "width": 4928,
+            "height": 3264,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg/1280px-Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 662,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg/3840px-Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg/1280px-Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 662,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg/3840px-Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Buttercups_Sanctuary_for_Goats_Valegro_%28back%29_and_Annie_%28front%29_%2833164470750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Buttercups_Sanctuary_for_Goats_Valegro_(back)_and_Annie_(front)_(33164470750).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131226164",
+            "sha1": "04a511ee5698cb632f8d001abe2936dbcc822d8f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-04-27 10:37:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Buttercups Sanctuary for Goats Valegro (back) and Annie (front) (33164470750)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Flickr images reviewed by FlickreviewR 2|Photographs of Buttercups Sanctuary for Goats by The Case Farm",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Buttercups Sanctuary for Goats in Kent, UK",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-11-30 12:43",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/152946836@N05/33164470750/\">Valegro (back) and Annie (front)</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/152946836@N05\">The Case Farm</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.thecasefarm.co.uk\">thecasefarm.co.uk</a></span>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 893732600,
+            "parentid": 840012068
+          }
+        ]
+      },
+      "35236381": {
+        "pageid": 35236381,
+        "ns": 6,
+        "title": "File:Charlotte DUJARDIN JEM2014.JPG",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2014-09-09T19:14:57Z",
+            "size": 654783,
+            "width": 1700,
+            "height": 2550,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Charlotte_DUJARDIN_JEM2014.JPG/1280px-Charlotte_DUJARDIN_JEM2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1500,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Charlotte_DUJARDIN_JEM2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Charlotte_DUJARDIN_JEM2014.JPG/1280px-Charlotte_DUJARDIN_JEM2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1500,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Charlotte_DUJARDIN_JEM2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Charlotte_DUJARDIN_JEM2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charlotte_DUJARDIN_JEM2014.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35236381",
+            "sha1": "46860f5d98b3ed71e318e51c1dea8e33634fb65e",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-09-09 19:14:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charlotte DUJARDIN JEM2014",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D5300|Valegro|Charlotte Dujardin|Self-published work|Dressage at World Equestrian Games 2014|Crank noseband",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "JEM 2014\u00a0: Charlotte Dujardin et Valegro en dressage",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Florence.Skowron&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Florence.Skowron (page does not exist)\">Florence.Skowron</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1199737031,
+            "parentid": 1121248792
+          }
+        ]
+      },
+      "99516858": {
+        "pageid": 99516858,
+        "ns": 6,
+        "title": "File:Charlotte Dujardin (GBR) London 2012.JPG",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-02-02T21:32:00Z",
+            "size": 40461,
+            "width": 413,
+            "height": 459,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Charlotte_Dujardin_%28GBR%29_London_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1111,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/Charlotte_Dujardin_%28GBR%29_London_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1111
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Charlotte_Dujardin_%28GBR%29_London_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charlotte_Dujardin_(GBR)_London_2012.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99516858",
+            "sha1": "3e2e25e21ee67892493e2bc7aef3baad177f8828",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-02 21:32:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charlotte Dujardin (GBR) London 2012",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Retouched pictures|Valegro|Charlotte Dujardin|Dressage at the 2012 Summer Olympics|Self-published work|Extracted images|Derivative versions|Uploaded with derivativeFX",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Charlotte Dujardin and Valegro at the London 2012 Olympic Dressage",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-08-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" title=\"File:Charlotte Dujardin 2012 Olympic Dressage.JPG\">Charlotte Dujardin 2012 Olympic Dressage.JPG</a>:\u00a0<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/60px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/120px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"4288\" data-file-height=\"2848\"></a></span><br>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" title=\"File:Charlotte Dujardin 2012 Olympic Dressage.JPG\">Charlotte_Dujardin_2012_Olympic_Dressage.JPG</a>: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Equestrian&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Equestrian (page does not exist)\">Equestrian</a></li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Nordlicht8\" title=\"User:Nordlicht8\">Nordlicht8</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 854714849,
+            "parentid": 831296306
+          }
+        ]
+      },
+      "20541749": {
+        "pageid": 20541749,
+        "ns": 6,
+        "title": "File:Charlotte Dujardin 2012 Olympic Dressage-1.JPG",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2012-08-05T14:06:09Z",
+            "size": 686652,
+            "width": 2300,
+            "height": 2360,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Charlotte_Dujardin_2012_Olympic_Dressage-1.JPG/1280px-Charlotte_Dujardin_2012_Olympic_Dressage-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1026,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Charlotte_Dujardin_2012_Olympic_Dressage-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Charlotte_Dujardin_2012_Olympic_Dressage-1.JPG/1280px-Charlotte_Dujardin_2012_Olympic_Dressage-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1026,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Charlotte_Dujardin_2012_Olympic_Dressage-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Charlotte_Dujardin_2012_Olympic_Dressage-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage-1.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=20541749",
+            "sha1": "6771a8b7f604018678eb4101931e33cceec9b609",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-08-05 14:06:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charlotte Dujardin 2012 Olympic Dressage-1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D90|Retouched pictures|Valegro|Charlotte Dujardin|Dressage at the 2012 Summer Olympics|Self-published work|Images with extracted images|Derivative versions|Uploaded with derivativeFX",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Charlotte Dujardin and Valegro at the London 2012 Olympic Dressage",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-08-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" title=\"File:Charlotte Dujardin 2012 Olympic Dressage.JPG\">Charlotte Dujardin 2012 Olympic Dressage.JPG</a>:\u00a0<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/60px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/120px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"4288\" data-file-height=\"2848\"></a></span><br>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" title=\"File:Charlotte Dujardin 2012 Olympic Dressage.JPG\">Charlotte_Dujardin_2012_Olympic_Dressage.JPG</a>: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Equestrian&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Equestrian (page does not exist)\">Equestrian</a></li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Nordlicht8\" title=\"User:Nordlicht8\">Nordlicht8</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1147624581,
+            "parentid": 854714852
+          }
+        ]
+      },
+      "20525376": {
+        "pageid": 20525376,
+        "ns": 6,
+        "title": "File:Charlotte Dujardin 2012 Olympic Dressage.JPG",
+        "index": 10,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2012-08-04T08:15:09Z",
+            "size": 5727235,
+            "width": 4288,
+            "height": 2848,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/1280px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 664,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/3840px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/1280px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 664,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/3840px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=20525376",
+            "sha1": "8f967543daf4f8c1858da1b44f85942383646f1a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-08-04 08:15:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charlotte Dujardin 2012 Olympic Dressage",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D90|Charlotte Dujardin|Dressage at the 2012 Summer Olympics|Self-published work|Files with derivative versions",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Charlotte Dujardin and Valegro at the London 2012 Olympic Dressage",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-08-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Equestrian&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Equestrian (page does not exist)\">Equestrian</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1147587887,
+            "parentid": 1121249020
+          }
+        ]
+      },
+      "80185510": {
+        "pageid": 80185510,
+        "ns": 6,
+        "title": "File:Charlotte Dujardin 2012 Olympic Dressage (cropped).JPG",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-07-05T19:01:06Z",
+            "size": 83218,
+            "width": 767,
+            "height": 768,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Charlotte_Dujardin_2012_Olympic_Dressage_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1001,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Charlotte_Dujardin_2012_Olympic_Dressage_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1001
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Charlotte_Dujardin_2012_Olympic_Dressage_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage_(cropped).JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80185510",
+            "sha1": "2bfe2148190911c6891ae39c14523655e0c9e02b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-07-05 19:01:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charlotte Dujardin 2012 Olympic Dressage (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Retouched pictures|Valegro|Charlotte Dujardin|Dressage at the 2012 Summer Olympics|Self-published work|Images with extracted images|Extracted images|Derivative versions|Uploaded with derivativeFX",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Charlotte Dujardin and Valegro at the London 2012 Olympic Dressage",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-08-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" title=\"File:Charlotte Dujardin 2012 Olympic Dressage.JPG\">Charlotte Dujardin 2012 Olympic Dressage.JPG</a>:\u00a0<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/60px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Charlotte_Dujardin_2012_Olympic_Dressage.JPG/120px-Charlotte_Dujardin_2012_Olympic_Dressage.JPG?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"4288\" data-file-height=\"2848\"></a></span><br>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Charlotte_Dujardin_2012_Olympic_Dressage.JPG\" title=\"File:Charlotte Dujardin 2012 Olympic Dressage.JPG\">Charlotte_Dujardin_2012_Olympic_Dressage.JPG</a>: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Equestrian&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Equestrian (page does not exist)\">Equestrian</a></li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Nordlicht8\" title=\"User:Nordlicht8\">Nordlicht8</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1048056964,
+            "parentid": 854714858
+          }
+        ]
+      },
+      "157086413": {
+        "pageid": 157086413,
+        "ns": 6,
+        "title": "File:Sculpture of Valegro - geograph.org.uk - 7140461.jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-12-25T10:47:02Z",
+            "size": 328451,
+            "width": 1069,
+            "height": 1600,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sculpture_of_Valegro_-_geograph.org.uk_-_7140461.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1497,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sculpture_of_Valegro_-_geograph.org.uk_-_7140461.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1497
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sculpture_of_Valegro_-_geograph.org.uk_-_7140461.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140461.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157086413",
+            "sha1": "c28cb3524849848f0567f064df353b23a73690a2",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-12-25 10:47:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sculpture of Valegro - geograph.org.uk - 7140461",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Newent|Images from Geograph Britain and Ireland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.929836",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-2.404842",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sculpture of Valegro\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140461.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-04-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/7140461\">Geograph Britain and Ireland</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140461.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/1837\">Philip Halling</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140461.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<i>Sculpture of Valegro</i> by\u00a0Philip Halling",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 975493642,
+            "parentid": 975403199
+          }
+        ]
+      },
+      "157086575": {
+        "pageid": 157086575,
+        "ns": 6,
+        "title": "File:Sculpture of Valegro - geograph.org.uk - 7140520.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-12-25T10:57:37Z",
+            "size": 339347,
+            "width": 1600,
+            "height": 1069,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg/1280px-Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg/1280px-Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157086575",
+            "sha1": "92cae19a031313b56b81a78754e0539bb606f5ea",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-12-25 10:57:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sculpture of Valegro - geograph.org.uk - 7140520",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Newent|Images from Geograph Britain and Ireland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.929836",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-2.404842",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sculpture of Valegro\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-04-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/7140520\">Geograph Britain and Ireland</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/1837\">Philip Halling</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140520.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<i>Sculpture of Valegro</i> by\u00a0Philip Halling",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 975437937,
+            "parentid": 975405620
+          }
+        ]
+      },
+      "157086578": {
+        "pageid": 157086578,
+        "ns": 6,
+        "title": "File:Sculpture of Valegro - geograph.org.uk - 7140522.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-12-25T10:57:53Z",
+            "size": 304846,
+            "width": 1069,
+            "height": 1600,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Sculpture_of_Valegro_-_geograph.org.uk_-_7140522.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1497,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Sculpture_of_Valegro_-_geograph.org.uk_-_7140522.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1497
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Sculpture_of_Valegro_-_geograph.org.uk_-_7140522.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140522.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157086578",
+            "sha1": "f1215a0b73a21a03430565bbeee552a9dd44bfd9",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-12-25 10:57:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sculpture of Valegro - geograph.org.uk - 7140522",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Newent|Images from Geograph Britain and Ireland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.929836",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-2.404842",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sculpture of Valegro\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140522.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-04-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/7140522\">Geograph Britain and Ireland</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140522.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/1837\">Philip Halling</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7140522.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<i>Sculpture of Valegro</i> by\u00a0Philip Halling",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1053740661,
+            "parentid": 976082409
+          }
+        ]
+      },
+      "158485990": {
+        "pageid": 158485990,
+        "ns": 6,
+        "title": "File:Sculpture of Valegro - geograph.org.uk - 7275693.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-01-25T06:55:57Z",
+            "size": 347407,
+            "width": 1600,
+            "height": 1069,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg/1280px-Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 668,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg/1280px-Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 668,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=158485990",
+            "sha1": "efeb6cb123af8e5641d7df61ef29874b56c98694",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-01-25 06:55:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sculpture of Valegro - geograph.org.uk - 7275693",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Newent|Images from Geograph Britain and Ireland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.930017",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-2.404843",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sculpture of Valegro\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-08-27",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/7275693\">Geograph Britain and Ireland</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg#P7482\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/1837\">Philip Halling</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Sculpture_of_Valegro_-_geograph.org.uk_-_7275693.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<i>Sculpture of Valegro</i> by\u00a0Philip Halling",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 987631550,
+            "parentid": 987631513
+          }
+        ]
+      }
+    }
+  }
+}

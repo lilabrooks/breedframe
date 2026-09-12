@@ -1,0 +1,883 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 8,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "107203668": {
+        "pageid": 107203668,
+        "ns": 6,
+        "title": "File:2013 Xmas card.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2021-07-03T11:45:33Z",
+            "size": 1249046,
+            "width": 2432,
+            "height": 1794,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/2013_Xmas_card.jpg/1280px-2013_Xmas_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 738,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/2c/2013_Xmas_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/2013_Xmas_card.jpg/1280px-2013_Xmas_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 738,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/2c/2013_Xmas_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/2013_Xmas_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2013_Xmas_card.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107203668",
+            "sha1": "ff339fa4306420305e3595deada3084df8f46f48",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-07-03 11:45:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2013 Xmas card",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Bo (dog)|Sunny (dog)|Self-published work|Pop-up cards|Christmas 2013 in Washington, D.C.|Barack Obama in December 2013|Dogs in art of the United States|Barack Obama at the White House in 2013|White House in December 2013|2 dogs in art|Christmas at the White House|Malia Obama in 2013|Sasha Obama in 2013|Christmas cards of the United States|White House in art|Michelle and Barack Obama in 2013|2 black animals|Michelle Obama in December 2013",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "2013 holiday greetings card from President Obama featuring a pop-up paper version of the White House.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-12-19 21:00:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:PLBechly\" title=\"User:PLBechly\">PLBechly</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1244166286,
+            "parentid": 1039702817
+          }
+        ]
+      },
+      "83783035": {
+        "pageid": 83783035,
+        "ns": 6,
+        "title": "File:Aung San Suu Kyi plays with Bo and Sunny.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-06-09T03:28:24Z",
+            "size": 165528,
+            "width": 1042,
+            "height": 1042,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Aung_San_Suu_Kyi_plays_with_Bo_and_Sunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1000,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Aung_San_Suu_Kyi_plays_with_Bo_and_Sunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1000
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Aung_San_Suu_Kyi_plays_with_Bo_and_Sunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_plays_with_Bo_and_Sunny.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=83783035",
+            "sha1": "05db62ec570202536162bd7cfce16e44ffc6abf5",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-09 03:28:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Aung San Suu Kyi plays with Bo and Sunny",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|Photographs by Pete Souza|Barack Obama in September 2016|United States photographs taken on 2016-09-15|Aung San Suu Kyi in 2016|Barack Obama at the White House in 2016|White House in September 2016|Barack Obama in the Cabinet Room|Barack Obama and Aung San Suu Kyi|Bo and Sunny together",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Obama and Aung San Suu Kyi, State Counsellor and Minister of Foreign Affairs of Myanmar, visit with Obama family pets Bo and Sunny in the Cabinet Room of the White House.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a015 September 2016",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.instagram.com/p/BKWsqqNjaUm/\">https://www.instagram.com/p/BKWsqqNjaUm/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pete_Souza\" class=\"extiw\" title=\"w:en:Pete Souza\"><span title=\"American photographer (born 1954)\">Pete Souza</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1040677548,
+            "parentid": 1039870167
+          }
+        ]
+      },
+      "91065109": {
+        "pageid": 91065109,
+        "ns": 6,
+        "title": "File:Barack Obama, Aung San Suu Kyi with pets Bo and Sunny.jpg",
+        "index": 8,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-06-09T03:32:22Z",
+            "size": 1110138,
+            "width": 2800,
+            "height": 2147,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Barack_Obama%2C_Aung_San_Suu_Kyi_with_pets_Bo_and_Sunny.jpg/1280px-Barack_Obama%2C_Aung_San_Suu_Kyi_with_pets_Bo_and_Sunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 767,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/30/Barack_Obama%2C_Aung_San_Suu_Kyi_with_pets_Bo_and_Sunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Barack_Obama%2C_Aung_San_Suu_Kyi_with_pets_Bo_and_Sunny.jpg/1280px-Barack_Obama%2C_Aung_San_Suu_Kyi_with_pets_Bo_and_Sunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 767,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/30/Barack_Obama%2C_Aung_San_Suu_Kyi_with_pets_Bo_and_Sunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Barack_Obama%2C_Aung_San_Suu_Kyi_with_pets_Bo_and_Sunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barack_Obama,_Aung_San_Suu_Kyi_with_pets_Bo_and_Sunny.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91065109",
+            "sha1": "a21ce2ff035703de5f324ed2695458d7f33b2b8f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-09 03:32:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Barack Obama, Aung San Suu Kyi with pets Bo and Sunny",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|Photographs by Pete Souza|Barack Obama in September 2016|United States photographs taken on 2016-09-14|Aung San Suu Kyi in 2016|Barack Obama at the White House in 2016|White House in September 2016|Barack Obama in the Cabinet Room|Photographs from the White House during the Obama administration|Barack Obama and Aung San Suu Kyi|Bo and Sunny together",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Barack Obama and Aung San Suu Kyi, State Counsellor and Minister of Foreign Affairs of Myanmar, visit with Obama family pets Bo and Sunny in the Cabinet Room of the White House following their bilateral meeting, Sept. 14, 2016. (Official White House Photo by Pete Souza)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a014 September 2016, 12:43:07",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://obamawhitehouse.archives.gov/photos-and-video/photo/2016/09/president-and-aung-san-suu-kyi-visit-bo-and-sunny\">https://obamawhitehouse.archives.gov/photos-and-video/photo/2016/09/president-and-aung-san-suu-kyi-visit-bo-and-sunny</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pete_Souza\" class=\"extiw\" title=\"w:en:Pete Souza\"><span title=\"American photographer (born 1954)\">Pete Souza</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1040677550,
+            "parentid": 1039870171
+          }
+        ]
+      },
+      "96003466": {
+        "pageid": 96003466,
+        "ns": 6,
+        "title": "File:First Lady Michelle Obama with dogs Bo and Sunny in the White House on January 17, 2017, her birthday.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-11-12T23:42:41Z",
+            "size": 159286,
+            "width": 1080,
+            "height": 1080,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/01/First_Lady_Michelle_Obama_with_dogs_Bo_and_Sunny_in_the_White_House_on_January_17%2C_2017%2C_her_birthday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1000,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/First_Lady_Michelle_Obama_with_dogs_Bo_and_Sunny_in_the_White_House_on_January_17%2C_2017%2C_her_birthday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1000
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/First_Lady_Michelle_Obama_with_dogs_Bo_and_Sunny_in_the_White_House_on_January_17%2C_2017%2C_her_birthday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:First_Lady_Michelle_Obama_with_dogs_Bo_and_Sunny_in_the_White_House_on_January_17,_2017,_her_birthday.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96003466",
+            "sha1": "c6842d334dc525ee570f9192a838c8de752354bd",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-11-12 23:42:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "First Lady Michelle Obama with dogs Bo and Sunny in the White House on January 17, 2017, her birthday",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|United States photographs taken on 2017-01-17|Women smiling with teeth|Women wearing blouses|Vertical striped clothing, female|Smiling women looking at viewer|Women wearing black high-heeled shoes|First Ladies of the United States wearing black pants|Women sitting on stairs|Sitting women looking at viewer|White House in January 2017|Women smiling while sitting|Portrait photographs of women with dogs|Smiling women with dogs|Bo and Sunny together|Striped blouses|Michelle Obama in January 2017",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "First Lady Michelle Obama with dogs Bo and Sunny in the White House on January 17, 2017, her birthday. The photograph was followed by a final tour through the White House at the end of the Obama Administration. She wears a striped top from the fashion line Milly by Michelle Smith.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a017 January 2017",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.instagram.com/p/BPY4sDNBX-1/\">https://www.instagram.com/p/BPY4sDNBX-1/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Courtesy Barack Obama Presidential Library",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1243278053,
+            "parentid": 1186590243
+          }
+        ]
+      },
+      "95458036": {
+        "pageid": 95458036,
+        "ns": 6,
+        "title": "File:Obama Family.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2020-10-25T18:23:48Z",
+            "size": 605375,
+            "width": 1866,
+            "height": 1049,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Obama_Family.jpg/1280px-Obama_Family.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 562,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/be/Obama_Family.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Obama_Family.jpg/1280px-Obama_Family.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 562,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/be/Obama_Family.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Obama_Family.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Obama_Family.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95458036",
+            "sha1": "99c5caedb7764490ae407e6be9dfa8289954ab57",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-25 18:23:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Obama Family",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Obama family|Personality rights warning|Executive Office of the President files|Photographs by Pete Souza|Images with extracted images|Extracted images|Smiling adolescent girls|Girls looking at viewer|Men smiling while standing|Girls smiling while standing|Women smiling while standing|White House in April 2015|People wearing dental braces|Barack Obama in April 2015|Girls smiling with teeth|Men smiling with teeth|Women smiling with teeth|United States photographs taken on 2015-04-05|Barack Obama at the White House in 2015|Adolescent girls wearing vermilion shirts|Barack Obama wearing black suits|21st-century family portrait photographs from the United States|Barack Obama smiling|Malia Obama in 2015|Sasha Obama in 2015|Barack Obama wearing neckties|Adolescent girls standing|Michelle Obama smiling|Barack Obama wearing lapel pins|Photographs from the White House during the Obama administration|Barack Obama in the White House Rose Garden|Easter at the White House|Michelle and Barack Obama in 2015|Michelle Obama in April 2015",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>President Barack Obama, First Lady Michelle Obama, and daughters Malia and Sasha pose for a family portrait with Bo and Sunny in the Rose Garden of the White House on Easter Sunday, April 5, 2015.\n</p>\n(Official White House Photo by Pete Souza)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a05 April 2015, 10:03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/whitehouse/16424072323/\">P040515PS-0034</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/35591378@N03\">The White House</a> from Washington, DC",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "personality",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1243746437,
+            "parentid": 1039857332
+          }
+        ]
+      },
+      "80534959": {
+        "pageid": 80534959,
+        "ns": 6,
+        "title": "File:Obama Postcard (3600998291).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2019-07-19T10:39:20Z",
+            "size": 31813,
+            "width": 430,
+            "height": 646,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Obama_Postcard_%283600998291%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1502,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Obama_Postcard_%283600998291%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1502
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Obama_Postcard_%283600998291%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Obama_Postcard_(3600998291).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80534959",
+            "sha1": "5e90db52e64fb23f6d12a4d3862c2447115cd588",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-07-19 10:39:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Obama Postcard (3600998291)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Barack Obama in California|Photographs by Steve Jurvetson|Barack Obama in 2008|Flickr images reviewed by FlickreviewR 2|Barack Obama presidential primary campaign, 2008 in California|Barack Obama presidential campaign in April 2008",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>I just went through &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/jurvetson/sets/72157606812416363\">https://www.flickr.com/photos/jurvetson/sets/72157606812416363</a>\"&gt;my Obama photos&lt;/a&gt; to personalize my &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.usatoday.com/tech/news/2009-05-20-obama-time-capsule-amazon_N.htm\">https://www.usatoday.com/tech/news/2009-05-20-obama-time-capsule-amazon_N.htm</a>\" rel=\"noreferrer nofollow\"&gt;Time Capsule&lt;/a&gt;, and found so many that I wish I could weave in\u2026. like this sunny disposition, used for a \u201cBright Future\u201d postcard.\n</p><p>Smolan continues to push personalized book publishing from cover shots to embedded graphics and text. For example, in the Time Capsule, you can enter your own name to the inauguration invitation. I think he was trying to accommodate most buyers who have enthusiasm and art to contribute.  Hopefully the format can allow for multiple pages of user generated content\u2026 to memorialize the cultural aftertaste of a shared experience.  If variable page length binding is difficult, perhaps they could have a section of b-roll photos somewhere, and the purchaser could optionally swap out 0-10 pages of their own photos there.\n</p><p>Wish I could have included my favorite &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/jurvetson/3207520361/sizes/l\">https://www.flickr.com/photos/jurvetson/3207520361/sizes/l</a>\"&gt;inauguration celebration&lt;/a&gt; shot, and &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/jurvetson/2816735522\">https://www.flickr.com/photos/jurvetson/2816735522</a>\"&gt;thoughts&lt;/a&gt; provoked at the DNC, and &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/search/?q=obama&amp;w=44124348109@N01&amp;s=int\">https://www.flickr.com/search/?q=obama&amp;w=44124348109@N01&amp;s=int</a>\"&gt;more&lt;/a&gt;\u2026\n</p>\nAnd meanwhile, I was watching Obama\u2019s &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://www.whitehouse.gov/blog/NewBeginning\" href=\"https://www.whitehouse.gov/blog/NewBeginning\">http://www.whitehouse.gov/blog/NewBeginning</a>\" rel=\"noreferrer nofollow\"&gt; June 4 speech&lt;/a&gt; in Cairo about America\u2019s relationship with the Muslim world.  Can you imagine Bush trying to build bridges like that? I think it\u2019s an important talk, worth viewing.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-06-06 14:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jurvetson/3600998291/\">Obama Postcard</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44124348109@N01\">Steve Jurvetson</a> from Menlo Park, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 894560507,
+            "parentid": 722804178
+          }
+        ]
+      },
+      "51861317": {
+        "pageid": 51861317,
+        "ns": 6,
+        "title": "File:P110513PS-0197 (12240851264).jpg",
+        "index": 7,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2016-09-29T04:00:39Z",
+            "size": 329443,
+            "width": 1500,
+            "height": 1000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/P110513PS-0197_%2812240851264%29.jpg/1280px-P110513PS-0197_%2812240851264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 667,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/27/P110513PS-0197_%2812240851264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/P110513PS-0197_%2812240851264%29.jpg/1280px-P110513PS-0197_%2812240851264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 667,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/27/P110513PS-0197_%2812240851264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/P110513PS-0197_%2812240851264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:P110513PS-0197_(12240851264).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51861317",
+            "sha1": "c7d89262fbc17187154986271f984258fe3a6d0a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-09-29 04:00:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "P110513PS-0197 (12240851264)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|Photographs by Pete Souza|Flickr images reviewed by FlickreviewR|Files from Flickr with bad file names|Barack Obama in November 2013|United States photographs taken on 2013-11-05|Barack Obama at the White House in 2013|White House in November 2013|Photographs from the White House during the Obama administration with bad file names|Barack Obama in the Blue Room|Michelle and Barack Obama in 2013|Bo and Sunny together|Michelle Obama in November 2013",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Barack Obama and First Lady Michelle Obama, joined by family pets Sunny and Bo, wait to greet visitors in the Blue Room during a White House tour, Nov. 5, 2013. (Official White House Photo by Pete Souza)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a05 November 2013, 12:23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/whitehouse/12240851264/\">P110513PS-0197</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/35591378@N03\">The White House</a> from Washington, DC",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1244174128,
+            "parentid": 1039701499
+          }
+        ]
+      },
+      "43577569": {
+        "pageid": 43577569,
+        "ns": 6,
+        "title": "File:President Barack Obama and First Lady Michelle Obama introduces Pope Francis to their family pets Bo and Sonny in the Blue Room.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2015-09-24T01:42:37Z",
+            "size": 137809,
+            "width": 407,
+            "height": 434,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/64/President_Barack_Obama_and_First_Lady_Michelle_Obama_introduces_Pope_Francis_to_their_family_pets_Bo_and_Sonny_in_the_Blue_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1066,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/President_Barack_Obama_and_First_Lady_Michelle_Obama_introduces_Pope_Francis_to_their_family_pets_Bo_and_Sonny_in_the_Blue_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1066
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/President_Barack_Obama_and_First_Lady_Michelle_Obama_introduces_Pope_Francis_to_their_family_pets_Bo_and_Sonny_in_the_Blue_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama_and_First_Lady_Michelle_Obama_introduces_Pope_Francis_to_their_family_pets_Bo_and_Sonny_in_the_Blue_Room.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43577569",
+            "sha1": "2bc2e033371748ff3b165fe0a600301ae3ff9cd0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-09-24 01:42:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "President Barack Obama and First Lady Michelle Obama introduces Pope Francis to their family pets Bo and Sonny in the Blue Room",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Executive Office of the President files|Photographs by Pete Souza|Clothing designed by Monique Lhuillier|United States photographs taken on 2015-09-23|Michelle Obama wearing blue dresses|Barack Obama in the Blue Room|Bo and Sunny together|Michelle and Barack Obama in 2015|Franciscus at the White House (September 2015)|Michelle Obama in September 2015",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "President Barack Obama and First Lady Michelle Obama introduces Pope Francis to their family pets Bo and Sonny in the Blue Room following the State Arrival Ceremony on the South Lawn of the White House, Sept. 23, 2015",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on\u00a023 September 2015",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.whitehouse.gov/photos-and-video/photogallery/september-2015-photo-day\">https://www.whitehouse.gov/photos-and-video/photogallery/september-2015-photo-day</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pete_Souza\" class=\"extiw\" title=\"w:en:Pete Souza\"><span title=\"American photographer (born 1954)\">Pete Souza</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "revid": 1243749497,
+            "parentid": 947070617
+          }
+        ]
+      }
+    }
+  }
+}
