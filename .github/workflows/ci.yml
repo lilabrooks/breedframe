@@ -39,4 +39,3 @@ jobs:
         run: uv sync --frozen
       - name: Check the repository
         run: make check
-
