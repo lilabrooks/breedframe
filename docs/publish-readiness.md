@@ -2,7 +2,7 @@
 
 **Ready to publish as a prototype and experimentation record.** Cleanup completed on 2026-09-12 following the assessment of `2164e430544c4e3628d300100328362372da9434`. No model settings, reporting policies or saved predictions changed. No new model experiment ran.
 
-The public repository [lilabrooks/breedframe](https://github.com/lilabrooks/breedframe) is configured as `origin`. No code has been pushed. The publication candidate is the separate, parentless `public-main` commit. The original local `main` history remains available privately and contains the excluded page captures.
+The public repository [lilabrooks/breedframe](https://github.com/lilabrooks/breedframe) is configured as `origin`. The initial public `main` commit is `38f603877a381e73b5f1d2e3837c2d84be474350`, published from the separate, parentless `public-main` snapshot. The original local `main` history remains available privately and contains the excluded page captures.
 
 ## Resolved findings
 
@@ -25,11 +25,11 @@ The public repository [lilabrooks/breedframe](https://github.com/lilabrooks/bree
 
 The preceding assessment also passed the offline lockfile check and found no matches in either original commit for the checked private-key, GitHub-token, AWS-access-key and OpenAI-key patterns. The cleaned publication candidate was checked again for those patterns and excluded page contents. These are bounded checks, not a guarantee that every possible secret format is absent.
 
-Runtime used: Python 3.11.16, Ruff 0.16.7, Node 26.8.2 and uv 0.12.13. The software gate used the existing local environment. No fresh-machine setup, alternate Python-version run, rendered UI check, dependency vulnerability scan or remote CI run was performed. The repository has no GitHub Actions workflow. No dedicated secret scanner was installed. External links were not exhaustively revalidated.
+Runtime used: Python 3.11.16, Ruff 0.16.7, Node 26.8.2 and uv 0.12.13. The software gate used the existing local environment. At the initial publication assessment, no fresh-machine setup, alternate Python-version run, rendered UI check, dependency vulnerability scan or remote CI run was performed. A subsequent maintenance change added GitHub Actions CI, a security policy and repository security settings; current remote check results are recorded on GitHub. No dedicated secret scanner was installed. External links were not exhaustively revalidated.
 
 ## Publishing boundary
 
-When publishing is requested, push `public-main` to the remote `main` branch. A push of all local branches would expose the preserved private history and is outside this publication plan. Do not publish the local historical `main` branch.
+Initial publication used `public-main` as the source for remote `main`. Future maintenance must branch from the current remote `main` and use a pull request. A push of all local branches would expose the preserved private history and is outside this publication plan. Do not publish or merge the local historical `main` branch into the public history.
 
 The public snapshot includes the prototype, source-photo attributions, screenshot licensing, archived measured sources and experiment records. It excludes weights, local user cases and full external page captures. This assessment is about publishing the implementation and its measured limits; it does not establish breed-report usefulness, production readiness or legal clearance for every third-party item.
 

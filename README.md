@@ -100,6 +100,8 @@ Images, models, case traces, dependencies and caches live in ignored directories
 
 ## Verify and develop
 
+GitHub Actions runs the repository checks on pull requests and updates to public `main`, using locked dependencies and no model-weight downloads. CodeQL and dependency security alerts complement these software checks; model experiments remain closed.
+
 ```sh
 make check
 .venv/bin/python scripts/fetch_photo_set.py --check-only
@@ -112,4 +114,4 @@ PYTHONPATH=. .venv/bin/python scripts/evaluate_pairs.py --split development --mo
 
 The completed [classifier audit](docs/classifier-audit.md), [ResNet screen](docs/classifier-screen.md), [context probe](docs/current-photo-context.md), [paired controls](docs/paired-suitability-results.md) and [new-identity comparison](docs/identity-comparison-results.md) are preserved as experiment history. The last comparison produced 0/6 supported-case reports from each candidate. ResNet, two-photo agreement and the context change were not adopted; the conditional vision screen did not run. The [findings page](docs/findings.md) closes these investigations and records the condition for reopening model work.
 
-The code is [MIT licensed](LICENSE); third-party models and images retain their own licenses. The completed prototype is recorded locally on `main`; nothing has been published.
+The code is [MIT licensed](LICENSE); third-party models and images retain their own licenses. The prototype is [published on GitHub](https://github.com/lilabrooks/breedframe). See [third-party notices](THIRD_PARTY_NOTICES.md) and the [security policy](SECURITY.md).
