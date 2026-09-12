@@ -2,6 +2,8 @@
 
 Historical review. The [final findings](findings.md#reading-the-final-review-accurately) qualify several claims below and record the adopted stopping decision. Source links for subsequently formatted runners point to their measured versions.
 
+UI descriptions, “Current” labels, and screenshot references below describe the reviewed snapshot. The later [Scout interface](usage.md) changes presentation and case controls; this review's findings and historical screenshots are retained.
+
 Third independent review, 2026-09-12. I read the specification, README, ADR, the
 methods review and its response, the three studies completed since that
 response, and the application source. I ran no inference, downloaded nothing,

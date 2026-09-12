@@ -175,9 +175,26 @@ class Store:
         return self.directory(case["id"]) / f"{photo_id}-{region_id}.png"
 
     def delete(self, case):
+        self.require_stopped(case)
+        shutil.rmtree(self.directory(case["id"]))
+
+    @staticmethod
+    def require_stopped(case):
         if case["status"] in {"ready", "running"} or case.get("baseline", {}).get("status") == "running":
             raise ValueError("Stop the current operation before deleting the case.")
-        shutil.rmtree(self.directory(case["id"]))
+
+    def clear(self):
+        cases = []
+        for path in self.root.glob("*/case.json"):
+            case = self.load(path.parent.name)
+            if case["id"] != path.parent.name:
+                raise ValueError("Case identifier does not match its saved directory.")
+            self.require_stopped(case)
+            cases.append(case)
+        # Validate every case before deleting any, including cases beyond the UI's recent list.
+        for case in cases:
+            self.delete(case)
+        return len(cases)
 
     def photo_path(self, case, photo_id):
         if photo_id not in {p["id"] for p in case["photos"]}:

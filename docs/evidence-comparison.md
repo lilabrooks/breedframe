@@ -84,10 +84,12 @@ The sample is small and heavily drawn from US public archives. Source captions s
 
 The stricter reporting behavior also changed the demo: the latest tiny-beagle run ended inconclusive instead of requesting a photo. The original request/resume trace remains historical evidence. This regression and the missing second-photo classification belong in the prototype's measured limitations, alongside the working persistence, comparison and recovery mechanisms.
 
-## Integration verification
+## Historical integration verification
+
+This section records the v2 interface and checks at the time of the comparison. See [Using Scout](usage.md) for the current workspace and [current screenshots](screenshots/README.md#current-scout-interface). The original captures and exported assessment below remain unchanged.
 
 `make check` passed 25 tests, Ruff and JavaScript syntax checks. The public demo exercised real Qwen3 and ViT calls through the browser: completed-case continuation, an explicitly selected region, persisted disagreement, a readable download, cancellation with observations retained, and user partial completion. The CLI demo also completed both stages and explicitly recorded that its follow-up came from the demo user.
 
 [Browser comparison trace](evidence/browser-comparison-v2.json) · [Readable exported assessment](evidence/browser-assessment-v2.md) · [Cancellation trace](evidence/browser-cancelled-v2.json) · [Partial completion](evidence/browser-partial-v2.json) · [CLI trace](evidence/cli-demo-v2.json) · [Verification record](evidence/verification-v2.json).
 
-Desktop and 390-pixel-wide mobile layouts were visually inspected, with no horizontal overflow or duplicate IDs observed. [Desktop screenshot](screenshots/comparison-v2.png) · [Mobile screenshot](screenshots/comparison-mobile-v2.png). These screenshots contain the beagle photograph and its resized/cropped derivatives by sannse, CC BY-SA 3.0, attributed in the README and the UI. Delete and retry paths were covered by API/unit tests; no live user case was deleted for verification.
+Desktop and 390-pixel-wide mobile layouts were visually inspected, with no horizontal overflow or duplicate IDs observed. [Historical v2 desktop screenshot](screenshots/comparison-v2.png) · [Historical v2 mobile screenshot](screenshots/comparison-mobile-v2.png). These screenshots contain the beagle photograph and its resized/cropped derivatives by sannse, CC BY-SA 3.0, attributed in the README and the UI. Delete and retry paths were covered by API/unit tests; no live user case was deleted for verification.

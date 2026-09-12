@@ -4,6 +4,8 @@
 
 Build a local dog-photo assessment prototype for experimentation with model-controlled workflows. The required outcome is a visible, model-controlled investigation, including a case that asks for another photo and resumes with its prior evidence.
 
+The current workspace checks local model availability before enabling Scout. Missing or incomplete model assets, an unavailable controller, or a failed health connection produce a visible setup panel. New inference is disabled until both models are available; saved results remain readable while the API is reachable. See [local setup](setup.md) for installation and recovery.
+
 ## Product contract
 
 Owner clarification after the methods review: allow cautious visual-match reports for real dogs of unknown ancestry, and clearly labeled scene-level matches when multiple dogs share a breed. An individual-dog report still needs a selected subject in a multiple-dog scene. The current report schema does not yet express this scope distinction; see the [review response](review-02-response.md) for the accepted direction and remaining work.
@@ -41,4 +43,14 @@ The real controller demonstrated both a direct report path and an inadequate-pho
 
 ## Expanded implementation outcome
 
-The v2 browser puts case status and evidence comparison before the trace. Its report-count comparison is confounded: direct outputs are ungated, while the 0.5 reporting gate blocks every recorded v2 ViT result for rules and Qwen3. Gating the cached direct outputs also produces zero reports. Qwen3 did not request follow-ups or classify the supplied second views; these remain measured action choices under the current configuration. The original request/resume demonstration is historical, not evidence that the current controller reliably chooses that path. See [current results](evidence-comparison.md). The crop pilot does not establish the usefulness of subject-separating crops.
+The historical v2 browser put case status and evidence comparison before the trace. Its report-count comparison is confounded: direct outputs are ungated, while the 0.5 reporting gate blocks every recorded v2 ViT result for rules and Qwen3. Gating the cached direct outputs also produces zero reports. Qwen3 did not request follow-ups or classify the supplied second views; these remain measured action choices under that configuration. The original request/resume demonstration is historical, not evidence that the current controller reliably chooses that path. See [recorded v2 results](evidence-comparison.md). The crop pilot does not establish the usefulness of subject-separating crops.
+
+## Current Scout interface
+
+The current workspace orders **Photo evidence**, **Scout’s activity**, and **Assessment**. It starts empty, with explicit upload and demo actions. Photo guidance allows up to 3 views of the same dog and directs users to separate cases for different dogs or breeds. This guidance doesn't implement the scene-level reporting scope described above.
+
+Scout is the local agent's UI name. Its text controller chooses actions; separate tools inspect image quality, classify pixels, and assemble the result. A prominent live banner and repeating step cards identify current work, while the timeline retains actual inputs, results, and action attribution. **How this works** explains the AI/ML roles. Progress accounts for connection loss, cancellation, and completion, with reduced-motion styling.
+
+Assessment leads with the current photo's top visual match and model score, qualifies tentative results, and retains detailed uncertainty in an expandable section. The display and readable export share the same summary. The model, reporting thresholds, and stored `inconclusive` outcome remain unchanged; showing a tentative match makes no new accuracy claim.
+
+**Clear all** resets to an empty workspace while preserving history. **Saved cases** reopens prior cases and includes a confirmed permanent clear action for all cases, photos, and reports in the browser store. Active work blocks reset and deletion. See [Using Scout](usage.md) for the current flow and [UI hardening](https://github.com/lilabrooks/breedframe/milestone/2) for the planned browser checks.

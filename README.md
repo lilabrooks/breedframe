@@ -1,12 +1,33 @@
 # BreedFrame
 
-A local dog-photo investigation prototype for experimentation with model-controlled workflows. Qwen3 4B chooses tools from numerical evidence; a separate ViT supplies raw breed rankings. The UI records the work and explains why a report is blocked.
+A local dog-photo investigation prototype. Meet **Scout**, the agent that chooses tools, collects their results, and decides what to do next. Qwen3 4B makes those choices from recorded numerical evidence; a separate Vision Transformer (ViT) reads the pixels and ranks visual breed matches.
 
-**Prototype complete; model experiments closed.** The current reporting gate blocks every recorded v2 classifier result. Useful breed reporting missed the owner's coverage target in the final candidate comparison. The implementation demonstrates local inference, bounded actions and persistent evidence; no reliable breed-report operating range was established. [Findings, strengths and limits](docs/findings.md).
+**Prototype complete; model experiments closed.** The interface presents the top visual match and its model score, with tentative wording where appropriate. These scores are uncalibrated, and the reporting gate still blocks every classifier result in the recorded v2 corpus. Useful breed reporting missed the owner's coverage target in the final candidate comparison. [Findings, strengths and limits](docs/findings.md).
 
-Built and exercised on an M4 MacBook Air with 16 GB memory. The screenshot below records the v2 interface before the final wording update.
+Built and exercised on an M4 MacBook Air with 16 GB memory. Scout's current workspace during a real local demo run:
 
-![BreedFrame evidence and region comparison](docs/screenshots/comparison-v2.png)
+![Scout running the vision model, with the active tool step, photo evidence, and live progress banner visible](docs/screenshots/scout-working.png)
+
+[Using Scout](docs/usage.md) covers the current flow and assessment. [Screenshot provenance and historical captures](docs/screenshots/README.md) record which interface each image shows.
+
+## Architecture
+
+**FastAPI**, served by **Uvicorn** on `127.0.0.1:8765`, handles the browser, case operations, and background work. Scout runs in that Python application and calls **Ollama** on `127.0.0.1:11434` through **HTTPX**. A separate, persistent Python worker runs the ViT with **PyTorch** and **Transformers**. Photos, tool events, and reports stay in the local case store.
+
+![BreedFrame architecture showing the browser, FastAPI and Uvicorn, Scout, Ollama with Qwen3, the PyTorch vision worker, local tools, and case storage](docs/diagrams/breedframe-architecture.svg)
+
+[Editable draw.io diagram, both pages](docs/diagrams/breedframe-architecture.drawio) · [Full-size architecture](docs/diagrams/breedframe-architecture.svg) · [Diagram notes and source references](docs/diagrams/README.md)
+
+<details>
+<summary>AI/ML inference detail: model inputs, preprocessing, scores, and assessment</summary>
+
+Scout sends numerical observations and a constrained action schema to **Qwen3 4B Q4_K_M**. The separate image path uses **Pillow** preprocessing, a **224 × 224 tensor**, and the **120-class dog-breed ViT**. PyTorch computes softmax scores and returns the top 5 classes. Deterministic evidence and presentation code turn those recorded results into the assessment; neither model trains during use.
+
+![Detailed inference paths showing Scout's text-only Qwen3 request, Pydantic validation, Pillow image normalization, ViT preprocessing and PyTorch inference, softmax rankings, and deterministic assessment rules](docs/diagrams/breedframe-inference.svg)
+
+[Open the inference diagram at full size](docs/diagrams/breedframe-inference.svg). Model identities, libraries, and responsibilities are listed below.
+
+</details>
 
 ## AI/ML stack
 
@@ -17,7 +38,7 @@ Built and exercised on an M4 MacBook Air with 16 GB memory. The screenshot below
 | **PyTorch (`torch`)** | Runs the ViT, converts its outputs to softmax scores, and selects the top 5 classes. Uses Apple's Metal Performance Shaders (MPS) backend on supported Macs, with a CPU fallback. |
 | **Hugging Face Transformers (`transformers`)** | Loads the image processor and ViT through `AutoImageProcessor` and `AutoModelForImageClassification`. Prepares each image as a 224×224 input tensor for PyTorch. |
 | **Dog-breed ViT** | The pretrained `wesleyacheng/dog-breeds-multiclass-image-classification-with-vit` model supplies rankings across 120 classes for a whole photo or user-selected region. Its scores are uncalibrated visual matches. |
-| **Qwen3 4B Q4_K_M** | The default text-only language model chooses whether to inspect, classify, request another photo, or finish. It receives numerical observations and case state; it has no image input. |
+| **Scout / Qwen3 4B Q4_K_M** | Scout is the agent's UI name. Its default text-only language model chooses whether to inspect, classify, request another photo, or finish. It receives numerical observations and case state; it has no image input. |
 | **Ollama** | Runs Qwen3 locally and exposes the `/api/chat` endpoint used by the controller. Requests constrain the response to a JSON action schema. |
 | **Pillow (`PIL`)** | Decodes uploads, applies EXIF orientation, converts images to RGB, and re-encodes them without metadata. The classifier explicitly selects Transformers' Pillow preprocessing backend (`backend="pil"`). |
 | **NumPy (`numpy`)** | Calculates brightness and pixel-detail measurements for image-quality flags. These are fixed numerical heuristics. |
@@ -39,21 +60,25 @@ sh scripts/setup.sh
 sh scripts/start.sh
 ```
 
+**First run:** let setup finish before starting the app. **Later sessions:** run only `sh scripts/start.sh` and keep its terminal open. See the [local model setup and troubleshooting guide](docs/setup.md) for model locations, port conflicts, and download recovery.
+
 Open [BreedFrame on localhost](http://127.0.0.1:8765). Setup downloads the locked Python dependencies, Ollama 0.34.0, Qwen3 4B Q4_K_M (about 2.5 GB), the ViT (about 344 MB), and the attributed demonstration/evaluation photos. Allow several GB of disk space for the runtime, dependencies and caches.
 
 Setup uses a project-local model directory. If another Ollama server occupies port 11434 with a different model, setup stops with instructions instead of replacing it. Start uses the reviewed model digest; it never pulls weights. On macOS, newly started Ollama and the application run under a policy that denies outbound networking except loopback. An already running Ollama server keeps its existing process policy.
 
 Ctrl-C stops processes launched by the start script. Case state remains in `data/cases/`. The local page has no external fonts, scripts, analytics or inference calls. Attribution links open external pages only when you follow them.
 
-## Explore the recorded investigation
+If either model is unavailable, the page shows which component needs setup and disables Scout’s inference controls until readiness is confirmed. Use **Check again** after setup; saved cases remain accessible while the app server is reachable.
 
-1. Click **Clear photo** or upload a dog photograph. The Agent activity panel shows the choose → tool call → evidence loop and an always-visible action timeline, with the assessment below. Each event identifies its source, result and timing; expand it for the recorded input and output. Expect an inconclusive assessment under the measured configuration; inspect the raw rankings and blockers to understand it.
-2. Add another view to the same case, even after a completed assessment. Earlier reports remain in the JSON history. Each classified view keeps its own scores; disagreement blocks a breed report.
-3. Open **Select a dog region**, draw a box or enter its bounds, then click **Analyze selected region**. This explicitly requests a classifier call on your selected pixels. A crop shares its parent photo's evidence and consumes the remaining action budget.
-4. Explore case recovery: cancel a running investigation, retry remaining actions after interruption, download a readable assessment, or delete an inactive case. The request/resume control was demonstrated under v1 and the deterministic policy. If a request occurs, supply another photo or choose **I can’t provide another photo**; Qwen3 did not request one in the measured v2 policy runs.
-5. Use **Compare with direct classification** for a single ViT call on the current whole photo.
+## Investigate a photo with Scout
 
-These controls perform real local work. The controller can finish inconclusive without requesting a follow-up. In the current measured runs, it also inspected but did not classify an added photograph. The UI shows that missing evidence; it does not invent a comparison. The original request/resume demonstration remains in the [historical evaluation](docs/evaluation.md).
+1. Start with the empty workspace. Choose or drop a dog photo, then submit it. **Try a demo photo** starts a real local run with the full-resolution or low-resolution Beagle photo; nothing is loaded automatically.
+2. Follow **Scout’s activity**. The live banner names the current work, and the step cards show **Choose an action → Run the tool → Return evidence**. The action timeline records actual results. Expand **How this works** for the AI/ML roles or **Inspect input & result** for an event's details.
+3. Read **Assessment** for the current photo's top visual match, model score, and source. Low or closely ranked scores remain tentative. **Notes and assessment details** explains the reporting limits; model scores aren't probabilities of breed identity.
+4. Add up to **3 photos of the same dog**, one at a time, including after an assessment completes. Mixing different dogs or breeds in one case won't give a reliable comparison. Use **Start a separate case** for another dog. A new photo has no match until it has its own classification result.
+5. Use **Clear all** to return to an empty workspace. Previous results remain in **Saved cases**, where you can reopen them. **Clear saved cases** permanently deletes that store's cases, photos, and reports after confirmation. Wait for active work to stop before resetting or deleting.
+
+[Using Scout](docs/usage.md) also covers region selection, direct classification, cancellation, retry, and downloads. The controller can finish without requesting another photo or classifying an added view. Those choices remain visible; the original request/resume demonstration is preserved in the [historical evaluation](docs/evaluation.md).
 
 For a real CLI run while Ollama is running:
 
@@ -66,22 +91,9 @@ The CLI prints a case ID. Use `--resume CASE_ID` with another photo to continue.
 
 ## What is agentic here?
 
-```mermaid
-flowchart LR
-    A[Local photo] --> B[Persist case]
-    B --> C[Qwen3 chooses a structured action]
-    C --> D[Validate arguments and action budget]
-    D --> E[Execute local tool]
-    E --> F[Persist actual result and update UI]
-    F --> C
-    E --> G[Pause for another photo]
-    G --> B
-    E --> H[Grounded report or inconclusive result]
-```
-
 The controller can inspect the image, classify the whole photo, classify a user-selected region, request another photo, or finish. When no result is eligible, the schema constrains the finish outcome to inconclusive; the model retains the choice among other allowed actions. A shared legal-action schema and runtime validators enforce supported arguments, evidence references, six attempts and 240 seconds per photo, and three photos per case. Selecting a region explicitly requires one attempt to classify it; autonomous whole-photo and follow-up choices remain with the controller.
 
-The text controller has no image input. Inspection supplies pixel diagnostics and the classifier supplies rankings. Deterministic comparison combines actual observations across photos, counts each photo once per candidate, and retains raw scores per observation without averaging them. Weak scores, unresolved labels, quality concerns and conflicting leading classes prevent an eligible breed report. These are uncalibrated reporting heuristics and do not detect dogs. [Comparison policy and current evidence](docs/evidence-comparison.md).
+Scout has no image input. Inspection supplies pixel diagnostics and the classifier supplies rankings. Deterministic comparison combines actual observations across photos, counts each photo once per candidate, and retains raw scores per observation without averaging them. Weak scores, unresolved labels, quality concerns and conflicting leading classes prevent an eligible breed report. The presentation layer can still show a tentative top visual match from the latest classification of the current photo. These are uncalibrated reporting heuristics and do not detect dogs. [Comparison policy and historical evidence](docs/evidence-comparison.md).
 
 A persistent child process loads the ViT on MPS, with a CPU fallback. The parent can terminate it after a timeout. JSON case writes are atomic; interrupted runs become incomplete on restart. The plain browser frontend polls a FastAPI service bound to loopback. [Spec](docs/spec.md) · [Architecture decision](docs/adr/001-local-inference.md) · [Failure and evaluation details](docs/evaluation.md).
 

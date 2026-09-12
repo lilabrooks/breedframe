@@ -1,6 +1,9 @@
 'use strict';
 const $ = id => document.getElementById(id);
 let current = null, selectedFile = null, polling = null, lastVersion = '', pending = false;
+let savedCases = [];
+let runtime = runtimeReadiness(null), healthCheck = null;
+let requestPending = false, connectionLost = false;
 const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text !== undefined) n.textContent = text; return n; };
 for (const link of document.querySelectorAll('.agent-jump')) link.addEventListener('click', event => {
   event.preventDefault();
@@ -17,24 +20,54 @@ async function api(url, options = {}) {
 function active() { return pending || (current && (['ready','running'].includes(current.status) || current.baseline?.status === 'running')); }
 function resumable() { return current && ['awaiting_photo','incomplete','complete'].includes(current.status) && current.photos.length < 3; }
 function renderAgentState(caseData) {
-  const state = agentFlow(caseData);
+  const state = agentFlow(caseData, { requestPending, connectionLost, runtime });
   $('agent-workspace').dataset.tone = state.tone;
+  $('agent-workspace').dataset.busy = String(!!state.busy);
+  $('agent-workspace').dataset.disconnected = String(!!state.disconnected);
+  document.documentElement.classList.toggle('has-live-progress', !!state.busy);
+  $('live-progress').hidden = !state.busy;
+  $('live-progress').dataset.tone = state.tone;
+  $('live-progress').dataset.disconnected = String(!!state.disconnected);
+  $('live-title').textContent = state.title || '';
+  $('live-badge').textContent = state.badge || '';
+  const photo = caseData?.photos.at(-1);
+  const attempts = photo && caseData.attempts[photo.id];
+  $('live-meta').textContent = [state.disconnected ? 'Waiting for live updates' : 'Working on this Mac', !requestPending && photo ? photo.id.replace('-', ' ') : '', !requestPending && caseData?.baseline?.status !== 'running' && attempts ? `Action ${attempts}` : ''].filter(Boolean).join(' · ');
+  $('current-step-label').hidden = !state.busy;
+  const stepLabel = state.disconnected ? 'LIVE UPDATES UNAVAILABLE' : state.badge || 'CURRENT ACTIVITY';
+  if ($('current-step-label').textContent !== stepLabel) $('current-step-label').textContent = stepLabel;
+  const statuses = { ready: 'QUEUED', running: 'INVESTIGATING', awaiting_photo: 'WAITING FOR YOU', incomplete: 'INCOMPLETE', complete: 'ASSESSMENT RECORDED' };
+  $('status').textContent = state.badge || statuses[caseData?.status] || 'READY';
   for (const phase of ['choose', 'execute', 'review']) {
     const step = $('flow-' + phase);
     step.classList.toggle('is-active', state.phase === phase);
+    step.classList.toggle('is-done', state.completedPhase === phase);
+    $('flow-' + phase + '-state').hidden = !state.phase;
+    $('flow-' + phase + '-state').textContent = state.phase === phase ? '● NOW' : state.completedPhase === phase ? (phase === 'review' ? '✓ RECEIVED' : '✓ CHOSEN') : 'WAITING';
     if (state.phase === phase) step.setAttribute('aria-current', 'step');
     else step.removeAttribute('aria-current');
   }
-  if (state.title) $('status-title').textContent = state.title;
-  if (state.detail) $('status-detail').textContent = state.detail;
+  if (state.title && $('status-title').textContent !== state.title) $('status-title').textContent = state.title;
+  if (state.detail && $('status-detail').textContent !== state.detail) $('status-detail').textContent = state.detail;
   $('status-dot').classList.toggle('working', state.tone === 'running');
+  const latest = caseData?.events.findLast(event => event.kind === 'tool' && event.status === 'ok' && event.photo_id === photo?.id);
+  $('latest-evidence').hidden = !state.busy || !latest;
+  $('latest-evidence-text').textContent = latest ? `Recorded: ${labels[latest.tool] || 'Tool result'} · event ${latest.id}` : '';
 }
 function controls() {
   $('case-management').hidden = !current;
   renderAgentState(current);
-  for (const id of ['demo-clear','demo-small','demo-resume','baseline-button','new-case','region-save','retry-case','finish-partial','delete-case']) $(id).disabled = !!active();
-  $('photo-input').disabled = !!active();
-  $('upload-button').disabled = !selectedFile || !!active();
+  for (const id of ['demo-clear','demo-small','demo-resume','baseline-button','new-case','clear-all','region-save','retry-case','finish-partial','delete-case']) $(id).disabled = !!active();
+  $('reset-note').textContent = active() ? 'Wait for the current run to stop before clearing the workspace.' : 'Start over with an empty workspace. Previous results stay in Saved cases.';
+  $('clear-cases').disabled = !!active() || !savedCases.length || savedCases.some(c => ['ready','running'].includes(c.status));
+  for (const button of document.querySelectorAll('#case-list button')) {
+    button.disabled = !!active();
+    if (button.dataset.caseId === current?.id) button.setAttribute('aria-current', 'true');
+    else button.removeAttribute('aria-current');
+  }
+  for (const id of ['demo-clear','demo-small','demo-resume','baseline-button','region-save','retry-case','focus-upload','photo-input']) $(id).disabled = !!active() || !runtime.ready;
+  $('drop-zone').classList.toggle('unavailable', !runtime.ready);
+  $('upload-button').disabled = !selectedFile || !!active() || !runtime.ready;
   $('upload-button').replaceChildren(document.createTextNode(selectedFile ? (resumable() ? 'Add photo & resume case' : 'Start local investigation') : 'Choose a photo first'), el('span', '', '↗'));
   if (current) {
     const p = current.photos.at(-1);
@@ -49,17 +82,52 @@ function controls() {
   }
   $('upload-label').textContent = selectedFile ? selectedFile.name : resumable() ? 'Add another view of the same dog.' : 'Choose a photo to investigate';
 }
-async function startRequest(url, options = {}) {
-  pending = true; controls(); error('');
+function renderRuntime(health, hadSetupFocus = false) {
+  const restoreFocus = runtime.ready && (hadSetupFocus || $('model-readiness').contains(document.activeElement));
+  $('model-readiness').hidden = runtime.ready;
+  if ($('runtime').textContent !== runtime.badge) $('runtime').textContent = runtime.badge;
+  for (const [id, value] of [['readiness-title', runtime.title], ['readiness-detail', runtime.detail]]) {
+    if ($(id).textContent !== (value || '')) $(id).textContent = value || '';
+  }
+  $('controller-status').textContent = health ? `${health.controller || 'Local controller'} · ${health.controller_ready ? 'Available' : health.controller_status === 'offline' ? 'Ollama is not running or reachable' : 'Model missing or version does not match'}` : 'Availability not yet confirmed';
+  $('classifier-status').textContent = health ? `120-class ViT · ${health.classifier_ready ? 'Files available' : 'Files missing, incomplete, or unreadable'}` : 'Availability not yet confirmed';
+  if (health?.controller) $('controller-name').textContent = health.controller;
+  controls();
+  if (restoreFocus) $('agent-workspace').focus({ preventScroll: true });
+}
+function checkRuntime() {
+  if (healthCheck) return healthCheck;
+  const hadSetupFocus = $('model-readiness').contains(document.activeElement);
+  $('check-models').disabled = true;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 5000);
+  healthCheck = (async () => {
+    let health;
+    try { health = await api('/api/health', { signal: controller.signal }); runtime = runtimeReadiness(health); }
+    catch { runtime = runtimeReadiness(null, { unreachable: true }); }
+    finally { clearTimeout(timeout); $('check-models').disabled = false; healthCheck = null; }
+    renderRuntime(health, hadSetupFocus);
+    return runtime.ready;
+  })();
+  return healthCheck;
+}
+$('check-models').onclick = checkRuntime;
+window.addEventListener('focus', checkRuntime);
+async function startRequest(url, options = {}, needsModels = true) {
+  if (active()) return false;
+  pending = true; connectionLost = false; controls(); error('');
   try {
+    if (needsModels && !await checkRuntime()) return false;
+    requestPending = true; controls();
     current = await api(url, { method: 'POST', ...options });
     history.replaceState(null, '', '#'+current.id);
     lastVersion = ''; render(current); poll();
-  } catch (e) { error(e.message); }
-  finally { pending = false; controls(); }
+    return true;
+  } catch (e) { error(e.message); if (needsModels) await checkRuntime(); return false; }
+  finally { pending = false; requestPending = false; controls(); }
 }
 function chooseFile(file) {
-  if (!file) return;
+  if (!file || active() || !runtime.ready) return;
   if (file.size > 12*1024*1024) return error('Choose a photo smaller than 12 MiB.');
   selectedFile = file; error(''); controls();
 }
@@ -68,7 +136,8 @@ $('upload-form').addEventListener('submit', async e => {
   e.preventDefault(); if (!selectedFile) return;
   const data = new FormData(); data.append('photo', selectedFile);
   const url = resumable() ? `/api/cases/${current.id}/photos` : '/api/cases';
-  await startRequest(url, { body:data }); selectedFile = null; $('photo-input').value = ''; controls();
+  if (await startRequest(url, { body:data })) { selectedFile = null; $('photo-input').value = ''; }
+  controls();
 });
 for (const name of ['dragenter','dragover']) $('drop-zone').addEventListener(name, e => { e.preventDefault(); $('drop-zone').classList.add('drag'); });
 for (const name of ['dragleave','drop']) $('drop-zone').addEventListener(name, e => { e.preventDefault(); $('drop-zone').classList.remove('drag'); });
@@ -78,7 +147,14 @@ $('demo-small').onclick = () => startRequest('/api/demo/small');
 $('demo-resume').onclick = () => startRequest(`/api/cases/${current.id}/demo-resume`);
 $('focus-upload').onclick = () => $('photo-input').click();
 $('baseline-button').onclick = () => startRequest(`/api/cases/${current.id}/baseline`);
-$('new-case').onclick = () => { location.href = '/'; };
+function resetWorkspace() {
+  if (active()) return;
+  $('upload-form').reset();
+  // Reload without the case hash to discard all view state and pending callbacks.
+  location.href = '/';
+}
+$('new-case').onclick = resetWorkspace;
+$('clear-all').onclick = resetWorkspace;
 function showPhoto(caseData, photo) {
   const image = el('img'); image.src = `/api/cases/${caseData.id}/photos/${photo.id}`; image.alt = `Case evidence ${photo.id}, ${photo.width} by ${photo.height} pixels`;
   $('photo-stage').replaceChildren(image, el('span','image-caption',`${photo.id.toUpperCase()} · ${photo.width} × ${photo.height} · LOCAL`));
@@ -105,7 +181,7 @@ function render(caseData) {
   const openDetails = new Set([...document.querySelectorAll('[data-event][open]')].map(x => x.dataset.event));
   const scroll = $('trace').scrollTop;
   const followLatest = $('trace').scrollHeight - scroll - $('trace').clientHeight < 48;
-  $('photo-count').textContent = `${caseData.photos.length} / 3 PHOTOS`;
+  $('photo-count').textContent = `${caseData.photos.length} ${caseData.photos.length === 1 ? 'photo' : 'photos'} added`;
   showPhoto(caseData, caseData.photos.at(-1));
   $('thumbnails').replaceChildren();
   if (caseData.photos.length > 1) for (const p of caseData.photos) {
@@ -136,7 +212,7 @@ function render(caseData) {
   $('trace').scrollTop = followLatest ? $('trace').scrollHeight : scroll;
   const photo = caseData.photos.at(-1);
   $('budget').textContent = `${caseData.attempts[photo.id] || 0} / 6 attempts · ${photo.id}`;
-  $('duration').textContent = caseData.runs.length ? `${caseData.runs.reduce((s,r)=>s+r.seconds,0).toFixed(1)}s recorded · ${controllerName}` : `${controllerName} + ViT`;
+  $('duration').textContent = caseData.runs.length ? `${caseData.runs.reduce((s,r)=>s+r.seconds,0).toFixed(1)}s recorded locally` : 'Scout + vision model · local';
   $('request-panel').hidden = caseData.status !== 'awaiting_photo';
   if (caseData.request) { $('request-text').textContent = caseData.request.message; $('request-why').textContent = caseData.request.why; }
   $('demo-resume').hidden = !caseData.demo || !resumable() || caseData.photos[0].width !== 48 || caseData.photos.length > 1;
@@ -144,21 +220,30 @@ function render(caseData) {
   const last = ranks.at(-1);
   const report = caseData.report;
   const comparison = report?.comparison || caseData.comparison;
-  const candidates = report ? report.candidates : []; 
-  $('result-tag').textContent = report && !report.version ? 'HISTORICAL REPORT' : report ? (report.completed_by === 'user' ? 'PARTIAL ASSESSMENT' : report.outcome === 'inconclusive' ? 'INCONCLUSIVE' : 'AGENT REPORT') : last ? 'PROVISIONAL EVIDENCE' : 'AWAITING EVIDENCE';
-  $('report-intro').textContent = report?.version === 2 ? (report.outcome === 'inconclusive' ? 'No breed report. The observations below show what is known and what remains unresolved.' : 'Candidates ordered by agreement across photographs. Raw scores stay attached to each observation.') : report?.outcome === 'inconclusive' ? 'The agent declined to select a breed match. Earlier classifier results remain in the trace.' : candidates.length ? `Raw classifier scores on ${report ? 'selected' : 'latest'} photo. Alternative matches, not a breed mixture.` : last ? 'Provisional observations only; the investigation has not produced a final assessment.' : 'A ranked comparison will appear after a real classifier call.';
+  const assessment = caseData.assessment;
+  const candidates = assessment?.candidates || [];
+  $('result-tag').textContent = report?.completed_by === 'user' ? 'PARTIAL ASSESSMENT' : candidates.length ? 'VISUAL MATCHES' : 'AWAITING CLASSIFICATION';
+  $('report-intro').hidden = !!candidates.length;
+  $('report-intro').textContent = assessment?.detail || 'Visual breed matches will appear after a classifier result.';
+  $('match-summary').hidden = !candidates.length;
+  $('match-title').textContent = assessment?.title || '';
+  $('match-score').textContent = assessment?.detail || '';
+  $('match-context').textContent = assessment?.context || '';
+  $('match-source').textContent = assessment?.source ? `Latest classification: ${assessment.source}` : '';
+  $('score-note').textContent = assessment?.score_note || '';
   $('candidates').replaceChildren();
   candidates.forEach((candidate,i) => {
     const row = el('div','candidate'), body = el('div');
-    body.append(el('div','candidate-name',candidate.label.replaceAll('_',' ')+(candidate.unresolved_label ? ' · published label incomplete' : '')));
-    const bar = el('div','bar'), fill = el('div','bar-fill'); fill.style.width = `${candidate.observations ? candidate.supporting_photo_ids.length / Math.max(1,comparison.ranked_photo_count)*100 : candidate.score*100}%`; bar.append(fill); body.append(bar);
-    row.append(el('span','rank',String(i+1).padStart(2,'0')),body,el('span','score',candidate.observations ? `${candidate.supporting_photo_ids.length}/${comparison.ranked_photo_count} views` : candidate.score.toFixed(3))); $('candidates').append(row);
+    body.append(el('div','candidate-name',candidate.display_label));
+    const bar = el('div','bar'), fill = el('div','bar-fill'); fill.style.width = `${candidate.score*100}%`; bar.append(fill); body.append(bar);
+    row.append(el('span','rank',String(i+1).padStart(2,'0')),body,el('span','score',candidate.score_text)); $('candidates').append(row);
   });
   renderComparison(caseData, comparison);
-  $('change').hidden = !report?.change; $('change').textContent = report?.change || '';
-  $('uncertainty').hidden = !last && !report;
+  $('change').hidden = true;
+  $('uncertainty').hidden = !comparison && !report;
+  $('assessment-notes').hidden = $('uncertainty').hidden;
   $('uncertainty').replaceChildren();
-  if (last && (last.output.margin < .15 || last.output.candidates[0].score < .5)) $('uncertainty').append(el('p','','Weak or closely ranked output. The leading score does not establish a confident match.'));
+  if (report) $('uncertainty').append(el('p','',`Recorded outcome: ${report.outcome.replaceAll('_',' ')}. Visual matches above show the latest classifier ranking.`));
   if (report && !report.version) $('uncertainty').append(el('p','','Historical report: it was produced before the current comparison policy.'));
   if (comparison?.blockers) for (const message of comparison.blockers) $('uncertainty').append(el('p','',message));
   if (report?.quality_flags?.length) $('uncertainty').append(el('p','',`Unresolved quality concerns: ${report.quality_flags.join(', ').replaceAll('_',' ')}.`));
@@ -179,18 +264,37 @@ function poll() {
   clearTimeout(polling);
   polling = setTimeout(async () => {
     if (!current) return;
-    try { current = await api(`/api/cases/${current.id}`); render(current); if (active()) poll(); else loadCases(); }
-    catch (e) { error('Progress connection interrupted. '+e.message); poll(); }
+    try { current = await api(`/api/cases/${current.id}`); if (connectionLost) error(''); connectionLost = false; renderAgentState(current); render(current); if (active()) poll(); else loadCases(); }
+    catch (e) { connectionLost = true; renderAgentState(current); error('Progress connection interrupted. '+e.message); poll(); }
   },1000);
 }
 async function loadCases() {
   try {
-    const cases = await api('/api/cases'); $('case-list').replaceChildren();
+    const cases = await api('/api/cases'); savedCases = cases; $('case-list').replaceChildren();
+    const statuses = { new: 'Ready to start', ready: 'Queued', running: 'Investigation in progress', awaiting_photo: 'Waiting for another photo', incomplete: 'Stopped early · can be reopened', complete: 'Results ready' };
+    if (!cases.length) $('case-list').append(el('p','small','No saved cases yet. Upload a photo or try a demo to get started.'));
     for (const c of cases) {
-      const b = el('button','',`${c.id.slice(0,8)} · ${c.status.replaceAll('_',' ')} · ${c.photos.length} photo(s)`);
-      b.onclick = async () => { if (active()) return; current = await api(`/api/cases/${c.id}`); history.replaceState(null,'','#'+c.id); lastVersion=''; render(current); if(active()) poll(); };
+      const b = el('button','saved-case'); b.type = 'button'; b.dataset.caseId = c.id;
+      const photo = c.photos.at(-1);
+      if (photo) {
+        const preview = el('img'); preview.src = `/api/cases/${c.id}/photos/${photo.id}`; preview.alt = ''; preview.loading = 'lazy'; preview.width = 60; preview.height = 48;
+        b.append(preview);
+      }
+      const label = el('span','saved-case-label');
+      label.append(el('strong','',`${c.photos.length} ${c.photos.length === 1 ? 'photo' : 'photos'}`), el('span','',statuses[c.status] || 'Saved assessment'));
+      const arrow = el('span','saved-case-arrow','↗'); arrow.setAttribute('aria-hidden','true');
+      b.append(label, arrow);
+      b.onclick = async () => {
+        if (active()) return;
+        pending = true; controls(); error('');
+        try {
+          current = await api(`/api/cases/${c.id}`); history.replaceState(null,'','#'+c.id); lastVersion=''; render(current);
+        } catch(e) { error(e.message); }
+        finally { pending = false; controls(); if(active()) poll(); }
+      };
       $('case-list').append(b);
     }
+    controls();
   } catch(e) { error(e.message); }
 }
 function renderComparison(caseData, comparison) {
@@ -206,17 +310,29 @@ function renderComparison(caseData, comparison) {
         const crop = el('img'); crop.src = `/api/cases/${caseData.id}/photos/${view.photo_id}/regions/${ranking.region_id}`; crop.alt = 'Your selected region'; card.append(crop);
       }
       card.append(el('p','small',`Event ${ranking.event_id} · ${ranking.region_id ? 'your region' : 'whole photo'}${ranking.weak_scores ? ' · weak scores' : ''}`));
-      for (const c of ranking.candidates) card.append(el('p','view-rank',`${c.label.replaceAll('_',' ')} · ${c.score.toFixed(3)}`));
+    for (const c of ranking.candidates) card.append(el('p','view-rank',`${c.label.replaceAll('_',' ')} · ${(c.score*100).toFixed(1)}% model score${c.unresolved_label ? ' · label incomplete' : ''}`));
     }
     if (!view.rankings.length) card.append(el('p','small','No classification recorded.'));
     host.append(card);
   }
 }
-$('finish-partial').onclick = () => startRequest(`/api/cases/${current.id}/finish-partial`);
+$('finish-partial').onclick = () => startRequest(`/api/cases/${current.id}/finish-partial`, {}, false);
 $('retry-case').onclick = () => startRequest(`/api/cases/${current.id}/retry`);
 $('cancel-case').onclick = async () => {
   try { await api(`/api/cases/${current.id}/cancel`, {method:'POST'}); current.cancel_pending = true; controls(); poll(); }
   catch(e) { error(e.message); }
+};
+$('clear-cases').onclick = async () => {
+  if ($('clear-cases').disabled) return;
+  if (!confirm('Permanently delete ALL saved cases, including their photos and reports? This also deletes any case currently open. This cannot be undone.')) return;
+  pending = true; controls(); error(''); $('clear-cases-status').hidden = true;
+  try {
+    await api('/api/cases', {method:'DELETE',headers:{'Content-Type':'application/json'},body:'{}'});
+    if (current) { location.href = '/#saved-cases'; return; }
+    await loadCases();
+    $('clear-cases-status').textContent = 'Saved cases cleared.'; $('clear-cases-status').hidden = false;
+  } catch(e) { error(e.message); await loadCases(); }
+  finally { pending = false; controls(); }
 };
 $('delete-case').onclick = async () => {
   if (!confirm('Delete this case and all of its local photos and reports?')) return;
@@ -258,10 +374,11 @@ $('region-save').onclick=async()=>{
   $('region-editor').open=false;
 };
 async function initialize() {
+  controls();
+  checkRuntime();
+  setInterval(checkRuntime, 10000);
+  if (location.hash === '#saved-cases') $('saved-cases').open = true;
   try {
-    const health = await api('/api/health'); $('runtime').textContent = health.ready ? '● LOCAL MODELS READY' : '○ SETUP REQUIRED';
-    $('controller-name').textContent = health.controller || 'Local controller';
-    if (!health.ready) error(`${health.detail} ${health.classifier_ready ? '' : 'Classifier files are missing. Run setup.'}`);
     const id = location.hash.slice(1);
     if (/^[a-f0-9]{32}$/.test(id)) { current = await api(`/api/cases/${id}`); render(current); if(active()) poll(); }
     await loadCases();

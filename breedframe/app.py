@@ -6,6 +6,7 @@ from contextlib import asynccontextmanager
 
 import httpx
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile
+from starlette.concurrency import run_in_threadpool
 from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from starlette.middleware.trustedhost import TrustedHostMiddleware
@@ -16,6 +17,7 @@ from .config import CONTROLLER, LIMITATIONS, MAX_UPLOAD, MODEL_DIR, ROOT
 from .controller import Controller
 from .contracts import RegionSelection
 from .evidence import compare
+from .presentation import describe_assessment
 from .store import Store
 from .model_identity import verify_controller
 
@@ -109,34 +111,72 @@ def queue(case, baseline=False):
     cancel_requested.clear()
     active_job.update(id=case["id"], baseline=baseline)
     executor.submit(run_background, case, baseline)
-    return JSONResponse(case, status_code=202)
+    return JSONResponse(present_case(case), status_code=202)
+
+
+def present_case(case):
+    comparison = compare(case)
+    return {**case, "comparison": comparison, "assessment": describe_assessment(case, comparison)}
 
 
 @app.get("/api/health")
 def health():
     controller_ready = False
-    detail = "Ollama unavailable. Start the local runtime."
+    controller_status = "offline"
+    detail = "Ollama is not reachable. Start BreedFrame with sh scripts/start.sh."
     try:
         with httpx.Client(timeout=2, trust_env=False) as client:
             verify_controller(CONTROLLER, client)
             controller_ready = True
+            controller_status = "ready"
             detail = f"Pinned local controller ready: {CONTROLLER}."
-    except ValueError as exc:
+    except (ValueError, KeyError, TypeError) as exc:
+        controller_status = "unavailable"
         detail = str(exc)
     except httpx.HTTPError:
         pass
-    vit_ready = all(
-        (MODEL_DIR / name).exists()
-        for name in ("model.safetensors", "config.json", "preprocessor_config.json")
-    )
+    missing_assets = []
+    for name in ("model.safetensors", "config.json", "preprocessor_config.json"):
+        try:
+            path = MODEL_DIR / name
+            available = path.is_file() and path.stat().st_size > 0
+        except OSError:
+            available = False
+        if not available:
+            missing_assets.append(name)
+    vit_ready = not missing_assets
+    classifier_detail = "Required vision model files are available."
+    if missing_assets:
+        classifier_detail = "Missing or empty vision model files: " + ", ".join(missing_assets)
+    else:
+        try:
+            config = json.loads((MODEL_DIR / "config.json").read_text())
+            processor = json.loads((MODEL_DIR / "preprocessor_config.json").read_text())
+            if len(config["id2label"]) != 120 or not isinstance(processor, dict) or not processor:
+                raise ValueError("Invalid vision model configuration")
+        except (OSError, ValueError, KeyError, TypeError):
+            vit_ready = False
+            classifier_detail = "The vision model configuration is incomplete or unreadable. Run setup again."
     return dict(
         ready=controller_ready and vit_ready,
         controller=CONTROLLER,
+        controller_ready=controller_ready,
+        controller_status=controller_status,
         classifier_ready=vit_ready,
+        classifier_detail=classifier_detail,
+        missing_classifier_files=missing_assets,
         detail=detail,
         busy=busy.locked(),
         limitations=LIMITATIONS,
     )
+
+
+def require_models():
+    if not health()["ready"]:
+        raise HTTPException(
+            503,
+            "Scout’s local models aren’t ready yet. Follow the setup instructions, then choose Check again. Your saved cases are still available.",
+        )
 
 
 @app.get("/api/cases")
@@ -150,8 +190,7 @@ def list_cases():
 
 @app.get("/api/cases/{case_id}")
 def get_case(case_id: str):
-    case = store.load(case_id)
-    case["comparison"] = compare(case)
+    case = present_case(store.load(case_id))
     case["cancel_pending"] = active_job["id"] == case_id and cancel_requested.is_set()
     return case
 
@@ -172,7 +211,7 @@ def cancel(case_id: str):
 def finish_partial(case_id: str):
     acquire()
     try:
-        return store.finish_partial(store.load(case_id))
+        return present_case(store.finish_partial(store.load(case_id)))
     finally:
         busy.release()
 
@@ -181,6 +220,7 @@ def finish_partial(case_id: str):
 def retry(case_id: str):
     acquire()
     try:
+        require_models()
         return queue(store.retry(store.load(case_id)))
     except Exception:
         busy.release()
@@ -191,6 +231,7 @@ def retry(case_id: str):
 def add_region(case_id: str, selection: RegionSelection):
     acquire()
     try:
+        require_models()
         case = store.add_region(store.load(case_id), selection.model_dump())
         case.pop("baseline", None)
         return queue(case)
@@ -202,6 +243,15 @@ def add_region(case_id: str, selection: RegionSelection):
 @app.get("/api/cases/{case_id}/photos/{photo_id}/regions/{region_id}")
 def region_image(case_id: str, photo_id: str, region_id: str):
     return FileResponse(store.region_path(store.load(case_id), photo_id, region_id), media_type="image/png")
+
+
+@app.delete("/api/cases")
+def clear_cases():
+    acquire()
+    try:
+        return {"deleted_count": store.clear()}
+    finally:
+        busy.release()
 
 
 @app.delete("/api/cases/{case_id}")
@@ -218,17 +268,26 @@ def delete_case(case_id: str):
 def export_report(case_id: str):
     case = store.load(case_id)
     comparison = compare(case)
+    assessment = describe_assessment(case, comparison)
     report = case.get("report")
     text = [
         "# BreedFrame assessment",
         "",
-        f"Case: {case_id}",
-        f"Status: {case['status']}",
-        f"Outcome: {report['outcome'] if report else 'No final assessment'}",
+        f"## {assessment['title']}",
         "",
-        comparison["summary"],
+        assessment["detail"],
+        assessment["context"],
+        f"Source: {assessment['source']}" if assessment["source"] else "",
+        assessment["score_note"],
         "",
     ]
+    if assessment["candidates"]:
+        text += ["### Visual matches for this result", ""]
+        text.extend(
+            f"- {c['display_label']}: {c['score_text']} model score" for c in assessment["candidates"]
+        )
+        text.append("")
+    text += ["## Evidence by photo", ""]
     for view in comparison["views"]:
         text += [
             f"## {view['photo_id']}",
@@ -239,7 +298,11 @@ def export_report(case_id: str):
             text.extend(f"- {c['label']}: raw score {c['score']:.6f}" for c in rank["candidates"])
         text.append("")
     text += [
-        "## Uncertainty",
+        "## Notes and assessment details",
+        f"Case: {case_id}",
+        f"Status: {case['status']}",
+        f"Recorded outcome: {report['outcome'] if report else 'No final assessment'}",
+        "Saved as a partial assessment." if report and report.get("completed_by") == "user" else "",
         *comparison["blockers"],
         comparison["policy_note"],
         comparison["aggregation"],
@@ -256,6 +319,7 @@ def export_report(case_id: str):
 async def create_case(photo: UploadFile = File(...)):
     acquire()
     try:
+        await run_in_threadpool(require_models)
         case = store.create(await photo.read(MAX_UPLOAD + 1))
         return queue(case)
     except Exception:
@@ -269,6 +333,7 @@ async def create_case(photo: UploadFile = File(...)):
 async def resume_case(case_id: str, photo: UploadFile = File(...)):
     acquire()
     try:
+        await run_in_threadpool(require_models)
         case = store.add_photo(store.load(case_id), await photo.read(MAX_UPLOAD + 1))
         case.pop("baseline", None)
         return queue(case)
@@ -283,6 +348,7 @@ async def resume_case(case_id: str, photo: UploadFile = File(...)):
 def baseline(case_id: str):
     acquire()
     try:
+        require_models()
         case = store.load(case_id)
         if case["status"] in {"ready", "running"}:
             raise ValueError("Wait for the agent to pause or finish.")
@@ -301,6 +367,7 @@ def demo(scenario: str):
         raise HTTPException(404, "Unknown demo")
     acquire()
     try:
+        require_models()
         case = store.create((ROOT / "data/demo" / choices[scenario]).read_bytes())
         case["demo"] = True
         store.save(case)
@@ -314,6 +381,7 @@ def demo(scenario: str):
 def demo_resume(case_id: str):
     acquire()
     try:
+        require_models()
         case = store.load(case_id)
         if not case.get("demo"):
             raise ValueError("Upload your own follow-up photo for this case.")
